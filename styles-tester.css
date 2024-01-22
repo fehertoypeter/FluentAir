@@ -1,0 +1,125 @@
+#block-tester{
+    max-width:1000px;
+    gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px 0px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.answer{
+
+    gap: 16px;
+    padding: 18px 20px;
+    margin-bottom: 4px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:white;
+    
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    
+    box-shadow: rgb(0 66 142 / 4%) 0px 1px 4px, rgb(0 59 126 / 2%) 0px 4px 16px;
+    cursor: pointer;
+}
+p{
+	margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+#side-tab{
+	position: fixed;
+    width: 400px;
+    min-height: 100%;
+    top: 0px;
+    right: -400px;
+    box-shadow: var(--element-shadow-border);
+    background-color:white;
+    z-index:2;
+    transition: all 0.3s ease;
+}
+#side-tab-header{
+	display: flex;
+    align-items: center;
+    padding-left:20px;
+	width:inherit;
+	height: 60px;
+    text-align: center;
+    z-index:1;
+    box-shadow: inset 0px -1px 0px rgba(0,0,0,0.07);
+}
+#close-button{
+	cursor: pointer;
+
+}
+#side-tab-content {
+    padding: 20px;
+}
+.open{
+	right:0px !important;
+	transition: all 0.3s ease;
+}
+#explanation-button{
+	display:none;
+}
+
+
+#overlay {
+	visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(166,181,200,0.66);
+  z-index: 9998; /* Az alert box alatt legyen, de az összes többi fölött */
+}
+
+/* Az alert box */
+#alert-box {
+	visibility: hidden;
+    width: 300px;
+    height: 300px;
+    background-color: #EBF4FF;
+    border-radius: 20px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alert-box-button {
+    gap: 16px;
+    padding: 5px 5px;
+    margin: 5px 0px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: rgb(0 66 142 / 4%) 0px 1px 4px, rgb(0 59 126 / 2%) 0px 4px 16px;
+    cursor: pointer;
+    justify-content: center;
+    font-family: "Proxima Nova", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#arrow{
+	margin:0px 10px;
+	cursor:pointer;
+}
