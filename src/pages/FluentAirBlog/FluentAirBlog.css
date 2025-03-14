@@ -1,0 +1,41 @@
+.fluentair-blog {
+  width: 800px;
+  margin: auto;
+
+  h1 {
+    font-size: 2.25em;
+    font-weight: 800;
+    line-height: 1.1111111;
+    margin-bottom: 0.8888889em;
+  }
+  h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.3333333;
+    margin-bottom: 1em;
+    margin-top: 2em;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 1.25em;
+    margin-top: 1.25em;
+  }
+  img {
+    width: 60%;
+    height: auto;
+    border-radius: 30px;
+    margin: auto;
+    display: block;
+  }
+  a {
+    text-decoration: none; /* Eltávolítja az alapértelmezett aláhúzást */
+    color: #000203; /* Link szín */
+    font-weight: bold; /* Vastag betűtípus */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Áttűnés animáció */
+  }
+  a:hover {
+    color: #2980b9; /* Hover szín */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Hover árnyék */
+  }
+}

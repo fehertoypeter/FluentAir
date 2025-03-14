@@ -1,0 +1,224 @@
+.edit-section-top {
+  display: flex;
+  gap: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+form h3 {
+  font-size: 1.125rem;
+}
+.editor-head-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+}
+.editor-head-section label p {
+  font-size: 0.875rem;
+}
+
+.editor-head-section label {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+}
+.editor-head-section input {
+  width: 100px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  height: 40px;
+}
+.editor-head-section select {
+  appearance: none;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 0.875 rem;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(153, 153, 153);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3sease;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.editor-question-section {
+  display: flex;
+  flex-direction: column;
+}
+.editor-question-section p {
+  font-size: 0.875rem;
+}
+label.question-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.question-input input {
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  height: 40px;
+}
+.question-input textarea {
+  margin-left: 0px !important;
+  width: 100% !important;
+}
+.difficulty-row {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+  gap: 10px;
+}
+.difficulty-row label {
+  width: 50%;
+}
+.difficulty-row input {
+  height: 40px;
+  background-color: ;
+  border-radius: 10px;
+  padding: 0px 15px;
+  width: 100%;
+  background-color: #8080802b;
+}
+.difficulty-row select {
+  appearance: none;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(153, 153, 153);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.editor-option-section {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.option-section {
+  display: flex;
+  flex-direction: column;
+}
+.option-section input {
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  height: 40px;
+}
+.option-section-input {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.correct-answer-checkbox {
+  border-radius: 10px;
+  padding: 10px 10px;
+  height: 15px !important;
+  width: 15px !important;
+  border-radius: 5px;
+}
+.enter-question-sections {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.quetion-editor-left-section {
+  width: 50%;
+  padding: 10px 5px 5px 0px;
+}
+.quetion-editor-right-section {
+  width: 50%;
+  padding: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.explanation-editor-container {
+  padding: 10px;
+  background-color: var(--group-background);
+  border-radius: 15px;
+}
+.add-options-btn {
+  max-width: 170px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 50px;
+  margin-top: 15px;
+  background-color: var(--button-checked-bg);
+}
+.add-explanation-section-btn {
+  max-width: 270px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 50px;
+  margin-top: 15px;
+  background-color: var(--button-checked-bg);
+  float: right;
+}
+.save-question-edit-btn {
+  max-width: 270px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 50px;
+  margin-top: 15px;
+  color: var(--action-button-color);
+  cursor: pointer;
+  background-color: var(--accent-color);
+  float: right;
+}
+.save-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.question-edit-top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.explanation-part {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.explanation-part > :first-child {
+  align-self: flex-start;
+}
+
+.explanation-part > :last-child {
+  align-self: center;
+}
+.explanation-part select {
+  max-width: 70px;
+  margin-top: 10px;
+}
+.explanation-part select {
+  max-width: 70px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+}
+.auto-resize-textarea {
+  width: calc(100% - 60px);
+  max-height: 5000px;
+  padding: 5px;
+  resize: none;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}

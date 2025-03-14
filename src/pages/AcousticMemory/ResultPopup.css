@@ -1,0 +1,183 @@
+/* ResultPopup.css */
+.result-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #9fbada96;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.result-content {
+  background-color: #ebf4ff;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.result-content h2 {
+  margin-bottom: 15px;
+}
+
+.result-content p {
+  margin: 5px 0;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.result-content button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ffcd57;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.result-content button:hover {
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+}
+.lastExamScore {
+  width: 400px;
+  background-color: #7fb1c4;
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.lastExamScore h3 {
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 45px; /* Ikon mérete */
+  margin-bottom: 5px;
+  background-color: #d1dadc63; /* Halványkék kör háttérszín */
+  color: #f6ce69; /* Ikon színe */
+  display: flex;
+  align-items: center; /* Igazítás középre */
+  justify-content: center; /* Igazítás középre */
+  width: 70px; /* Képernyőre illeszkedő fix szélesség */
+  height: 70px; /* Képernyőre illeszkedő fix magasság */
+  font-size: 1.5rem; /* Megfelelő betűméret a körhöz */
+}
+.ExamScoresContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Távolság a kártyák között */
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background-color: #ffffff57;
+}
+.allExamsdata {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px;
+  gap: 10px;
+}
+
+.summaryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px; /* Kártya szélessége */
+  text-align: center;
+}
+
+.summaryCard svg {
+  /* Halványzöld kör háttérszín */
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 45px; /* Ikon mérete */
+  margin-bottom: 10px;
+}
+.summaryCard:nth-child(2) svg {
+  background-color: #d1dadc63; /* Halványkék kör háttérszín */
+  color: #6a8a65; /* Ikon színe */
+}
+
+.summaryCard:nth-child(3) svg {
+  background-color: #f087842b; /* Halványzöld kör háttérszín */
+  color: #bc6976; /* Ikon színe */
+}
+
+.summaryCard:nth-child(1) svg {
+  background-color: #ffffff; /* Halvány szürke kör háttérszín */
+  color: #fbdc96; /* Ikon színe */
+}
+
+.summaryCard p {
+  margin: 0;
+  font-size: 10px;
+  /* font-weight: bold; */
+  color: #000000;
+  font-weight: 500;
+}
+.comparisonContainer {
+  display: flex;
+  align-items: center; /* Igazítja az ikont és a szöveget függőlegesen */
+  gap: 10px; /* Térköz az ikon és a szöveg között */
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+  width: 230px;
+  height: 70px;
+  border-radius: 20px;
+  background-color: #ffffff57;
+}
+
+.iconWrapper {
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconWrapper svg {
+  font-size: 20px;
+  color: #626262;
+}
+
+.textWrapper {
+  width: 150px;
+  word-wrap: break-word; /* Sortörés engedélyezése */
+  font-size: 16px; /* Betűméret */
+  text-align: left; /* Balra igazítás */
+}
+.textWrapper p {
+  padding: 0px 5px;
+  text-align: left; /* Balra igazítja a szövegeket a <p> tagben */
+  margin: 0px;
+}
+.textWrapper h3 {
+  padding: 0px 5px;
+}
+.timeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px; /* Térköz az ikon és a szöveg között */
+  height: 70px;
+  border-radius: 20px;
+}
+.examHistoryCard {
+  height: 40px;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: white;
+}

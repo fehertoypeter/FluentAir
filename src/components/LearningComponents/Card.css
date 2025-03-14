@@ -1,0 +1,82 @@
+.card {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden; /* A tartalom ne lógjon ki */
+  cursor: pointer; /* Egérkurzor mutatóvá változik */
+  background-color: rgb(241, 245, 255);
+  box-shadow: rgba(0, 66, 142, 0.04) 0px 1px 4px,
+    rgba(0, 59, 126, 0.02) 0px 4px 16px;
+}
+.card.open {
+  background-color: white;
+}
+h3 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+h4 {
+  font-size: 0.7rem; /* Közepes betűméret az alcímnek */
+  font-weight: 500; /* Közepesen vastag betűk */
+  margin-bottom: 0.5em; /* Térköz az alcím és a leírás között */
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 0.7rem; /* Normál betűméret a leírásnak */
+  color: #666; /* Szürke szín a leírásnak */
+  font-weight: 500;
+  text-align: left;
+}
+
+.additional-content {
+  max-height: 0; /* Kezdetben rejtve */
+  opacity: 0; /* Kezdetben láthatatlan */
+  overflow: hidden; /* A tartalom ne lógjon ki */
+  transition: max-height 0.5s ease-out, opacity 0.3s ease-out; /* Animációk */
+  margin-top: 15px;
+  margin-bottom: 10px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.additional-content p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: left;
+  transition: 0.4s;
+  padding: 10px;
+  border-radius: 5px;
+}
+.additional-content p.active-detail {
+  background-color: #f5f5f5;
+  font-weight: 500;
+}
+.additional-content p:hover {
+  background-color: #ececec;
+}
+.card.open .additional-content {
+  max-height: 500px; /* Maximális magasság, amit a tartalom elérhet */
+  opacity: 1; /* Láthatóvá válik */
+}
+
+.arrow {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.additional-content ul {
+  list-style-type: disc; /* Fekete kör */
+  padding-left: 20px; /* Előrébb hozza a listát */
+  display: block;
+}
+
+.additional-content li {
+  margin-bottom: 5px; /* Távolság az elemek között */
+}

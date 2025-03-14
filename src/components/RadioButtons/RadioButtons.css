@@ -1,0 +1,49 @@
+.radio-buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.radioContainer {
+  display: inline-flex; /* Inline elrendezés, hogy a szöveg határozza meg a szélességet */
+
+  border-radius: 20px; /* Globális keret kerekítés */
+  overflow: hidden; /* Az élek egyenesek maradnak a belső elemeknél */
+}
+
+.radioButton {
+  padding: 5px 10px; /* Szöveg körüli tér */
+  text-align: center;
+  border-right: 1px solid #ccc; /* Elválasztó a gombok között */
+  background-color: #fff;
+  transition: background-color 0.3s, border-color 0.3s;
+  white-space: nowrap; /* Szöveg egy sorban marad */
+  cursor: pointer;
+}
+
+.radioButton.last {
+  border-right: none; /* Utolsónál nincs elválasztó */
+}
+
+.radioButton.first {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.radioButton.last {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.radioButton.selected {
+  background-color: #ffcd57;
+  color: black;
+  font-weight: 600;
+}
+
+.radioButton input[type="radio"] {
+  display: none; /* Az alapértelmezett rádiógomb elrejtése */
+}

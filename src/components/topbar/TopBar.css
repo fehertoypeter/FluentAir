@@ -1,0 +1,40 @@
+.top-bar {
+  width: calc(100% - 240px);
+  height: 50px;
+  margin-left: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  transition: all 0.3s ease;
+}
+.top-bar {
+  width: 100%;
+  margin-left: 0px;
+}
+.sidebar.close ~ .top-bar {
+  width: calc(100% - 50px);
+  margin-left: 50px;
+}
+.sidebar.close ~ .top-bar {
+  width: 100%;
+  margin-left: 0px;
+}
+.frosted-glass {
+  background: var(--top-bar-bg);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .sidebar.close ~ .top-bar {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .top-bart {
+    width: 100%;
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,114 @@
+.action-confirmation-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--modal-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.action-confirmation-popup-content {
+  max-width: 500px;
+  border-radius: 20px;
+  text-align: center;
+  background: var(--popup-background);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 40px 10px;
+  align-items: center;
+}
+.action-confirmation-popup-content-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  align-items: center;
+  padding-right: 5px;
+}
+.action-confirmation-popup-content-header svg:hover {
+  color: black;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.action-confirmation-popup-content p {
+  box-sizing: border-box;
+  padding: 0px 32px 35px;
+  min-height: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.28rem;
+  line-height: 140%;
+  text-align: center;
+  word-break: break-word;
+  color: var(--popup-header-icon-bg);
+}
+.action-confirmation-popup-content .button-group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.action-confirmation-popup-content-button-group-icon {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.action-confirmation-popup-content .button-group svg {
+  color: var(--action-conf-btn-icon);
+  strokewidth: 2;
+}
+.action-confirmation-popup-content button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: var(--private-collection-btn-bg);
+  color: black;
+  min-height: 45px;
+  min-width: 280px;
+  transition: all 0.4s ease;
+}
+.action-confirmation-popup-content button:hover {
+  transition: all 0.4s ease;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.73);
+}
+.action-confirmation-popup-content-button-group-text p {
+  padding: 5px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: var(--black);
+}
+.action-confirmation-popup-content svg {
+  color: var(--popup-header-icon-bg);
+}
+
+@media (max-width: 768px) {
+  .action-confirmation-popup-content {
+    padding: 5px 5px 40px 10px;
+    margin: 0px 5px;
+  }
+  .action-confirmation-popup-content p {
+    padding: 0px 25px 35px;
+    font-size: 1.2rem;
+  }
+  .action-confirmation-popup-content-button-group-text p {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+}

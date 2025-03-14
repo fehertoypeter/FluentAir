@@ -1,0 +1,120 @@
+.question-bank-editor-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+.question-bank-editor-container h2 {
+  margin-bottom: 20px;
+}
+.question-bank-filter {
+  display: flex;
+  gap: 10px;
+}
+.question-bank-filter input {
+  width: 250px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  height: 40px;
+}
+.question-bank-filter select {
+  appearance: none;
+  width: 250px;
+  padding: 10px 20px;
+  font-size: 0.875 rem;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(153, 153, 153);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3sease;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.table-container {
+  height: 60vh; /* Állítsd be a kívánt magasságot */
+  overflow-y: auto; /* Függőleges görgetés engedélyezése */
+  border-radius: 15px;
+  box-shadow: rgb(63 67 72 / 5%) 1px 1px 10px, rgb(33 38 44 / 7%) 0px 4px 16px;
+  background-color: var(--group-background);
+}
+
+.table-header,
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #00000012;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: var(--table-head-bg);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table-row {
+  font-size: 0.785rem;
+}
+
+.table-row div,
+.table-header div {
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.table-container::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 20px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  height: 90%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.table-container::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 20px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  height: 90%;
+}
+button.create-new-question-btn {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  border-radius: 50px;
+  margin-top: 15px;
+  background-color: var(--button-checked-bg);
+}

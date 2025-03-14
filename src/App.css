@@ -1,0 +1,37 @@
+.sidebar.close ~ .main-content {
+  width: calc(100% - 50px);
+  margin-left: 50px;
+}
+.sidebar.close ~ .main-content {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.main-content {
+  background-color: var(--main-background-color);
+  width: 100%;
+  margin-left: 0px;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+  padding: 50px 0px 0px 0px;
+}
+select {
+  background-color: var(--select-bg) !important;
+  border: 1px solid var(--select-border) !important;
+  color: var(--secondary-textcolor);
+}
+select option {
+  background-color: var(--select-bg) !important;
+  color: var(--secondary-textcolor);
+}
+
+@media (max-width: 768px) {
+  .sidebar.close ~ .main-content {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .main-content {
+    width: 100%;
+    margin-left: 0px;
+  }
+}

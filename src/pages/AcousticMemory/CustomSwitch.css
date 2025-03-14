@@ -1,0 +1,82 @@
+.custom-switch {
+  display: flex;
+  border-radius: 15px;
+  cursor: pointer;
+  justify-content: space-between;
+  padding: 2px;
+  white-space: nowrap;
+  width: fit-content;
+  background-color: #ffcd57;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.switch-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  padding: 4px;
+  color: white;
+  transition: all ease 0.1s;
+  font-weight: 600;
+}
+
+/* Ha az első div aktív */
+.switch-option:first-child.active {
+  border-radius: 20px 0px 0px 20px;
+  color: black;
+  border-right: 2px solid #bdbdbd; /* Bal oldali fekete szegély */
+  transition: color ease 1s;
+  transition: background-color ease 1s;
+}
+
+/* Ha a második div aktív */
+.switch-option:last-child.active {
+  border-radius: 0px 20px 20px 0px;
+  color: black;
+  border-left: 2px solid #bdbdbd; /* Bal oldali fekete szegély */
+  transition: color ease 1s;
+  transition: background-color ease 1s;
+}
+
+/* Az aktív elem háttérszíne */
+.switch-option.active {
+  background-color: white;
+}
+.exam-history-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.scrollable-list {
+  max-height: 200px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.scrollable-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.scrollable-list li {
+  margin-bottom: 10px;
+}
+
+.line-chart {
+  text-align: center;
+}
+
+.custom-chart {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}

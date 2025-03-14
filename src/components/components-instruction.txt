@@ -1,0 +1,91 @@
+------------------- Top Bar Tartalommal megtöltése oldalanként ------------------- 
+
+const { setContent } = useContext(TopBarContext);
+useEffect(() => {
+  setContent(
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <span>Dashboard-Page</span>
+    </div>
+  );
+  // Az oldallelépéskor visszaállítjuk az eredeti tartalmat
+  return () => setContent(null);
+},[setContent]);
+
+
+
+------------------- Input Mező beillesztése ------------------- 
+
+import Input from "";
+
+const [numberInput, setNumberInput] = useState("5"); // Input kezdő értékét határozza meg. 
+
+<Input
+          value={numberInput}
+          onChange={(e) => setNumberInput(e.target.value)}
+          id="numberInput"
+          placeholder="Numbers"
+          description="How many numbers should be asked"
+        />
+
+
+
+
+------------------- Switch Button beillesztése ------------------- 
+
+import Switch from "";
+
+const [switchChecked, setSwitchChecked] = useState(false);
+const toggleSwitch = () => {setSwitchChecked(!switchChecked);};
+
+<Switch
+          id="exam-mode"
+          description="Enable for use Exam mode"
+          checked={switchChecked}
+          onChange={toggleSwitch}
+        />
+
+
+
+
+------------------- Settings Popup beillesztése ------------------- 
+
+import SettingsPopup from "";
+
+const [isPopupOpen, setPopupOpen] = useState(false);
+
+ <SettingsPopup isOpen={isPopupOpen} onClose={() => setPopupOpen(false)}>
+ // Tartalma ide jön 
+ </SettingsPopup>
+
+
+
+
+------------------- Countdown Timer beillesztése ------------------- 
+
+import CountdownTimer from "";
+
+const [startTimer, setStartTimer] = useState(false);
+const handleStart = () => {
+    setStartTimer((prev) => !prev); // Toggle startTimer
+};
+  
+
+<button onClick={handleStart}>{startTimer ? "Stop Timer" : "Start Timer"}</button>
+<CountdownTimer timeLimit={20} startTimerCommand={startTimer} />
+
+
+
+------------------- Countdown Timer beillesztése -------------------
+import FlipClock from "";
+
+<FlipClock initialTime={540} />
+
+
+
+------------------- Countdown Timer beillesztése -------------------
+import NumericInputPad from "";
+
+ const inputRef = useRef(null);
+
+<input type="text" ref={inputRef} /> // Bármelyik inputhoz megadható referenciaként. 
+<NumericInputPad inputRef={inputRef} />

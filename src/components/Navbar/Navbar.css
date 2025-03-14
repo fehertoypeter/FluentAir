@@ -1,0 +1,211 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 240px;
+  background: var(--navbar-background);
+  z-index: 999;
+  transition: all 0.3s ease;
+  box-shadow: var(--navbar-box-shadow);
+}
+.sidebar.close {
+  width: 50px;
+}
+.sidebar .logo-details {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 20px;
+}
+.sidebar .logo-details .iconMenuOpen {
+  font-size: 30px;
+  color: #fff;
+  height: 30px;
+  min-width: 50px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+}
+.sidebar .logo-details .logo_name {
+  width: 100px;
+  margin-left: 20px;
+  transition: 0.3s ease;
+  transition-delay: 0.2s;
+  opacity: 1;
+  display: block;
+}
+.sidebar.close .logo-details .logo_name {
+  transition-delay: 0s;
+  opacity: 0;
+  pointer-events: none;
+  display: none;
+  transition-delay: 0.2s;
+}
+.sidebar .nav-links {
+  height: 100%;
+  padding: 30px 0 150px 0;
+  overflow: auto;
+}
+.sidebar.close .nav-links {
+  overflow: visible;
+}
+.sidebar .nav-links::-webkit-scrollbar {
+  display: none;
+}
+.sidebar .nav-links li {
+  position: relative;
+  list-style: none;
+  transition: all 0.2s ease;
+  margin: 5px 5px;
+  border-radius: 10px;
+}
+.link_name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.link_name span {
+  white-space: nowrap;
+}
+li.menuLine a {
+  text-decoration: none;
+}
+.sidebar.close .nav-links span {
+  display: none;
+}
+.sidebar.close .nav-links .dropdown-icon {
+  display: none;
+}
+.sidebar .nav-links li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.sidebar .nav-links li .icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.sidebar .nav-links li .menuIcon {
+  height: 18px;
+  min-width: 18px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 15px 12px 15px 12px;
+}
+
+/* NavbarDropdown.css */
+.dropdown-menu {
+  position: relative;
+}
+
+.dropdown-header {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* This will push items to the ends */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.dropdown-header .header-content {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.caret-icon {
+  display: flex; /* Ensure it's flexible */
+  align-items: center; /* Center vertically */
+  margin-right: 15px;
+}
+.sidebar.close .caret-icon {
+  display: none;
+}
+.dropdown-list-container {
+  overflow: hidden;
+  transition: max-height 0.1s ease-out; /* Smooth transition for height */
+  max-height: 0; /* Start collapsed */
+}
+
+.dropdown-list-container.open {
+  max-height: 500px; /* Arbitrary value larger than expected content height */
+}
+
+.dropdown-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-item {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-left: 27px;
+}
+.active-link {
+  color: #f5ab00; /* Aktív link színe */
+}
+
+.inactive-link {
+  color: #fff; /* Inaktív link színe */
+}
+.mobile-menu-secondary-button {
+  display: none;
+}
+.navtest {
+  transform: translateX(-50px);
+  transition: transform 0.3s ease-in-out; /* Simább animáció */
+}
+@media (max-width: 768px) {
+  .sidebar.close .mobile-menu-secondary-button {
+  }
+
+  .mobile-menu-secondary-button {
+    display: block;
+    font-size: 30px;
+    color: #5f8da0;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+  }
+  .sidebar .logo-details .iconMenuOpen {
+    top: 10px;
+  }
+  .sidebar {
+    width: 100%;
+    z-index: 9999;
+  }
+  .sidebar.close {
+    width: 0px;
+    left: -50px;
+  }
+  .nav-links span {
+    white-space: nowrap;
+    font-size: 1.5rem;
+  }
+  .sidebar .nav-links li {
+    margin: 10px 5px;
+  }
+  .sidebar .nav-links li .menuIcon {
+    height: 24px;
+    min-width: 24px;
+    cursor: none;
+    margin: 15px 20px 15px 12px;
+  }
+  .dropdown-item {
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "wrongAnswers": ["math-1", "math-3"],
+  "seenQuestions": ["math-1", "math-2"],
+  "privateNotes": {
+    "math-1": "It is a math-1 private Note.",
+    "physics-002": "Another note for question 2."
+  }
+}

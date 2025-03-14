@@ -1,0 +1,20 @@
+.eternal-timer-container {
+  width: 85px;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: var(--bg-color);
+  border: 2px solid var(--primary-color);
+  font-size: 0.875rem;
+  padding: 2px;
+  align-items: center;
+  color: var(--secondary-textcolor);
+}
+.time-format {
+  width: 45px;
+  text-align: left;
+  margin-left: 5px;
+}
+.hidden-buttons {
+  display: none;
+}

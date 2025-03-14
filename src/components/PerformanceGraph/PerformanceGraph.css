@@ -1,0 +1,167 @@
+.desktop-container {
+  display: flex;
+  justify-content: center;
+}
+.selection-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-right: 40px;
+}
+.selection-container p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.graph-main-container {
+  width: 400px;
+  margin: auto;
+}
+.performance-graph {
+  text-align: center;
+}
+
+.bar {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  cursor: pointer;
+  background: #c0d9e78f;
+  border-radius: 30px;
+}
+
+.bar.filled {
+  background: #6eb462;
+  z-index: 1;
+}
+
+.bar.placeholder {
+  background: #c0d9e7;
+}
+#valami {
+  background-color: Red;
+}
+.x-axis {
+  display: flex;
+  flex-direction: row-reverse; /* Match bar direction */
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.x-label {
+  text-align: center;
+  width: 20px;
+  font-size: 0.8em;
+}
+.x-axis-label {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #666;
+}
+
+.graph-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -40px;
+}
+.graph-main-container p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.graph-container {
+  display: flex;
+  flex-direction: row-reverse; /* Jobbról balra rendezés */
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 100%;
+  position: relative;
+  gap: 5px;
+}
+
+.bar-container {
+  position: relative;
+  width: 20px;
+  height: 100px;
+  background-color: #c0d9e7;
+  border-radius: 30px;
+}
+
+.bar {
+  background-color: #ddd;
+}
+
+.bar.filled {
+  transition: height 0.3s ease;
+}
+
+.x-axis-labels {
+  display: flex;
+  flex-direction: row-reverse; /* Megfelelő irány a jobbról balra nézethez */
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.x-axis-label {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Select box container */
+select {
+  -webkit-appearance: none; /* Removes default styling */
+  -moz-appearance: none; /* Removes default styling */
+  appearance: none; /* Removes default styling */
+  appearance: none;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 0.875 rem;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(153, 153, 153);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Hover effect */
+select:hover {
+  border-color: #ffcd57; /* Change border color on hover */
+  background-color: rgb(255, 255, 255); /* Change background color on hover */
+}
+
+/* Focus effect */
+select:focus {
+  outline: none; /* Remove default outline */
+  border-color: #ffcd57; /* Focus border color */
+  background-color: #ffffff; /* White background on focus */
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2); /* Larger shadow on focus */
+}
+
+/* Dropdown arrow (custom) */
+select::-ms-expand {
+  display: none; /* Remove the default dropdown arrow for IE */
+}
+
+/* Custom arrow */
+select::after {
+  content: " ▼";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #666;
+}
+.percentage-tooltip {
+  background-color: white;
+  width: 50px;
+  font-size: 14px;
+  border-radius: 15px;
+  border: solid 1px black;
+  transition: all 0.4s ease;
+}

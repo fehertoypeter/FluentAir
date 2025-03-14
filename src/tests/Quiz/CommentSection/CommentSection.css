@@ -1,0 +1,222 @@
+.comment-section-container {
+  background-color: #ebf4ff;
+  border-radius: 20px 0px 0px 20px;
+  position: fixed;
+  right: -600px;
+  position: fixed;
+  top: 0;
+  width: 500px;
+  height: 100vh;
+  z-index: 1000;
+  transition: right 0.3s ease;
+}
+.comment-section-container.open {
+  right: 0;
+}
+.comment-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  margin: 0 1rem;
+  border-bottom: 2px solid #00000014;
+}
+.comment-section-header h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.comment-section-inner {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0.875rem;
+  height: calc(100vh -112px);
+  transition: height 0.4s ease-in-out;
+}
+
+.comment-section-inner.expanded {
+  height: calc(100vh - 206px);
+}
+
+.comment-section-inner.collapsed {
+  height: calc(100vh - 112px);
+}
+
+@media (min-width: 768px) {
+  .comment-section-inner {
+    padding: 0.875rem;
+    overflow: auto;
+  }
+}
+
+.comment-section-footer {
+  height: 56px;
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid #00000014;
+  flex-direction: column;
+  transition: height 0.4s ease-in-out;
+}
+
+.comment-section-footer.expanded {
+  height: 145px;
+}
+
+.comment-section-footer.collapsed {
+  height: 56px;
+}
+
+button.write-comment-button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ffcd57;
+  color: black;
+  min-height: 44px;
+  min-width: 300px;
+  position: absolute;
+  bottom: 5px;
+}
+.write-comment-close-button {
+  position: absolute;
+  right: 17px;
+  bottom: 4px;
+  font-size: 25px;
+  background-color: #d1e1e87a;
+  display: flex;
+  border-radius: 50px;
+  padding: 10px;
+  font-weight: 100;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out 0.4s, transform 0.3s ease-in-out 0.4s,
+    visibility 0s linear 0.4s;
+  cursor: pointer;
+}
+.write-comment-close-button.expanded {
+  visibility: hidden;
+  opacity: 0;
+}
+.comment-section-header h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0px;
+}
+
+.comment-section-avatars {
+  display: flex;
+  align-items: center;
+}
+
+.comment-section-avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #e5e7eb;
+  transition: transform 0.2s;
+  margin-left: -0.75rem; /* Egymásra csúsztatás */
+}
+
+.comment-section-avatar:hover {
+  transform: scale(1.1);
+}
+
+.comment-section-avatar-count {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.775rem;
+  font-weight: 500;
+  border: 2px solid white;
+  margin-left: -0.75rem; /* Egymásra csúsztatás */
+}
+.comment-form-textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.75rem;
+  background-color: white;
+  outline: none;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden; /* Alapból rejtve */
+  transition: opacity 0.3s ease-in-out 0.4s, transform 0.3s ease-in-out 0.4s,
+    visibility 0s linear 0.4s;
+  position: absolute;
+  bottom: 60px;
+  margin: 0px 1rem;
+  width: calc(100% - 2rem);
+  resize: none;
+}
+
+.comment-section-footer.expanded .comment-form-textarea {
+  visibility: visible; /* Láthatóvá tesszük */
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.4s; /* 0.4 másodperc késleltetés */
+}
+
+.comment-section-footer.collapsed .comment-form-textarea {
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden; /* Elrejtjük a szövegmezőt */
+  transition-delay: 0s; /* Az eltűnés azonnal elkezdődik */
+}
+
+/* Görgetősáv szélessége */
+::-webkit-scrollbar {
+  width: 6px; /* Függőleges scrollbar */
+  height: 6px; /* Vízszintes scrollbar */
+}
+
+/* Görgetősáv háttér (opcionális) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Görgetősáv csúszka */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Ha a csúszkára viszitek az egeret */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.container {
+  width: 100%;
+  max-width: 42rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.content {
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.text {
+  color: #4a5568;
+  line-height: 1.625;
+}

@@ -1,0 +1,57 @@
+.SocialSignUpButton {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  display: inline-flex;
+  height: 40px;
+  min-height: 40px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+  line-height: 1;
+
+  box-shadow: rgba(0, 66, 142, 0.04) 0px 1px 4px,
+    rgba(0, 59, 126, 0.02) 0px 4px 16px;
+  padding: 0px 32px 0px 28px;
+  flex-flow: row;
+  gap: 8px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 44px;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+.SignInInputBox form {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.SocialSignUpButton:hover {
+  background-color: #f2f2f2;
+}
+.SignIn {
+  background-color: #cdda32 !important;
+}
+.SignIn:hover {
+  background-color: #cdda3294 !important ;
+}
+.SocialSignUpButton span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+  mask-position: center center;
+}
+.SocialSignUpButton svg {
+  height: 18px;
+  width: 18px;
+}

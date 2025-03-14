@@ -1,0 +1,26 @@
+.dark-mode-toggle .slider {
+  background-color: slateGray;
+  box-shadow: -4px 4px 15px inset rgba(0, 0, 0, 0.4);
+}
+.dark-mode-toggle input:checked + .slider {
+  background-color: slateGray;
+  box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+.dark-mode-toggle .slider:before {
+  background-color: white;
+  box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+.dark-mode-toggle input:checked + .slider:before {
+  background-color: lightBlue;
+  box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode-toggle input:focus + .slider {
+  box-shadow: 0 0 0.9px #2196f3; /* 90%-ra csökkentve */
+}
+.dark-mode-sun {
+  color: var(--bg-sun);
+}
+.dark-mode-moon {
+  color: var(--bg-moon);
+}

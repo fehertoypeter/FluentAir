@@ -1,0 +1,161 @@
+.game-container {
+  position: relative; /* A gomb pozícionálásához szükséges */
+  width: 500px;
+  min-height: 480px;
+  border: 1px solid #c3c3c3;
+  border-radius: 20px;
+  padding: 10px 10px 30px 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+
+.timer {
+  width: 74px;
+  border-radius: 15px;
+  cursor: pointer;
+  justify-content: space-between;
+  padding: 2px;
+  white-space: nowrap;
+  background-color: white;
+  border: 2px solid #ffcd57;
+  font-size: 1rem;
+  padding: 0px;
+}
+.settingsOpenButton {
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.game-over {
+  margin: 20px;
+  font-size: 1.5em;
+  color: red;
+}
+
+.rows-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  min-height: 250px;
+}
+.row {
+  display: flex; /* a jobb igazításhoz */
+  align-items: center; /* középre helyezés */
+}
+.number-separator {
+  width: 2px;
+  height: 100%; /* Flexbox magasság automatikusan beáll */
+  background-color: black;
+}
+
+.number {
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 5px 10px;
+  display: inline-block;
+  -webkit-user-select: none;
+  user-select: none;
+  min-width: calc(20% - 10px);
+  transition: ease all 0.5s;
+  margin: 2px;
+  border-radius: 20px;
+  transition: opacity 2s ease-in-out;
+  opacity: 1; /* Initially visible */
+}
+.number:hover {
+  transition: ease all 0.4s;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.row .number:last-child {
+  border-right: none;
+}
+
+.number.selected {
+  /*text-decoration: line-through; */
+  color: black;
+  background-color: #ffcc55;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+  transition: ease all 0.5s;
+}
+.finish-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.finish-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+.game-over p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.pagination {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff6b;
+  border-radius: 15px;
+  padding: 5px 0px;
+}
+
+.pagination button {
+  padding: 10px 20px 5px 20px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid #ffcd57;
+}
+.pagination-container {
+  position: relative;
+  overflow: hidden; /* A tartalom kívül eső részeit elrejtjük */
+  width: 100%;
+}
+
+.pages {
+  display: flex;
+  width: 100%;
+}
+
+.page {
+  min-width: 100%; /* Az egyes oldalak teljes szélességet foglalnak el */
+  flex-shrink: 0;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.arrow-button {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.start-action-button {
+  border: none;
+  font-size: 1.2rem;
+  width: 300px;
+  border-radius: 15px;
+  color: #223968;
+  background: rgb(205, 218, 50);
+  margin-top: 20px;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  padding: 15px 0px;
+}

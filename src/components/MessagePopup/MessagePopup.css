@@ -1,0 +1,50 @@
+.popup-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message-popup {
+  padding: 20px 30px;
+  background-color: #e83b51;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  min-width: 250px;
+  max-width: 500px;
+  width: auto; /* A popup szélessége automatikusan a tartalomhoz igazodik */
+  transform: translateX(200px);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  align-items: center;
+  justify-content: space-between;
+}
+.message-popup-icon {
+  display: flex;
+}
+
+.message-popup svg {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.message-popup.popupVisible {
+  transform: translateX(0); /* A popup visszajön a normál pozícióba */
+  opacity: 1; /* Megjelenik */
+}
+
+.message-popup.popupHidden {
+  transform: translateX(500px); /* Elcsúszik ismét jobbra */
+  opacity: 0; /* Eltűnik */
+}
+
+.popup-message {
+  font-size: 14px;
+  margin: 0;
+}

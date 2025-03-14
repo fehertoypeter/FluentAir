@@ -1,0 +1,110 @@
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+.subscription-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  margin: 20px 0px;
+}
+.subscription-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #666;
+  text-transform: uppercase;
+}
+.subscription-option {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  width: 200px;
+  background-color: #ffff;
+}
+
+.subscription-option.selected {
+  border-color: #412943;
+}
+
+.subscription-option input[type="radio"] {
+  display: none;
+}
+
+.subscription-details {
+  margin-left: 10px;
+  width: 100%;
+}
+.subscription-details .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.savings-tag {
+  font-size: 0.8rem;
+  color: #ffff;
+  margin-bottom: 5px;
+  background-color: #412943;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.price-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.monthly-price {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.billed-info {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #666;
+}
+.due-date {
+  display: inline;
+  white-space: nowrap; /* Megakadályozza a sor törését */
+}
+.buy-button {
+  margin-top: 20px;
+  box-sizing: border-box;
+  position: relative;
+  width: 145px;
+  display: inline-flex;
+  height: 40px;
+  min-height: 40px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+  line-height: 1;
+  box-shadow: rgba(0, 66, 142, 0.04) 0px 1px 4px,
+    rgba(0, 59, 126, 0.02) 0px 4px 16px;
+  padding: 0px 32px 0px 28px;
+  flex-flow: row;
+  gap: 8px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 44px;
+  background: #cdda32;
+  transition: all 0.3s ease;
+}

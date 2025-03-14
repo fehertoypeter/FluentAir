@@ -1,0 +1,27 @@
+.audio-animation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 50px; /* Konténer magassága */
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.audio-bars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px; /* Animációs sáv középre helyezése */
+}
+
+.audio-bar {
+  width: 5px;
+  background-color: black;
+  margin: 0 2px; /* Távolság az oszlopok között */
+  border-radius: 10px; /* A teteje és az alja lekerekített */
+  transition: height 0.2s ease-in-out; /* Sima animáció */
+}

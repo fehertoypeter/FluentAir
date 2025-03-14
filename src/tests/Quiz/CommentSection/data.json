@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "author": "Felhasználó Neve",
+      "profilePic": "url_kephez",
+      "timestamp": "2023-10-01T12:00:00Z",
+      "content": "Ez egy példa komment.",
+      "likes": 10,
+      "dislikes": 2,
+      "replies": [
+        {
+          "id": 2,
+          "author": "Másik Felhasználó",
+          "profilePic": "url_kephez",
+          "timestamp": "2023-10-01T12:05:00Z",
+          "content": "Ez egy válasz a kommentre."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+:root.dark {
+  --bg-color: black;
+  --text-color: white;
+  --bg-sun: lightSlateGray;
+  --bg-moon: turquoise;
+  --black: black;
+  --action-conf-btn-icon: #9fb8d6;
+  --private-collection-btn-bg: #465864;
+  --popup-background: #191c22; /* Lágy popup */
+  --question-list-co-bg: #465864;
+  --question-list-co-text: black;
+  --popup-header-icon-bg: #637386;
+  --top-bar-icons: #637386;
+
+  --table-head-bg: #292c32;
+  --floating-icon-bg: #313a46;
+  --top-bar-bg: #3535351a;
+
+  --counter-number: #637386;
+  --question-list-btn-bg: #313a46;
+  --question-list-btn-text: #637386;
+  --answer-correct: #4a7343;
+  --answer-wrong: #9d4949;
+  --switch-btn: lightBlue;
+  --switch-bg: #191c22;
+  --navbar-background: #2c3039;
+  --navbar-box-shadow: white;
+  --main-background-color: #191c22;
+  --primary-text-color: #f3d9b9;
+  --secondary-textcolor: rgb(207, 186, 160);
+  --background-color: #2b3138; /* Light Slate Gray */
+  --group-background: #ffffff12;
+  --button-bg: #313a46;
+  --button-checked-bg: #637386;
+  --answer-button-bg: #313a46;
+  --answer-button-checked-bg: #515c64;
+  --select-bg: #313a46;
+  --select-border: rgb(35, 36, 42);
+  --input-bg: #313a46;
+  --action-button-color: #192128;
+  --text-color: #073b4c; /* Sötétebb kékeszöld kontrasztos szöveg */
+  --primary-color: #637386; /* Turquois árnyalat */
+  --secondary-color: #47575a; /* Világosabb kékeszöld háttér */
+  --highlight-color: #06d6a0; /* Sea Green */
+  --accent-color: #55a684; /* Lágyabb zöld */
+  --overlay-color: #c3d8de; /* Halványabb réteg */
+  --button-hover: #82c0cc; /* Kékeszöld árnyalat */
+  --border-color: #b4d4da; /* Világos határ */
+  --input-border-color: #9bbec9; /* Halványabb border */
+  --disabled-background: #cfdde5; /* Gyengített háttér */
+  --disabled-text-color: #8399a1; /* Gyengített szöveg */
+
+  --modal-background: #212830d1;
+  --floating-bar-background: #2b3138; /* Lebegő elemek háttérszíne */
+  --shadow-light: rgba(7, 59, 76, 0.1) 0px 1px 4px,
+    rgba(7, 59, 76, 0.05) 0px 4px 16px;
+  --shadow-dark: 0 4px 6px rgba(7, 59, 76, 0.1);
+  transition: all 0.4s ease;
+}
