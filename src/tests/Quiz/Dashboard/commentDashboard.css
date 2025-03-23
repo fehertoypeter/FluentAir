@@ -1,0 +1,142 @@
+.public-comments-dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-dashboard-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  background-color: var(--group-background);
+  flex-direction: row;
+  gap: 15px;
+  height: calc(100vh - 80px);
+  padding: 10px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+
+.container-left {
+  width: 30%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0px 5px 10px 0px;
+}
+.container-right {
+  width: 70%;
+  position: relative;
+  overflow-y: hidden;
+}
+.container-right .modal-overlay.open {
+  display: none !important;
+}
+
+.comment-dashboard-container .container-right .comment-section-container {
+  background-color: transparent;
+  border-radius: 20px 0px 0px 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 1vh;
+  z-index: 1000;
+  transition: right 0.3s ease;
+}
+.comment-dashboard-container .comment-section-header {
+  height: 45px;
+}
+.comment-dashboard-container .comment-section-inner {
+  max-width: 100%;
+}
+.comment-dashboard-container .comment-section-inner.collapsed {
+  height: calc(100vh - 195px);
+}
+.comment-dashboard-container .comment-section-inner.expanded {
+  height: calc(100vh - 270px);
+}
+
+.comment-dashboard-container .comment-section-footer.expanded {
+  height: auto;
+  position: relative;
+}
+
+.comment-dashboard-container .comment-form-textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 8px;
+  resize: none;
+  border-radius: 15px;
+  height: 70px;
+}
+
+.comment-dashboard-container .comment-section-footer.collapsed {
+  height: 45px;
+  position: relative;
+}
+
+.comment-dashboard-container .comment-form-textarea {
+  position: static;
+}
+.comment-dashboard-container .write-comment-close-button {
+  position: relative;
+  top: 1§px;
+  right: calc(-50% - -20px);
+}
+.comment-dashboard-container .write-comment-button {
+  bottom: 23px;
+  position: fixed;
+  font-size: 0.7rem;
+}
+.comment-dashboard-container .write-comment-close-button {
+  position: relative;
+  bottom: -10px;
+  right: -47%;
+}
+.comment-dashboard-container .write-comment-close-button svg {
+  font-size: 15px;
+}
+
+.comment-dashboard-container
+  .container-right
+  .comment-section-containe
+  .comment-section-inner
+  .collapsed {
+  margin: 0px;
+  min-width: 100%;
+}
+.comment-question-card {
+  border-radius: 10px;
+  background-color: #80808030;
+  padding: 7px;
+}
+.comment-question-card h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.comment-item-card .comment-content {
+  padding: 7px 0px;
+  padding-bottom: 10px;
+  display: flex;
+}
+.comment-item-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.comment-item-card-header h3 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-right: 5px;
+}
+.comment-item-card .comment-content p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}

@@ -4,12 +4,11 @@ import ExplanationModal from "./ExplanationModal";
 import PrivateNote from "./privateNote";
 import PrivateCollection from "./privateCollections";
 import CommentSection from "./CommentSection/CommentSection";
-import { GoBookmark, GoBookmarkFill } from "react-icons/go";
-import { FaNoteSticky } from "react-icons/fa6";
-import { CiStickyNote } from "react-icons/ci";
-import { Icons } from "../../assets/images/icons/icons";
+import { Icons } from "../../assets/icons/icons";
 import ImageModal from "./ImageModal/ImageModal";
+import { usersCommentsBank } from "../../data/userLocalDatabase";
 import "./QuizApp.css";
+import "./QuestionViewer.css";
 
 const QuestionViewer = ({
   question,
@@ -24,24 +23,30 @@ const QuestionViewer = ({
   const [isModalOpen, setModalOpen] = useState(false);
 
   const hasNoteForCurrentQuestion = userNotesBank[question.id];
-  const NoteIcon = hasNoteForCurrentQuestion ? FaNoteSticky : CiStickyNote;
+  const NoteIcon = hasNoteForCurrentQuestion
+    ? Icons.FaNoteSticky
+    : Icons.CiStickyNote;
 
   const hasPrivateCollectionForCurrentQuestion =
     userPrivateCollectionsBank.some((collection) =>
       collection.items.includes(question.id)
     );
   const CollectionIcon = hasPrivateCollectionForCurrentQuestion
-    ? GoBookmarkFill
-    : GoBookmark;
+    ? Icons.GoBookmarkFill
+    : Icons.GoBookmark;
 
   const hasCommentsForCurrentQuestion =
-    questionComments[question.id]?.length > 0;
+    usersCommentsBank[question.id]?.length > 0;
   const CommentIcon = hasCommentsForCurrentQuestion
     ? Icons.ImBubble
     : Icons.SlBubble;
 
   return (
     <div className="quiz-app-container">
+      <div className="viewer-question-infos">
+        <p>{question.id}</p>
+        <p>{question.subtopic}</p>
+      </div>
       <h2>{question.question}</h2>
       {question.equation && (
         <div className="math-equation">

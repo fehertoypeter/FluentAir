@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { mainTestBank } from "../hajduflyTestbank"; // Importáljuk a kérdésbankot
-import { Icons } from "../../../assets/images/icons/icons";
+import { mainTestBank } from "../../../data/hajduflyTestbank"; // Importáljuk a kérdésbankot
+import { Icons } from "../../../assets/icons/icons";
 import ActionConfirmationPopup from "../../../components/ActionConfirmationModal/ActionConfirmationModal";
 import "./QuestionBankEditor.css";
 import "./QuestionBankEditorSection.css";

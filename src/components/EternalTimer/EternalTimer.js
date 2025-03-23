@@ -5,7 +5,7 @@ import React, {
   forwardRef,
   useRef,
 } from "react";
-import { Icons } from "../../assets/images/icons/icons";
+import { Icons } from "../../assets/icons/icons";
 import "./EternalTimer.css";
 
 const EternalTimer = forwardRef(

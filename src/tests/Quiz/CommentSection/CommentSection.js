@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { CommentList } from "./CommentList";
-import { Icons } from "../../../assets/images/icons/icons";
-import { v4 as uuidv4 } from "uuid"; // UUID importálása
+import { Icons } from "../../../assets/icons/icons";
+import { v4 as uuidv4 } from "uuid";
+import { usersCommentsBank } from "../../../data/userLocalDatabase";
 import "./CommentSection.css";
 
 export const CommentSection = ({
@@ -33,11 +34,11 @@ export const CommentSection = ({
     }
 
     const comment = {
-      id: uuidv4(), // Globálisan egyedi azonosító
+      id: uuidv4(),
       author: "Péter",
       avatar: "https://i.pravatar.cc/150?img=3",
       content: newComment,
-      timestamp: new Date().toISOString(), // ISO formátumban mentjük a dátumot
+      timestamp: new Date().toISOString(),
       likes: 0,
       dislikes: 0,
       liked: false,
@@ -47,31 +48,26 @@ export const CommentSection = ({
     };
 
     if (replyingTo) {
-      const updatedComments = {
-        ...questionComments,
-        [questionId]: questionComments[questionId].map((c) => {
-          if (c.id === replyingTo) {
-            return {
-              ...c,
-              replies: [
-                ...c.replies,
-                {
-                  ...comment,
-                  id: uuidv4(), // Globálisan egyedi reply azonosító
-                },
-              ],
-            };
-          }
-          return c;
-        }),
-      };
-      setQuestionComments(updatedComments);
+      usersCommentsBank[questionId] = usersCommentsBank[questionId].map((c) => {
+        if (c.id === replyingTo) {
+          return {
+            ...c,
+            replies: [
+              ...c.replies,
+              {
+                ...comment,
+                id: uuidv4(),
+              },
+            ],
+          };
+        }
+        return c;
+      });
     } else {
-      const updatedComments = {
-        ...questionComments,
-        [questionId]: [...(questionComments[questionId] || []), comment],
-      };
-      setQuestionComments(updatedComments);
+      usersCommentsBank[questionId] = [
+        ...(usersCommentsBank[questionId] || []),
+        comment,
+      ];
     }
 
     setNewComment("");
@@ -84,11 +80,8 @@ export const CommentSection = ({
     isReply = false,
     parentCommentId = null
   ) => {
-    const updatedComments = { ...questionComments };
-    const comments = updatedComments[questionId];
-
     if (isReply) {
-      updatedComments[questionId] = comments.map((c) => {
+      usersCommentsBank[questionId] = usersCommentsBank[questionId].map((c) => {
         if (c.id === parentCommentId) {
           return {
             ...c,
@@ -98,10 +91,12 @@ export const CommentSection = ({
         return c;
       });
     } else {
-      updatedComments[questionId] = comments.filter((c) => c.id !== commentId);
+      usersCommentsBank[questionId] = usersCommentsBank[questionId].filter(
+        (c) => c.id !== commentId
+      );
     }
 
-    setQuestionComments(updatedComments);
+    setQuestionComments({ ...usersCommentsBank });
   };
 
   const handleReply = (commentId) => {
@@ -115,9 +110,6 @@ export const CommentSection = ({
   };
 
   const saveEdit = (commentId, isReply = false, parentCommentId = null) => {
-    const updatedComments = { ...questionComments };
-    const comments = updatedComments[questionId];
-
     const updateComment = (comment) => ({
       ...comment,
       content: editedComment,
@@ -125,7 +117,7 @@ export const CommentSection = ({
     });
 
     if (isReply) {
-      updatedComments[questionId] = comments.map((c) => {
+      usersCommentsBank[questionId] = usersCommentsBank[questionId].map((c) => {
         if (c.id === parentCommentId) {
           return {
             ...c,
@@ -137,18 +129,21 @@ export const CommentSection = ({
         return c;
       });
     } else {
-      updatedComments[questionId] = comments.map((c) =>
+      usersCommentsBank[questionId] = usersCommentsBank[questionId].map((c) =>
         c.id === commentId ? updateComment(c) : c
       );
     }
 
-    setQuestionComments(updatedComments);
+    setQuestionComments({ ...usersCommentsBank });
     setEditingCommentId(null);
     setEditedComment("");
   };
 
   const handleLike = (commentId, isReply = false, replyId = null) => {
-    const updatedComments = { ...questionComments };
+    const updatedComments = { ...usersCommentsBank }; // Másold át a usersCommentsBank-ot
+    if (!updatedComments[questionId]) {
+      updatedComments[questionId] = []; // Ha nem létezik, inicializáld üres tömbbel
+    }
     const comments = updatedComments[questionId];
 
     const updateLikes = (comment) => {
@@ -183,11 +178,16 @@ export const CommentSection = ({
       );
     }
 
-    setQuestionComments(updatedComments);
+    // Frissítsd a usersCommentsBank-ot
+    usersCommentsBank[questionId] = updatedComments[questionId];
+    setQuestionComments({ ...updatedComments }); // Frissítsd a state-et
   };
 
   const handleDislike = (commentId, isReply = false, replyId = null) => {
-    const updatedComments = { ...questionComments };
+    const updatedComments = { ...usersCommentsBank };
+    if (!updatedComments[questionId]) {
+      updatedComments[questionId] = [];
+    }
     const comments = updatedComments[questionId];
 
     const updateDislikes = (comment) => {
@@ -220,10 +220,11 @@ export const CommentSection = ({
       );
     }
 
-    setQuestionComments(updatedComments);
+    usersCommentsBank[questionId] = updatedComments[questionId];
+    setQuestionComments({ ...updatedComments });
   };
 
-  const comments = questionComments[questionId] || [];
+  const comments = usersCommentsBank[questionId] || [];
 
   return (
     <>
@@ -287,9 +288,11 @@ export const CommentSection = ({
               value={newComment}
               onChange={handleCommentChange}
             />
-            <button className="write-comment-button" onClick={saveComment}>
-              {replyingTo ? "Post Reply" : "Post Comment"}
-            </button>
+            {isExpanded && (
+              <button className="write-comment-button" onClick={saveComment}>
+                {replyingTo ? "Post Reply" : "Post Comment"}
+              </button>
+            )}
             {isExpanded && (
               <button
                 className="write-comment-close-button"

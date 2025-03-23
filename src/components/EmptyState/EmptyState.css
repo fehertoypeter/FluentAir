@@ -1,0 +1,53 @@
+.no-notes-message {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.empty-state {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.empty-state svg {
+  width: 150px;
+  height: 150px;
+  background-color: #d0d5e070;
+  border-radius: 50%;
+  padding: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+.empty-state h2 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1.125rem;
+}
+.empty-state p {
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 10px;
+}
+.empty-state svg:hover {
+  animation: bounce 0.8s ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(0.98);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

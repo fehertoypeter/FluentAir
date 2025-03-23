@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Icons } from "../../assets/images/icons/icons";
-import { userNotesBank } from "./userNotesBank";
+import { Icons } from "../../assets/icons/icons";
+import { userNotesBank } from "../../data/userLocalDatabase";
 import ActionConfirmationPopup from "../../components/ActionConfirmationModal/ActionConfirmationModal";
 import "./privateNote.css";
 
@@ -18,7 +18,13 @@ const PrivateNote = ({ isOpen, questionId, onClose }) => {
   }, [isOpen, questionId]);
 
   const handleSaveNote = () => {
-    userNotesBank[questionId] = currentNote;
+    if (currentNote.trim() === "") {
+      // Ha a jegyzet üres, akkor töröljük a questionId-t a userNotesBank-ból
+      delete userNotesBank[questionId];
+    } else {
+      // Egyébként mentjük a jegyzetet
+      userNotesBank[questionId] = currentNote;
+    }
     console.log("Saved Notes:", userNotesBank);
     setActivePopup(null);
     onClose();

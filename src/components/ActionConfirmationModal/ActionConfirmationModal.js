@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Icons } from "../../assets/images/icons/icons";
+import { Icons } from "../../assets/icons/icons";
 import "./ActionConfirmationModal.css";
 
 const ActionConfirmationPopup = ({

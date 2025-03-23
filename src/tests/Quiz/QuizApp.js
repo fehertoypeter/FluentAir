@@ -1,31 +1,39 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
-import QuestionList from "./QuestionList";
-import ExplanationModal from "./ExplanationModal";
-import { MathComponent } from "mathjax-react";
-import { Icons } from "../../assets/images/icons/icons";
-import MessagePopup from "../../components/MessagePopup/MessagePopup";
-import PrivateNote from "./privateNote";
-import PrivateCollection from "./privateCollections";
-import { userNotesBank } from "./userNotesBank";
-import { userPrivateCollectionsBank } from "./userCollectionsBank";
-import "katex/dist/katex.min.css";
-import "./QuizApp.css";
-import "../../components/Switch/Switch.css";
-import "../../components/PerformanceGraph/PerformanceGraph.css";
-import { GoBookmark, GoBookmarkFill } from "react-icons/go";
-import { FaNoteSticky } from "react-icons/fa6";
-import { CiStickyNote } from "react-icons/ci";
-import { CiBoxList } from "react-icons/ci";
+// DATA
+import { userNotesBank } from "../../data/userLocalDatabase";
+import { userPrivateCollectionsBank } from "../../data/userLocalDatabase";
+import { usersCommentsBank } from "../../data/userLocalDatabase";
+// DASHBOARDS
+import useNoteDashboard from "./hooks/useNoteDashboard";
+import usePrivateCollectionDashboard from "./hooks/usePrivateCollectionDashboard";
+import PracticeDashboard from "./Dashboard/practiceDashboard";
+import PrivateNotesDashboard from "./Dashboard/privateNotesDashboard";
+import PrivateCollectionsDashboard from "./Dashboard/privateCollectionsDashboard";
+import PublicCommentsDashboard from "./Dashboard/publicCommentsDashboard";
+// COMPONENTS
 import ActionConfirmationPopup from "../../components/ActionConfirmationModal/ActionConfirmationModal";
 import EternalTimer from "../../components/EternalTimer/EternalTimer";
 import useQuizConfig from "./hooks/useQuizConfig";
 import ImageModal from "./ImageModal/ImageModal";
 import CommentSection from "./CommentSection/CommentSection";
-import QuestionViewer from "./QuestionViewer";
-import useNoteDashboard from "./hooks/useNoteDashboard";
+import MessagePopup from "../../components/MessagePopup/MessagePopup";
+import PrivateNote from "./privateNote";
+import PrivateCollection from "./privateCollections";
+import QuestionList from "./QuestionList";
+import ExplanationModal from "./ExplanationModal";
+import { MathComponent } from "mathjax-react";
+import { Icons } from "../../assets/icons/icons";
+// CSS
+import "katex/dist/katex.min.css";
+import "./QuizApp.css";
+import "../../components/Switch/Switch.css";
+import "../../components/PerformanceGraph/PerformanceGraph.css";
+import "dayjs/locale/en";
 import "./quizResult.css";
-import "./practiceDashboard.css";
-import "./privateNoteDashboard.css";
+import "./Dashboard/practiceDashboard.css";
+import "./Dashboard/privateNoteDashboard.css";
+import "./Dashboard/privateCollectionDashboard.css";
+import "./Dashboard/commentDashboard.css";
 
 const QuizApp = ({ setTestModeOn }) => {
   const {
@@ -33,7 +41,6 @@ const QuizApp = ({ setTestModeOn }) => {
     mainTestBank,
     quizConfig,
     currentQuestions,
-    selectedQuestionCount,
     userWrongAnswers,
     userSeenQuestions,
     setUserSeenQuestions,
@@ -56,6 +63,7 @@ const QuizApp = ({ setTestModeOn }) => {
     selectedSubtopic,
     setSelectedSubtopic,
     isAllDifficultiesSelected,
+    filteredQuestionCount,
   } = useQuizConfig();
   const {
     isDetailVisible,
@@ -69,7 +77,11 @@ const QuizApp = ({ setTestModeOn }) => {
     activeNote,
     getQuestionById,
   } = useNoteDashboard(mainTestBank, userNotesBank);
-  const [isMobile, setIsMobile] = useState(false); //Mobil nézetben vagyunk e.
+  const { activeCollection, setActiveCollection, getQuestionsByCollection } =
+    usePrivateCollectionDashboard(mainTestBank, userPrivateCollectionsBank);
+
+  // MOBILE VIEW
+  const [isMobile, setIsMobile] = useState(false);
   //POPUPS
   const [isPrivateNoteOpen, setPrivateNoteOpen] = useState(false);
   const [isCommentSectionOpen, setCommentSectionOpen] = useState(false);
@@ -91,22 +103,22 @@ const QuizApp = ({ setTestModeOn }) => {
   const [userAnswers, setUserAnswers] = useState([]);
   const [questionComments, setQuestionComments] = useState({});
   const [correctAnswers, setCorrectAnswers] = useState(0);
-  const [currentWrongAnswers, setCurrentWrongAnswers] = useState(0); // Állapot a rossz válaszok számának tárolására
+  const [currentWrongAnswers, setCurrentWrongAnswers] = useState(0); // State to store the number of wrong answers
   const [currentUnansweredQuestions, setCurrentUnansweredQuestions] =
-    useState(0); // Állapot a megválaszolatlan kérdések számának tárolására
+    useState(0); // State to store the number of unanswered questions
 
   // QUIT STATUS
-
-  const [practiceDasboard, setPracticeDashboard] = useState(true);
+  const [practiceDashboard, setPracticeDashboard] = useState(true);
   const [privateNoteDasboard, setPrivateNoteDasboard] = useState(false);
+  const [privateCollectionDashboard, setPrivateCollectionDashboard] =
+    useState(false);
+  const [publicCommentDashboard, setPublicCommentDashboard] = useState(false);
   const [quizStarted, setQuizStarted] = useState(false);
   const [quizFinished, setQuizFinished] = useState(false);
-  const [reviewMode, setReviewMode] = useState(false); // Teszt befejezése után meg lehet nézni a kérdéseket és válaszokat.
+  const [reviewMode, setReviewMode] = useState(false); // After finishing the test, you can review the questions and answers.
   const [feedback, setFeedback] = useState(null);
-  const [selectedAnswer, setSelectedAnswer] = useState(null); // Hozzáadott state
-  const [isAnswered, setIsAnswered] = useState(false); // Nyomon követi, hogy a válasz már be lett-e adva
-
-  // PRIVATE NOTE DASHBOARD
+  const [selectedAnswer, setSelectedAnswer] = useState(null); // Added state
+  const [isAnswered, setIsAnswered] = useState(false); // Tracks if the answer has been submitted
 
   //POPUP'S TEXTS
   const popupsConfig = {
@@ -159,7 +171,7 @@ const QuizApp = ({ setTestModeOn }) => {
     console.log("test data", testData);
   };
   const updateUserWrongAnswers = () => {
-    const newWrongAnswers = [...userWrongAnswers]; // Másolat készítése a jelenlegi rossz válaszokról
+    const newWrongAnswers = [...userWrongAnswers]; // Create a copy of the current wrong answers
 
     userAnswers.forEach((userAnswer) => {
       const question = currentQuestions.find(
@@ -168,43 +180,64 @@ const QuizApp = ({ setTestModeOn }) => {
       const isCorrect = userAnswer.answer === question.answer;
 
       if (isCorrect) {
-        // Ha a válasz helyes, és a kérdés benne volt a rossz válaszok listájában, akkor töröljük
+        // If the answer is correct and the question was in the wrong answers list, remove it
         const index = newWrongAnswers.indexOf(question.id);
         if (index !== -1) {
           newWrongAnswers.splice(index, 1);
         }
       } else {
-        // Ha a válasz rossz, és a kérdés még nem volt a rossz válaszok listájában, akkor hozzáadjuk
+        // If the answer is wrong and the question is not in the wrong answers list, add it
         if (!newWrongAnswers.includes(question.id)) {
           newWrongAnswers.push(question.id);
         }
       }
     });
 
-    // ABC sorrendbe rendezzük a rossz válaszokat
+    // Sort the wrong answers alphabetically
     setUserWrongAnswers(newWrongAnswers.sort((a, b) => a.localeCompare(b)));
   };
   const updateUserSeenQuestions = () => {
-    const newSeenQuestions = [...userSeenQuestions]; // Másolat készítése a jelenlegi látható kérdésekről
+    const newSeenQuestions = [...userSeenQuestions]; // Create a copy of the current seen questions
 
     currentQuestions.forEach((question) => {
-      // Ellenőrizzük, hogy a felhasználó válaszolt-e a kérdésre
+      // Check if the user has answered the question
       const hasAnswered = userAnswers.some(
         (answer) => answer.questionId === question.id
       );
 
-      // Ha a felhasználó válaszolt a kérdésre, és a kérdés még nem szerepel a látható kérdések listájában, hozzáadjuk
+      // If the user has answered the question and it is not in the seen questions list, add it
       if (hasAnswered && !newSeenQuestions.includes(question.id)) {
         newSeenQuestions.push(question.id);
       }
     });
 
-    // Sorrendbe rendezzük a látható kérdéseket
+    // Sort the seen questions
     newSeenQuestions.sort((a, b) => a - b);
 
-    // Frissítjük az userSeenQuestions állapotot
+    // Update the userSeenQuestions state
     setUserSeenQuestions(newSeenQuestions);
   };
+
+  // TEST RESULT DATAS
+  const currentQuestion = currentQuestions[currentQuestionIndex];
+  const progressPercentage =
+    (answeredQuestionsCount / currentQuestions.length) * 100;
+  const isFirstQuestion = currentQuestionIndex === 0;
+  const isLastQuestion = currentQuestionIndex === currentQuestions.length - 1;
+  const isSubmitButtonDisabled = !selectedAnswer;
+  const quizTimestamp = new Date().toISOString();
+  const scorePercentage = Math.round(
+    (correctAnswers / currentQuestions.length) * 100
+  );
+  const totalTimeSpent = elapsedEternalTime;
+  const averageScore = 15;
+  const comparisonIcon =
+    scorePercentage > averageScore ? (
+      <Icons.FaRegThumbsUp />
+    ) : (
+      <Icons.FaRegThumbsDown />
+    );
+  const comparison = scorePercentage > averageScore ? "better" : "worse";
 
   // Detect screen size
   useEffect(() => {
@@ -219,7 +252,7 @@ const QuizApp = ({ setTestModeOn }) => {
   }, []);
   // Timer change to sec
   useEffect(() => {
-    setEternalInitialTime(quizConfig.timeLimit * 60); // Másodpercekké alakítás
+    setEternalInitialTime(quizConfig.timeLimit * 60); // Convert to seconds
   }, [quizConfig.timeLimit]);
   useEffect(() => {
     if (quizConfig.saveAndNext && quizConfig.showCorrectAfterSet) {
@@ -287,7 +320,7 @@ const QuizApp = ({ setTestModeOn }) => {
   const handleTimeRanOut = useCallback(
     (remainingTime) => {
       closeSidebars();
-      console.log("Magától járt le az idő");
+      console.log("Time ran out automatically");
       const elapsedTime = eternalInitialTime - remainingTime;
       setElapsedEternalTime(elapsedTime);
       console.log("Elapsed Eternal Time:", elapsedTime);
@@ -309,7 +342,7 @@ const QuizApp = ({ setTestModeOn }) => {
   // NAVIGATION
   const handleAnswerSubmit = (selectedAnswer) => {
     if (isAnswered) {
-      return; // Ha már megválaszolták, nem enged módosítást
+      return; // If already answered, do not allow changes
     }
 
     if (
@@ -323,18 +356,18 @@ const QuizApp = ({ setTestModeOn }) => {
     const currentQuestion = currentQuestions[currentQuestionIndex];
     const isCorrect = selectedAnswer === currentQuestion.answer;
 
-    // Frissítjük a userAnswers állapotot
+    // Update the userAnswers state
     const updatedUserAnswers = [
       ...userAnswers,
       { questionId: currentQuestion.id, answer: selectedAnswer },
     ];
     setUserAnswers(updatedUserAnswers);
 
-    // Számoljuk a helyes válaszokat
+    // Count correct answers
     const newCorrectAnswers = isCorrect ? correctAnswers + 1 : correctAnswers;
     setCorrectAnswers(newCorrectAnswers);
 
-    // Számoljuk a rossz válaszokat
+    // Count wrong answers
     const newCurrentWrongAnswers = updatedUserAnswers.filter((userAnswer) => {
       const question = currentQuestions.find(
         (q) => q.id === userAnswer.questionId
@@ -342,27 +375,27 @@ const QuizApp = ({ setTestModeOn }) => {
       return userAnswer.answer !== question.answer;
     }).length;
 
-    // Frissítjük a rossz válaszok számát az állapotban
+    // Update the number of wrong answers in the state
     setCurrentWrongAnswers(newCurrentWrongAnswers);
 
-    // Számoljuk a megválaszolatlan kérdéseket
+    // Count unanswered questions
     const newUnansweredQuestions =
       currentQuestions.length - newCorrectAnswers - newCurrentWrongAnswers;
 
-    // Frissítjük a megválaszolatlan kérdések számát az állapotban
+    // Update the number of unanswered questions in the state
     setCurrentUnansweredQuestions(newUnansweredQuestions);
 
-    // Frissítjük a válaszadások számát
+    // Update the number of answered questions
     setAnsweredQuestionsCount(answeredQuestionsCount + 1);
 
-    // Beállítjuk a visszajelzést
+    // Set feedback
     setFeedback({
       isCorrect,
       selectedAnswer,
       correctAnswer: currentQuestion.answer,
     });
 
-    // Beállítjuk, hogy válaszoltak
+    // Set that the answer has been submitted
     setIsAnswered(true);
   };
   const handleNextQuestionArrow = () => {
@@ -391,7 +424,7 @@ const QuizApp = ({ setTestModeOn }) => {
   };
   const navigateToQuestion = (index) => {
     setCurrentQuestionIndex(index);
-    setIsAnswered(false); // Új kérdésnél alaphelyzetbe állítjuk
+    setIsAnswered(false); // Reset on new question
 
     const userAnswer = userAnswers.find(
       (a) => a.questionId === currentQuestions[index].id
@@ -404,10 +437,10 @@ const QuizApp = ({ setTestModeOn }) => {
         selectedAnswer: userAnswer.answer,
         correctAnswer: currentQuestion.answer,
       });
-      setSelectedAnswer(userAnswer.answer); // Beállítjuk a válasz kijelölést
+      setSelectedAnswer(userAnswer.answer); // Set the selected answer
     } else {
-      setFeedback(null); // Ha nincs válasz, üres visszajelzés
-      setSelectedAnswer(null); // Töröljük a kijelölt választ
+      setFeedback(null); // If no answer, clear feedback
+      setSelectedAnswer(null); // Clear the selected answer
     }
   };
 
@@ -432,7 +465,7 @@ const QuizApp = ({ setTestModeOn }) => {
     setAnsweredQuestionsCount(0);
     setIsSidebarVisible(false);
     setSelectedAnswer(null); // Reset selected answer
-    setIsAnswered(false); // Reset válasz állapot
+    setIsAnswered(false); // Reset answer state
   };
   const handleFinishQuiz = () => {
     if (checkUnansweredQuestions()) {
@@ -479,146 +512,71 @@ const QuizApp = ({ setTestModeOn }) => {
     );
   };
 
-  // TEST RESULT DATAS
-  const currentQuestion = currentQuestions[currentQuestionIndex];
-  const progressPercentage =
-    (answeredQuestionsCount / currentQuestions.length) * 100;
-  const isFirstQuestion = currentQuestionIndex === 0;
-  const isLastQuestion = currentQuestionIndex === currentQuestions.length - 1;
-  const isSubmitButtonDisabled = !selectedAnswer;
-  const quizTimestamp = new Date().toISOString();
-  const scorePercentage = Math.round(
-    (correctAnswers / currentQuestions.length) * 100
-  );
-  const totalTimeSpent = elapsedEternalTime;
-  const averageScore = 15;
-  const comparisonIcon =
-    scorePercentage > averageScore ? (
-      <Icons.FaRegThumbsUp />
-    ) : (
-      <Icons.FaRegThumbsDown />
-    );
-  const comparison = scorePercentage > averageScore ? "better" : "worse";
-
-  if (practiceDasboard) {
+  if (practiceDashboard) {
     return (
-      <div className="dashboardContainer">
-        {/* Első sor */}
-        <div className="row">
-          {/* Bal oldali div */}
-          <div className="largeBox" onClick={() => setPracticeDashboard(false)}>
-            <Icons.CiPlay1 size={30} className="db-icon" />
-            <span>Start a Test</span>
-          </div>
-
-          {/* Jobb oldali div */}
-          <div className="smallBox">
-            <Icons.VscHistory size={30} className="db-icon" />
-            <span>Test History</span>
-          </div>
-        </div>
-
-        {/* Második sor */}
-        <div className="row">
-          {/* Private Notes div */}
-          <div
-            className="smallBox"
-            onClick={() => {
-              setPracticeDashboard(false);
-              setPrivateNoteDasboard(true);
-            }}
-          >
-            <Icons.CiStickyNote size={30} className="db-icon" />
-            <span>Private Notes ({Object.entries(userNotesBank).length})</span>
-          </div>
-
-          {/* Comments div */}
-          <div className="smallBox">
-            <Icons.FaRegComment size={30} className="db-icon comment-ic" />
-            <span>Comments</span>
-          </div>
-
-          {/* Question Collections div */}
-          <div className="smallBox">
-            <Icons.GoBookmark size={30} className="db-icon" />
-            <span>Collections</span>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (privateNoteDasboard) {
-    return (
-      <div className="private-notes-dashboard-container">
-        <div
-          className={`quiz-settings-topbar ${
-            isDetailVisible ? "inactive" : ""
-          }`}
-        >
-          <Icons.HiMiniArrowLongLeft
-            className="back-to-quiz-dashboard-button circlehover"
-            onClick={() => {
-              setPracticeDashboard(true);
-              setPrivateNoteDasboard(false);
-            }}
+      <>
+        <div>
+          <PracticeDashboard
+            setPracticeDashboard={setPracticeDashboard}
+            setPrivateNoteDashboard={setPrivateNoteDasboard}
+            setPublicCommentDashboard={setPublicCommentDashboard}
+            setPrivateCollectionDashboard={setPrivateCollectionDashboard}
+            userNotesBank={userNotesBank}
+            userPrivateCollectionsBank={userPrivateCollectionsBank}
           />
         </div>
-        <div className={`pnd-sc ${isDetailVisible ? "inactive" : ""}`}>
-          <div className="private-notes-search-container">
-            <h2>Private Notes</h2>
-            <p>Search your notes by keywords, ID, or topic. </p>
-            <input
-              type="text"
-              placeholder="Search notes..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
-          </div>
-          <div className="note-card-holder">
-            {filteredNotes.map(([id, note]) => {
-              const question = getQuestionById(id);
-              if (!question) return null; // Ha nincs kérdés, ne jelenítsünk meg semmit
-              const truncatedNote =
-                note.length > 150 ? `${note.slice(0, 150)}...` : note;
-              return (
-                <div
-                  key={id}
-                  className="private-note-card"
-                  onClick={() => handleCardClick(id)}
-                >
-                  <h2>{truncatedNote}</h2>
-                  <div className="question-details">
-                    <p>{question.id}</p>
-                    <p>{question.subtopic}</p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-        {isDetailVisible && activeQuestion && activeNote && (
-          <div className="quiz-settings-topbar-private-note">
-            <Icons.HiMiniArrowLongLeft
-              className="back-to-quiz-dashboard-button circlehover"
-              onClick={() => handleCloseDetails()}
-            />
-          </div>
-        )}
-        {isDetailVisible && activeQuestion && activeNote && (
-          <div
-            className={`detail-overlay ${isClosing ? "slide-out" : "slide-in"}`}
-          >
-            <QuestionViewer
-              question={activeQuestion}
-              userNotesBank={userNotesBank}
-              userPrivateCollectionsBank={userPrivateCollectionsBank}
-              questionComments={questionComments}
-              setQuestionComments={setQuestionComments}
-            />
-          </div>
-        )}
-      </div>
+      </>
+    );
+  }
+  if (publicCommentDashboard) {
+    return (
+      <PublicCommentsDashboard
+        usersCommentsBank={usersCommentsBank}
+        setPracticeDashboard={setPracticeDashboard}
+        setPublicCommentDashboard={setPublicCommentDashboard}
+      />
+    );
+  }
+  if (privateNoteDasboard) {
+    return (
+      <PrivateNotesDashboard
+        isDetailVisible={isDetailVisible}
+        setPracticeDashboard={setPracticeDashboard}
+        setPrivateNoteDasboard={setPrivateNoteDasboard}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        filteredNotes={filteredNotes}
+        getQuestionById={getQuestionById}
+        handleCardClick={handleCardClick}
+        activeQuestion={activeQuestion}
+        activeNote={activeNote}
+        handleCloseDetails={handleCloseDetails}
+        isClosing={isClosing}
+        userNotesBank={userNotesBank}
+        userPrivateCollectionsBank={userPrivateCollectionsBank}
+        questionComments={questionComments}
+        setQuestionComments={setQuestionComments}
+      />
+    );
+  }
+  if (privateCollectionDashboard) {
+    return (
+      <PrivateCollectionsDashboard
+        setPracticeDashboard={setPracticeDashboard}
+        setPrivateCollectionDashboard={setPrivateCollectionDashboard}
+        isDetailVisible={isDetailVisible}
+        userPrivateCollectionsBank={userPrivateCollectionsBank}
+        setActiveCollection={setActiveCollection}
+        activeCollection={activeCollection}
+        getQuestionsByCollection={getQuestionsByCollection}
+        handleCardClick={handleCardClick}
+        activeQuestion={activeQuestion}
+        handleCloseDetails={handleCloseDetails}
+        isClosing={isClosing}
+        userNotesBank={userNotesBank}
+        questionComments={questionComments}
+        setQuestionComments={setQuestionComments}
+      />
     );
   }
   if (quizFinished) {
@@ -637,9 +595,7 @@ const QuizApp = ({ setTestModeOn }) => {
                     <span className="custom-date">{quizTimestamp}</span>
                     <h2 className="custom-title">{quizConfig.topics}</h2>
 
-                    <span className="custom-description">
-                      Ez egy teszt volt
-                    </span>
+                    <span className="custom-description">This was a test</span>
                   </div>
                 </div>
               </div>
@@ -682,7 +638,7 @@ const QuizApp = ({ setTestModeOn }) => {
                 onClick={() => {
                   setQuizFinished(false);
                   setReviewMode(true);
-                  setCurrentQuestionIndex(0); // Az első kérdésre ugrik
+                  setCurrentQuestionIndex(0); // Jump to the first question
                   setTestModeOn(true);
                 }}
               >
@@ -719,8 +675,8 @@ const QuizApp = ({ setTestModeOn }) => {
                 id="subjects"
                 name="subjects"
                 onChange={(e) => {
-                  handleSubjectChange(e); // Subject változás kezelése
-                  setSelectedSubtopic("All"); // Visszaállítjuk az "All" subtopic-ot
+                  handleSubjectChange(e); // Handle subject change
+                  setSelectedSubtopic("All"); // Reset the "All" subtopic
                 }}
                 defaultValue={defaultConfig.topics[0]}
               >
@@ -834,7 +790,7 @@ const QuizApp = ({ setTestModeOn }) => {
               onBlur={handleQuestionLimitBlur}
             />
             <p className="possible-questions-number"> out of </p>
-            <p>{selectedQuestionCount}</p>
+            <p>{filteredQuestionCount}</p>
           </div>
           <div className="question-order">
             <button
@@ -914,7 +870,7 @@ const QuizApp = ({ setTestModeOn }) => {
                     <input
                       type="checkbox"
                       checked={quizConfig.timerMode}
-                      onChange={toggleTimerMode} // Csak a toggle függvény kell
+                      onChange={toggleTimerMode} // Only the toggle function is needed
                     />
                     <span className="slider round"></span>
                   </label>
@@ -922,7 +878,7 @@ const QuizApp = ({ setTestModeOn }) => {
                 <span className="switch-label">Timer mode</span>
               </div>
 
-              {/* Ha quizConfig.timerMode true, akkor alapból látszódjon */}
+              {/* If quizConfig.timerMode is true, it should be visible by default */}
               {quizConfig.timerMode && (
                 <div className="time-limit">
                   <p>Time Limit</p>
@@ -951,25 +907,31 @@ const QuizApp = ({ setTestModeOn }) => {
       </div>
     );
   }
-
   if (currentQuestions.length === 0) {
     return <div>Loading questions...</div>;
   }
   const hasCommentsForCurrentQuestion =
-    questionComments[currentQuestions[currentQuestionIndex].id]?.length > 0;
+    usersCommentsBank[currentQuestions[currentQuestionIndex].id] !== undefined;
+
   const hasNoteForCurrentQuestion =
     userNotesBank[currentQuestions[currentQuestionIndex].id];
+
   const CommentIcon = hasCommentsForCurrentQuestion
     ? Icons.ImBubble
     : Icons.SlBubble;
-  const NoteIcon = hasNoteForCurrentQuestion ? FaNoteSticky : CiStickyNote;
+
+  const NoteIcon = hasNoteForCurrentQuestion
+    ? Icons.FaNoteSticky
+    : Icons.CiStickyNote;
+
   const hasPrivateCollectionForCurrentQuestion =
     userPrivateCollectionsBank.some((collection) =>
       collection.items.includes(currentQuestion.id)
     );
+
   const CollectionIcon = hasPrivateCollectionForCurrentQuestion
-    ? GoBookmarkFill
-    : GoBookmark;
+    ? Icons.GoBookmarkFill
+    : Icons.GoBookmark;
 
   return (
     <div className="quiz-app-container">
@@ -980,8 +942,8 @@ const QuizApp = ({ setTestModeOn }) => {
         userAnswers={userAnswers}
         currentQuestionIndex={currentQuestionIndex}
         navigateToQuestion={navigateToQuestion}
-        quizConfig={quizConfig} // Csak a szükséges prop-okat adjuk át
-        reviewMode={reviewMode} // Itt adod át a reviewMode állapotot
+        quizConfig={quizConfig} // Only pass the necessary props
+        reviewMode={reviewMode} // Pass the reviewMode state here
       />
       {activePopup && (
         <ActionConfirmationPopup
@@ -1005,7 +967,7 @@ const QuizApp = ({ setTestModeOn }) => {
               setReviewMode(false);
               setTestModeOn(false);
             } else {
-              setActivePopup("finishTest"); // Popup aktiválása
+              setActivePopup("finishTest"); // Activate popup
               if (eternalTimerRef.current) {
                 eternalTimerRef.current.pauseTimer();
               }
@@ -1014,7 +976,7 @@ const QuizApp = ({ setTestModeOn }) => {
           size={24}
         />
         <button onClick={toggleSidebar} className="toggle-button">
-          <CiBoxList />
+          <Icons.CiBoxList />
         </button>
       </div>
       <div className="progress-bar">
@@ -1065,7 +1027,7 @@ const QuizApp = ({ setTestModeOn }) => {
                         currentQuestions[currentQuestionIndex].id
                     ) ||
                     reviewMode ||
-                    quizConfig.answerRevealMode === "right_away" // Letiltjuk a kattintást right_away módban
+                    quizConfig.answerRevealMode === "right_away" // Disable clicking in right_away mode
                       ? "not-allowed"
                       : "pointer",
                   backgroundColor: reviewMode
@@ -1073,20 +1035,20 @@ const QuizApp = ({ setTestModeOn }) => {
                         (a) =>
                           a.questionId ===
                           currentQuestions[currentQuestionIndex].id
-                      ) // Ellenőrizzük, hogy a felhasználó válaszolt-e a kérdésre
+                      ) // Check if the user has answered the question
                       ? option === currentQuestion.answer
                         ? "var(--answer-correct)"
                         : isSelected
                         ? "var(--answer-wrong)"
                         : "var(--answer-button-bg)"
-                      : "var(--answer-button-bg)" // Ha nem válaszolt, ne jelenjen meg semmi
+                      : "var(--answer-button-bg)" // If not answered, do not show anything
                     : quizConfig.answerRevealMode === "after_test"
                     ? isSelected
                       ? "var(--answer-button-checked-bg)"
                       : "var(--answer-button-bg)"
                     : quizConfig.answerRevealMode === "right_away"
                     ? option === currentQuestion.answer
-                      ? "var(--answer-correct)" // Azonnal mutatjuk a helyes választ
+                      ? "var(--answer-correct)" // Immediately show the correct answer
                       : "var(--answer-button-bg)"
                     : isCorrect
                     ? "var(--answer-correct)"
@@ -1105,7 +1067,7 @@ const QuizApp = ({ setTestModeOn }) => {
                       (a) => a.questionId === currentQuestion.id
                     ) &&
                     !reviewMode &&
-                    quizConfig.answerRevealMode !== "right_away" // Csak akkor engedjük a kattintást, ha nem right_away módban vagyunk
+                    quizConfig.answerRevealMode !== "right_away" // Only allow clicking if not in right_away mode
                   ) {
                     setSelectedAnswer(option);
                     if (quizConfig.automaticQuestionSubmit) {
@@ -1147,7 +1109,7 @@ const QuizApp = ({ setTestModeOn }) => {
                   "color 0.4s ease, box-shadow 0.7s ease, background-color 0.3s ease",
               }}
               onClick={() => {
-                setIconPopupboxOpen((prev) => !prev); // Toggle a második állapotot is
+                setIconPopupboxOpen((prev) => !prev); // Toggle the second state as well
               }}
             />
           ) : (
@@ -1194,7 +1156,7 @@ const QuizApp = ({ setTestModeOn }) => {
                 isOpen={isPrivateNoteOpen}
                 onClose={() => setPrivateNoteOpen(false)}
                 questionId={currentQuestions[currentQuestionIndex].id}
-                foundIds={Object.keys(userNotesBank)} // A meglévő jegyzetek kulcsai
+                foundIds={Object.keys(userNotesBank)} // Keys of existing notes
               />
               <CommentIcon
                 className="icon"
@@ -1215,7 +1177,7 @@ const QuizApp = ({ setTestModeOn }) => {
               <CommentSection
                 isOpen={isCommentSectionOpen}
                 onClose={() => setCommentSectionOpen(false)}
-                questionId={currentQuestions[currentQuestionIndex].id} // Itt adjuk át a questionId-t
+                questionId={currentQuestions[currentQuestionIndex].id} // Pass the questionId here
                 questionComments={questionComments}
                 setQuestionComments={setQuestionComments}
               />
@@ -1280,7 +1242,7 @@ const QuizApp = ({ setTestModeOn }) => {
                   isOpen={isPrivateNoteOpen}
                   onClose={() => setPrivateNoteOpen(false)}
                   questionId={currentQuestions[currentQuestionIndex].id}
-                  foundIds={Object.keys(userNotesBank)} // A meglévő jegyzetek kulcsai
+                  foundIds={Object.keys(userNotesBank)} // Keys of existing notes
                 />
               </div>
               <div className="popup-item">
@@ -1318,8 +1280,8 @@ const QuizApp = ({ setTestModeOn }) => {
         </div>
 
         <div className="right-section">
-          {(reviewMode || // Mindig látható reviewMode-ban
-            quizConfig.answerRevealMode === "right_away" || // Mindig látható right_away módban
+          {(reviewMode || // Always visible in reviewMode
+            quizConfig.answerRevealMode === "right_away" || // Always visible in right_away mode
             (quizConfig.answerRevealMode !== "after_test" &&
               userAnswers.some(
                 (answer) =>
@@ -1364,7 +1326,7 @@ const QuizApp = ({ setTestModeOn }) => {
             disabled={
               reviewMode ||
               (quizConfig.answerRevealMode !== "right_away" &&
-                isSubmitButtonDisabled) // Csak akkor tiltjuk, ha nem right_away módban vagyunk
+                isSubmitButtonDisabled) // Only disable if not in right_away mode
             }
           >
             {isMobile ? (

@@ -1,7 +1,7 @@
 // TopBar.js
 import React, { useContext } from "react";
 import { TopBarContext } from "./TopBarContext";
-import ProfileMenu from "../ProfileMenu/ProfileMenu";
+import ProfileMenu from "../../Auth/ProfileMenu/ProfileMenu";
 import "./TopBar.css";
 
 const TopBar = ({ testModeOn }) => {

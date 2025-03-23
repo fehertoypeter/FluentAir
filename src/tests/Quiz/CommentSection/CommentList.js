@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Icons } from "../../../assets/images/icons/icons";
+import { Icons } from "../../../assets/icons/icons";
 import { BsFillSendCheckFill } from "react-icons/bs";
 import { ImCancelCircle } from "react-icons/im";
+
 import "./CommentList.css";
 import { formatTimestamp } from "../../../utils/formatTimeStamp";
 

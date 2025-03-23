@@ -18,17 +18,19 @@ const AcousticMemory = lazy(() =>
 const NumberPairConcentrationPage = lazy(() =>
   import("./pages/NumberPairConcentration/NumberPairConcentration")
 );
-const Academy = lazy(() => import("./pages/Academy/Academy"));
 const FluentAirBlog = lazy(() => import("./pages/FluentAirBlog/FluentAirBlog"));
 const Support = lazy(() => import("./pages/Support/Support"));
-const SignIn = lazy(() => import("./pages/SignIn/SignIn"));
-const SignUp = lazy(() => import("./pages/SignUp/SignUp"));
+const SignIn = lazy(() => import("./Auth/SignIn"));
+const SignUp = lazy(() => import("./Auth/SignUp"));
 const SubscriptionOptions = lazy(() =>
   import("./pages/Subscription/SubscriptionOptions/SubscriptionOptions")
 );
 const TestPage = lazy(() => import("./pages/TestPage/TestPage"));
 const QuestionBankEditorPage = lazy(() =>
   import("./pages/QuestionBankEditor/QuestionBankEditor")
+);
+const AccountSettings = lazy(() =>
+  import("./pages/AccountSettings/AccountSettings")
 );
 
 function App() {
@@ -43,7 +45,6 @@ function App() {
           <div className="main-content">
             <Suspense fallback={<Loader />}>
               <Routes>
-                <Route path="/academy/:slug?" element={<Academy />} />
                 <Route path="/" element={<Dashboard />} />
                 <Route
                   path="/practice"
@@ -57,7 +58,6 @@ function App() {
                   path="/online-tests/number-pair-concentration/"
                   element={<NumberPairConcentrationPage />}
                 />
-                <Route path="/academy" element={<Academy />} />
                 <Route path="/fluentair-blog" element={<FluentAirBlog />} />
                 <Route path="/support" element={<Support />} />
                 <Route path="/sign-in" element={<SignIn />} />
@@ -69,6 +69,7 @@ function App() {
                   path="/questionbank-editor"
                   element={<QuestionBankEditorPage />}
                 />
+                <Route path="/account" element={<AccountSettings />} />
                 {/* Catch-all route */}
               </Routes>
             </Suspense>

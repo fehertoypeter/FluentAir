@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MessagePopup from "../../components/MessagePopup/MessagePopup";
-import { Icons } from "../../assets/images/icons/icons";
-import { userPrivateCollectionsBank } from "./userCollectionsBank"; // Import the storage
+import { Icons } from "../../assets/icons/icons";
+import { userPrivateCollectionsBank } from "../../data/userLocalDatabase";
 import "./privateCollections.css";
 
 const PrivateCollection = ({ isOpen, onClose, questionId }) => {
@@ -73,7 +73,6 @@ const PrivateCollection = ({ isOpen, onClose, questionId }) => {
     "#FF4D4D",
     "#FF6F00",
     "#FFCD57",
-
     "#2979FF",
     "#6200EA",
     "#D500F9",

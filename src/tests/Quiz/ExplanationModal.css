@@ -7,7 +7,7 @@
   height: 100%;
   z-index: 999;
   background-color: var(--modal-background);
-  transition: opacity 0.4s ease, visibility 0s 0.4s;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
   opacity: 0;
   visibility: hidden;
 }
@@ -15,7 +15,7 @@
 .modal-overlay.open {
   opacity: 1;
   visibility: visible;
-  transition: opacity 0.4s ease, visibility 0s 0s;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
 }
 
 .modal-container {

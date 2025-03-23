@@ -1,8 +1,0 @@
-{
-  "projects": {
-    "default": "fluentair-d4ff3",
-    "staging": "fluentair-d4ff3"
-  },
-  "targets": {},
-  "etags": {}
-}

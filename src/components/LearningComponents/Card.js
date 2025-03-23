@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Icons } from "../../assets/images/icons/icons";
+import { Icons } from "../../assets/icons/icons";
 import { useParams } from "react-router-dom"; // URL paraméter kiolvasásához
 import "./Card.css";
 

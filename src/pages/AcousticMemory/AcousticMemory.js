@@ -18,7 +18,7 @@ import { FaXmark } from "react-icons/fa6";
 import { CgMailForward } from "react-icons/cg";
 import ResultPopup from "../../tests/NumberPairConcentration/NumberPairConcentrationResultPopup";
 import ActionConfirmationPopup from "../../components/ActionConfirmationModal/ActionConfirmationModal";
-import { Icons } from "../../assets/images/icons/icons";
+import { Icons } from "../../assets/icons/icons";
 import "./AcousticMemory.css";
 
 const loadAudioFiles = () => {
@@ -608,35 +608,7 @@ function AcousticMemory() {
           </button>
         )}
 
-        <div>
-          <div className="scrollable-list">
-            <h2>Vizsga eredményei</h2>
-            {/* Vizsga eredmények megjelenítése */}
-            <div>
-              {examHistory.length > 0 ? (
-                <ul>
-                  {examHistory.map((result, index) => (
-                    <li key={index}>
-                      <strong>{result.date}</strong> - {result.testType}
-                      <ul>
-                        <li>Helyes válaszok: {result.correctAnswers}</li>
-                        <li>Helytelen válaszok: {result.incorrectAnswers}</li>
-                        <li>
-                          Meg nem válaszolt kérdések:{" "}
-                          {result.unansweredQuestions}
-                        </li>
-                        <li>Százalékos eredmény: {result.scorePercentage}%</li>
-                        <li>Összes kérdés: {result.total}</li>
-                      </ul>
-                    </li>
-                  ))}
-                </ul>
-              ) : (
-                <p>Még nincs vizsga eredmény.</p>
-              )}
-            </div>
-          </div>
-        </div>
+        <div></div>
       </div>
     </div>
   );

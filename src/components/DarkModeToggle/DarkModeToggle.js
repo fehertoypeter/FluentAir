@@ -1,5 +1,5 @@
 import { useDarkMode } from "../../hooks/useDarkMode";
-import { Icons } from "../../assets/images/icons/icons";
+import { Icons } from "../../assets/icons/icons";
 import "./DarkModeToggle.css";
 import "../Switch/Switch.css";
 

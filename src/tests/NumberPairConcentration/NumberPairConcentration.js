@@ -402,32 +402,6 @@ const NumberPairConcentration = () => {
           </button>
         )}
       </div>
-      <div className="scrollable-list">
-        <h2>Vizsga eredményei</h2>
-        {/* Vizsga eredmények megjelenítése */}
-        <div>
-          {examHistory.length > 0 ? (
-            <ul>
-              {examHistory.map((result, index) => (
-                <li key={index}>
-                  <strong>{result.date}</strong> - {result.testType}
-                  <ul>
-                    <li>Helyes válaszok: {result.correctAnswers}</li>
-                    <li>Helytelen válaszok: {result.incorrectAnswers}</li>
-                    <li>
-                      Meg nem válaszolt kérdések: {result.unansweredQuestions}
-                    </li>
-                    <li>Százalékos eredmény: {result.scorePercentage}%</li>
-                    <li>Összes kérdés: {result.total}</li>
-                  </ul>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p>Még nincs vizsga eredmény.</p>
-          )}
-        </div>
-      </div>
     </div>
   );
 };

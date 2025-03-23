@@ -61,8 +61,21 @@ import { GoTasklist, GoTrash } from "react-icons/go";
 import { CiPlay1 } from "react-icons/ci";
 import { VscHistory } from "react-icons/vsc";
 import { HiMiniArrowLongLeft } from "react-icons/hi2";
+import { LiaHistorySolid } from "react-icons/lia";
+
+import { CiBookmarkCheck } from "react-icons/ci";
+import { CiFileOn } from "react-icons/ci";
+import { CiTimer } from "react-icons/ci";
+import { CiCircleQuestion } from "react-icons/ci";
+import { CiBoxList } from "react-icons/ci";
 
 export const Icons = {
+  CiBoxList,
+  CiCircleQuestion,
+  CiTimer,
+  CiFileOn,
+  CiBookmarkCheck,
+  LiaHistorySolid,
   HiMiniArrowLongLeft,
   VscHistory,
   CiPlay1,

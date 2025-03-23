@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NavbarItem from "./Navbar-Item";
 import NavbarDropdown from "./Navbar-Dropdown";
 import logoMini from "../../assets/images/Logo/FluentAir-logo-mini.webp";
-import { Icons } from "../../assets/images/icons/icons";
+import { Icons } from "../../assets/icons/icons";
 import { IoMenu } from "react-icons/io5";
 import { MdOutlineDashboard } from "react-icons/md";
 import { GoProjectRoadmap } from "react-icons/go";
@@ -49,16 +49,11 @@ const Navbar = () => {
             icon={MdOutlineDashboard}
             closeMenu={closeMenu}
           />
-          <NavbarItem
-            to="/academy"
-            label="Academy"
-            icon={Icons.PiBooksLight}
-            closeMenu={closeMenu}
-          />
-          {/* Quiz Zone */}
+
+          {/* Practice */}
           <NavbarItem
             to="/practice"
-            label="Quiz Zone"
+            label="Practice"
             icon={BsFillPatchQuestionFill}
             closeMenu={closeMenu}
           />

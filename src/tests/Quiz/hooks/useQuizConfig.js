@@ -1,14 +1,13 @@
 import { useState, useCallback, useEffect } from "react";
 //import { mainTestBank } from "../mainTestBank"; // Importáljuk az adatokat
-import { mainTestBank } from "../hajduflyTestbank.js";
-import { userQuestionData } from "../userQuestionData"; // Importáljuk a userQuestionData-t
+import { mainTestBank } from "../../../data/hajduflyTestbank.js";
+import { userQuestionData } from "../../../data/userQuestionData.js"; // Importáljuk a userQuestionData-t
 
 const defaultConfig = {
   questionCount: 50,
   difficultyLevels: ["easy", "medium", "hard"],
   //  topics: ["Mathematics"],
   topics: ["Légi Jog"],
-
   timerMode: true,
   timeLimit: 10,
   questionSeenBefore: false,
@@ -27,6 +26,7 @@ const useQuizConfig = () => {
   const [selectedSubtopic, setSelectedSubtopic] = useState("All");
   const [isAllDifficultiesSelected, setIsAllDifficultiesSelected] =
     useState(false);
+  const [filteredQuestionCount, setFilteredQuestionCount] = useState(0);
 
   // Lokális adatok betöltése
   useEffect(() => {
@@ -74,6 +74,7 @@ const useQuizConfig = () => {
       filteredQuestions = filteredQuestions.sort(() => Math.random() - 0.5);
     }
 
+    setFilteredQuestionCount(filteredQuestions.length); // Frissítsd a szűrt kérdések számát
     filteredQuestions = filteredQuestions.slice(0, quizConfig.questionCount);
     setCurrentQuestions(filteredQuestions);
     setSelectedQuestionCount(filteredQuestions.length); // Frissítjük a kérdések számát
@@ -88,6 +89,10 @@ const useQuizConfig = () => {
     userSeenQuestions,
     selectedSubtopic,
   ]);
+
+  useEffect(() => {
+    filterQuestions();
+  }, [quizConfig, selectedSubtopic, filterQuestions]);
 
   useEffect(() => {
     filterQuestions(); // Mindig frissítjük a kérdések listáját, ha a konfiguráció vagy a subtopic változik
@@ -276,6 +281,7 @@ const useQuizConfig = () => {
     selectedSubtopic,
     setSelectedSubtopic,
     isAllDifficultiesSelected,
+    filteredQuestionCount,
   };
 };
 

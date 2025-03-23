@@ -1,0 +1,134 @@
+.practice-dashboard-container {
+  grid-template-columns: 442px 522px;
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding: 64px 0px;
+}
+.practice-dashboard-container .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  width: 100%;
+  padding-right: 15px;
+  border-right: 1px solid #00000045;
+}
+.practice-dashboard-container .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  width: 100%;
+}
+
+.practice-dashboard-container .left .welcome-message {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+.recomended-apps h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  color: var(--secondary-textcolor);
+}
+.apps-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Legalább 20px rés legyen */
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.app-icon-container {
+  width: 60px;
+  cursor: pointer;
+  position: relative;
+}
+.app-icon {
+  background-color: var(--group-background);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.4s;
+  border-radius: 15px;
+}
+.app-icon-container:hover .app-icon {
+  padding: 12px;
+}
+
+.app-icon-container svg {
+  width: 100%;
+  height: 100%;
+  color: var(--secondary-textcolor);
+}
+
+.app-icon-container .app-name {
+  font-size: 0.6rem;
+  font-weight: 400;
+  line-height: 0.875rem;
+  letter-spacing: 0;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 5px 0px;
+  position: relative;
+  color: var(--secondary-textcolor);
+}
+.app-icon-container .circle-number-icon {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: var(--button-checked-bg);
+  color: white;
+  font-size: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  min-width: 20px;
+  min-height: 20px;
+  width: auto;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  color: var(--secondary-textcolor);
+}
+.app-icon-container .coming-soon-icon {
+  position: absolute;
+  top: -50px;
+  background-color: var(--button-checked-bg);
+  color: white;
+  font-size: 0.5rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  text-align: center;
+  opacity: 0;
+  transition: all ease 0.4s;
+  color: var(--secondary-textcolor);
+}
+.app-icon-container:hover .coming-soon-icon {
+  top: -40px;
+  opacity: 1;
+}
+.trial-card {
+  border-radius: 16px;
+  min-width: 432px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 6px 16px, rgba(0, 0, 0, 0.12) 0 3px 6px;
+  margin-bottom: 32px;
+  padding: 20px;
+  min-height: 280px;
+}
