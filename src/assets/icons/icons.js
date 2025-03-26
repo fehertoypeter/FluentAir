@@ -68,8 +68,12 @@ import { CiFileOn } from "react-icons/ci";
 import { CiTimer } from "react-icons/ci";
 import { CiCircleQuestion } from "react-icons/ci";
 import { CiBoxList } from "react-icons/ci";
+import { FaRegCircle } from "react-icons/fa6";
+import { TbCircleLetterI } from "react-icons/tb";
 
 export const Icons = {
+  TbCircleLetterI,
+  FaRegCircle,
   CiBoxList,
   CiCircleQuestion,
   CiTimer,

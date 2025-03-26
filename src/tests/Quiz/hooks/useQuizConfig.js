@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from "react";
 //import { mainTestBank } from "../mainTestBank"; // Importáljuk az adatokat
 import { mainTestBank } from "../../../data/hajduflyTestbank.js";
-import { userQuestionData } from "../../../data/userQuestionData.js"; // Importáljuk a userQuestionData-t
+import { userQuestionData } from "../../../data/userLocalDatabase.js"; // Importáljuk a userQuestionData-t
 
 const defaultConfig = {
   questionCount: 50,

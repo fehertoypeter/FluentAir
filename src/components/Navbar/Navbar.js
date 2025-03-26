@@ -49,7 +49,6 @@ const Navbar = () => {
             icon={MdOutlineDashboard}
             closeMenu={closeMenu}
           />
-
           {/* Practice */}
           <NavbarItem
             to="/practice"

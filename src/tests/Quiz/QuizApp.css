@@ -565,6 +565,9 @@ input[type="number"] {
     padding-bottom: 50px;
     padding-left: 0px;
   }
+  .info-section {
+    padding-left: 0px;
+  }
 }
 
 @media (max-width: 768px) {
