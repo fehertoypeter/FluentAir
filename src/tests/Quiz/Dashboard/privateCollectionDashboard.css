@@ -62,11 +62,11 @@
   font-size: 0.7rem;
 }
 
-p::first-letter {
+.private-card-details p::first-letter {
   text-transform: uppercase; /* Az első betű nagybetűs lesz */
 }
 
-p {
+.private-card-details p {
   text-transform: lowercase; /* A többi betű kicsi lesz */
 }
 

@@ -33,7 +33,7 @@ This is a quiz application designed for a glider pilot group. The app retrieves 
   ```
 - Ensure security, possibly using Firebase Functions.
 - The profile menu should only be visible when the user is logged in.
-- Include a logout button in the profile menu.
+- Set the logout function to the logout button in the profile menu.
 - User data should be accessible throughout the app for various features.
 
 ### 2. User Roles & Permissions
@@ -70,6 +70,7 @@ Currently, the app loads data ONCE WHEN THE COMPONENT LOADS IN FIRST from `userL
 ### Firebase Data Synchronization
 
 The app should function as it currently does but additionally save changes to Firebase when modifying local state.
+Only modification is that in the comment section loged in user can see the ... menu, edit , delete option only for its own comments or replys.
 
 #### Data Save Points in `QuizApp.js`
 

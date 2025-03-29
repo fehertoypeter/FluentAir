@@ -45,6 +45,7 @@ function App() {
           <div className="main-content">
             <Suspense fallback={<Loader />}>
               <Routes>
+                {/* ACCESS ONLY FOR EVERY ROLE*/}
                 <Route path="/" element={<Dashboard />} />
                 <Route
                   path="/practice"
@@ -63,14 +64,15 @@ function App() {
                 <Route path="/sign-in" element={<SignIn />} />
                 <Route path="/sign-up" element={<SignUp />} />
                 <Route path="/subscription" element={<SubscriptionOptions />} />
-                <Route path="/testpage" element={<TestPage />} />
                 <Route path="*" element={<NotFoundPage />} />{" "}
+                <Route path="/account" element={<AccountSettings />} />
+                {/* ACCESS ONLY FOR ADMIN ROLE */}
                 <Route
                   path="/questionbank-editor"
                   element={<QuestionBankEditorPage />}
                 />
-                <Route path="/account" element={<AccountSettings />} />
-                {/* Catch-all route */}
+                <Route path="/testpage" element={<TestPage />} />
+                <Route path="/testpage/:contentId" element={<TestPage />} />
               </Routes>
             </Suspense>
           </div>

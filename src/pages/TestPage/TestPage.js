@@ -1,8 +1,9 @@
-import React from "react";
-
+import React, { useState, useEffect } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import "./TestPage.css";
+import { lectureCardsData } from "./lectureCardsData";
+import { academyContentData } from "./academyContentData";
 
-const lectureCardsData = [];
 const ConnectionLine = ({
   verticalLength = 173,
   marginTop = 132,
@@ -62,6 +63,7 @@ const ConnectionLine = ({
     </div>
   );
 };
+
 const MobileConnectionLine = () => {
   return (
     <div className="mobile-connection-line">
@@ -79,6 +81,7 @@ const MobileConnectionLine = () => {
     </div>
   );
 };
+
 const LectureCard = ({
   id,
   title,
@@ -87,17 +90,21 @@ const LectureCard = ({
   position,
   isFirstCard,
 }) => {
+  const navigate = useNavigate();
+
   return (
     <div className={`lecture-card card-${id}`}>
       {position !== "bottom" && <div className={`dot ${position}`}></div>}
-      {!isFirstCard && <div className="dot top"></div>}{" "}
-      {/* Csak ha NEM az első kártya */}
+      {!isFirstCard && <div className="dot top"></div>}
       <h2>{title}</h2>
       {description && <h3>{description}</h3>}
       <div className="button-container">
-        {buttons.map((buttonText, index) => (
-          <button key={index}>
-            <p>{buttonText}</p>
+        {buttons.map((button, index) => (
+          <button
+            key={index}
+            onClick={() => navigate(`/testpage/${button.link}`)}
+          >
+            <p>{button.text}</p>
           </button>
         ))}
       </div>
@@ -106,117 +113,166 @@ const LectureCard = ({
   );
 };
 
-const TestPage = () => {
+const AcademyContent = ({ content, onClose }) => {
   return (
-    <div className="test-page">
-      <div className="academy-container">
-        <h1>airBaltic Assessment Masterclass</h1>
-        <div className="card-rows-container">
-          {/* Desktop Layout */}
-          <div className="desktop-columns">
-            <div className="column column-1">
-              {lectureCardsData
-                .filter((card) => card.id % 2 === 1)
-                .map((card) => (
-                  <LectureCard key={card.id} {...card} position="left" />
-                ))}
-            </div>
-            <div className="column column-2">
-              <ConnectionLine verticalLength={133} marginTop={154} />
-              <ConnectionLine
-                mirrored={true}
-                verticalLength={111}
-                marginTop={0}
-              />
-              <ConnectionLine verticalLength={273} marginTop={0} />
-              <ConnectionLine
-                mirrored={true}
-                verticalLength={100}
-                marginTop={0}
-              />
-              <ConnectionLine verticalLength={239} marginTop={0} />
-              <ConnectionLine
-                mirrored={true}
-                verticalLength={172}
-                marginTop={0}
-              />
-              <ConnectionLine verticalLength={90} marginTop={0} />
-              <ConnectionLine
-                mirrored={true}
-                verticalLength={158}
-                marginTop={0}
-              />
-              <ConnectionLine verticalLength={211} marginTop={0} />
-              <ConnectionLine
-                mirrored={true}
-                verticalLength={267}
-                marginTop={0}
-              />
-              <ConnectionLine verticalLength={247} marginTop={0} />
-              <ConnectionLine
-                mirrored={true}
-                verticalLength={267}
-                marginTop={0}
-              />
-              <ConnectionLine verticalLength={254} marginTop={0} />
-            </div>
-            <div className="column column-3">
-              <div className="progress-counter-dashboard">
-                <div className="cube-dashboard-element">
-                  <h2>78</h2>
-                  <p>Total</p>
-                </div>
-                <div className="cube-dashboard-element">
-                  <h2>11</h2>
-                  <p>Completed</p>
-                </div>
-                <div className="cube-dashboard-element">
-                  <h2>67</h2>
-                  <p>Upcoming</p>
-                </div>
-              </div>
-              {lectureCardsData
-                .filter((card) => card.id % 2 === 0)
-                .map((card) => (
-                  <LectureCard key={card.id} {...card} position="right" />
-                ))}
-            </div>
-          </div>
-
-          {/* Mobile Layout */}
-          <div className="mobile-column">
-            <div className="progress-counter-dashboard">
-              <div className="cube-dashboard-element">
-                <h2>78</h2>
-                <p>Total</p>
-              </div>
-              <div className="cube-dashboard-element">
-                <h2>11</h2>
-                <p>Completed</p>
-              </div>
-              <div className="cube-dashboard-element">
-                <h2>67</h2>
-                <p>Upcoming</p>
-              </div>
-            </div>
-            {lectureCardsData
-              .sort((a, b) => a.id - b.id)
-              .map((card, index, array) => (
-                <React.Fragment key={card.id}>
-                  <LectureCard
-                    {...card}
-                    position="bottom"
-                    isFirstCard={index === 0}
-                    hideBottomDot={index === array.length - 1} // Az utolsónál elrejti a .dot.bottom-ot
-                  />
-                  {index !== array.length - 1 && <MobileConnectionLine />}
-                </React.Fragment>
-              ))}
-          </div>
-        </div>
-      </div>
+    <div className="academy-content">
+      <button className="close-button" onClick={onClose}>
+        X
+      </button>
+      <div dangerouslySetInnerHTML={{ __html: content }} />
     </div>
   );
 };
 
+const TestPage = () => {
+  const { contentId } = useParams();
+  const navigate = useNavigate();
+  const [initialLoad, setInitialLoad] = useState(true);
+
+  // Handle initial load and route changes
+  useEffect(() => {
+    if (initialLoad) {
+      setInitialLoad(false);
+    }
+  }, [initialLoad]);
+
+  const handleCloseContent = () => {
+    navigate("/testpage");
+  };
+
+  return (
+    <div className="test-page">
+      <div className="academy-container">
+        {/* Main cards view - shown when no contentId */}
+        {!contentId && (
+          <div>
+            <h1>airBaltic Assessment Masterclass</h1>
+            <div className="card-rows-container">
+              {/* Desktop Layout */}
+              <div className="desktop-columns">
+                <div className="column column-1">
+                  {lectureCardsData
+                    .filter((card) => card.id % 2 === 1)
+                    .map((card) => (
+                      <LectureCard
+                        key={card.id}
+                        {...card}
+                        position="left"
+                        isFirstCard={card.id === 1}
+                      />
+                    ))}
+                </div>
+                <div className="column column-2">
+                  <ConnectionLine verticalLength={133} marginTop={154} />
+                  <ConnectionLine
+                    mirrored={true}
+                    verticalLength={111}
+                    marginTop={0}
+                  />
+                  <ConnectionLine verticalLength={273} marginTop={0} />
+                  <ConnectionLine
+                    mirrored={true}
+                    verticalLength={100}
+                    marginTop={0}
+                  />
+                  <ConnectionLine verticalLength={239} marginTop={0} />
+                  <ConnectionLine
+                    mirrored={true}
+                    verticalLength={172}
+                    marginTop={0}
+                  />
+                  <ConnectionLine verticalLength={90} marginTop={0} />
+                  <ConnectionLine
+                    mirrored={true}
+                    verticalLength={158}
+                    marginTop={0}
+                  />
+                  <ConnectionLine verticalLength={211} marginTop={0} />
+                  <ConnectionLine
+                    mirrored={true}
+                    verticalLength={267}
+                    marginTop={0}
+                  />
+                  <ConnectionLine verticalLength={247} marginTop={0} />
+                  <ConnectionLine
+                    mirrored={true}
+                    verticalLength={267}
+                    marginTop={0}
+                  />
+                  <ConnectionLine verticalLength={254} marginTop={0} />
+                </div>
+                <div className="column column-3">
+                  <div className="progress-counter-dashboard">
+                    <div className="cube-dashboard-element">
+                      <h2>78</h2>
+                      <p>Total</p>
+                    </div>
+                    <div className="cube-dashboard-element">
+                      <h2>11</h2>
+                      <p>Completed</p>
+                    </div>
+                    <div className="cube-dashboard-element">
+                      <h2>67</h2>
+                      <p>Upcoming</p>
+                    </div>
+                  </div>
+                  {lectureCardsData
+                    .filter((card) => card.id % 2 === 0)
+                    .map((card) => (
+                      <LectureCard
+                        key={card.id}
+                        {...card}
+                        position="right"
+                        isFirstCard={false}
+                      />
+                    ))}
+                </div>
+              </div>
+
+              {/* Mobile Layout */}
+              <div className="mobile-column">
+                <div className="progress-counter-dashboard">
+                  <div className="cube-dashboard-element">
+                    <h2>78</h2>
+                    <p>Total</p>
+                  </div>
+                  <div className="cube-dashboard-element">
+                    <h2>11</h2>
+                    <p>Completed</p>
+                  </div>
+                  <div className="cube-dashboard-element">
+                    <h2>67</h2>
+                    <p>Upcoming</p>
+                  </div>
+                </div>
+                {lectureCardsData
+                  .sort((a, b) => a.id - b.id)
+                  .map((card, index, array) => (
+                    <React.Fragment key={card.id}>
+                      <LectureCard
+                        {...card}
+                        position="bottom"
+                        isFirstCard={index === 0}
+                      />
+                      {index !== array.length - 1 && <MobileConnectionLine />}
+                    </React.Fragment>
+                  ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Content view - shown when contentId exists */}
+        {contentId && academyContentData[contentId] && (
+          <div className="academy-content-container">
+            <AcademyContent
+              content={academyContentData[contentId]}
+              onClose={handleCloseContent}
+            />
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
 export default TestPage;
