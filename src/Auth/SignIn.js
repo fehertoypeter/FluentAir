@@ -1,8 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logoMini from "../assets/images/Logo/FluentAir-logo-mini.webp";
 import { useNavigate } from "react-router-dom";
 import SocialSignUpButton from "../components/SocialSignupButton/SocialSignupButton";
 import { FaGoogle } from "react-icons/fa";
+import { auth, provider, db, timestamp } from "../firebase";
+import {
+  signInWithEmailAndPassword,
+  signInWithPopup,
+  onAuthStateChanged
+} from "firebase/auth";
+import {
+  doc,
+  getDoc,
+  setDoc
+} from "firebase/firestore";
 
 import "./Auth.css";
 
@@ -11,7 +22,59 @@ function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSubmit = (e) => {};
+  // Redirect if already logged in
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, (user) => {
+      if (user) navigate("/");
+    });
+    return () => unsub();
+  }, [navigate]);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+      navigate("/");
+    } catch (error) {
+      console.error("Login error:", error.message);
+      alert("Login failed: " + error.message);
+    }
+  };
+
+  const handleGoogleLogin = async () => {
+    try {
+      const result = await signInWithPopup(auth, provider);
+      const user = result.user;
+
+      const userRef = doc(db, "users", user.uid);
+      const docSnap = await getDoc(userRef);
+
+      if (!docSnap.exists()) {
+        const isAdmin = user.email === "admin@fluentair.com";
+
+        await setDoc(userRef, {
+          uid: user.uid,
+          email: user.email,
+          displayName: user.displayName || "",
+          photoURL: user.photoURL || "",
+          role: isAdmin ? "admin" : "user",
+          createdAt: timestamp,
+          userNotesBank: {},
+          userPreviousTests: [],
+          userPrivateCollectionsBank: [],
+          userQuestionData: {
+            seenQuestions: [],
+            wrongAnswers: [],
+          },
+        });
+      }
+
+      navigate("/");
+    } catch (error) {
+      console.error("Google login error:", error.message);
+      alert("Google login failed: " + error.message);
+    }
+  };
 
   return (
     <div className="signInMain">
@@ -28,7 +91,6 @@ function SignIn() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
-
                 <span>Email</span>
               </div>
               <div className="SignInInputBox">
@@ -60,7 +122,7 @@ function SignIn() {
             <span></span>
           </div>
           <SocialSignUpButton
-            onClick={() => console.log("Google Sign In")}
+            onClick={handleGoogleLogin}
             icon={FaGoogle}
             text="Log In with Google"
           />

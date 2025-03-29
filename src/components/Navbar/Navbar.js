@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import NavbarItem from "./Navbar-Item";
 import NavbarDropdown from "./Navbar-Dropdown";
 import logoMini from "../../assets/images/Logo/FluentAir-logo-mini.webp";
@@ -9,9 +9,14 @@ import { GoProjectRoadmap } from "react-icons/go";
 import { BsFillPatchQuestionFill } from "react-icons/bs";
 import "./Navbar.css";
 
+import { auth, db } from "../../firebase";
+import { onAuthStateChanged } from "firebase/auth";
+import { doc, getDoc } from "firebase/firestore";
+
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true); // Ezt állísd ha alapból nyitva akarod kezdeni a menut.
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
   const [isDropdownOpen, setIsDropdownOpen] = useState({});
+  const [isAdmin, setIsAdmin] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -24,7 +29,21 @@ const Navbar = () => {
     }
   };
 
-  // Online Tests menüpontok
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, async (user) => {
+      if (user) {
+        const docRef = doc(db, "users", user.uid);
+        const docSnap = await getDoc(docRef);
+        if (docSnap.exists()) {
+          const userData = docSnap.data();
+          setIsAdmin(userData.role === "admin");
+        }
+      }
+    });
+
+    return () => unsub();
+  }, []);
+
   const OnlineTestsItems = [
     {
       to: "online-tests/number-pair-concentration",
@@ -42,21 +61,18 @@ const Navbar = () => {
           <IoMenu className="iconMenuOpen bx bx-menu" onClick={toggleMenu} />
         </div>
         <ul className="nav-links">
-          {/* Dashboard */}
           <NavbarItem
             to="/"
             label="Dashboard"
             icon={MdOutlineDashboard}
             closeMenu={closeMenu}
           />
-          {/* Practice */}
           <NavbarItem
             to="/practice"
             label="Practice"
             icon={BsFillPatchQuestionFill}
             closeMenu={closeMenu}
           />
-          {/* Online Tests */}
           <NavbarDropdown
             Dropdownlabel="Online Tests"
             items={OnlineTestsItems}
@@ -67,12 +83,16 @@ const Navbar = () => {
             toggleMenu={toggleMenu}
             isMenuOpen={isMenuOpen}
           />
-          <NavbarItem
-            to="/questionbank-editor"
-            label="Questionbank Editor"
-            icon={Icons.GoTasklist}
-            closeMenu={closeMenu}
-          />
+          
+          {/* Only render if user is admin */}
+          {isAdmin && (
+            <NavbarItem
+              to="/questionbank-editor"
+              label="Questionbank Editor"
+              icon={Icons.GoTasklist}
+              closeMenu={closeMenu}
+            />
+          )}
         </ul>
       </nav>
     </>
