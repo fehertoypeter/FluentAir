@@ -48,7 +48,7 @@ This is a quiz application designed for a glider pilot group. The app retrieves 
 - **Admins:** Can access everything.
 - The navigation menu should adapt based on authentication status:
   - Not logged in → No menu items visible.
-  - Logged-in user → All menu items except `/questionbank-editor`.
+  - Logged-in user → All menu items except `/questionbank-editor, /testpage, /testpage/:contentId`.
   - Admin → Full access.
 
 ---
