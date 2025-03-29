@@ -44,7 +44,7 @@ This is a quiz application designed for a glider pilot group. The app retrieves 
 ### 3. Protected Routes
 
 - **Not logged-in users:** Can only access `/sign-in` and `/sign-out` pages. Any other route redirects them to `/sign-in`.
-- **Logged-in users:** Can access all pages **except** `/questionbank-editor`.
+- **Logged-in users:** Can access all pages **except** `/questionbank-editor, /testpage, /testpage/:contentId`.
 - **Admins:** Can access everything.
 - The navigation menu should adapt based on authentication status:
   - Not logged in → No menu items visible.
