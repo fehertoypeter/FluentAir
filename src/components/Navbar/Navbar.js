@@ -28,21 +28,18 @@ const Navbar = () => {
       setIsMenuOpen(!isMenuOpen);
     }
   };
-
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, async (user) => {
       if (user) {
-        const docRef = doc(db, "users", user.uid);
-        const docSnap = await getDoc(docRef);
-        if (docSnap.exists()) {
-          const userData = docSnap.data();
-          setIsAdmin(userData.role === "admin");
-        }
+        const tokenResult = await user.getIdTokenResult(true);
+        const role = tokenResult.claims.role;
+        setIsAdmin(role === "admin");
       }
     });
 
     return () => unsub();
   }, []);
+
 
   const OnlineTestsItems = [
     {
@@ -83,7 +80,7 @@ const Navbar = () => {
             toggleMenu={toggleMenu}
             isMenuOpen={isMenuOpen}
           />
-          
+
           {/* Only render if user is admin */}
           {isAdmin && (
             <NavbarItem

@@ -6,12 +6,13 @@ import TopBar from "./components/topbar/TopBar";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import Loader from "./components/Loader/Loader";
 import RequireAdmin from "./components/ProtectedRoutes/RequireAdmin";
+import RequireAuth from "./components/ProtectedRoutes/RequireAuth";
 
 import "./App.css";
 import "./styles/dark.css";
 import "./styles/light.css";
 
-// Lazy load components
+// Lazy load pages
 const Dashboard = lazy(() => import("./pages/Dashboard/Dashboard"));
 const QuizZone = lazy(() => import("./pages/QuizZone/QuizZone"));
 const AcousticMemory = lazy(() => import("./pages/AcousticMemory/AcousticMemory"));
@@ -36,24 +37,27 @@ function AppContent({ testModeOn, setTestModeOn }) {
       <div className="main-content">
         <Suspense fallback={<Loader />}>
           <Routes>
-            {/* ACCESS FOR EVERY ROLE */}
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/practice" element={<QuizZone setTestModeOn={setTestModeOn} />} />
-            <Route path="/online-tests/acoustic-memory/" element={<AcousticMemory />} />
-            <Route path="/online-tests/number-pair-concentration/" element={<NumberPairConcentrationPage />} />
-            <Route path="/fluentair-blog" element={<FluentAirBlog />} />
-            <Route path="/support" element={<Support />} />
+            {/* PUBLIC ROUTES */}
             <Route path="/sign-in" element={<SignIn />} />
             <Route path="/sign-up" element={<SignUp />} />
-            <Route path="/subscription" element={<SubscriptionOptions />} />
-            <Route path="/account" element={<AccountSettings />} />
-            <Route path="*" element={<NotFoundPage />} />
-            {/* ACCESS FOR ADMIN ROLE */}
-            <Route path="/questionbank-editor" element={<RequireAdmin>
-              <QuestionBankEditorPage />
-            </RequireAdmin>} />
+
+            {/* PROTECTED ROUTES (logged-in users only) */}
+            <Route path="/" element={<RequireAuth><Dashboard /></RequireAuth>} />
+            <Route path="/practice" element={<RequireAuth><QuizZone setTestModeOn={setTestModeOn} /></RequireAuth>} />
+            <Route path="/online-tests/acoustic-memory/" element={<RequireAuth><AcousticMemory /></RequireAuth>} />
+            <Route path="/online-tests/number-pair-concentration/" element={<RequireAuth><NumberPairConcentrationPage /></RequireAuth>} />
+            <Route path="/fluentair-blog" element={<RequireAuth><FluentAirBlog /></RequireAuth>} />
+            <Route path="/support" element={<RequireAuth><Support /></RequireAuth>} />
+            <Route path="/subscription" element={<RequireAuth><SubscriptionOptions /></RequireAuth>} />
+            <Route path="/account" element={<RequireAuth><AccountSettings /></RequireAuth>} />
+
+            {/* ADMIN-ONLY ROUTES */}
+            <Route path="/questionbank-editor" element={<RequireAdmin><QuestionBankEditorPage /></RequireAdmin>} />
             <Route path="/testpage" element={<RequireAdmin><TestPage /></RequireAdmin>} />
             <Route path="/testpage/:contentId" element={<RequireAdmin><TestPage /></RequireAdmin>} />
+
+            {/* CATCH-ALL 404 PAGE */}
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>
       </div>
