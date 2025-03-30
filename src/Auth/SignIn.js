@@ -32,11 +32,14 @@ function SignIn() {
   const setRoleAndClaims = async (user) => {
     const userRef = doc(db, "users", user.uid);
     const docSnap = await getDoc(userRef);
-
-    const isAdmin = user.email === "admin@fluentair.com";
-    const role = isAdmin ? "admin" : "user";
-
-    if (!docSnap.exists()) {
+  
+    let role = "user"; // default fallback
+  
+    if (docSnap.exists()) {
+      const userData = docSnap.data();
+      role = userData.role || "user";
+    } else {
+      // If the user doesn't exist in Firestore, you can still set a default
       await setDoc(userRef, {
         uid: user.uid,
         email: user.email,
@@ -53,10 +56,10 @@ function SignIn() {
         },
       });
     }
-
+  
     const token = await user.getIdToken(true);
-
     const toastId = toast.loading("Setting up your session...");
+  
     try {
       const res = await fetch(
         "https://us-central1-fluentair-d4ff3.cloudfunctions.net/setUserRole",
@@ -69,12 +72,13 @@ function SignIn() {
           body: JSON.stringify({ uid: user.uid, role }),
         }
       );
-
+  
       const data = await res.json();
       if (!res.ok) {
         throw new Error(data.error?.message || "Failed to set user role");
       }
-
+  
+      // 🔁 Force token refresh to include the new role
       await auth.currentUser.getIdToken(true);
       toast.success("Login successful!", { id: toastId });
       navigate("/");
@@ -83,6 +87,7 @@ function SignIn() {
       throw error;
     }
   };
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
