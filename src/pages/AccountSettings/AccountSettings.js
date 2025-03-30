@@ -9,30 +9,48 @@ import {
   doc,
   updateDoc,
   deleteDoc,
+  getDoc,
 } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 import DarkModeToggle from "../../components/DarkModeToggle/DarkModeToggle";
 import "./AccountSettings.css";
-import toast from "react-hot-toast";
-import { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
 
 const AccountSettings = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
 
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, (currentUser) => {
-      if (currentUser) {
-        setUser(currentUser);
-        setEmail(currentUser.email);
-        const nameParts = currentUser.displayName?.split(" ") || [];
-        setFirstName(nameParts[0] || "");
-        setLastName(nameParts[1] || "");
-      } else {
+    const unsub = onAuthStateChanged(auth, async (currentUser) => {
+      if (!currentUser) {
         navigate("/sign-in");
+        return;
+      }
+
+      try {
+        const token = await currentUser.getIdToken(true);
+        const userRef = doc(db, "users", currentUser.uid);
+        const docSnap = await getDoc(userRef);
+
+        if (docSnap.exists()) {
+          const data = docSnap.data();
+          const [first, last] = (data.displayName || "").split(" ");
+          setFirstName(first || "");
+          setLastName(last || "");
+          setEmail(data.email || currentUser.email);
+          setUser(currentUser);
+        } else {
+          toast.error("User data not found.");
+        }
+      } catch (error) {
+        console.error("Failed to fetch user profile:", error);
+        toast.error("Failed to fetch user profile.");
+      } finally {
+        setLoading(false);
       }
     });
 
@@ -41,27 +59,23 @@ const AccountSettings = () => {
 
   const handleSave = async () => {
     if (!user) {
-      toast.error("User is not loaded yet.");
+      toast.error("User is not loaded.");
       return;
     }
-  
+
+    const newDisplayName = `${firstName} ${lastName}`.trim();
+
     try {
-      const newDisplayName = `${firstName} ${lastName}`.trim();
-  
       await updateProfile(user, { displayName: newDisplayName });
-  
       const userRef = doc(db, "users", user.uid);
-      await updateDoc(userRef, {
-        displayName: newDisplayName,
-      });
-  
+      await updateDoc(userRef, { displayName: newDisplayName });
+
       toast.success("Profile updated successfully!");
     } catch (error) {
       console.error("Error updating profile:", error);
-      toast.error(error.message || "Failed to update profile.");
+      toast.error("Failed to update profile.");
     }
   };
-  
 
   const handleDeleteData = async () => {
     try {
@@ -94,9 +108,11 @@ const AccountSettings = () => {
     }
   };
 
+  if (loading) return <p>Loading profile...</p>;
+
   return (
     <div className="profile-settings">
-      <Toaster position="top-right" reverseOrder={false} />
+      <Toaster position="top-right" />
       <div className="section">
         <h2>Personal Information</h2>
         <div className="settings-container">
@@ -161,10 +177,9 @@ const AccountSettings = () => {
 
         <div className="section danger-zone">
           <h2>Danger Zone</h2>
-
           <div className="danger-actions">
             <div className="danger-zone-container">
-              <p>To reset all your progress, please click on the button below.</p>
+              <p>To reset all your progress, please click the button below.</p>
               <button className="danger-button" onClick={handleDeleteData}>
                 Delete All Study Data
               </button>

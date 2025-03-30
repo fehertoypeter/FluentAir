@@ -7,13 +7,10 @@ import { auth, provider, db, timestamp } from "../firebase";
 import {
   signInWithEmailAndPassword,
   signInWithPopup,
-  onAuthStateChanged
+  onAuthStateChanged,
 } from "firebase/auth";
-import {
-  doc,
-  getDoc,
-  setDoc
-} from "firebase/firestore";
+import { doc, getDoc, setDoc } from "firebase/firestore";
+import toast, { Toaster } from "react-hot-toast";
 
 import "./Auth.css";
 
@@ -22,62 +19,106 @@ function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  // Redirect if already logged in
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, (user) => {
-      if (user) navigate("/");
+    const unsub = onAuthStateChanged(auth, async (user) => {
+      if (user) {
+        const tokenResult = await user.getIdTokenResult(true);
+        // Role will be checked after login
+      }
     });
     return () => unsub();
-  }, [navigate]);
+  }, []);
+
+  const setRoleAndClaims = async (user) => {
+    const userRef = doc(db, "users", user.uid);
+    const docSnap = await getDoc(userRef);
+
+    const isAdmin = user.email === "admin@fluentair.com";
+    const role = isAdmin ? "admin" : "user";
+
+    if (!docSnap.exists()) {
+      await setDoc(userRef, {
+        uid: user.uid,
+        email: user.email,
+        displayName: user.displayName || "",
+        photoURL: user.photoURL || "",
+        role,
+        createdAt: timestamp,
+        userNotesBank: {},
+        userPreviousTests: [],
+        userPrivateCollectionsBank: [],
+        userQuestionData: {
+          seenQuestions: [],
+          wrongAnswers: [],
+        },
+      });
+    }
+
+    const token = await user.getIdToken(true);
+
+    const toastId = toast.loading("Setting up your session...");
+    try {
+      const res = await fetch(
+        "https://us-central1-fluentair-d4ff3.cloudfunctions.net/setUserRole",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({ uid: user.uid, role }),
+        }
+      );
+
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data.error?.message || "Failed to set user role");
+      }
+
+      await auth.currentUser.getIdToken(true);
+      toast.success("Login successful!", { id: toastId });
+      navigate("/");
+    } catch (error) {
+      toast.error("Failed to assign role: " + error.message, { id: toastId });
+      throw error;
+    }
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const toastId = toast.loading("Logging in...");
     try {
-      await signInWithEmailAndPassword(auth, email, password);
-      navigate("/");
+      const result = await signInWithEmailAndPassword(auth, email, password);
+      const user = result.user;
+
+      if (!user.emailVerified) {
+        toast.dismiss(toastId);
+        toast.error("Please verify your email before logging in.");
+        await auth.signOut();
+        return;
+      }
+
+      await setRoleAndClaims(user);
     } catch (error) {
-      console.error("Login error:", error.message);
-      alert("Login failed: " + error.message);
+      toast.error("Login failed: " + error.message, { id: toastId });
     }
   };
 
   const handleGoogleLogin = async () => {
+    const toastId = toast.loading("Signing in with Google...");
     try {
       const result = await signInWithPopup(auth, provider);
-      const user = result.user;
-
-      const userRef = doc(db, "users", user.uid);
-      const docSnap = await getDoc(userRef);
-
-      if (!docSnap.exists()) {
-        const isAdmin = user.email === "admin@fluentair.com";
-
-        await setDoc(userRef, {
-          uid: user.uid,
-          email: user.email,
-          displayName: user.displayName || "",
-          photoURL: user.photoURL || "",
-          role: isAdmin ? "admin" : "user",
-          createdAt: timestamp,
-          userNotesBank: {},
-          userPreviousTests: [],
-          userPrivateCollectionsBank: [],
-          userQuestionData: {
-            seenQuestions: [],
-            wrongAnswers: [],
-          },
-        });
-      }
-
+      await setRoleAndClaims(result.user);
+      toast.success("Login successful!", { id: toastId });
       navigate("/");
     } catch (error) {
-      console.error("Google login error:", error.message);
-      alert("Google login failed: " + error.message);
+      toast.error("Google login failed: " + error.message, { id: toastId });
     }
   };
 
   return (
     <div className="signInMain">
+      <Toaster position="top-center" />
       <div className="signInContainer">
         <img src={logoMini} alt="FluentAir Logo" className="logo" />
         <div className="sign-in-container">
