@@ -33,6 +33,7 @@ const Navbar = () => {
       if (user) {
         const tokenResult = await user.getIdTokenResult(true);
         const role = tokenResult.claims.role;
+        console.log(role);
         setIsAdmin(role === "admin");
       }
     });
