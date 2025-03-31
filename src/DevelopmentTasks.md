@@ -59,7 +59,7 @@ This is a quiz application designed for a glider pilot group. The app retrieves 
 
 Currently, the app loads data ONCE WHEN THE QuizApp.js COMPONENT LOADS IN FIRST from `userLocalDatabase.js` and maintains the data within the components. 
 
-###Task 1
+## Task 1
 - Fetch data from Firebase instead of `userLocalDatabase.js` and `usersCommentsBank.js`:
 
 - Fetches the data from the loged in user's Collection:
@@ -72,20 +72,20 @@ Currently, the app loads data ONCE WHEN THE QuizApp.js COMPONENT LOADS IN FIRST 
 
 Here are the locations where data is currently loaded from local files currently:
 
-## userNotesBank
+### userNotesBank
 - QuizApp.js line 3
 - privateNote.js line 3
 
-## userPrivateCollectionsBank
+### userPrivateCollectionsBank
 - QuizApp.js line 4
 - privateCollections.js line 4
 
-## usersCommentsBank
+### usersCommentsBank
 - QuizApp.js line 5
 - CommentSection.js line 5
 - QuestionViewer.js line 9
 
-## userQuestionData
+### userQuestionData
 - useQuizConfig.js line 4
 
 These locations can be modified to fetch the corresponding data from Firebase as the component loads.
@@ -95,7 +95,7 @@ These locations can be modified to fetch the corresponding data from Firebase as
 
 ### Firebase Data Synchronization
 
-###Task 2-A
+## Task 2-A
 The app should function as it currently does but ADDITIONALY save changes to Firebase too.
 The firebase rule is that the users can read and save their own datas only.
 
@@ -106,20 +106,20 @@ The firebase rule is that the users can read and save their own datas only.
 - **Line 173:** `updateUserWrongAnswers` to the firebase user's userQuestionData -> wrongAnswers
 - **Line 199:** `updateUserSeenQuestions` to the firebase user's userQuestionData -> seenQuestions
 
-###Task 2-B
+## Task 2-B
 
 #### Other Firebase Saves
 
 - **Private Collections (`privateCollections.js`)**
   - **Line 16:** `handleSaveCollection` to the firebase user's "userPrivateCollectionsBank"
   - **Line 48:** `handleToggleQuestionInCollection`  to the firebase user's "userPrivateCollectionsBank"
-###Task 2-C
+## Task 2-C
 - **Private Notes (`privateNote.js`)**
   - **Line 20:** `handleSaveNote` to the firebase user's "userNotesBank"
   - **Line 27:** `handleDeleteNote` to the firebase user's "userNotesBank"
 
 
-###Task 3
+## Task 3
 
 - **Comment Section (`CommentSection.js`)**
   - **Line 30:** `saveComment`
