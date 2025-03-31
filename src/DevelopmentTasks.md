@@ -126,20 +126,28 @@ The application must maintain all existing functionality while adding Firebase s
 
 ---
 
-## Task 3
+## Task 3: Comment Section
+### Location: `CommentSection.js`
 
-- **Comment Section (`CommentSection.js`)**
-  - **Line 30:** `saveComment`
-  - **Line 78:** `deleteComment`
-  - **Line 112:** `saveEdit`
-  - **Line 142:** `handleLike`
-  - **Line 186:** `handleDislike`
+### Firebase Rules
+- **Read**: Public
+- **Write**:
+  - Create: All authenticated users
+  - Update/Delete: Only content owner
+  - Likes: Increment/decrement by any user
 
-This is a bit more complex, but I think you just have to add the savings deletes like stuffs to the firebase usersCommentsBank collection. 
-The firebase rule here is that everyone can save comments, reply,  put like dislike, but can edit/delete only their own comments or reply. 
+### Functional Requirements
+
+| Function | Line | Firebase Path | Operation | UI Consideration |
+|----------|------|---------------|-----------|------------------|
+| `saveComment` | 30 | `comments/{questionId}/{commentId}` | Create | Add author metadata |
+| `deleteComment` | 78 | `comments/{questionId}/{commentId}` | Delete |  |
+| `saveEdit` | 112 | `comments/{questionId}/{commentId}` | Update |  |
+| `handleLike` | 142 | `comments/{questionId}/{commentId}/likes` | Increment |  |
+| `handleDislike` | 186 | `comments/{questionId}/{commentId}/dislikes` | Increment |  |
+
 Only modification is that in the comment section loged in user can see the ("... menu", "edit" , "delete" option only for its own comments or replys.  
+
 ---
 
-## Summary
 
-The task involves integrating Firebase authentication and Firestore database management into the existing quiz app. Users should be able to log in, manage their data, and store quiz-related interactions securely. Firebase will replace `userLocalDatabase.js` for data handling while maintaining the app's existing structure and functionality.
