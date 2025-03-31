@@ -85,55 +85,46 @@ Currently, the app loads data ONCE WHEN THE QuizApp.js COMPONENT LOADS IN FIRST 
 ## Migration Notes
 These import locations represent the current local file data sources that should be replaced with Firebase data fetching implementations during component loading.
 
-
-Here are the locations where data is currently loaded from local files currently:
-
-### userNotesBank
-- QuizApp.js line 3
-- privateNote.js line 3
-
-### userPrivateCollectionsBank
-- QuizApp.js line 4
-- privateCollections.js line 4
-
-### usersCommentsBank
-- QuizApp.js line 5
-- CommentSection.js line 5
-- QuestionViewer.js line 9
-
-### userQuestionData
-- useQuizConfig.js line 4
-
-These locations can be modified to fetch the corresponding data from Firebase as the component loads.
-
-- Ensure data is only loaded once Like now, from Firebase and stored in state like now so it takes only 4 reads.
+- Ensure data is ONLY LOADED ONCE Like now, from Firebase and stored in state like now so it takes only 4 reads.
 - The question bank (`hajduflyTestBank.js`) remains unchanged.
 
-### Firebase Data Synchronization
+# Firebase Integration Specification
 
-## Task 2-A
-The app should function as it currently does but ADDITIONALY save changes to Firebase too.
-The firebase rule is that the users can read and save their own datas only.
+## Overview
+The application must maintain all existing functionality while adding Firebase synchronization. All data operations must respect Firebase security rules.
 
+---
 
-#### Data Save Points in `QuizApp.js`
+## Task 2-A: Quiz Data Synchronization
+### Location: `QuizApp.js`
 
-- **Line 155:** `saveUserTestData` to the firebase user's "userPreviousTests"
-- **Line 173:** `updateUserWrongAnswers` to the firebase user's userQuestionData -> wrongAnswers
-- **Line 199:** `updateUserSeenQuestions` to the firebase user's userQuestionData -> seenQuestions
+| Function | Line | Firebase Path | Data Operation | Security Rule |
+|----------|------|---------------|----------------|---------------|
+| `saveUserTestData` | 155 | `users/{userId}/userPreviousTests` | Write test results | User-specific write |
+| `updateUserWrongAnswers` | 173 | `users/{userId}/userQuestionData/wrongAnswers` | Update incorrect answers | User-specific write |
+| `updateUserSeenQuestions` | 199 | `users/{userId}/userQuestionData/seenQuestions` | Track viewed questions | User-specific write |
 
-## Task 2-B
+---
 
-#### Other Firebase Saves
+## Task 2-B: Collections Management
+### Location: `privateCollections.js`
 
-- **Private Collections (`privateCollections.js`)**
-  - **Line 16:** `handleSaveCollection` to the firebase user's "userPrivateCollectionsBank"
-  - **Line 48:** `handleToggleQuestionInCollection`  to the firebase user's "userPrivateCollectionsBank"
-## Task 2-C
-- **Private Notes (`privateNote.js`)**
-  - **Line 20:** `handleSaveNote` to the firebase user's "userNotesBank"
-  - **Line 27:** `handleDeleteNote` to the firebase user's "userNotesBank"
+| Function | Line | Firebase Path | Data Operation | Notes |
+|----------|------|---------------|----------------|-------|
+| `handleSaveCollection` | 16 | `users/{userId}/userPrivateCollectionsBank` | Create collection | Include collection metadata |
+| `handleToggleQuestionInCollection` | 48 | `users/{userId}/userPrivateCollectionsBank/{collectionId}` | Modify collection items | Atomic array operations |
 
+---
+
+## Task 2-C: Notes Management  
+### Location: `privateNote.js`
+
+| Function | Line | Firebase Path | Data Operation | Trigger Condition |
+|----------|------|---------------|----------------|-------------------|
+| `handleSaveNote` | 20 | `users/{userId}/userNotesBank/{questionId}` | Set/update note | On note content change |
+| `handleDeleteNote` | 27 | `users/{userId}/userNotesBank/{questionId}` | Delete node | When note is emptied |
+
+---
 
 ## Task 3
 
