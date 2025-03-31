@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { CommentList } from "./CommentList";
 import { Icons } from "../../../assets/icons/icons";
 import { v4 as uuidv4 } from "uuid";
-import { usersCommentsBank } from "../../../data/userLocalDatabase";
+import { usersCommentsBank } from "../../../data/usersCommentsBank";
 import "./CommentSection.css";
 
 export const CommentSection = ({
