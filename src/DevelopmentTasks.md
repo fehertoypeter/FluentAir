@@ -90,7 +90,7 @@ Here are the locations where data is currently loaded from local files currently
 
 These locations can be modified to fetch the corresponding data from Firebase as the component loads.
 
-- Ensure data is only loaded once from Firebase and stored in state like now so it takes only 4 reads.
+- Ensure data is only loaded once Like now, from Firebase and stored in state like now so it takes only 4 reads.
 - The question bank (`hajduflyTestBank.js`) remains unchanged.
 
 ### Firebase Data Synchronization
