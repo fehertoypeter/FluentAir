@@ -57,49 +57,80 @@ This is a quiz application designed for a glider pilot group. The app retrieves 
 
 ### Data Loading & Storage
 
-Currently, the app loads data ONCE WHEN THE COMPONENT LOADS IN FIRST from `userLocalDatabase.js` and maintains it within components. The updated functionality should:
+Currently, the app loads data ONCE WHEN THE QuizApp.js COMPONENT LOADS IN FIRST from `userLocalDatabase.js` and maintains the data within the components. 
 
-- Fetch data from Firebase instead of `userLocalDatabase.js`:
-  - `userPrivateCollectionsBank`
+###Task 1
+- Fetch data from Firebase instead of `userLocalDatabase.js` and `usersCommentsBank.js`:
+
+- Fetches the data from the loged in user's Collection:
   - `userNotesBank`
+  - `userPrivateCollectionsBank`
   - `userQuestionData`
-  - `usersCommentsBank` (stored in a separate Firebase collection not in users collection)
-- Ensure data is only loaded once and stored in state.
+
+- Fetches the data from Firestore for the comments:
+  - `usersCommentsBank` (stored in a separate Firebase collection not in "users" collectionm its already created in Firebase)
+
+Here are the locations where data is currently loaded from local files currently:
+
+## userNotesBank
+- QuizApp.js line 3
+- privateNote.js line 3
+
+## userPrivateCollectionsBank
+- QuizApp.js line 4
+- privateCollections.js line 4
+
+## usersCommentsBank
+- QuizApp.js line 5
+- CommentSection.js line 5
+- QuestionViewer.js line 9
+
+## userQuestionData
+- useQuizConfig.js line 4
+
+These locations can be modified to fetch the corresponding data from Firebase as the component loads.
+
+- Ensure data is only loaded once from Firebase and stored in state like now so it takes only 4 reads.
 - The question bank (`hajduflyTestBank.js`) remains unchanged.
 
 ### Firebase Data Synchronization
 
-The app should function as it currently does but additionally save changes to Firebase when modifying local state.
-Only modification is that in the comment section loged in user can see the ... menu, edit , delete option only for its own comments or replys.
+###Task 2-A
+The app should function as it currently does but ADDITIONALY save changes to Firebase too.
+The firebase rule is that the users can read and save their own datas only.
+
 
 #### Data Save Points in `QuizApp.js`
 
-- **Line 155:** `saveUserTestData`
-- **Line 173:** `updateUserWrongAnswers`
-- **Line 199:** `updateUserSeenQuestions`
+- **Line 155:** `saveUserTestData` to the firebase user's "userPreviousTests"
+- **Line 173:** `updateUserWrongAnswers` to the firebase user's userQuestionData -> wrongAnswers
+- **Line 199:** `updateUserSeenQuestions` to the firebase user's userQuestionData -> seenQuestions
+
+###Task 2-B
 
 #### Other Firebase Saves
 
 - **Private Collections (`privateCollections.js`)**
-
-  - Fetch `userPrivateCollectionsBank` from Firebase instead of `userLocalDatabase.js`.
-  - **Line 16:** `handleSaveCollection`
-  - **Line 48:** `handleToggleQuestionInCollection`
-
+  - **Line 16:** `handleSaveCollection` to the firebase user's "userPrivateCollectionsBank"
+  - **Line 48:** `handleToggleQuestionInCollection`  to the firebase user's "userPrivateCollectionsBank"
+###Task 2-C
 - **Private Notes (`privateNote.js`)**
+  - **Line 20:** `handleSaveNote` to the firebase user's "userNotesBank"
+  - **Line 27:** `handleDeleteNote` to the firebase user's "userNotesBank"
 
-  - Fetch `userNotesBank` from Firebase instead of `userLocalDatabase.js`.
-  - **Line 20:** `handleSaveNote`
-  - **Line 27:** `handleDeleteNote`
+
+###Task 3
 
 - **Comment Section (`CommentSection.js`)**
-  - Fetch `usersCommentsBank` from Firebase instead of `userLocalDatabase.js`.
   - **Line 30:** `saveComment`
   - **Line 78:** `deleteComment`
   - **Line 112:** `saveEdit`
   - **Line 142:** `handleLike`
   - **Line 186:** `handleDislike`
 
+This is a bit more complex, but I think you just have to add the savings deletes like stuffs to the firebase usersCommentsBank collection. 
+The firebase rule here is that everyone can save comments, reply,  put like dislike, but can edit/delete only their own comments or reply. 
+Only modification is that in the comment section loged in user can see the ("... menu", "edit" , "delete" option only for its own comments or replys.  
 ---
 
 ## Summary
