@@ -70,6 +70,22 @@ Currently, the app loads data ONCE WHEN THE QuizApp.js COMPONENT LOADS IN FIRST 
 - Fetches the data from Firestore for the comments:
   - `usersCommentsBank` (stored in a separate Firebase collection not in "users" collectionm its already created in Firebase)
 
+
+# Data Loading Reference
+
+## Current Implementation (Local Files)
+
+| Data Source            | Import Locations                          |
+|-----------------------|------------------------------------------|
+| `userNotesBank`       | `QuizApp.js:3`, `privateNote.js:3`       |
+| `userPrivateCollectionsBank` | `QuizApp.js:4`, `privateCollections.js:4` |
+| `usersCommentsBank`   | `QuizApp.js:5`, `CommentSection.js:5`, `QuestionViewer.js:9` |
+| `userQuestionData`    | `useQuizConfig.js:4`                     |
+
+## Migration Notes
+These import locations represent the current local file data sources that should be replaced with Firebase data fetching implementations during component loading.
+
+
 Here are the locations where data is currently loaded from local files currently:
 
 ### userNotesBank
