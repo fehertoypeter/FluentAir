@@ -6,7 +6,7 @@ import PrivateCollection from "./privateCollections";
 import CommentSection from "./CommentSection/CommentSection";
 import { Icons } from "../../assets/icons/icons";
 import ImageModal from "./ImageModal/ImageModal";
-import { usersCommentsBank } from "../../data/userLocalDatabase";
+import { usersCommentsBank } from "../../data/usersCommentsBank";
 import "./QuizApp.css";
 import "./QuestionViewer.css";
 
