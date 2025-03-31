@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from "react";
 // DATA
 import { userNotesBank } from "../../data/userLocalDatabase";
 import { userPrivateCollectionsBank } from "../../data/userLocalDatabase";
-import { usersCommentsBank } from "../../data/userLocalDatabase";
+import { usersCommentsBank } from "../../data/usersCommentsBank";
 // DASHBOARDS
 import useNoteDashboard from "./hooks/useNoteDashboard";
 import usePrivateCollectionDashboard from "./hooks/usePrivateCollectionDashboard";
