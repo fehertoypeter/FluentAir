@@ -57,7 +57,7 @@ This is a quiz application designed for a glider pilot group. The app retrieves 
 
 ### Data Loading & Storage
 
-Currently, the app loads data ONCE WHEN THE QuizApp.js COMPONENT LOADS IN FIRST from `userLocalDatabase.js` and maintains the data within the components. 
+Currently, the app loads data ONCE WHEN THE QuizApp.js COMPONENT LOADS IN FIRST from `userLocalDatabase.js` and `usersCommentsBank.js`and maintains the data within the components. 
 
 ## Task 1
 - Fetch data from Firebase instead of `userLocalDatabase.js` and `usersCommentsBank.js`:
