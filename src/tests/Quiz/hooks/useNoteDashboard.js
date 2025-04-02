@@ -19,11 +19,8 @@ const useNoteDashboard = (mainTestBank, userNotesBank) => {
 
   const handleCardClick = useCallback((id) => {
     setIsDetailVisible(true);
-
-    setTimeout(() => {
-      setActiveCardId(id);
-      setIsClosing(false);
-    }, 200);
+    setActiveCardId(id);
+    setIsClosing(false);
   }, []);
 
   const handleCloseDetails = () => {

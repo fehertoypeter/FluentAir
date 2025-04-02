@@ -122,6 +122,34 @@
   top: -40px;
   opacity: 1;
 }
+.trial-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.trial-card-header p {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.trial-card-header p::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.trial-card-header p:hover::after {
+  width: 100%;
+}
+
 .trial-card {
   border-radius: 16px;
   min-width: 432px;
@@ -131,4 +159,51 @@
   margin-bottom: 32px;
   padding: 20px;
   min-height: 280px;
+  gap: 10px;
+}
+.exam-card-holder {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.trial-card h2 {
+  font-size: 1.125rem;
+  line-height: 23px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width: 915px) {
+  .practice-dashboard-container {
+    flex-direction: column;
+  }
+  .practice-dashboard-container .left {
+    max-width: 100%;
+    width: 90%;
+    padding-right: 0px;
+    border-right: none;
+    margin: auto;
+  }
+  .practice-dashboard-container .right {
+    max-width: 90%;
+    width: 100%;
+    margin: auto;
+  }
+  .trial-card {
+    min-width: 100%;
+  }
+  .exam-card-holder {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  .custom-exam-card {
+    min-width: 160px;
+  }
+  .practice-dashboard-container {
+    gap: 50px;
+  }
 }

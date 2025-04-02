@@ -10,6 +10,7 @@ const PublicCommentsDashboard = ({
   usersCommentsBank,
   setPracticeDashboard,
   setPublicCommentDashboard,
+  navigateTo,
 }) => {
   const [showAll, setShowAll] = useState(true);
   const [visibleComments, setVisibleComments] = useState(10);
@@ -134,8 +135,7 @@ const PublicCommentsDashboard = ({
         <Icons.HiMiniArrowLongLeft
           className="back-to-quiz-dashboard-button circlehover"
           onClick={() => {
-            setPracticeDashboard(true);
-            setPublicCommentDashboard(false);
+            navigateTo("practice");
           }}
         />
       </div>

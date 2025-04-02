@@ -21,6 +21,7 @@ const PrivateNotesDashboard = ({
   userPrivateCollectionsBank,
   questionComments,
   setQuestionComments,
+  navigateTo,
 }) => {
   return (
     <div className="private-notes-dashboard-container">
@@ -29,10 +30,7 @@ const PrivateNotesDashboard = ({
       >
         <Icons.HiMiniArrowLongLeft
           className="back-to-quiz-dashboard-button circlehover"
-          onClick={() => {
-            setPracticeDashboard(true);
-            setPrivateNoteDasboard(false);
-          }}
+          onClick={() => navigateTo("practice")}
         />
       </div>
       <div className={`pnd-sc ${isDetailVisible ? "inactive" : ""}`}>

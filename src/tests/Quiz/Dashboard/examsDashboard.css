@@ -1,0 +1,25 @@
+.exams-dashboard-container {
+  grid-template-columns: 442px 522px;
+  margin: auto;
+  width: 100%;
+  max-width: calc(min(1020px, 100%) - 14px);
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding: 50px 0px 0px 0px;
+}
+.dashboard-exam-card-holder {
+  display: flex;
+  gap: 20px;
+}
+.dashboard-exam-card-holder..custom-exam-card {
+  width: 250px;
+  height: 200px;
+  border-radius: 16px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

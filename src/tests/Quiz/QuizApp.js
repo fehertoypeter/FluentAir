@@ -4,12 +4,14 @@ import { userNotesBank } from "../../data/userLocalDatabase";
 import { userPrivateCollectionsBank } from "../../data/userLocalDatabase";
 import { usersCommentsBank } from "../../data/usersCommentsBank";
 // DASHBOARDS
+import useDashboardNavigation from "./hooks/useDashboardNavigation";
 import useNoteDashboard from "./hooks/useNoteDashboard";
 import usePrivateCollectionDashboard from "./hooks/usePrivateCollectionDashboard";
 import PracticeDashboard from "./Dashboard/practiceDashboard";
 import PrivateNotesDashboard from "./Dashboard/privateNotesDashboard";
 import PrivateCollectionsDashboard from "./Dashboard/privateCollectionsDashboard";
 import PublicCommentsDashboard from "./Dashboard/publicCommentsDashboard";
+import ExamsDashboard from "./Dashboard/examsDashboard";
 // COMPONENTS
 import ActionConfirmationPopup from "../../components/ActionConfirmationModal/ActionConfirmationModal";
 import EternalTimer from "../../components/EternalTimer/EternalTimer";
@@ -64,6 +66,7 @@ const QuizApp = ({ setTestModeOn }) => {
     setSelectedSubtopic,
     isAllDifficultiesSelected,
     filteredQuestionCount,
+    setQuestionsById,
   } = useQuizConfig();
   const {
     isDetailVisible,
@@ -108,12 +111,15 @@ const QuizApp = ({ setTestModeOn }) => {
     useState(0); // State to store the number of unanswered questions
 
   // QUIT STATUS
+
   const [practiceDashboard, setPracticeDashboard] = useState(true);
+  const [examsDashboard, setExamsDashboard] = useState(false);
   const [privateNoteDasboard, setPrivateNoteDasboard] = useState(false);
   const [privateCollectionDashboard, setPrivateCollectionDashboard] =
     useState(false);
   const [publicCommentDashboard, setPublicCommentDashboard] = useState(false);
   const [quizStarted, setQuizStarted] = useState(false);
+  const [quizConfiguration, setQuizConfiguration] = useState(false);
   const [quizFinished, setQuizFinished] = useState(false);
   const [reviewMode, setReviewMode] = useState(false); // After finishing the test, you can review the questions and answers.
   const [feedback, setFeedback] = useState(null);
@@ -422,6 +428,7 @@ const QuizApp = ({ setTestModeOn }) => {
       setQuizFinished(true);
     }
   };
+
   const navigateToQuestion = (index) => {
     setCurrentQuestionIndex(index);
     setIsAnswered(false); // Reset on new question
@@ -443,15 +450,39 @@ const QuizApp = ({ setTestModeOn }) => {
       setSelectedAnswer(null); // Clear the selected answer
     }
   };
+  // CUSTOM EXAM SETUP
+  const startTestWithQuestions = (questionIds, config = {}) => {
+    navigateTo("exam", {
+      questionIds,
+      config,
+      setQuestionsById,
+    });
+
+    setPracticeDashboard(false);
+    setQuestionsById(questionIds, config);
+    setTestModeOn(true);
+    setQuizStarted(true);
+    console.log("elindult a teszt a kártyáról.");
+
+    if (config.timeLimit !== undefined) {
+      setEternalInitialTime(config.timeLimit * 60);
+    }
+  };
 
   // QUIZ START FINNISH AND RESET
+
   const handleStartQuiz = () => {
+    navigateTo("exam", {
+      setQuestionsById,
+      config: quizConfig,
+    });
+
     setTestModeOn(true); // Hide the Navbar in the test
     console.log("Start The quiz");
     console.log("STARTER User Notes:", userNotesBank);
     console.log("STARTER user's Wrong Answers:" + userWrongAnswers);
     console.log("STARTER user's Seen Questions:" + userSeenQuestions);
-    setQuizStarted(true);
+
     filterQuestions();
   };
   const handleResetQuiz = () => {
@@ -511,18 +542,43 @@ const QuizApp = ({ setTestModeOn }) => {
         !userAnswers.some((answer) => answer.questionId === question.id)
     );
   };
+  // DASHBOARD NAVIGATION
+  const { navigateTo } = useDashboardNavigation({
+    setPracticeDashboard,
+    setExamsDashboard,
+    setPrivateNoteDasboard,
+    setPrivateCollectionDashboard,
+    setPublicCommentDashboard,
+    setQuizStarted,
+    setTestModeOn,
+    setQuizConfiguration,
+    resetAllDashboards: () => {
+      setPracticeDashboard(false);
+      setExamsDashboard(false);
+      setPrivateNoteDasboard(false);
+      setPrivateCollectionDashboard(false);
+      setPublicCommentDashboard(false);
+      setQuizStarted(false);
+      setQuizConfiguration(false);
+    },
+  });
+  const handleViewAllExams = () => navigateTo("exams");
 
   if (practiceDashboard) {
     return (
       <>
         <div>
           <PracticeDashboard
+            navigateTo={navigateTo}
             setPracticeDashboard={setPracticeDashboard}
             setPrivateNoteDashboard={setPrivateNoteDasboard}
             setPublicCommentDashboard={setPublicCommentDashboard}
             setPrivateCollectionDashboard={setPrivateCollectionDashboard}
             userNotesBank={userNotesBank}
             userPrivateCollectionsBank={userPrivateCollectionsBank}
+            startTestWithQuestions={startTestWithQuestions}
+            setExamsDashboard={setExamsDashboard}
+            onViewAllExams={handleViewAllExams}
           />
         </div>
       </>
@@ -531,6 +587,7 @@ const QuizApp = ({ setTestModeOn }) => {
   if (publicCommentDashboard) {
     return (
       <PublicCommentsDashboard
+        navigateTo={navigateTo}
         usersCommentsBank={usersCommentsBank}
         setPracticeDashboard={setPracticeDashboard}
         setPublicCommentDashboard={setPublicCommentDashboard}
@@ -540,6 +597,7 @@ const QuizApp = ({ setTestModeOn }) => {
   if (privateNoteDasboard) {
     return (
       <PrivateNotesDashboard
+        navigateTo={navigateTo}
         isDetailVisible={isDetailVisible}
         setPracticeDashboard={setPracticeDashboard}
         setPrivateNoteDasboard={setPrivateNoteDasboard}
@@ -562,6 +620,7 @@ const QuizApp = ({ setTestModeOn }) => {
   if (privateCollectionDashboard) {
     return (
       <PrivateCollectionsDashboard
+        navigateTo={navigateTo}
         setPracticeDashboard={setPracticeDashboard}
         setPrivateCollectionDashboard={setPrivateCollectionDashboard}
         isDetailVisible={isDetailVisible}
@@ -577,6 +636,16 @@ const QuizApp = ({ setTestModeOn }) => {
         questionComments={questionComments}
         setQuestionComments={setQuestionComments}
       />
+    );
+  }
+  if (examsDashboard) {
+    return (
+      <div>
+        <ExamsDashboard
+          startTestWithQuestions={startTestWithQuestions}
+          navigateTo={navigateTo}
+        />
+      </div>
     );
   }
   if (quizFinished) {
@@ -646,9 +715,26 @@ const QuizApp = ({ setTestModeOn }) => {
               </button>
             </div>
             <div className="lower-container">
-              <button className="start-quiz-button" onClick={handleResetQuiz}>
+              <button
+                className="start-quiz-button practice"
+                onClick={() => {
+                  handleResetQuiz();
+                  navigateTo("practice");
+                }}
+              >
                 <Icons.IoEnterOutline size={20} />
-                <p>Take a new test</p>
+                <p>Back to Practice</p>
+              </button>
+
+              <button
+                className="start-quiz-button"
+                onClick={() => {
+                  handleResetQuiz();
+                  navigateTo("exam-configuration");
+                }}
+              >
+                <Icons.IoEnterOutline size={20} />
+                <p>Take another test</p>
               </button>
             </div>
           </div>
@@ -656,13 +742,13 @@ const QuizApp = ({ setTestModeOn }) => {
       </div>
     );
   }
-  if (!quizStarted) {
+  if (quizConfiguration) {
     return (
       <div className="quiz-settings-screen">
         <div className="quiz-settings-topbar">
           <Icons.HiMiniArrowLongLeft
             className="back-to-quiz-dashboard-button circlehover"
-            onClick={() => setPracticeDashboard(true)}
+            onClick={() => navigateTo("practice")}
           />
         </div>
         <MessagePopup />

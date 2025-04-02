@@ -204,6 +204,7 @@
 .detail-overlay .floating-bar {
   width: calc(min(1000px, 100%) - 14px);
 }
+
 /* Animációk */
 @keyframes slideIn {
   from {

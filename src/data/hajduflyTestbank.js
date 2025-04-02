@@ -79,7 +79,10 @@ export const mainTestBank = [
         ],
         answer: "az NFM KH LH",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -97,7 +100,10 @@ export const mainTestBank = [
         answer:
           "A felszállást el kell halasztani és jelezni kell a szabálytalanságot a repülőgép üzemben tartójának.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -130,7 +136,10 @@ export const mainTestBank = [
         options: ["Annex 15", "Annex 14", "Annex 13", "Annex 12"],
         answer: "Annex 14",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -147,7 +156,10 @@ export const mainTestBank = [
         ],
         answer: "az illető állam szabályai",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -184,7 +196,10 @@ export const mainTestBank = [
         ],
         answer: " A Montreali Egyezmény (1971)",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -202,7 +217,10 @@ export const mainTestBank = [
         answer:
           "Olyan javításokat és karbantartásokat végezhet el, melyre a repülőgép üzemben tartója erre felhatalmazza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -214,7 +232,10 @@ export const mainTestBank = [
         options: ["Az ILO-val.", " Az ITU-val.", "A WHO-val.", " A WMO-val."],
         answer: "A WHO-val.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -231,7 +252,10 @@ export const mainTestBank = [
         answer:
           "akkor érvényes, ha azt a légügyi hatóság jóváhagyta és az üzemben tartó folyamatosan frissíti.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -248,7 +272,10 @@ export const mainTestBank = [
         ],
         answer: "Szabványokat és Ajánlott gyakorlatokat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -265,7 +292,10 @@ export const mainTestBank = [
         ],
         answer: " teljes és kizárólagos szuverenitás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -282,7 +312,10 @@ export const mainTestBank = [
         ],
         answer: "Budapest CTA",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -299,7 +332,10 @@ export const mainTestBank = [
         ],
         answer: "a Szerződő Államok",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -316,7 +352,10 @@ export const mainTestBank = [
         answer:
           "a karbantartó szervezet adja ki, melyben igazolja, hogy a megrendelt karbantartási vagy javítási munkákat elvégezték.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -328,7 +367,10 @@ export const mainTestBank = [
         options: ["1800.", "1500.", "1400.", "1700."],
         answer: "1400.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -345,7 +387,10 @@ export const mainTestBank = [
         ],
         answer: "A repülési naplót.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -362,7 +407,10 @@ export const mainTestBank = [
         ],
         answer: "Állandó jelleggel áthelyezett küszöb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -379,7 +427,10 @@ export const mainTestBank = [
         ],
         answer: " C- és D-osztályú légterek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -396,7 +447,10 @@ export const mainTestBank = [
         answer:
           "előzés esetén az előzés alatt álló repülőgépnek van elsőbbsége és az előzést végző repülőgépnek kell megfelelő oldaltávolságot tartania a másik repülőgéptől.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -408,7 +462,10 @@ export const mainTestBank = [
         options: ["9 óra.", "10 óra.", "12 óra.", "13 óra."],
         answer: "12 óra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -425,7 +482,10 @@ export const mainTestBank = [
         ],
         answer: "600 m – 1000 lábnál",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -443,7 +503,10 @@ export const mainTestBank = [
         answer:
           " a munkaterület rossz állapota, vagy bármely más ok miatt különleges óvatosságot kell tanúsítani a megközelítés, vagy leszállás közben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -460,7 +523,10 @@ export const mainTestBank = [
         ],
         answer: "A Római Egyezmény (1952)",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -471,7 +537,10 @@ export const mainTestBank = [
         options: ["D-osztályú", "C-osztályú", "F-osztályú", "G-osztályú"],
         answer: "C-osztályú",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -489,7 +558,10 @@ export const mainTestBank = [
         answer:
           " baleseti segélynyújtás érdekében szükséges fel- és leszállás, valamint kényszerhelyzetben szükségessé vált leszállás kivételével kizárólag repülőtéren vagy nem nyilvános fel- és leszállóhelyen szabad.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -506,7 +578,10 @@ export const mainTestBank = [
         ],
         answer: "Minden esetben ellenőriznie kell.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -522,7 +597,10 @@ export const mainTestBank = [
         ],
         answer: "igazolja a légijármű légiközlekedésre való alkalmasságát.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -539,7 +617,10 @@ export const mainTestBank = [
         ],
         answer: "Budapest CTR-ben kijelölt végső megközelítési területre",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -556,7 +637,10 @@ export const mainTestBank = [
         ],
         answer: "felségjelét és lajstromjelét.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -574,7 +658,10 @@ export const mainTestBank = [
         answer:
           " a repülőteret vitorlázógépek használják, és hogy vitorlázó repülés folyik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -590,7 +677,10 @@ export const mainTestBank = [
         ],
         answer: "fel- és leszállást bármelyik polgári repülőgép végezhet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -608,7 +698,10 @@ export const mainTestBank = [
         answer:
           "annak kell elsőbbséget adnia, amelyik a másik repülőgépet jobbról látja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -626,7 +719,10 @@ export const mainTestBank = [
         answer:
           "az indulás napja nem esik egybe a repülési terv benyújtásának napjával.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -638,7 +734,10 @@ export const mainTestBank = [
         options: ["Annex 11 és 12", "Annex 10", "Annex 8", "Annex 9"],
         answer: "Annex 11 és 12",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -654,7 +753,10 @@ export const mainTestBank = [
         ],
         answer: "a felségjelét és a lajstromjelét.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -671,7 +773,10 @@ export const mainTestBank = [
         ],
         answer: "A repülőtér nem biztonságos, ne szálljon le!",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -689,7 +794,10 @@ export const mainTestBank = [
         answer:
           "5 km, de ha a repülést olyan sebességgel hajtják végre, ami lehetővé teszi az egyéb forgalom vagy akadályok időbeni észlelését és az összeütközés elkerülését, akkor 1500 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -704,7 +812,10 @@ export const mainTestBank = [
         ],
         answer: "nemzetközi rádiótávbeszélő-kezelői engedéllyel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -721,7 +832,10 @@ export const mainTestBank = [
         ],
         answer: "a 4000 láb AMSL és 9500 láb AMSL közötti",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -737,7 +851,10 @@ export const mainTestBank = [
         ],
         answer: "csak a C-osztályú légtér ellenőrzött.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -754,7 +871,10 @@ export const mainTestBank = [
         answer:
           "A hajtómű nélküli légijármű köteles utat adni valamennyi levegőnél nehezebb, működő hajtóművel repülő légijárműnek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -770,7 +890,10 @@ export const mainTestBank = [
         ],
         answer: "A légiforgalmi irányító szolgálat felelőssége.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -787,7 +910,10 @@ export const mainTestBank = [
         ],
         answer: "a repülőtér üzembentartója – légiközlekedési hatóság",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -804,7 +930,10 @@ export const mainTestBank = [
         ],
         answer: "Budapest FIR",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -841,7 +970,10 @@ export const mainTestBank = [
         ],
         answer: "a Tanácsnak minden szabványtól való eltérést bejelentsenek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -853,7 +985,10 @@ export const mainTestBank = [
         options: ["Annex 6", " Annex 8", "Annex 12", "Annex 10"],
         answer: " Annex 8",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -869,7 +1004,10 @@ export const mainTestBank = [
         ],
         answer: "F-osztályú",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -886,7 +1024,10 @@ export const mainTestBank = [
         ],
         answer: "a 4000 láb alatti",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -923,7 +1064,10 @@ export const mainTestBank = [
         answer:
           " transzponderét C-módban kell üzemeltetnie, ha az ATS egységek kifejezetten más utasítást nem adnak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -939,7 +1083,10 @@ export const mainTestBank = [
         ],
         answer: "az “Egyéb tájékoztatások”",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -955,7 +1102,10 @@ export const mainTestBank = [
         ],
         answer: "az AIP-ben teszik közzé.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -972,7 +1122,10 @@ export const mainTestBank = [
         ],
         answer: "Közbenső várópont.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -989,7 +1142,10 @@ export const mainTestBank = [
         ],
         answer: "Kötelessége ellenőrizni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1006,7 +1162,10 @@ export const mainTestBank = [
         ],
         answer: "C-, D- és F-osztályú légterek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1018,7 +1177,10 @@ export const mainTestBank = [
         options: ["7000-es", "7500-as", " 7600-as", " 7700-as"],
         answer: " 7700-as",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1030,7 +1192,10 @@ export const mainTestBank = [
         options: ["A CTR-be és a TMA-ba", " A TMA-ba", "A CTR-be"],
         answer: "A CTR-be",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1048,7 +1213,10 @@ export const mainTestBank = [
         answer:
           "a légi közlekedés számára fizikailag igénybe vehető magasságig",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1060,7 +1228,10 @@ export const mainTestBank = [
         options: ["30 perccel", "10 perccel", "1 órával", "3 perccel"],
         answer: "10 perccel",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1077,7 +1248,10 @@ export const mainTestBank = [
         answer:
           " kötelezőek azon Szerződő Államok számára, amelyek nem jelentettek be eltérést a Tanácshoz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1092,7 +1266,10 @@ export const mainTestBank = [
         ],
         answer: "középvonalon kell végrehajtani.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1109,7 +1286,10 @@ export const mainTestBank = [
         ],
         answer: "az “Egyéb tájékoztatások” – az “OPR/”",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1126,7 +1306,10 @@ export const mainTestBank = [
         answer:
           "az előzés alatt álló légijármű jogosult a változatlan irányú repülésre, míg az előzést végző légijárműnek jobbra történő kitéréssel kell biztosítania a másik légijármű útját.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1138,7 +1321,10 @@ export const mainTestBank = [
         options: [" Hamis.", "Igaz."],
         answer: " Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1150,7 +1336,10 @@ export const mainTestBank = [
         options: ["7000-es", "7500-as", "7700-as", "7600-as"],
         answer: "7000-es",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1167,7 +1356,10 @@ export const mainTestBank = [
         ],
         answer: "A törzslapokat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1179,7 +1371,10 @@ export const mainTestBank = [
         options: ["Annex 5", "Annex 8", "Annex 6", "Annex 7"],
         answer: "Annex 7",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1196,7 +1391,10 @@ export const mainTestBank = [
         ],
         answer: "Vízszintes irányban 1500 m, függőleges irányban 300 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1213,7 +1411,10 @@ export const mainTestBank = [
         ],
         answer: "Vízszintes irányban 1500 m, függőleges irányban 300 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1230,7 +1431,10 @@ export const mainTestBank = [
         ],
         answer: "QNH 3500 láb és QNH 9000 láb között.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1247,7 +1451,10 @@ export const mainTestBank = [
         ],
         answer: "Vízszintes irányban 1500 m, függőleges irányban 300 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1264,7 +1471,10 @@ export const mainTestBank = [
         ],
         answer: "QNH 3500 láb és QNH 9000 láb között.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1295,7 +1505,10 @@ export const mainTestBank = [
         options: ["H betűt.", "M betűt.", "L betűt.", "S betűt."],
         answer: "L betűt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1306,7 +1519,10 @@ export const mainTestBank = [
         options: ["TMA.", "TIZ.", "CTR.", "CTA."],
         answer: "TIZ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1324,7 +1540,10 @@ export const mainTestBank = [
         answer:
           "Minden napszakban motorindítás előtt kell felkapcsolni, és motorleállítás után kell lekapcsolni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1341,7 +1560,10 @@ export const mainTestBank = [
         ],
         answer: "mindkettő köteles irányától jobbra kitérni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1353,7 +1575,10 @@ export const mainTestBank = [
         options: ["7000-es", "7700-as", "7600-as", "7500-as"],
         answer: "7600-as",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1370,7 +1595,10 @@ export const mainTestBank = [
         ],
         answer: "az esemény történt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1387,7 +1615,10 @@ export const mainTestBank = [
         ],
         answer: "A Tokiói Egyezmény (1963)",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1405,7 +1636,10 @@ export const mainTestBank = [
         answer:
           "A futópálya nem használható fel- és leszállásra, valamint gurulásra sem.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1422,7 +1656,10 @@ export const mainTestBank = [
         ],
         answer: "Kényszerhelyzet – MAYDAY",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1440,7 +1677,10 @@ export const mainTestBank = [
         answer:
           "az a repülőgép köteles kitérni, amelyik a másikat jobbról látja, hacsak nem vontat, mert akkor neki van elsőbbsége.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1457,7 +1697,10 @@ export const mainTestBank = [
         answer:
           "a HA- betűcsoport és az azt követő számokból vagy betűkből álló jelzés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1474,7 +1717,10 @@ export const mainTestBank = [
         ],
         answer: "Futópálya előtti várópont.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1490,7 +1736,10 @@ export const mainTestBank = [
         ],
         answer: "a piros-fehér-zöld színjelzés és a HA- betűcsoport.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1506,7 +1755,10 @@ export const mainTestBank = [
         answer:
           "A felszállást el kell halasztani és jelezni kell a szabálytalanságot a repülőgép üzemben tartójának.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1523,7 +1775,10 @@ export const mainTestBank = [
         ],
         answer: "FL660-ig.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1540,7 +1795,10 @@ export const mainTestBank = [
         answer:
           "elősegítse a repülés biztonságát a nemzetközi légiközlekedésben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1552,7 +1810,10 @@ export const mainTestBank = [
         options: ["az ICAO", "a JAA", "az EASA", "a lajstromozó állam"],
         answer: "a lajstromozó állam",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1569,7 +1830,10 @@ export const mainTestBank = [
         ],
         answer: "az oktató pilóta",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1587,7 +1851,10 @@ export const mainTestBank = [
         answer:
           "Állandó jelleggel áthelyezett küszöb. A küszöb előtti terület semmilyen feladatra nem vehető igénybe.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1605,7 +1872,10 @@ export const mainTestBank = [
         answer:
           "mindkettő köteles megállni, vagy ahol ez lehetséges, mindketten jobbra kitérni, kellő oldaltávolságot tartva.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1622,7 +1892,10 @@ export const mainTestBank = [
         ],
         answer: "A légiüzemeltetési utasítást.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1639,7 +1912,10 @@ export const mainTestBank = [
         answer:
           "fel- és leszállást polgári repülőgép csak a tulajdonos, illetve az üzemben tartó engedélye alapján végezhet, de a kényszerhelyzetben szükségessé vált leszálláshoz nem kell ilyen engedély.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1650,7 +1926,10 @@ export const mainTestBank = [
         options: ["Vörös.", "Sárga.", "Zöld.", "Fehér"],
         answer: "Sárga.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1667,7 +1946,10 @@ export const mainTestBank = [
         ],
         answer: "8 km FL100-on és felette, 5 km FL100 alatt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1679,7 +1961,10 @@ export const mainTestBank = [
         options: ["TIZ.", "CTA.", "CTR.", "FIR."],
         answer: "CTA.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1696,7 +1981,10 @@ export const mainTestBank = [
         answer:
           "belépéshez a légiközlekedési hatóság ad előzetes hatósági engedélyt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1713,7 +2001,10 @@ export const mainTestBank = [
         answer:
           "bejegyzett jogosításra és nyelvi kiterjesztésre, valamint az orvosi minősítésre meghatározott érvényességi idő együttesen határozza meg.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1725,7 +2016,10 @@ export const mainTestBank = [
         options: ["az EASA", "a KBSZ", "a rendőrség", "az NFM KH LH"],
         answer: "a KBSZ",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1742,7 +2036,10 @@ export const mainTestBank = [
         ],
         answer: "Motorindítási szándékról.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1770,7 +2067,10 @@ export const mainTestBank = [
         options: ["C0100.", "N0100.", "T0100.", "K0100."],
         answer: "N0100.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1788,7 +2088,10 @@ export const mainTestBank = [
         answer:
           "a nagyobb magasságon lévő repülőgép köteles utat adni az alacsonyabb magasságon lévő repülőgépnek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1805,7 +2108,10 @@ export const mainTestBank = [
         ],
         answer: "A repülőgép-vezető felelőssége.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1823,7 +2129,10 @@ export const mainTestBank = [
         answer:
           "A légijármű korlátozott, tiltott, vagy veszélyes légtérben halad, vagy ahhoz közeledik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1835,7 +2144,10 @@ export const mainTestBank = [
         options: ["500 m", "300 láb", "300 m", "500 láb"],
         answer: "500 láb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1853,7 +2165,10 @@ export const mainTestBank = [
         answer:
           "Felhőkön kívül, folyamatos talaj vagy vízfelszín látással kell repülni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1865,7 +2180,10 @@ export const mainTestBank = [
         options: ["Tovább haladhat.", "Nyugtázást jelent.", "Kövessen!"],
         answer: "Kövessen!",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1897,7 +2215,10 @@ export const mainTestBank = [
         options: ["X betűt.", "N betűt.", "V betűt.", "Y betűt."],
         answer: "X betűt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1914,7 +2235,10 @@ export const mainTestBank = [
         answer:
           "A forgalmi körön közlekedő repülőgépnek elsőbbsége van a forgalmi körre besoroló repülőgéppel szemben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1931,7 +2255,10 @@ export const mainTestBank = [
         ],
         answer: "Adjon utat más légijárműnek és folytassa a körözést!",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1949,7 +2276,10 @@ export const mainTestBank = [
         answer:
           "Azonnal értesíteni kell rádión az ATC-t az ütközésről, majd leszállás után a kitöltött Bird Strike Report nyomtatványt továbbítani kell a jelentések kezelését ellátó szervnek, valamint a repülőgép üzemben tartóját is értesíteni kell.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1961,7 +2291,10 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1972,7 +2305,10 @@ export const mainTestBank = [
         options: ["Zöld.", "Vörös.", "Fehér.", "Sárga."],
         answer: "Fehér.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1984,7 +2320,10 @@ export const mainTestBank = [
         options: ["Kövessen!", "Nyugtázást jelent.", "Tovább haladhat."],
         answer: "Tovább haladhat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -1996,7 +2335,10 @@ export const mainTestBank = [
         options: ["7500-as", "7600-as", "7000-es", "7700-as"],
         answer: "7500-as",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2014,7 +2356,10 @@ export const mainTestBank = [
         answer:
           "a légiközlekedés számára fizikailag igénybevehető magasságig terjedő része.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2042,7 +2387,10 @@ export const mainTestBank = [
         options: ["CTA.", "CTR.", "TMA.", "TIZ."],
         answer: "CTR.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2054,7 +2402,10 @@ export const mainTestBank = [
         options: ["F045.", "S045.", "A045.", "M045."],
         answer: "A045.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2071,7 +2422,10 @@ export const mainTestBank = [
         ],
         answer: "A Hágai Egyezmény (1970)",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2088,7 +2442,10 @@ export const mainTestBank = [
         answer:
           " azokat a szabályokat kell alkalmazni, amelyek a vele közös részt alkotó légtérre vonatkoznak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2106,7 +2463,10 @@ export const mainTestBank = [
         answer:
           "Az “A” betű a helyszínt jelöli, a sárga tábla pedig útjelző tábla a “C” gurulóút felé.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2122,7 +2482,10 @@ export const mainTestBank = [
         ],
         answer: "A hivatalos napnyugtától napkeltéig.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2139,7 +2502,10 @@ export const mainTestBank = [
         ],
         answer: "24 órával – 1 órával",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2157,7 +2523,10 @@ export const mainTestBank = [
         answer:
           "Azonnal értesíteni kell rádión az ATC-t az ütközésről, majd a rendeltetési repülőtéren kitöltött Bird Strike Report nyomtatványt továbbítani kell a jelentések kezelését ellátó szervnek, valamint a repülőgép üzemben tartóját is értesíteni kell.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2173,7 +2542,10 @@ export const mainTestBank = [
         ],
         answer: "minden esetben katonai repülésirányító szolgálat működik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2185,7 +2557,10 @@ export const mainTestBank = [
         options: ["G betűt.", "A betűt.", "N betűt.", "V betűt."],
         answer: "G betűt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2202,7 +2577,10 @@ export const mainTestBank = [
         ],
         answer: "Időszakosan korlátozott légteret",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2219,7 +2597,10 @@ export const mainTestBank = [
         ],
         answer: "A parancsnok",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2251,7 +2632,10 @@ export const mainTestBank = [
         options: ["rendelkezik.", "nem rendelkezik."],
         answer: "nem rendelkezik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2268,7 +2652,10 @@ export const mainTestBank = [
         ],
         answer: "a légijármű üzemben tartója.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2285,7 +2672,10 @@ export const mainTestBank = [
         ],
         answer: "1 500 láb vagy a látástávolság kevesebb mint 5 km",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2302,7 +2692,10 @@ export const mainTestBank = [
         ],
         answer: "A parancsnok",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2319,7 +2712,10 @@ export const mainTestBank = [
         ],
         answer: "Kényszerhelyzetben lévõ légijármû",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2337,7 +2733,10 @@ export const mainTestBank = [
         answer:
           "1 500 m vízszintes és 1 000 láb függõleges távolság a felhõktõl; 8 km látástávolság",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2349,7 +2748,10 @@ export const mainTestBank = [
         options: ["7000", "7600", "7700", "7500"],
         answer: "7000",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2366,7 +2768,10 @@ export const mainTestBank = [
         ],
         answer: "121.5 MHz - 243 MHz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2384,7 +2789,10 @@ export const mainTestBank = [
         answer:
           "Emelkedõben egy 90 fokos vagy nagyobb értékû forduló végrehajtása anélkül, hogy az elfogott légijármû repülési vonalát keresztezné.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2401,7 +2809,10 @@ export const mainTestBank = [
         ],
         answer: "A leszállófények ismételt be- és kikapcsolása",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2418,7 +2829,10 @@ export const mainTestBank = [
         ],
         answer: "A repülõtér nem biztonságos, ne szálljon le !",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2435,7 +2849,10 @@ export const mainTestBank = [
         ],
         answer: "a felszálló, vagy felszállni készülõ légijármûnek",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2452,7 +2869,10 @@ export const mainTestBank = [
         ],
         answer: "'B' légijármûnek, ha 'A' légijármûvet balról látja",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2469,7 +2889,10 @@ export const mainTestBank = [
         ],
         answer: "Minden eddigi utasítás érvénytelen, egyelõre ne szálljon le.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2481,7 +2904,10 @@ export const mainTestBank = [
         options: ["Van", "Nincs", "Elõkészületben"],
         answer: "Van",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2493,7 +2919,10 @@ export const mainTestBank = [
         options: ["ICAO", "IATA", "IFALPA"],
         answer: "ICAO",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2510,7 +2939,10 @@ export const mainTestBank = [
         ],
         answer: "Polgári Légiközlekedési Hatóság",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2522,7 +2954,10 @@ export const mainTestBank = [
         options: ["Tokiói Egyezmény", "Hágai Egyezmény", "Montreali Egyezmény"],
         answer: "Tokiói Egyezmény",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2534,7 +2969,10 @@ export const mainTestBank = [
         options: ["Hágai Egyezmény", "Montreali Egyezmény", "Tokiói Egyezmény"],
         answer: "Montreali Egyezmény",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2546,7 +2984,10 @@ export const mainTestBank = [
         options: ["Varsói Egyezmény", "Chicagói Egyezmény", "Hágai Egyezmény"],
         answer: "Hágai Egyezmény",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2557,7 +2998,10 @@ export const mainTestBank = [
         options: ["Igen", "Nem", "Felvétele folyamatban"],
         answer: "Igen",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2569,7 +3013,10 @@ export const mainTestBank = [
         options: ["Annex 1", "Annex 6", "Annex 14"],
         answer: "Annex 6",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2581,7 +3028,10 @@ export const mainTestBank = [
         options: ["Annex 1", "Annex 10", "Annex 14"],
         answer: "Annex 1",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2593,7 +3043,10 @@ export const mainTestBank = [
         options: ["Annex 2", "Annex 8", "Annex 14"],
         answer: "Annex 14",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2605,7 +3058,10 @@ export const mainTestBank = [
         options: ["50m ", "150m ", "300m "],
         answer: "150m ",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2622,7 +3078,10 @@ export const mainTestBank = [
         answer:
           "300 m a repülõgép, mint középpont körüli 600 m sugarú körön belüli legmagasabb terepakadály felett úgy, hogy leálló motorral is ki tudjunk siklani a terület fölül.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2639,7 +3098,10 @@ export const mainTestBank = [
         answer:
           "Igen, de csak érvényes repülési terv és irányítói engedély birtokában, melyet a belépés elõtt minimum 10 perccel meg kell kérni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2655,7 +3117,10 @@ export const mainTestBank = [
         answer:
           "Csak különleges engedély birtokában, illetve ferihegyi fel-, ill. leszállás esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2709,7 +3174,10 @@ export const mainTestBank = [
         ],
         answer: "Ha van, és jól mûködik",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2726,7 +3194,10 @@ export const mainTestBank = [
         answer:
           "'C' és 'D' légtérben FL 100 fölött 8 km, alatta 5km, 'F' és 'G' légtérben 5 km",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2742,7 +3213,10 @@ export const mainTestBank = [
         answer:
           "'C','D' és 'F' légtérben 1500 m vízszintes, 300 m függõleges, 'G' légtérben a felhõkön kívül kell tartózkodni, folyamatos talajlátás szükséges",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2754,7 +3228,10 @@ export const mainTestBank = [
         options: ["N0180", "K0210", "K0180", "K0150"],
         answer: "N0180",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2766,7 +3243,10 @@ export const mainTestBank = [
         options: ["1+5", "1+2+3", "3+4+5", "2+4"],
         answer: "2+4",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2778,7 +3258,10 @@ export const mainTestBank = [
         options: ["7500", "7600", "7700", "6700"],
         answer: "7600",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2796,7 +3279,10 @@ export const mainTestBank = [
         answer:
           "Képtelen a rádiókapcsolat felvételére a rádiókészülék meghibásodása miatt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2812,7 +3298,10 @@ export const mainTestBank = [
         ],
         answer: "Kétszer a kijelölt frekvencián.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2829,7 +3318,10 @@ export const mainTestBank = [
         ],
         answer: "Rádióhiba esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2840,7 +3332,10 @@ export const mainTestBank = [
         options: ["6500 KHz", "122.500 MHz", "121.500 MHz", "121.050 MHz"],
         answer: "121.500 MHz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2852,7 +3347,10 @@ export const mainTestBank = [
         options: ["6700", "7500", "7600", "7700"],
         answer: "7700",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2869,7 +3367,10 @@ export const mainTestBank = [
         ],
         answer: "Vészhelyzetben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2886,7 +3387,10 @@ export const mainTestBank = [
         answer:
           "Olyan állapot , amikor a légijármû , vagy más jármûvek , vagy a fedélzeten tartózkodó személyek biztonsága veszélyben van , de nincs szükség azonnali beavatkozásra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2902,7 +3406,10 @@ export const mainTestBank = [
         ],
         answer: "PAN PAN , háromszor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2914,7 +3421,10 @@ export const mainTestBank = [
         options: ["EAS", "TAS", "IAS", "becsült GS"],
         answer: "TAS",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2932,7 +3442,10 @@ export const mainTestBank = [
         answer:
           "Egy betüvel - pl. 2 párhuzamos futópálya esetén 'L' és 'R', 3 futópálya esetén 'L', 'C' és 'R'.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2949,7 +3462,10 @@ export const mainTestBank = [
         ],
         answer: "A repülõtéren repülõtéri irányító toronynak kell mûködnie.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2961,7 +3477,10 @@ export const mainTestBank = [
         options: ["7500", "7600", "7700", "7000"],
         answer: "7700",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2973,7 +3492,10 @@ export const mainTestBank = [
         options: ["Code 7700.", "Code 7500.", "Code 7600.", "Code 2000."],
         answer: "Code 7500.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -2991,7 +3513,10 @@ export const mainTestBank = [
         answer:
           "kevesebb, mint 1000 láb magasságon a repülõgép 600 m-es körzetében található legmagasabb akadályhoz képest.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -3008,7 +3533,10 @@ export const mainTestBank = [
         answer:
           "Igen, de csak érvényes repülési terv és irányítói engedély birtokában, melyet a belépés elõtt minimum 10 perccel meg kell kérni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -3024,7 +3552,10 @@ export const mainTestBank = [
         answer:
           "Csak külön engedély birtokában, illetve ferihegyi fel-, leszállás esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -3039,7 +3570,10 @@ export const mainTestBank = [
         ],
         answer: "Ha az átváltási magasságon, vagy alatta fogunk repülni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -3055,7 +3589,10 @@ export const mainTestBank = [
         ],
         answer: "Az átváltási szinten és fölötte repülve.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -3066,7 +3603,10 @@ export const mainTestBank = [
         options: ["A,B,C,D,F,G", "A,C,F,G", "A,C,D,F,G"],
         answer: "A,C,D,F,G",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -3083,7 +3623,10 @@ export const mainTestBank = [
         answer:
           "'C' és 'D' légtérben FL100 fölött 8 km, alatta 5 km, 'F' és 'G' légtérben 5 km.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
@@ -3099,7 +3642,10 @@ export const mainTestBank = [
         answer:
           "'C','D' és 'F' légtérben 1500 m vízszintes, 300 m függõleges, 'G' légtérben a felhõkön kívûl kell tartózkodni, folyamatos talajlátás szükséges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
     ],
@@ -3108,7 +3654,7 @@ export const mainTestBank = [
     topic: "Légijármű álltalános ismeretek",
     questions: [
       {
-        id: "question-1",
+        id: "question-197",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3128,7 +3674,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-2",
+        id: "question-198",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3136,11 +3682,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-3",
+        id: "question-199",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A behúzható futóműves típusoknál … 20-25%-kal csökken.",
@@ -3151,11 +3700,14 @@ export const mainTestBank = [
         ],
         answer: "a káros ellenállás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-4",
+        id: "question-200",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A CAS sebesség …",
@@ -3168,11 +3720,14 @@ export const mainTestBank = [
         answer:
           "meghatározása a Pitot-statikus rendszer beépítési hibái miatt szükséges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-5",
+        id: "question-201",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3185,11 +3740,14 @@ export const mainTestBank = [
         ],
         answer: "Bármelyik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-6",
+        id: "question-202",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -3202,11 +3760,14 @@ export const mainTestBank = [
         ],
         answer: "Boxermotor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-7",
+        id: "question-203",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3214,11 +3775,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-8",
+        id: "question-204",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3226,11 +3790,14 @@ export const mainTestBank = [
         options: ["Nem változik.", "Csökken.", "Nő."],
         answer: "Nem változik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-9",
+        id: "question-205",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3238,11 +3805,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-10",
+        id: "question-206",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3255,11 +3825,14 @@ export const mainTestBank = [
         ],
         answer: "a statikus nyomást – aneroid szelence.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-11",
+        id: "question-207",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3273,11 +3846,14 @@ export const mainTestBank = [
         answer:
           "Átesés, forduló 90°-os bedöntésig, dugóhúzó (ha a gyártó engedi), laza nyolcas, gyertya.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-12",
+        id: "question-208",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3289,11 +3865,14 @@ export const mainTestBank = [
         ],
         answer: "A magasabban közlekedőnek kisebb az IAS sebessége.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-13",
+        id: "question-209",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3305,11 +3884,14 @@ export const mainTestBank = [
         ],
         answer: "A fixnyerges tárcsafékre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-14",
+        id: "question-210",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3317,11 +3899,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-15",
+        id: "question-211",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A Pitot-csőből származó nyomás …",
@@ -3333,11 +3918,14 @@ export const mainTestBank = [
         ],
         answer: "a dinamikus és a statikus nyomás összege.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-16",
+        id: "question-212",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3345,11 +3933,14 @@ export const mainTestBank = [
         options: ["Hamis", "Igaz"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-17",
+        id: "question-213",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3362,11 +3953,14 @@ export const mainTestBank = [
         ],
         answer: "Kompresszió vagy expanzió",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-18",
+        id: "question-214",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3374,11 +3968,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-19",
+        id: "question-215",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3390,11 +3987,14 @@ export const mainTestBank = [
         ],
         answer: "A rácsszerkezetű törzset.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-20",
+        id: "question-216",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A szelephézag …",
@@ -3406,11 +4006,14 @@ export const mainTestBank = [
         ],
         answer: "kialakításának oka a szelepszár üzem közbeni hőtágulása.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-21",
+        id: "question-217",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3422,11 +4025,14 @@ export const mainTestBank = [
         ],
         answer: "A magasabban közlekedőnek nagyobb a TAS sebessége.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-22",
+        id: "question-218",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Orrkerekes elrendezésnél a súlypont …",
@@ -3437,11 +4043,14 @@ export const mainTestBank = [
         ],
         answer: "a főfutók előtt van.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-23",
+        id: "question-219",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -3454,11 +4063,14 @@ export const mainTestBank = [
         ],
         answer: "Kb. 3,2 órán keresztül.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-24",
+        id: "question-220",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A TAS sebesség …",
@@ -3471,11 +4083,14 @@ export const mainTestBank = [
         answer:
           "meghatározása a légkör sűrűségváltozása miatt, navigációs számítások elvégzése érdekében szükséges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-25",
+        id: "question-221",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3488,11 +4103,14 @@ export const mainTestBank = [
         ],
         answer: "turbulens időjárásban már nem",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-26",
+        id: "question-222",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question: "A csavaró igénybevételt előidéző nyomaték síkja a rúd …",
@@ -3502,11 +4120,14 @@ export const mainTestBank = [
         ],
         answer: "tengelyére merőleges helyzetű.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-27",
+        id: "question-223",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -3519,11 +4140,14 @@ export const mainTestBank = [
         ],
         answer: "a feszültség",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-28",
+        id: "question-224",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A kompozit repülőgép törzse tipikusan …",
@@ -3534,11 +4158,14 @@ export const mainTestBank = [
         ],
         answer: "tiszta héjszerkezetű.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-29",
+        id: "question-225",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3546,11 +4173,14 @@ export const mainTestBank = [
         options: ["A futómű kibocsátásakor", " A futómű behúzásakor."],
         answer: "A futómű kibocsátásakor",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-30",
+        id: "question-226",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A hidro-pneumatikus rugóstagokban …",
@@ -3563,11 +4193,14 @@ export const mainTestBank = [
         answer:
           "a csillapítást az olaj adja, a rugalmasságot pedig levegő vagy gáz biztosítja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-31",
+        id: "question-227",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3575,22 +4208,28 @@ export const mainTestBank = [
         options: ["kisebb", "nagyobb", "ugyanakkora"],
         answer: "nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-32",
+        id: "question-228",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A kenőolajok viszkozitása a hőmérséklet …",
         options: ["növekedésével nő.", "csökkenésével nő."],
         answer: "csökkenésével nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-33",
+        id: "question-229",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3602,11 +4241,14 @@ export const mainTestBank = [
         ],
         answer: "a futómű, a fékszárny, az orrsegédszárny.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-34",
+        id: "question-230",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Az eloxálással …",
@@ -3617,22 +4259,28 @@ export const mainTestBank = [
         ],
         answer: "alumíniumötvözetek korrózióvédelmét biztosítják.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-35",
+        id: "question-231",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "A repülőgépek elektromos rendszere jellemzően …",
         options: ["váltakozó áramú.", "egyenáramú."],
         answer: "egyenáramú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-36",
+        id: "question-232",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3645,11 +4293,14 @@ export const mainTestBank = [
         ],
         answer: "a beépítési hiba miatt adódik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-37",
+        id: "question-233",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question:
@@ -3662,11 +4313,14 @@ export const mainTestBank = [
         ],
         answer: "központos húzó vagy nyomó igénybevétel jön létre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-38",
+        id: "question-234",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A statikus port a levegő …",
@@ -3676,11 +4330,14 @@ export const mainTestBank = [
         ],
         answer: "áramlására merőlegesen helyezkedik el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-39",
+        id: "question-235",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3688,11 +4345,14 @@ export const mainTestBank = [
         options: ["lb", "PSI", "kg/m3", "N · m2"],
         answer: "PSI",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-40",
+        id: "question-236",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A valódi magasság nem más, mint …",
@@ -3704,11 +4364,14 @@ export const mainTestBank = [
         ],
         answer: "a közepes tengerszint feletti tényleges magasság.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-41",
+        id: "question-237",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3721,11 +4384,14 @@ export const mainTestBank = [
         ],
         answer: "a legrosszabbul hűtött hengerre vonatkozik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-42",
+        id: "question-238",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3738,11 +4404,14 @@ export const mainTestBank = [
         ],
         answer: "Az alsószárnyas elrendezés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-43",
+        id: "question-239",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -3755,11 +4424,14 @@ export const mainTestBank = [
         ],
         answer: "Az ellenállás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-44",
+        id: "question-240",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A repülési magasság mérése … mérésén alapul.",
@@ -3771,11 +4443,14 @@ export const mainTestBank = [
         ],
         answer: "a statikus nyomás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-45",
+        id: "question-241",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Kétoldali állításúnak nevezzük a légcsavarvezérlőt, ha …",
@@ -3785,11 +4460,14 @@ export const mainTestBank = [
         ],
         answer: "mindkét oldalra hidraulikus munkahenger állít.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-46",
+        id: "question-242",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question:
@@ -3800,11 +4478,14 @@ export const mainTestBank = [
         ],
         answer: "de nem szenved hosszváltozást.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-47",
+        id: "question-243",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A repülési szint (flight level) nem más, mint …",
@@ -3816,11 +4497,14 @@ export const mainTestBank = [
         ],
         answer: "nyomásmagasság.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-48",
+        id: "question-244",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -3832,22 +4516,28 @@ export const mainTestBank = [
         answer:
           "Ha a gumiabroncs felületén apró repedéseket találunk, akkor még nem kell lecserélni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-49",
+        id: "question-245",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A felületi terhelés képlete: …",
         options: ["G/Y", "Y/G", "Y/X", "G/A"],
         answer: "G/A",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-50",
+        id: "question-246",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3860,11 +4550,14 @@ export const mainTestBank = [
         ],
         answer: "normál üzemi",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-51",
+        id: "question-247",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question:
@@ -3875,11 +4568,14 @@ export const mainTestBank = [
         ],
         answer: "nyíró igénybevételről beszélünk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-52",
+        id: "question-248",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -3892,11 +4588,14 @@ export const mainTestBank = [
         answer:
           "Ha a repülési magasságon adódó léghőmérséklet alacsonyabb, mint amit ott a NEL meghatároz, akkor a repülőgép alacsonyabban van a műszer szerinti magassághoz képest.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-53",
+        id: "question-249",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3904,11 +4603,14 @@ export const mainTestBank = [
         options: ["3 – 360 – 2", "2 – 360 – 3", "2 – 180 – 1,5", "1 – 360 – 6"],
         answer: "2 – 360 – 3",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-54",
+        id: "question-250",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -3919,11 +4621,14 @@ export const mainTestBank = [
         ],
         answer: "A repülőgép súlyának csökkenésével Va értéke alacsonyabb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-55",
+        id: "question-251",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A Bourdon-cső … mérésére használt szerkezet.",
@@ -3935,11 +4640,14 @@ export const mainTestBank = [
         ],
         answer: "nyomás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-56",
+        id: "question-252",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -3952,22 +4660,28 @@ export const mainTestBank = [
         ],
         answer: "két – vízszintes",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-57",
+        id: "question-253",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Súlytalanság esetén az n terhelési többes …",
         options: ["n &gt; 0", "n &lt; 0", "n &lt; 0", "n = 0"],
         answer: "n = 0",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-58",
+        id: "question-254",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A differenciált csűrőlapokat …",
@@ -3978,11 +4692,14 @@ export const mainTestBank = [
         ],
         answer: "az ellentétes fordulónyomaték csökkentésére alkalmazzák.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-59",
+        id: "question-255",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -3995,11 +4712,14 @@ export const mainTestBank = [
         ],
         answer: "Átesés, forduló 60°-os bedöntésig, laza nyolcas, gyertya.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-60",
+        id: "question-256",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -4007,11 +4727,14 @@ export const mainTestBank = [
         options: ["108 kt", "83 kt", "133 kt", "133kt"],
         answer: "108 kt",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-61",
+        id: "question-257",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4019,22 +4742,28 @@ export const mainTestBank = [
         options: ["nagyobb", "ugyanakkora", "kisebb"],
         answer: "kisebb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-62",
+        id: "question-258",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A szegecselés …",
         options: ["oldható kötés.", "nem oldható kötés."],
         answer: "nem oldható kötés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-63",
+        id: "question-259",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -4042,11 +4771,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-64",
+        id: "question-260",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4054,11 +4786,14 @@ export const mainTestBank = [
         options: ["nem oldható kötések.", "oldható kötések."],
         answer: "oldható kötések.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-65",
+        id: "question-261",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4072,22 +4807,28 @@ export const mainTestBank = [
         answer:
           "a bal oldali lefelé kevésbé tér ki, mint a jobb oldali felfelé.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-66",
+        id: "question-262",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A terhelési többes képlete:",
         options: ["Y/X", "Y/G", "G/Y", "G/A"],
         answer: "Y/G",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-67",
+        id: "question-263",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question: "A húzódiagram szakaszai sorrendben:",
@@ -4100,11 +4841,14 @@ export const mainTestBank = [
         answer:
           "rugalmas szakasz, képlékeny szakasz, keményedő szakasz, majd nagy nyúlás és szakadás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-68",
+        id: "question-264",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -4117,22 +4861,28 @@ export const mainTestBank = [
         answer:
           "Üzemképtelen akkumulátor mellett az alternátor nem fejleszt áramot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-69",
+        id: "question-265",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A csűrő-flatter …",
         options: ["öngerjesztett lengés.", "kényszerrezgés."],
         answer: "öngerjesztett lengés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-70",
+        id: "question-266",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4140,11 +4890,14 @@ export const mainTestBank = [
         options: ["10 Ah-ás.", "40 Ah-ás.", "18 Ah-ás.", "22 Ah-ás."],
         answer: "40 Ah-ás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-71",
+        id: "question-267",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4155,11 +4908,14 @@ export const mainTestBank = [
         ],
         answer: "egyenáramú generátor – az alternátorról",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-72",
+        id: "question-268",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4172,11 +4928,14 @@ export const mainTestBank = [
         ],
         answer: "A kommutátor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-73",
+        id: "question-269",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4189,11 +4948,14 @@ export const mainTestBank = [
         ],
         answer: "108,000-118,000 MHz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-74",
+        id: "question-270",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4201,11 +4963,14 @@ export const mainTestBank = [
         options: ["Az elsődleges", "A másodlagos"],
         answer: "Az elsődleges",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-75",
+        id: "question-271",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -4221,7 +4986,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-76",
+        id: "question-272",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A dőlés- és elfordulásjelző …",
@@ -4234,11 +4999,14 @@ export const mainTestBank = [
         answer:
           "nem ad információt sem a bedöntési, sem a bólintási szögről a forduló során.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-77",
+        id: "question-273",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Melyik egyenlőség igaz?",
@@ -4251,11 +5019,14 @@ export const mainTestBank = [
         answer:
           "törő terhelési többes / biztonsági tényező = megengedett terhelési többes",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-78",
+        id: "question-274",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4268,11 +5039,14 @@ export const mainTestBank = [
         ],
         answer: "A duplaszárnyas elrendezés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-79",
+        id: "question-275",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4280,11 +5054,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-80",
+        id: "question-276",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Szerkezeti kialakítás szempontjából a szárny lehet …",
@@ -4295,11 +5072,14 @@ export const mainTestBank = [
         ],
         answer: "tartószerkezetes, félhéjszerkezetű vagy héjszerkezetű.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-81",
+        id: "question-277",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A repülőgép valódi sebességét … számoljuk ki.",
@@ -4312,11 +5092,14 @@ export const mainTestBank = [
         answer:
           "ha az összenyomhatósági hibát figyelmen kívül hagyhatjuk, akkor – a kalibrált sebességből",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-82",
+        id: "question-278",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A QFE-re állított magasságmérő az adott repülőtéren …",
@@ -4327,11 +5110,14 @@ export const mainTestBank = [
         ],
         answer: "0-t mutat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-83",
+        id: "question-279",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Két 12 V-os és 40 Ah-s akkumulátort sorba kötve …",
@@ -4343,22 +5129,28 @@ export const mainTestBank = [
         ],
         answer: "egy 24 V-os és 40 Ah-ás áramforrást kapunk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-84",
+        id: "question-280",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Ha a levegő nyugodt, a Vne sebességet még átléphetjük.",
         options: ["Igaz.", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-85",
+        id: "question-281",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -4371,11 +5163,14 @@ export const mainTestBank = [
         ],
         answer: "kitérített fékszárnnyal repülhető",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-86",
+        id: "question-282",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -4396,7 +5191,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-87",
+        id: "question-283",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -4408,11 +5203,14 @@ export const mainTestBank = [
         ],
         answer: "az inklinációt – a deviációt – a deklinációt",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-88",
+        id: "question-284",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Az egyszerű sebességmérés …",
@@ -4423,11 +5221,14 @@ export const mainTestBank = [
         ],
         answer: "Vidi-szelence segítségével történik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-89",
+        id: "question-285",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A félhéjszerkezetű törzs alapvető teherviselő elemei: …",
@@ -4439,11 +5240,14 @@ export const mainTestBank = [
         ],
         answer: "a borítás, a törzskeretek és a hosszmerevítők.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-90",
+        id: "question-286",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4456,22 +5260,28 @@ export const mainTestBank = [
         ],
         answer: "A generátor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-91",
+        id: "question-287",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A bimetál … mérésére használt szerkezet.",
         options: ["sebesség", "hőmérséklet", "magasság", "nyomás"],
         answer: "hőmérséklet",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-92",
+        id: "question-288",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A repülőbenzin jelölő színkódja: …",
@@ -4483,22 +5293,28 @@ export const mainTestBank = [
         answer:
           "kisebb részben kék, nagyobb részben piros, a kettő között fehér elválasztó csíkkak",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-93",
+        id: "question-289",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Mekkora a 12 V-os akkumulátor kisütési végfeszültsége?",
         options: ["6 V", "2 V", "10,5 V", "1,75 V"],
         answer: "10,5 V",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-94",
+        id: "question-290",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question:
@@ -4506,11 +5322,14 @@ export const mainTestBank = [
         options: ["is megtartják.", "nem tartják meg."],
         answer: "is megtartják.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-95",
+        id: "question-291",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question:
@@ -4523,11 +5342,14 @@ export const mainTestBank = [
         answer:
           "az oldalirányú erő megszüntetése után maradó alakváltozást szenved.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-96",
+        id: "question-292",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A fordulóban az n terhelési többes …",
@@ -4542,7 +5364,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-97",
+        id: "question-293",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4563,7 +5385,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-98",
+        id: "question-294",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question:
@@ -4579,7 +5401,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-99",
+        id: "question-295",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Mi a rendeltetése a porlasztónak?",
@@ -4600,7 +5422,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-100",
+        id: "question-296",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A szárnyra ható légerők és tömegerők a szerkezetét …",
@@ -4620,7 +5442,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-101",
+        id: "question-297",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4636,7 +5458,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-102",
+        id: "question-298",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Mi a primer befecskendező?",
@@ -4649,11 +5471,14 @@ export const mainTestBank = [
         answer:
           "Kézi működtetésű tüzelőanyag-pumpa, mellyel a motor hidegindításakor a porlasztót megkerülve, közvetlenül a hengerekbe (vagy a szívócsőbe) fecskendezhetünk többlet tüzelőanyagot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-103",
+        id: "question-299",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A vízszintes vezérsík jellemzően …",
@@ -4672,7 +5497,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-104",
+        id: "question-300",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4688,7 +5513,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-105",
+        id: "question-301",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A terhelési többes a repülés során …",
@@ -4709,18 +5534,21 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-106",
+        id: "question-302",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Az elektromos rendszer feszültség-szabályzását … végzi.",
         options: ["a dióda-tömb", "a kommutátor", "a kontaktor", "a regulátor"],
         answer: "a regulátor",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-107",
+        id: "question-303",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question:
@@ -4728,11 +5556,14 @@ export const mainTestBank = [
         options: ["nyírásra", "csavarásra", "hajlításra"],
         answer: "csavarásra",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-108",
+        id: "question-304",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4745,11 +5576,14 @@ export const mainTestBank = [
         ],
         answer: "Úszós-potenciométeres tüzelőanyagszint-mérő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-109",
+        id: "question-305",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Hogyan kell eljárni egy biztosíték leoldása esetén?",
@@ -4761,11 +5595,14 @@ export const mainTestBank = [
         answer:
           "A biztosíték normál körülmények között is leoldhat, ezért ha nem tapasztalunk égett szagot vagy füstöt, akkor egyszer kicserélhetjük vagy visszanyomhatjuk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-110",
+        id: "question-306",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4773,11 +5610,14 @@ export const mainTestBank = [
         options: ["Hamis", "Igaz"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-111",
+        id: "question-307",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Az oktánszám a benzin … jellemzi?",
@@ -4789,11 +5629,14 @@ export const mainTestBank = [
         ],
         answer: "kompressziótűrését",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-112",
+        id: "question-308",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4807,11 +5650,14 @@ export const mainTestBank = [
         answer:
           "a repülőgép motorja be fog indulni, de az alternátor nem fog áramot termelni, míg a generátor ilyenkor is működni fog.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-113",
+        id: "question-309",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -4825,11 +5671,14 @@ export const mainTestBank = [
         answer:
           "A QNH 1001-t használó repülőgép kb. 510 lábbal magasabban közlekedik a QNH 1018-t használó repülőgéphez képest.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-114",
+        id: "question-310",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A borítás is részt vesz a teherviselésben …",
@@ -4841,11 +5690,14 @@ export const mainTestBank = [
         ],
         answer: "a félhéj- és a héjszerkezetű szárnyaknál.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-115",
+        id: "question-311",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "A repülőgép akkumulátora …",
@@ -4856,11 +5708,14 @@ export const mainTestBank = [
         ],
         answer: "egyenáramú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-116",
+        id: "question-312",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A sebességmérő zárt műszerházába …",
@@ -4871,11 +5726,14 @@ export const mainTestBank = [
         ],
         answer: "a statikus nyomást vezetik be.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-117",
+        id: "question-313",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4883,11 +5741,14 @@ export const mainTestBank = [
         options: ["acélötvözetek", "vasöntvények", "alumíniumötvözetek"],
         answer: "alumíniumötvözetek",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-118",
+        id: "question-314",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4900,11 +5761,14 @@ export const mainTestBank = [
         ],
         answer: "csavaró igénybevételt felvegye.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-119",
+        id: "question-315",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -4917,11 +5781,14 @@ export const mainTestBank = [
         ],
         answer: "értékéhez 2%-ot 1000 lábanként hozzáadunk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-120",
+        id: "question-316",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4933,11 +5800,14 @@ export const mainTestBank = [
         ],
         answer: "A szárnya, a vízszintes vezérsíkja és futóműve.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-121",
+        id: "question-317",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4951,11 +5821,14 @@ export const mainTestBank = [
         answer:
           "beállítási szöge nagy, tehát vonóereje viszonylag nagy sebességeknél nagy.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-122",
+        id: "question-318",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4963,11 +5836,14 @@ export const mainTestBank = [
         options: ["Hamis", "Igaz"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-123",
+        id: "question-319",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -4980,11 +5856,14 @@ export const mainTestBank = [
         answer:
           "külső átmérője 26 inch; szélessége 7,75 inch; belső átmérője 13 inch; terhelhetősége 10; a maximális üzemi sebességhatár 210MPH.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-124",
+        id: "question-320",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -4992,11 +5871,14 @@ export const mainTestBank = [
         options: ["Hamis", "Igaz"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-125",
+        id: "question-321",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A kormánylapok súlykiegyenlítése …",
@@ -5008,11 +5890,14 @@ export const mainTestBank = [
         ],
         answer: "a flatter jelenség miatt szükséges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-126",
+        id: "question-322",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A simmizés lehetősége nagyobb …",
@@ -5024,11 +5909,14 @@ export const mainTestBank = [
         ],
         answer: "kisnyomású abroncs és szimpla kerékfelépítés esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-127",
+        id: "question-323",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -5041,11 +5929,14 @@ export const mainTestBank = [
         ],
         answer: "Az Irwing-féle kiegyenlítésé.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-128",
+        id: "question-324",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -5056,11 +5947,14 @@ export const mainTestBank = [
         answer:
           "A hajtómű kiegyensúlyozatlan tömegerői a bekötésen keresztül még csillapítás mellett is átadódnak a repülőgépre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-129",
+        id: "question-325",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -5073,11 +5967,14 @@ export const mainTestBank = [
         answer:
           "A kisnyomású abroncsokban jellemzően 2 bar nyomás van és munkafelvevő képességük nagy.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-130",
+        id: "question-326",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -5090,22 +5987,28 @@ export const mainTestBank = [
         ],
         answer: "alacsony – túlszegényedése – nagy – alacsony",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-131",
+        id: "question-327",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Mit nevezünk alacsonyabb frekvenciájú periodikus mozgásnak?",
         options: ["A lengést.", "A rezgést.", "A rezonanciát."],
         answer: "A lengést.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-132",
+        id: "question-328",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A durál ötvözetek …",
@@ -5116,11 +6019,14 @@ export const mainTestBank = [
         ],
         answer: "alumíniumötvözetek magnézium és réz ötvözővel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-133",
+        id: "question-329",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Osztott elrendezésnek nevezzük …",
@@ -5131,11 +6037,14 @@ export const mainTestBank = [
         ],
         answer: "a H-vezérsíkokat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-134",
+        id: "question-330",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5148,11 +6057,14 @@ export const mainTestBank = [
         ],
         answer: "kb. 1-1,5 cm-rel – desztillált vizet",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-135",
+        id: "question-331",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A futómű terhelését …",
@@ -5165,11 +6077,14 @@ export const mainTestBank = [
         answer:
           "hatásjelleg alapján dinamikus, megoszlás alapján koncentrált erők hozzák létre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-136",
+        id: "question-332",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5180,11 +6095,14 @@ export const mainTestBank = [
         ],
         answer: "Az egyenáramú generátor – Az alternátor",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-137",
+        id: "question-333",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5198,11 +6116,14 @@ export const mainTestBank = [
         answer:
           "A “BAT” kapcsoló az akkumulátor feszültséget kapcsolja rá az elektromos rendszerre. Az “ALT” kapcsoló pedig külön kapcsolja az alternátor gerjesztését az akkumulátorról.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-138",
+        id: "question-334",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Egy 28 V-os elektromos rendszerhez …",
@@ -5214,11 +6135,14 @@ export const mainTestBank = [
         ],
         answer: "24 V-os akkumulátor tartozik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-139",
+        id: "question-335",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5226,11 +6150,14 @@ export const mainTestBank = [
         options: ["Hamis", "Igaz"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-140",
+        id: "question-336",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5243,11 +6170,14 @@ export const mainTestBank = [
         ],
         answer: "-20 A-t – 0 A-t.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-141",
+        id: "question-337",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5261,11 +6191,14 @@ export const mainTestBank = [
         answer:
           "Ameddig az akkumulátor le nem merül, el fogja látni az elektromos fogyasztókat árammal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-142",
+        id: "question-338",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -5277,11 +6210,14 @@ export const mainTestBank = [
         ],
         answer: "Vegyes építésű motorágy.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-143",
+        id: "question-339",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5289,11 +6225,14 @@ export const mainTestBank = [
         options: ["Hamis", "Igaz"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-144",
+        id: "question-340",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -5301,11 +6240,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-145",
+        id: "question-341",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question: "Ha rövid, zömök rudat bizonyos erővel összenyomunk, akkor …",
@@ -5316,11 +6258,14 @@ export const mainTestBank = [
         ],
         answer: "hosszmérete csökken, keresztmetszete pedig nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-146",
+        id: "question-342",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5332,11 +6277,14 @@ export const mainTestBank = [
         answer:
           "az akkumulátorba és az akkumulátorból folyó áram erősségét mutatja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-147",
+        id: "question-343",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A szelencés variométer …",
@@ -5349,22 +6297,28 @@ export const mainTestBank = [
         answer:
           "műszerházába és Vidi-szelencéjébe is a statikus nyomást vezetik be.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-148",
+        id: "question-344",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Mi az elektromos feszültség mértékegysége?",
         options: ["Watt.", "Amper.", "Ohm.", "Volt."],
         answer: "Volt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-149",
+        id: "question-345",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -5378,11 +6332,14 @@ export const mainTestBank = [
         answer:
           "maradó alakváltozás vagy törés léphet fel a repülőgép szerkezetében.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-150",
+        id: "question-346",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Az északi fordulati hiba miatt az iránytű …",
@@ -5395,11 +6352,14 @@ export const mainTestBank = [
         answer:
           "az északi irányú fordulónál késik, déli irányú fordulónál siet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-151",
+        id: "question-347",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -5412,11 +6372,14 @@ export const mainTestBank = [
         ],
         answer: "az 1:15-ös arányhoz közeli lesz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-152",
+        id: "question-348",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A fafelületek korrózióvédelmét …",
@@ -5427,11 +6390,14 @@ export const mainTestBank = [
         ],
         answer: "festéssel oldják meg.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-153",
+        id: "question-349",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A EAS sebesség …",
@@ -5444,11 +6410,14 @@ export const mainTestBank = [
         answer:
           "meghatározása a levegő összenyomhatóságából származó mérési hiba miatt szükséges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-154",
+        id: "question-350",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Egy felsőszárnyas repülőgép szárnya …",
@@ -5459,11 +6428,14 @@ export const mainTestBank = [
         ],
         answer: "lehet szabadonhordó és dúcolt is.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-155",
+        id: "question-351",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5474,11 +6446,14 @@ export const mainTestBank = [
         ],
         answer: "az alternátor – az egyenáramú generátor",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-156",
+        id: "question-352",
         subtopic: "SZILÁRDSÁGTAN",
         difficulty: "easy",
         question:
@@ -5486,11 +6461,14 @@ export const mainTestBank = [
         options: ["Hamis", "Igaz"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-157",
+        id: "question-353",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A hidraulikus rugóstagokban …",
@@ -5502,11 +6480,14 @@ export const mainTestBank = [
         ],
         answer: "A rugózó és a csillapító elem is folyadék.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-158",
+        id: "question-354",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -5519,11 +6500,14 @@ export const mainTestBank = [
         answer:
           "segíthetünk a keverék dúsításával, mert az a hengerfej-hőmérséklet csökkenése irányába hat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-159",
+        id: "question-355",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -5535,11 +6519,14 @@ export const mainTestBank = [
         answer:
           "Ha a gumiabroncson és a keréktárcsán látható szerelési jelek még éppen összeérnek, akkor a gumival nincs teendő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-160",
+        id: "question-356",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A legintenzívebb léghűtés …",
@@ -5550,11 +6537,14 @@ export const mainTestBank = [
         ],
         answer: "csillagmotor esetén érhető el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-161",
+        id: "question-357",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -5567,22 +6557,28 @@ export const mainTestBank = [
         ],
         answer: "szeleptányérnak",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-162",
+        id: "question-358",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Mi az elektromos teljesítmény mértékegysége?",
         options: ["Watt", "Volt", "Ohm", "Amper"],
         answer: "Watt",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-163",
+        id: "question-359",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -5595,11 +6591,14 @@ export const mainTestBank = [
         ],
         answer: "magas nyomású, hideg és száraz levegőben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-164",
+        id: "question-360",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -5611,11 +6610,14 @@ export const mainTestBank = [
         ],
         answer: "A sodronyköteles kormányvezérlésre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-165",
+        id: "question-361",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -5629,11 +6631,14 @@ export const mainTestBank = [
         answer:
           "a tüzelőanyag fogyásával ne alakuljon ki vákuum a tartályokban.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-166",
+        id: "question-362",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A fordulatszámmérő …",
@@ -5645,22 +6650,28 @@ export const mainTestBank = [
         answer:
           "légcsavartípustól függően a motor főtengely vagy a légcsavartengely fordulatszámáról tájékoztat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-167",
+        id: "question-363",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A gumiabroncs futófelületét karkasznak nevezzük",
         options: ["Hamis", "Igaz"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-168",
+        id: "question-364",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "A C-módú transzponder C-módra kapcsolva …",
@@ -5672,11 +6683,14 @@ export const mainTestBank = [
         ],
         answer: "a fedélzeti számot és a magasságot sugározza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-169",
+        id: "question-365",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -5684,11 +6698,14 @@ export const mainTestBank = [
         options: ["125 kt", "115 kt", "95 kt", "105 kt"],
         answer: "125 kt",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-170",
+        id: "question-366",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -5701,11 +6718,14 @@ export const mainTestBank = [
         ],
         answer: "Rácsszerkezetű törzs.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-171",
+        id: "question-367",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -5713,11 +6733,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-172",
+        id: "question-368",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -5725,11 +6748,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-173",
+        id: "question-369",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -5742,11 +6768,14 @@ export const mainTestBank = [
         answer:
           "A tárcsafék előnye, hogy súlya kisebbre adódik és aránylag kis mérete mellett is kellő fékezőnyomaték állítható elő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-174",
+        id: "question-370",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A Pitot-fűtést …",
@@ -5758,11 +6787,14 @@ export const mainTestBank = [
         ],
         answer: "jegesedési viszonyok esetén kapcsoljuk be.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-175",
+        id: "question-371",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "A repülőgépek elektromos rendszerében …",
@@ -5774,11 +6806,14 @@ export const mainTestBank = [
         ],
         answer: "a fogyasztók párhuzamosan vannak bekötve.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-176",
+        id: "question-372",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -5790,11 +6825,14 @@ export const mainTestBank = [
         ],
         answer: "cső keresztmetszetű rudakat alkalmaznak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-177",
+        id: "question-373",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A léghűtés hatékonyságát …",
@@ -5804,22 +6842,28 @@ export const mainTestBank = [
         ],
         answer: "a külső hőmérséklet befolyásolja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-178",
+        id: "question-374",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Milyen színű a 100 LL típusú repülőbenzin?",
         options: ["Lila", "Piros", "Zöld", "Kék"],
         answer: "Kék",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-179",
+        id: "question-375",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -5832,11 +6876,14 @@ export const mainTestBank = [
         ],
         answer: "Az elliptikus alaprajzú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-180",
+        id: "question-376",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -5849,11 +6896,14 @@ export const mainTestBank = [
         ],
         answer: "a kipufogógáz-hőmérővel ellenőrizzük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-181",
+        id: "question-377",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A … működése a késleltetett nyomáskiegyenlítődésen alapul.",
@@ -5865,11 +6915,14 @@ export const mainTestBank = [
         ],
         answer: "variométer",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-182",
+        id: "question-378",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Mire következtethetünk túl magas olajnyomás esetén?",
@@ -5881,11 +6934,14 @@ export const mainTestBank = [
         ],
         answer: "A nyomásszabályzó szelep meghibásodására.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-183",
+        id: "question-379",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A Vno sebesség …",
@@ -5897,11 +6953,14 @@ export const mainTestBank = [
         ],
         answer: "az sebesség, melyet csak nyugodt időben szabad átlépni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-184",
+        id: "question-380",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -5915,11 +6974,14 @@ export const mainTestBank = [
         answer:
           "Ezt nevezzük szelepösszenyitásnak, mely a motor normál működése során a negyedik és az első ütem között rendeltetésszerű.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-185",
+        id: "question-381",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5932,11 +6994,14 @@ export const mainTestBank = [
         ],
         answer: "25 – FL 195 – 8,33",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-186",
+        id: "question-382",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -5949,11 +7014,14 @@ export const mainTestBank = [
         ],
         answer: "többet – kisebb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-187",
+        id: "question-383",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Milyen anyagból készül a rácsszerkezetű repülőgéptörzs?",
@@ -5965,11 +7033,14 @@ export const mainTestBank = [
         ],
         answer: "Ötvözött acél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-188",
+        id: "question-384",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -5981,11 +7052,14 @@ export const mainTestBank = [
         ],
         answer: "nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-189",
+        id: "question-385",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A merítőolajozású kenés esetén …",
@@ -5998,11 +7072,14 @@ export const mainTestBank = [
         answer:
           "a forgó alkatrészek belecsapnak az olajgyűtőben lévő olajba és a kenés a szétfröccsenő olajjal történik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-190",
+        id: "question-386",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6010,11 +7087,14 @@ export const mainTestBank = [
         options: ["nem változik.", "nőni fog.", "csökkenni fog."],
         answer: "csökkenni fog.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-191",
+        id: "question-387",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A motor által hajtott tüzelőanyag-szivattyú rendszerint …",
@@ -6025,11 +7105,14 @@ export const mainTestBank = [
         ],
         answer: "emelőkaros, membrános szivattyú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-192",
+        id: "question-388",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -6037,11 +7120,14 @@ export const mainTestBank = [
         options: ["nagy szögre állítást végzi.", "kis szögre állítást végzi."],
         answer: "nagy szögre állítást végzi.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-193",
+        id: "question-389",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6054,11 +7140,14 @@ export const mainTestBank = [
         ],
         answer: "Nyomásmagasságnak",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-194",
+        id: "question-390",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A repülőgépek kerékabroncsa …",
@@ -6069,11 +7158,14 @@ export const mainTestBank = [
         ],
         answer: "lehet tömlős vagy tömlő nélküli.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-195",
+        id: "question-391",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -6081,11 +7173,14 @@ export const mainTestBank = [
         options: ["6", "4.4", "3.8", "2.5"],
         answer: "4.4",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-196",
+        id: "question-392",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6098,11 +7193,14 @@ export const mainTestBank = [
         ],
         answer: "helyes értéknél kevesebbet fog mutatni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-197",
+        id: "question-393",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -6116,11 +7214,14 @@ export const mainTestBank = [
         answer:
           "A tüzelőanyag fajsúlyánál nagyobb fajsúlyú szennyeződés és a víz is a tartály legalsó pontjára ülepedik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-198",
+        id: "question-394",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -6131,11 +7232,14 @@ export const mainTestBank = [
         answer:
           "Ingadozó olajnyomást tapasztalva az olajrendszer komoly meghibásodására következtethetünk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-199",
+        id: "question-395",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A motorzsalu zárt állapotában …",
@@ -6147,11 +7251,14 @@ export const mainTestBank = [
         ],
         answer: "a léghűtés hatékonyságát csökkentjük, ezért a hűtés csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-200",
+        id: "question-396",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -6163,11 +7270,14 @@ export const mainTestBank = [
         answer:
           "A Bourdon-csöves olajnyomásmérő érzékelője egy csőrugó, amiben nyomás hatására kiegyenesedést kiváltó erő ébred.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-201",
+        id: "question-397",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6175,22 +7285,28 @@ export const mainTestBank = [
         options: ["Piros", "Fehér", "Zöld", "Sárga"],
         answer: "Fehér",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-202",
+        id: "question-398",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A simmizés …",
         options: ["kényszerrezgés.", "öngerjesztett lengés."],
         answer: "öngerjesztett lengés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-203",
+        id: "question-399",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6203,11 +7319,14 @@ export const mainTestBank = [
         ],
         answer: "A sebességmérő, a magasságmérő és a variométer működéséhez.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-204",
+        id: "question-400",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Az olajhőmérő jellemzően …",
@@ -6218,11 +7337,14 @@ export const mainTestBank = [
         ],
         answer: "ellenállás-hőmérő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-205",
+        id: "question-401",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Az elméleti keverési arány …",
@@ -6235,11 +7357,14 @@ export const mainTestBank = [
         answer:
           "a tüzelőanyag tömege és az égéshez szükséges levegő tömege között teremt kapcsolatot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-206",
+        id: "question-402",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -6253,11 +7378,14 @@ export const mainTestBank = [
         answer:
           "az alternátor valószínűleg meghibásodott és az akkumulátor kisütés alatt áll.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-207",
+        id: "question-403",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6270,11 +7398,14 @@ export const mainTestBank = [
         ],
         answer: "Az inklináció – A deviáció – A deklináció",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-208",
+        id: "question-404",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Mire szolgál a kormánylapokon található merev trimlap?",
@@ -6287,11 +7418,14 @@ export const mainTestBank = [
         answer:
           "A merev trimlap szögének állítása a földön történik, melynek célja, hogy kompenzálja a repülőgép valamely tengely körüli elfordulási hajlamát.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-209",
+        id: "question-405",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -6305,11 +7439,14 @@ export const mainTestBank = [
         answer:
           "beállítási szöge kicsi, tehát vonóereje viszonylag kis sebességeknél nagy.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-210",
+        id: "question-406",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -6321,11 +7458,14 @@ export const mainTestBank = [
         ],
         answer: "Munkavégzés csak a terjeszkedés alatt történik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-211",
+        id: "question-407",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6337,11 +7477,14 @@ export const mainTestBank = [
         ],
         answer: "határához képest alacsonyabb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-212",
+        id: "question-408",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A repülőgépmotorok …",
@@ -6352,11 +7495,14 @@ export const mainTestBank = [
         ],
         answer: "lehetnek száraz- vagy nedveskarteresek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-213",
+        id: "question-409",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6368,11 +7514,14 @@ export const mainTestBank = [
         ],
         answer: "a valóságosnál többet mutat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-214",
+        id: "question-410",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6385,11 +7534,14 @@ export const mainTestBank = [
         ],
         answer: "három – vízszintes.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-215",
+        id: "question-411",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -6402,11 +7554,14 @@ export const mainTestBank = [
         ],
         answer: "A kormánylap forgástengelyéhez képest előrébb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-216",
+        id: "question-412",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -6414,11 +7569,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-217",
+        id: "question-413",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A Frise-típusú csűrőlapokat …",
@@ -6429,11 +7587,14 @@ export const mainTestBank = [
         ],
         answer: "az ellentétes fordulónyomaték csökkentésére alkalmazzák.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-218",
+        id: "question-414",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -6446,11 +7607,14 @@ export const mainTestBank = [
         ],
         answer: "A forgattyústengelyt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-219",
+        id: "question-415",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A sebességmérő sárga sávja …",
@@ -6463,11 +7627,14 @@ export const mainTestBank = [
         answer:
           "a turbulenciától mentes időben még repülhető sebességtartomány.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-220",
+        id: "question-416",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A korszerű kisrepülőgépek kormányvezérlése jellemzően …",
@@ -6479,11 +7646,14 @@ export const mainTestBank = [
         ],
         answer: "tolórudas és sodronyköteles.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-221",
+        id: "question-417",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -6491,11 +7661,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-222",
+        id: "question-418",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A motor esetleges túlhűtéséről vagy túlmelegedéséről …",
@@ -6506,22 +7679,28 @@ export const mainTestBank = [
         ],
         answer: "a hengerfejhőmérő segítségével kapunk információt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-223",
+        id: "question-419",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A szelence … mérésére használt szerkezet.",
         options: ["folyadékszint", "gyorulás", "hőmérséklet", "nyomás"],
         answer: "nyomás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-224",
+        id: "question-420",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6534,11 +7713,14 @@ export const mainTestBank = [
         ],
         answer: "A sűrűségmagasság",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-225",
+        id: "question-421",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A statikus portról …",
@@ -6550,11 +7732,14 @@ export const mainTestBank = [
         ],
         answer: "az össznyomás és a dinamikus nyomás különbsége származik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-226",
+        id: "question-422",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A négy ütem sorrendben: …",
@@ -6566,11 +7751,14 @@ export const mainTestBank = [
         ],
         answer: "szívás – sűrítés – terjeszkedés – kipufogás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-227",
+        id: "question-423",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -6584,11 +7772,14 @@ export const mainTestBank = [
         answer:
           "ha többszöri ülepítés után is találunk üledéket a felszállást el kell halasztanunk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-228",
+        id: "question-424",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -6601,11 +7792,14 @@ export const mainTestBank = [
         ],
         answer: "A dob és a tárcsa együtt forog a kerékkel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-229",
+        id: "question-425",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -6613,11 +7807,14 @@ export const mainTestBank = [
         options: ["hajtórúd", "szelep", "dugattyú", "henger"],
         answer: "hajtórúd",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-230",
+        id: "question-426",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A korszerű repülőgépmotorknál …",
@@ -6628,11 +7825,14 @@ export const mainTestBank = [
         ],
         answer: "kényszercirkulációs kenést alkalmaznak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-231",
+        id: "question-427",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A sárkánynak a légcsavar vonóerejét a …",
@@ -6644,11 +7844,14 @@ export const mainTestBank = [
         ],
         answer: "a forgattyúház adja át a motorágyon keresztül.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-232",
+        id: "question-428",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -6656,22 +7859,28 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-233",
+        id: "question-429",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A hengerfejhőmérő jellemzően …",
         options: ["hőelemes hőmérő.", "ellenálláshőmérő.", "bimetálos hőmérő."],
         answer: "hőelemes hőmérő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-234",
+        id: "question-430",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6685,11 +7894,14 @@ export const mainTestBank = [
         answer:
           "A QNH 1020-t használó repülőgép kb. 540 lábbal alacsonyabban közlekedik a QNH 1002-t használó repülőgéphez képest.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-235",
+        id: "question-431",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A korszerű repülőgépek indítása során …",
@@ -6700,11 +7912,14 @@ export const mainTestBank = [
         ],
         answer: "egy elektormotor forgatja meg a főtengelyt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-236",
+        id: "question-432",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -6718,11 +7933,14 @@ export const mainTestBank = [
         answer:
           "csökken, ezért a keverék eldúsul, ami fordulatszám-csökkenéshez vezet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-237",
+        id: "question-433",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -6735,11 +7953,14 @@ export const mainTestBank = [
         ],
         answer: "300 MHz – 30 GHz-es",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-238",
+        id: "question-434",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -6747,11 +7968,14 @@ export const mainTestBank = [
         options: ["&lt;1", "&gt;1", "≤ 1", "≥ 1"],
         answer: "≤ 1",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-239",
+        id: "question-435",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6765,11 +7989,14 @@ export const mainTestBank = [
         answer:
           "A statikus port eldugulására, valamint arra, hogy a sebességmérő pontatlanul fog mutatni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-240",
+        id: "question-436",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -6782,11 +8009,14 @@ export const mainTestBank = [
         answer:
           "Az alsószárnyas (karburátoros) repülőgépek tüzelőanyag-ellátását rendszerint a motor által hajtott tüzelőanyagszivaty-tyú biztosítja, és egy kiegészítő szivattyú is kiépítésre kerül.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-241",
+        id: "question-437",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A belsőégésű négyütemű repülőgépmotorok gyújtása …",
@@ -6799,11 +8029,14 @@ export const mainTestBank = [
         answer:
           "a biztonság növelése miatt rendszerint kétkörös, mágneses, melynek működéséhez nem szükséges az elektromos rendszer feszültsége.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-242",
+        id: "question-438",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -6816,11 +8049,14 @@ export const mainTestBank = [
         ],
         answer: "gyorsítóberendezés állítja vissza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-243",
+        id: "question-439",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -6832,11 +8068,14 @@ export const mainTestBank = [
         answer:
           "A repülőgépek hajtóműve lehet kétütemű vagy négyütemű Otto-motor, Diesel-motor, légcsavaros-gázturbinás vagy gázturbinás sugárhajtómű.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-244",
+        id: "question-440",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6849,11 +8088,14 @@ export const mainTestBank = [
         ],
         answer: "három – függőleges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-245",
+        id: "question-441",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -6866,11 +8108,14 @@ export const mainTestBank = [
         ],
         answer: "Félhéjszerkezetű törzs.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-246",
+        id: "question-442",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -6883,11 +8128,14 @@ export const mainTestBank = [
         answer:
           "a nagy hőértékű gyertya viszonylag kevésbé melegszik, rövid, vaskos lábú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-247",
+        id: "question-443",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -6900,11 +8148,14 @@ export const mainTestBank = [
         answer:
           "A bütyköstengelyen levő bütykök száma megegyezik a motor szelepeinek számával.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-248",
+        id: "question-444",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -6917,11 +8168,14 @@ export const mainTestBank = [
         answer:
           "mert a motor beindulhat, ha a gyújtáskapcsoló fel van kapcsolva.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-249",
+        id: "question-445",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A biztonság növelése miatt a mágneses gyújtásrendszerben …",
@@ -6932,11 +8186,14 @@ export const mainTestBank = [
         ],
         answer: "két gyújtómágnest és két gyertyasor alkalmaznak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-250",
+        id: "question-446",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -6949,11 +8206,14 @@ export const mainTestBank = [
         ],
         answer: "Héjszerkezetű törzs.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-251",
+        id: "question-447",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6966,11 +8226,14 @@ export const mainTestBank = [
         ],
         answer: "Az elfordulás és dőlésjelző.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-252",
+        id: "question-448",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -6983,11 +8246,14 @@ export const mainTestBank = [
         ],
         answer: "a Pitot-cső eldugult.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-253",
+        id: "question-449",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -7000,11 +8266,14 @@ export const mainTestBank = [
         ],
         answer: "a szél következménye.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-254",
+        id: "question-450",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -7016,11 +8285,14 @@ export const mainTestBank = [
         ],
         answer: "A kipufogószelep az AHP előtt nyit és a FHP után zár.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-255",
+        id: "question-451",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -7031,11 +8303,14 @@ export const mainTestBank = [
         ],
         answer: "A szegényebb keverék hajlamosabb a kopogásra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-256",
+        id: "question-452",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -7043,22 +8318,28 @@ export const mainTestBank = [
         options: ["24 V", "44 Ah", "30 W", "10 A"],
         answer: "44 Ah",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-257",
+        id: "question-453",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Mi az áramerősség mértékegysége?",
         options: ["Amper", "Ohm", "Volt", "Watt"],
         answer: "Amper",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-258",
+        id: "question-454",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A motorzsalu nyitott állapotában …",
@@ -7069,11 +8350,14 @@ export const mainTestBank = [
         ],
         answer: "a repülőgép káros ellenállása nagyobb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-259",
+        id: "question-455",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz.",
@@ -7084,11 +8368,14 @@ export const mainTestBank = [
         answer:
           "A repülésben a biztonság miatt a mágneses gyújtásrendszert alkalmazzák, mert független a repülőgép elektromos rendszerétől.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-260",
+        id: "question-456",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -7100,11 +8387,14 @@ export const mainTestBank = [
         answer:
           "a legrövidebb időn belül (a probléma súlyosságától függően kitérő repülőtérre vagy kényszerleszállással) le kell szállni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-261",
+        id: "question-457",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -7117,11 +8407,14 @@ export const mainTestBank = [
         ],
         answer: "Csak a sebességmérő működéséhez.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-262",
+        id: "question-458",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -7129,11 +8422,14 @@ export const mainTestBank = [
         options: ["U = R / I", "R ∙ U = I", "I = U / R", "U ∙ I = R"],
         answer: "I = U / R",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-263",
+        id: "question-459",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -7146,11 +8442,14 @@ export const mainTestBank = [
         ],
         answer: "nagyobb – nagyobb – sűrűbb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-264",
+        id: "question-460",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Ütemhatár-eltolás …",
@@ -7162,11 +8461,14 @@ export const mainTestBank = [
         ],
         answer: "mind a négy ütemben jelentkezik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-265",
+        id: "question-461",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -7179,11 +8481,14 @@ export const mainTestBank = [
         ],
         answer: "118,000-136,975 MHz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-266",
+        id: "question-462",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -7195,11 +8500,14 @@ export const mainTestBank = [
         ],
         answer: "A gyújtás a fordulatszám függvényében a FHP előtt történik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-267",
+        id: "question-463",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -7212,11 +8520,14 @@ export const mainTestBank = [
         ],
         answer: "Kb. 12 V-ot, mely folyamatosan csökkenni fog.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-268",
+        id: "question-464",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "A légiforgalmi irányító egységek főként …",
@@ -7226,11 +8537,14 @@ export const mainTestBank = [
         ],
         answer: "másodlagos radarjelek alapján dolgoznak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-269",
+        id: "question-465",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -7243,11 +8557,14 @@ export const mainTestBank = [
         ],
         answer: "Héjszerkezetű.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-270",
+        id: "question-466",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -7259,11 +8576,14 @@ export const mainTestBank = [
         ],
         answer: "tüzelőanyagnyomás-mérő vagy a tüzelőanyagátfolyás-mérő",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-271",
+        id: "question-467",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Szívótérnyomás-mérővel …",
@@ -7276,11 +8596,14 @@ export const mainTestBank = [
         answer:
           "az állandó fordulatszámú légcsavarral felszerelt repülőgépek motorteljesítményét ellenőrizzük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-272",
+        id: "question-468",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A szívócsőbe jutó keverék mennyiségét …",
@@ -7292,22 +8615,28 @@ export const mainTestBank = [
         ],
         answer: "a porlasztó fojtószelepe szabályozza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-273",
+        id: "question-469",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Mi az elektromos ellenállás mértékegysége?",
         options: ["Ohm", "Volt", "Amper", "Watt"],
         answer: "Ohm",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-274",
+        id: "question-470",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A bütyköstengely …",
@@ -7319,11 +8648,14 @@ export const mainTestBank = [
         ],
         answer: "a forgattyústengely két fordulatával egyet fordul.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-275",
+        id: "question-471",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Mikor a leghajlamosabb a motor a túlmelegedésre?",
@@ -7335,11 +8667,14 @@ export const mainTestBank = [
         ],
         answer: "nagy fordulatszám és kis sebesség esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-276",
+        id: "question-472",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -7351,11 +8686,14 @@ export const mainTestBank = [
         ],
         answer: "minden hengerben négy ütem játszódik le.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-277",
+        id: "question-473",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A vegyeshűtés esetén …",
@@ -7367,11 +8705,14 @@ export const mainTestBank = [
         answer:
           "a hengerfejet folyadék hűti, míg a hengerpaláston léghűtés kerül alkalmazásra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-278",
+        id: "question-474",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -7384,11 +8725,14 @@ export const mainTestBank = [
         ],
         answer: "Ötvözött acél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-279",
+        id: "question-475",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -7402,11 +8746,14 @@ export const mainTestBank = [
         answer:
           "a sebességmérő reagál a sebességváltozásra, de hibásan; a magasságmérő mutatója mozdulatlan marad és az eldugulás pillanatában mért magasságot fogja mutatni; a variométer nulla állásba kerül és ott is marad.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-280",
+        id: "question-476",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A statikus port eldugulásakor a sebességmérő …",
@@ -7418,11 +8765,14 @@ export const mainTestBank = [
         ],
         answer: "a légnyomás változásának megfelelően fals értéket mutat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-281",
+        id: "question-477",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Ha járó motornál az egyik gyújtáskört lekapcsoljuk, akkor …",
@@ -7434,11 +8784,14 @@ export const mainTestBank = [
         answer:
           "a fordulatszám esni fog, mert a két gyertya az égési folyamat időtartamát kedvezően csökkenti.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-282",
+        id: "question-478",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Szelepösszenyitás …",
@@ -7450,11 +8803,14 @@ export const mainTestBank = [
         ],
         answer: "csak a negyedik és az első ütem között történik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-283",
+        id: "question-479",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -7467,11 +8823,14 @@ export const mainTestBank = [
         ],
         answer: "Balra csűréssel vagy jobb pedállal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-284",
+        id: "question-480",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A kompresszióviszony …",
@@ -7483,11 +8842,14 @@ export const mainTestBank = [
         ],
         answer: "hengertérfogat és a sűrítési térfogat aránya.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-285",
+        id: "question-481",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -7498,11 +8860,14 @@ export const mainTestBank = [
         answer:
           "A szárazkarteres motorok esetében külön olajtartály kerül kiépítésre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-286",
+        id: "question-482",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -7515,11 +8880,14 @@ export const mainTestBank = [
         ],
         answer: "félhéjszerkezetű",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-287",
+        id: "question-483",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Növekvő magassággal a keveréket …",
@@ -7532,11 +8900,14 @@ export const mainTestBank = [
         answer:
           "szegényíteni kell, azaz a keverék tüzelőanyag-mennyiségét csökkentjük, különben a keverék eldúsúl.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-288",
+        id: "question-484",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A Va sebesség …",
@@ -7549,11 +8920,14 @@ export const mainTestBank = [
         answer:
           "az a sebesség, ahol még a magassági kormány teljes kitérítése megengedett.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-289",
+        id: "question-485",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -7561,11 +8935,14 @@ export const mainTestBank = [
         options: ["Igen", "Nem"],
         answer: "Igen",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-290",
+        id: "question-486",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -7578,11 +8955,14 @@ export const mainTestBank = [
         ],
         answer: "a CAS, a TAS és a GS értéke megegyezik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-291",
+        id: "question-487",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -7596,11 +8976,14 @@ export const mainTestBank = [
         answer:
           "állandó nyomással a motor egy hengere ugyanakkora munkát végez, mint változó nyomás mellett egy ciklus alatt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-292",
+        id: "question-488",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -7613,11 +8996,14 @@ export const mainTestBank = [
         answer:
           "A kompresszióviszonyhoz képest túl alacsony oktánszámú benzin használatakor vagy a keverék túlszegényedése esetén berobbanás jöhet létre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-293",
+        id: "question-489",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -7630,11 +9016,14 @@ export const mainTestBank = [
         ],
         answer: "A héjszerkezetű",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-294",
+        id: "question-490",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A magassági motor teljesítménye növekvő magassággal …",
@@ -7646,11 +9035,14 @@ export const mainTestBank = [
         ],
         answer: "a teljes nyomásmagasságig nő, majd efelett csökkenni kezd.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-295",
+        id: "question-491",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -7664,11 +9056,14 @@ export const mainTestBank = [
         answer:
           "Állásszögük azonos, de a magasabban közlekedő nagyobb teljesítménybeállítást alkalmaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-296",
+        id: "question-492",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A korszerű repülőgépek orr- vagy farokfutóműve …",
@@ -7681,11 +9076,14 @@ export const mainTestBank = [
         answer:
           "ha kormányozható az lábkormánnyal történik, de vannak olyan típusok, ahol nincs lehetőség kormányzásra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-297",
+        id: "question-493",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -7693,11 +9091,14 @@ export const mainTestBank = [
         options: ["Hamis", "Igaz"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-298",
+        id: "question-494",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -7709,11 +9110,14 @@ export const mainTestBank = [
         ],
         answer: "A felülszelepelt és alulvezérelt vezérlésre",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-299",
+        id: "question-495",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -7721,11 +9125,14 @@ export const mainTestBank = [
         options: ["Vfe", "Va", "Vno", "Vne"],
         answer: "Vno",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-300",
+        id: "question-496",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -7738,11 +9145,14 @@ export const mainTestBank = [
         ],
         answer: "108,000-136,975 MHz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-301",
+        id: "question-497",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -7755,11 +9165,14 @@ export const mainTestBank = [
         ],
         answer: "a TAS és a GS nem tartalmazza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-302",
+        id: "question-498",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -7772,11 +9185,14 @@ export const mainTestBank = [
         ],
         answer: "Úszós-kúpfogaskerekes mérő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-303",
+        id: "question-499",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -7789,11 +9205,14 @@ export const mainTestBank = [
         ],
         answer: "Jelentős olajszivárgásra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-304",
+        id: "question-500",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -7806,11 +9225,14 @@ export const mainTestBank = [
         ],
         answer: "a bordák biztosítják.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-305",
+        id: "question-501",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -7823,11 +9245,14 @@ export const mainTestBank = [
         ],
         answer: "elméleti és gyakorlati csúcsmagassága nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-306",
+        id: "question-502",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A tüzelőanyag-rendszer működésére veszélyes jegesedés …",
@@ -7840,11 +9265,14 @@ export const mainTestBank = [
         answer:
           "széles hőmérséklet tartományban, fagypont alatti léghőmérséklet, de akár 20°C-nál magasabb léghőmérséklet esetén is ki alakulhat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-307",
+        id: "question-503",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -7857,11 +9285,14 @@ export const mainTestBank = [
         ],
         answer: "Szálerősítésű műanyag.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-308",
+        id: "question-504",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A torlólapátos variométer …",
@@ -7872,11 +9303,14 @@ export const mainTestBank = [
         ],
         answer: "a késleltetett nyomáskiegyenlítődés elvén működik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-309",
+        id: "question-505",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A léghűtéses motor hűtéséről …",
@@ -7888,11 +9322,14 @@ export const mainTestBank = [
         ],
         answer: "a hengerfej-hőmérő tájékoztat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-310",
+        id: "question-506",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -7905,11 +9342,14 @@ export const mainTestBank = [
         ],
         answer: "A statikus port eldugult.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-311",
+        id: "question-507",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -7919,11 +9359,14 @@ export const mainTestBank = [
         ],
         answer: "A szelepet a bütyök nyitja és a szeleprugó zárja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-312",
+        id: "question-508",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A sebességmérő sárga tartományának …",
@@ -7936,11 +9379,14 @@ export const mainTestBank = [
         answer:
           "alsó határa a Vno normál üzemi sebesség, felső határa a Vne át nem léphető sebesség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-313",
+        id: "question-509",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -7952,11 +9398,14 @@ export const mainTestBank = [
         ],
         answer: "A szívószelep a FHP előtt nyit és az AHP után zár.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-314",
+        id: "question-510",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Az IAS sebesség …",
@@ -7968,11 +9417,14 @@ export const mainTestBank = [
         ],
         answer: "a sebességmérőről leolvasott érték.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-315",
+        id: "question-511",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -7985,11 +9437,14 @@ export const mainTestBank = [
         ],
         answer: "a féklevegő fúvóka akadályozza meg a keverék eldúsulását.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-316",
+        id: "question-512",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A kisrepülőgépek törzsének burkolata …",
@@ -8001,11 +9456,14 @@ export const mainTestBank = [
         ],
         answer: "fából, alumíniumból és szálerősítésű műanyagból is készülhet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-317",
+        id: "question-513",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Milyen hengerelrendezésre utal a bütyköstárcsa?",
@@ -8017,11 +9475,14 @@ export const mainTestBank = [
         ],
         answer: "Csillagmotor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-318",
+        id: "question-514",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -8029,11 +9490,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-319",
+        id: "question-515",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A bütyköstengelyt …",
@@ -8046,11 +9510,14 @@ export const mainTestBank = [
         answer:
           "a forgattyústengely fogaskerék-áttétellel, fogasszíjjal vagy lánccal hajtja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-320",
+        id: "question-516",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8058,11 +9525,14 @@ export const mainTestBank = [
         options: ["QNE", "QNH", "QFE"],
         answer: "QNH",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-321",
+        id: "question-517",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -8074,11 +9544,14 @@ export const mainTestBank = [
         ],
         answer: "A felülszelepelt és felülvezérelt vezérlésre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-322",
+        id: "question-518",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A motorzsalu nyitott állapotában …",
@@ -8090,11 +9563,14 @@ export const mainTestBank = [
         ],
         answer: "a léghűtés hatékonyságát növeljük, ezért a hűtés nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-323",
+        id: "question-519",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -8107,11 +9583,14 @@ export const mainTestBank = [
         ],
         answer: "Ötvözött alumínium.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-324",
+        id: "question-520",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8123,11 +9602,14 @@ export const mainTestBank = [
         ],
         answer: "nagyobb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-325",
+        id: "question-521",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8135,11 +9617,14 @@ export const mainTestBank = [
         options: ["QNE", "QNH", "QFE"],
         answer: "QFE",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-326",
+        id: "question-522",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -8152,11 +9637,14 @@ export const mainTestBank = [
         ],
         answer: "tartószerkezetes",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-327",
+        id: "question-523",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8164,11 +9652,14 @@ export const mainTestBank = [
         options: ["QNE", "QNH", "QFE"],
         answer: "QNE",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-328",
+        id: "question-524",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8181,22 +9672,28 @@ export const mainTestBank = [
         ],
         answer: "a helyes értéknél többet fog mutatni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-329",
+        id: "question-525",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A külső léghőmérséklet-mérő jellemzően …",
         options: ["bimetálos hőmérő.", "ellenálláshőmérő.", "hőelemes hőmérő."],
         answer: "bimetálos hőmérő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-330",
+        id: "question-526",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8209,11 +9706,14 @@ export const mainTestBank = [
         ],
         answer: "izogon – agon – izoklin",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-331",
+        id: "question-527",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -8224,11 +9724,14 @@ export const mainTestBank = [
         ],
         answer: "a generátor felől folyó áram erősségét méri.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-332",
+        id: "question-528",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -8240,11 +9743,14 @@ export const mainTestBank = [
         ],
         answer: "Főtengely, dugattyúcsapszeg, hajtókar.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-333",
+        id: "question-529",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Mit mutat az elfordulásjelző és a libella jobb dugóhúzóban?",
@@ -8256,11 +9762,14 @@ export const mainTestBank = [
         ],
         answer: "A lapát teljesen kitér jobbra, a golyó teljesen kitér balra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-334",
+        id: "question-530",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -8273,11 +9782,14 @@ export const mainTestBank = [
         ],
         answer: "működése az időjárásra közömbös – korlátozza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-335",
+        id: "question-531",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -8290,11 +9802,14 @@ export const mainTestBank = [
         ],
         answer: "az ultrarövid-hullámú – AM-modulációval",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-336",
+        id: "question-532",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A statikus légfelvevő eldugulásakor a magasságmérő …",
@@ -8306,11 +9821,14 @@ export const mainTestBank = [
         ],
         answer: "nem reagál a magasságváltozásra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-337",
+        id: "question-533",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -8323,11 +9841,14 @@ export const mainTestBank = [
         ],
         answer: "Elfordulásjelző.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-338",
+        id: "question-534",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -8340,11 +9861,14 @@ export const mainTestBank = [
         answer:
           "Az elfordulásjelzők és a tüzelőanyagmennyiség-mérők működéséhez, valamint a fékszárnyműködtetéshez és a motorindításhoz sem feltétlenül szükséges elektromos áram.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-339",
+        id: "question-535",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8357,11 +9881,14 @@ export const mainTestBank = [
         ],
         answer: "deviációnak",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-340",
+        id: "question-536",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -8375,11 +9902,14 @@ export const mainTestBank = [
         answer:
           "A repülőgép-vezető tehermentesítésére és egy adott repülési helyzetben a kormányerő csökkentésére szolgál.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-341",
+        id: "question-537",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A kényszercirkulációs kenés esetén …",
@@ -8392,11 +9922,14 @@ export const mainTestBank = [
         answer:
           "egy fogaskerék-szivattyú juttatja el a nyomás alá helyezett olajat a kenési pontokra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-342",
+        id: "question-538",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -8409,11 +9942,14 @@ export const mainTestBank = [
         answer:
           "Minél nagyobb a benzin oktánszáma, annál nagyobb a kompressziótűrése.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-343",
+        id: "question-539",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -8426,11 +9962,14 @@ export const mainTestBank = [
         ],
         answer: "Az áramerősségen",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-344",
+        id: "question-540",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Milyen anyagból készül a kisrepülőgépek fémborítása?",
@@ -8442,11 +9981,14 @@ export const mainTestBank = [
         ],
         answer: "Ötvözött alumínium.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-345",
+        id: "question-541",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -8460,11 +10002,14 @@ export const mainTestBank = [
         answer:
           "a kiegyenlítő fúvóka akadályozza meg a keverék elszegényedését.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-346",
+        id: "question-542",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question: "A C-módú transzponder A-módra kapcsolva …",
@@ -8476,11 +10021,14 @@ export const mainTestBank = [
         ],
         answer: "csak a fedélzeti számot sugározza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-347",
+        id: "question-543",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8493,11 +10041,14 @@ export const mainTestBank = [
         ],
         answer: "magasabb – összenyomódik",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-348",
+        id: "question-544",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "Mikor a leghajlamosabb a motor a túlhűlésre?",
@@ -8509,11 +10060,14 @@ export const mainTestBank = [
         ],
         answer: "kis fordulatszám és nagy sebesség esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-349",
+        id: "question-545",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8526,11 +10080,14 @@ export const mainTestBank = [
         ],
         answer: "hamarabb – késik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-350",
+        id: "question-546",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A csillagmotor …",
@@ -8541,11 +10098,14 @@ export const mainTestBank = [
         ],
         answer: "felülszelepelt és alulvezérelt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-351",
+        id: "question-547",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -8558,11 +10118,14 @@ export const mainTestBank = [
         ],
         answer: "közvetlen befecskendezésről beszélünk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-352",
+        id: "question-548",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -8570,11 +10133,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-353",
+        id: "question-549",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A fojtószelep lejegesedése …",
@@ -8586,11 +10152,14 @@ export const mainTestBank = [
         ],
         answer: "kis fordulatszám esetén jellemző.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-354",
+        id: "question-550",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A kompresszióviszony növelésének …",
@@ -8602,11 +10171,14 @@ export const mainTestBank = [
         ],
         answer: "a kopogás szab határt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-355",
+        id: "question-551",
         subtopic: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
         difficulty: "easy",
         question:
@@ -8619,11 +10191,14 @@ export const mainTestBank = [
         ],
         answer: "Távnyomásméréssel működő olajnyomásmérő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-356",
+        id: "question-552",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -8631,11 +10206,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-357",
+        id: "question-553",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question:
@@ -8643,22 +10221,28 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-358",
+        id: "question-554",
         subtopic: "MOTORTAN",
         difficulty: "easy",
         question: "A motor túlmelegedése esetén kopogás is bekövetkezhet.",
         options: ["Hamis.", "Igaz."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-359",
+        id: "question-555",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A sebességmérõ",
@@ -8670,11 +10254,14 @@ export const mainTestBank = [
         answer:
           "olyan szelencés mûszer, mely nyitott Vidi szelence segítségével méri a repülõgép levegõhöz viszonyított sebességét",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-360",
+        id: "question-556",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A sebességmérõ",
@@ -8685,11 +10272,14 @@ export const mainTestBank = [
         ],
         answer: "a repülõgép relatív sebességét mutatja",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-361",
+        id: "question-557",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A sebességmérõ",
@@ -8700,11 +10290,14 @@ export const mainTestBank = [
         ],
         answer: "nem mentes sem a mechanikai sem a beépítési hibától",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-362",
+        id: "question-558",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A sebességmérés elve",
@@ -8716,11 +10309,14 @@ export const mainTestBank = [
         answer:
           "az össz. nyomás és a statikus nyomás különbségének a mérésén alapszik (amit dinamikus nyomásnak nevezünk)",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-363",
+        id: "question-559",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Az egyszerû sebességmérés",
@@ -8731,11 +10327,14 @@ export const mainTestBank = [
         ],
         answer: "vidi szelencével történik",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-364",
+        id: "question-560",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Melyik helyes a következõ állítások közül?",
@@ -8747,11 +10346,14 @@ export const mainTestBank = [
         answer:
           "A tényleges repülési sebességet a hajtómû vonóereje, vagy tolóereje hozza létre és a gép hossztengelyével egyirányú",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-365",
+        id: "question-561",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8764,11 +10366,14 @@ export const mainTestBank = [
         answer:
           "Az Optimális utazósebesség, ami valamivel nagyobb, mint a Gazdaságos utazósebesség",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-366",
+        id: "question-562",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Melyik a Gazdaságos utazósebesség?",
@@ -8781,11 +10386,14 @@ export const mainTestBank = [
         answer:
           "A legkisebb hajtómûteljesítménnyel történõ vízszintes repülés, amikor az idõegységre esõ üzemanyag-fogyasztás a legkisebb. Ez a sebesség a leghosszabb repülési idõt biztosítja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-367",
+        id: "question-563",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8793,11 +10401,14 @@ export const mainTestBank = [
         options: ["aneroid", "vidi", "vidi és aneroid"],
         answer: "aneroid",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-368",
+        id: "question-564",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8809,22 +10420,28 @@ export const mainTestBank = [
         ],
         answer: "a légnyomás mérése",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-369",
+        id: "question-565",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A magasság növekedésével a légnyomás értéke",
         options: ["nõ", "csökken", "állandó"],
         answer: "csökken",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-370",
+        id: "question-566",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8832,11 +10449,14 @@ export const mainTestBank = [
         options: ["QNH", "QFE", "QNE", "QDR"],
         answer: "QNH",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-371",
+        id: "question-567",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8844,11 +10464,14 @@ export const mainTestBank = [
         options: ["QFE", "QNH", "QTE", "QUJ"],
         answer: "QFE",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-372",
+        id: "question-568",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8860,11 +10483,14 @@ export const mainTestBank = [
         ],
         answer: "repülési szint szerinti magasságnak",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-373",
+        id: "question-569",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A variométer",
@@ -8875,11 +10501,14 @@ export const mainTestBank = [
         ],
         answer: "az emelkedés, ill. süllyedés mértékének a sebességét méri.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-374",
+        id: "question-570",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A variométer mûködési elve",
@@ -8891,11 +10520,14 @@ export const mainTestBank = [
         answer:
           "a statikus nyomáskiegyenlítõdés késleltetésének elvén alapszik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-375",
+        id: "question-571",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A szelencés variométerben",
@@ -8906,11 +10538,14 @@ export const mainTestBank = [
         ],
         answer: "vidi szelence található.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-376",
+        id: "question-572",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A variométerek",
@@ -8922,11 +10557,14 @@ export const mainTestBank = [
         ],
         answer: "a három közül bármelyik lehet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-377",
+        id: "question-573",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8939,11 +10577,14 @@ export const mainTestBank = [
         ],
         answer: "kettõ szabadságfokú, vízszintes tengelyhelyzetû",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-378",
+        id: "question-574",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Az elfordulásjelzõ a repülõgép",
@@ -8955,11 +10596,14 @@ export const mainTestBank = [
         answer:
           "függõleges tengely körüli elfordulás irányát és szögsebességét jelzi.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-379",
+        id: "question-575",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -8972,11 +10616,14 @@ export const mainTestBank = [
         ],
         answer: "három szabadságfokú, függõleges tengelyhelyzetû",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-380",
+        id: "question-576",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A mûhorizont a repülõgép",
@@ -8987,11 +10634,14 @@ export const mainTestBank = [
         ],
         answer: "horizonthoz képesti helyzetét méri.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-381",
+        id: "question-577",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A pörgettyûs iránytartó",
@@ -9003,11 +10653,14 @@ export const mainTestBank = [
         ],
         answer: "három szabadságfokú, vízszintes tengelyhelyzetû",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-382",
+        id: "question-578",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A Föld mágneses pólusai",
@@ -9019,11 +10672,14 @@ export const mainTestBank = [
         answer:
           "nem esnek egybe a földrajzi pólusokkal, a mágneses pólusok a földrajzi pólusok körül vándorolnak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-383",
+        id: "question-579",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A mágneses lehajlás (inklináció)",
@@ -9035,11 +10691,14 @@ export const mainTestBank = [
         answer:
           "A Föld mágneses erõvonalának iránya és a vízszintes által bezárt szög.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-384",
+        id: "question-580",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A mágneses elhajlás (deklináció)",
@@ -9050,11 +10709,14 @@ export const mainTestBank = [
         ],
         answer: "a földrajzi és a mágneses észak iránya által bezárt szög.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-385",
+        id: "question-581",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A deviáció",
@@ -9066,11 +10728,14 @@ export const mainTestBank = [
         answer:
           "a repülõgép vas és elektromos alkatrészeinek hatására visszamaradt iránytû hiba.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-386",
+        id: "question-582",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "Az izogon vonalak",
@@ -9082,11 +10747,14 @@ export const mainTestBank = [
         answer:
           "az azonos mágneses elhajlással rendelkezõ pontokat kötik össze.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-387",
+        id: "question-583",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -9099,11 +10767,14 @@ export const mainTestBank = [
         ],
         answer: "A deviáció miatti hibáját.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-388",
+        id: "question-584",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A repülõgép akkumulátora",
@@ -9114,11 +10785,14 @@ export const mainTestBank = [
         ],
         answer: "tartalék áramforrás, egyenfeszültségû.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-389",
+        id: "question-585",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A dõlés szög",
@@ -9130,11 +10804,14 @@ export const mainTestBank = [
         answer:
           "a repülõgép kereszttengelye és a kereszttengely horizontsíkon lévõ vetülete közötti szög.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-390",
+        id: "question-586",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A bólintási szög",
@@ -9146,11 +10823,14 @@ export const mainTestBank = [
         answer:
           "a repülõgép hossztengelye és a hossztengely horizontsíkon lévõ vetülete közötti szög.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-391",
+        id: "question-587",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -9163,11 +10843,14 @@ export const mainTestBank = [
         answer:
           "A mûszer jó, mivel a gép függõleges tengely körüli elfordulás szögsebességét méri, és ez ebben a helyzetben nulla.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-392",
+        id: "question-588",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A Pitot-csõ (Prandtl-csõ) áramlás irányába esõ nyílásában",
@@ -9178,11 +10861,14 @@ export const mainTestBank = [
         ],
         answer: "a levegõ össznyomása érzékelhetõ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-393",
+        id: "question-589",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A mágneses iránytû deklinációjának oka az, hogy",
@@ -9194,11 +10880,14 @@ export const mainTestBank = [
         ],
         answer: "a földrajzi és mágneses észak nem esik egybe.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-394",
+        id: "question-590",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question:
@@ -9211,11 +10900,14 @@ export const mainTestBank = [
         ],
         answer: "A mûszer áramforrását fordított polaritással kötötték be.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-395",
+        id: "question-591",
         subtopic: "MŰSZERTAN",
         difficulty: "easy",
         question: "A Pitot-csõ (Prandtl-csõ) áramlásra merõleges furatában",
@@ -9227,11 +10919,14 @@ export const mainTestBank = [
         ],
         answer: "a statikus nyomás érzékelhetõ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-396",
+        id: "question-592",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9239,11 +10934,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-397",
+        id: "question-593",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9251,11 +10949,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-398",
+        id: "question-594",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9263,11 +10964,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-399",
+        id: "question-595",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9275,11 +10979,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-400",
+        id: "question-596",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9287,11 +10994,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-401",
+        id: "question-597",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9299,11 +11009,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-402",
+        id: "question-598",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9311,11 +11024,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-403",
+        id: "question-599",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9323,11 +11039,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-404",
+        id: "question-600",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9335,11 +11054,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-405",
+        id: "question-601",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9347,11 +11069,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-406",
+        id: "question-602",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9359,11 +11084,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-407",
+        id: "question-603",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9371,11 +11099,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-408",
+        id: "question-604",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9383,11 +11114,14 @@ export const mainTestBank = [
         options: ["fáradás.", "kihajlás.", "rezgés."],
         answer: "kihajlás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-409",
+        id: "question-605",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Rácsszerkezetnél a koncentrált erõk ....................",
@@ -9397,11 +11131,14 @@ export const mainTestBank = [
         ],
         answer: "csak a csomópontokon vezethetõk be.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-410",
+        id: "question-606",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A rácsszerkezet rácsrúdjaiban ..............",
@@ -9412,11 +11149,14 @@ export const mainTestBank = [
         ],
         answer: "húzó-nyomó igénybevétel ébred.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-411",
+        id: "question-607",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A dúcolt szárny tõrészének igénybevételei ..............",
@@ -9427,11 +11167,14 @@ export const mainTestBank = [
         ],
         answer: "kisebbek, ezért szerkezetük könnyebbre adódik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-412",
+        id: "question-608",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9443,11 +11186,14 @@ export const mainTestBank = [
         ],
         answer: "félhéj és héjszerkezetek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-413",
+        id: "question-609",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9459,11 +11205,14 @@ export const mainTestBank = [
         ],
         answer: "csak csavaró igénybevétel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-414",
+        id: "question-610",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9475,11 +11224,14 @@ export const mainTestBank = [
         ],
         answer: "Valamennyi igénybevétel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-415",
+        id: "question-611",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A következõket nevezzük oldható kötéseknek:",
@@ -9490,11 +11242,14 @@ export const mainTestBank = [
         ],
         answer: "nyírt csapok, csavarkötés, feszítõzár.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-416",
+        id: "question-612",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Oldhatatlan kötéseknek nevezzük a következõket:",
@@ -9505,11 +11260,14 @@ export const mainTestBank = [
         ],
         answer: "szegecselés, hegesztés, ragasztás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-417",
+        id: "question-613",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A dobfék mûködésének lényege, hogy ............",
@@ -9521,11 +11279,14 @@ export const mainTestBank = [
         answer:
           "a fékpofákat mechanikus, hidraulikus vagy pneumatikus úton a forgó fékdobhoz szorítjuk, és ezzel a mozgási energiát hõenergiává változtatjuk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-418",
+        id: "question-614",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9537,11 +11298,14 @@ export const mainTestBank = [
         answer:
           "a kormányerõk kb. ilyen arányban vannak egymáshoz. Ha pl. az oldalkormányon 400 N, a magassági kormányon 200 N, a csûrõn 100 N erõt kell kifejteni teljes kitéréskor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-419",
+        id: "question-615",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9554,11 +11318,14 @@ export const mainTestBank = [
         answer:
           "A függõleges tengely körül az oldalkormány, a kereszttengely körül a magassági kormány, a hossztengely körül a csûrõ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-420",
+        id: "question-616",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9566,11 +11333,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-421",
+        id: "question-617",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9578,11 +11348,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-422",
+        id: "question-618",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9590,11 +11363,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-423",
+        id: "question-619",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A motorágyakat úgy alakítják ki, hogy ...............",
@@ -9605,11 +11381,14 @@ export const mainTestBank = [
         answer:
           "a motor rezgéseit csillapítsa, ennek érdekében rezgéscsillapító betéteket építenek a motorágyba.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-424",
+        id: "question-620",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9617,11 +11396,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-425",
+        id: "question-621",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9629,11 +11411,14 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-426",
+        id: "question-622",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Rezgõmozgásnál amplitúdó alatt ..........",
@@ -9644,33 +11429,42 @@ export const mainTestBank = [
         ],
         answer: "a legnagyobb kitérést értjük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-427",
+        id: "question-623",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A rezonanciának nincs káros hatása a repülõgépre.",
         options: ["Igaz", "Hamis"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-428",
+        id: "question-624",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Az orrfutómû SIMMI-jelensége ..........",
         options: ["öngerjesztett lengési forma.", "rezonancia jelenség."],
         answer: "öngerjesztett lengési forma.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-429",
+        id: "question-625",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9678,22 +11472,28 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-430",
+        id: "question-626",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A dúcolt szárnyak igénybevételei a szabadonhordóhoz képest:",
         options: ["nagyobbak.", "kisebbek.", "ugyanakkorák."],
         answer: "kisebbek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-431",
+        id: "question-627",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9701,22 +11501,28 @@ export const mainTestBank = [
         options: ["Igaz", "Hamis"],
         answer: "Igaz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-432",
+        id: "question-628",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "A csûrõ mely tengely körüli kormányzásra hivatott?",
         options: ["hossztengely", "kereszttengely", "függõleges tengely"],
         answer: "hossztengely",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-433",
+        id: "question-629",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question: "Mik a jellemzõi a szabadonhordó szárnynak?",
@@ -9727,11 +11533,14 @@ export const mainTestBank = [
         ],
         answer: "Kisebb az ellenállása, nagyobb a tömege.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-434",
+        id: "question-630",
         subtopic: "SZERKEZETTAN",
         difficulty: "easy",
         question:
@@ -9744,7 +11553,10 @@ export const mainTestBank = [
         ],
         answer: "a dugattyú területe * dugattyú lökethossz * hengerek száma",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
     ],
@@ -9753,7 +11565,7 @@ export const mainTestBank = [
     topic: "Repülési teljesítmény és tervezés",
     questions: [
       {
-        id: "question-1",
+        id: "question-631",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -9761,11 +11573,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-2",
+        id: "question-632",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A repülőgép súlyának növekedésével …",
@@ -9778,11 +11593,14 @@ export const mainTestBank = [
         answer:
           "a repülőgép legjobb emelkedési szöge és a legnagyobb emelkedésének mértéke egyaránt csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-3",
+        id: "question-633",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A forgalmi teher magába foglalja …",
@@ -9794,11 +11612,14 @@ export const mainTestBank = [
         ],
         answer: "Egyiket sem foglalja magába.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-4",
+        id: "question-634",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -9811,11 +11632,14 @@ export const mainTestBank = [
         answer:
           "a repülőgép felszállósúlya átlépte a megengedett maximális értéket.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-5",
+        id: "question-635",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -9827,11 +11651,14 @@ export const mainTestBank = [
         ],
         answer: "nem változik – romlik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-6",
+        id: "question-636",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -9844,11 +11671,14 @@ export const mainTestBank = [
         ],
         answer: "nagyobb lesz – csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-7",
+        id: "question-637",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -9856,11 +11686,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-8",
+        id: "question-638",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Melyik állítás hamis?",
@@ -9873,11 +11706,14 @@ export const mainTestBank = [
         answer:
           "Az üzemanyag nélküli súly a száraz üzemi súly és a hasznos teher összege.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-9",
+        id: "question-639",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Általánosan elmondható, hogy … a leszállási úthosszt.",
@@ -9889,11 +11725,14 @@ export const mainTestBank = [
         ],
         answer: "10%-os súlynövekedés kb. 10%-kal növeli.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-10",
+        id: "question-640",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -9906,11 +11745,14 @@ export const mainTestBank = [
         ],
         answer: "a súlypont előre vándorol, mely fejnehéz nyomatékot kelt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-11",
+        id: "question-641",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -9922,11 +11764,14 @@ export const mainTestBank = [
         ],
         answer: "a repülőgép súlypontja átlépte a mellső határértéket.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-12",
+        id: "question-642",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -9939,11 +11784,14 @@ export const mainTestBank = [
         ],
         answer: "10%-os – 20%-kal",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-13",
+        id: "question-643",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -9956,11 +11804,14 @@ export const mainTestBank = [
         ],
         answer: "10°C – 10%-kal növeli",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-14",
+        id: "question-644",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -9973,11 +11824,14 @@ export const mainTestBank = [
         ],
         answer: "kb. 16,5 km-t.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-15",
+        id: "question-645",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A repülőgép súlyának növekedésével …",
@@ -9988,11 +11842,14 @@ export const mainTestBank = [
         ],
         answer: "a szerkezet túlterhelésének határai szűkebbek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-16",
+        id: "question-646",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A hatótávolság …",
@@ -10003,11 +11860,14 @@ export const mainTestBank = [
         ],
         answer: "szembeszél esetén csökken, hátszél esetén nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-17",
+        id: "question-647",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10020,11 +11880,14 @@ export const mainTestBank = [
         ],
         answer: "Vopt sebesség nagyobb lesz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-18",
+        id: "question-648",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A repülőgép üzemanyag nélküli súlya …",
@@ -10034,11 +11897,14 @@ export const mainTestBank = [
         ],
         answer: "tartalmazhat bizonyos mennyiségű üzemanyagot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-19",
+        id: "question-649",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10051,11 +11917,14 @@ export const mainTestBank = [
         ],
         answer: "Vx-nek – Fp – X vonóerő-feleslegnél",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-20",
+        id: "question-650",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10068,11 +11937,14 @@ export const mainTestBank = [
         ],
         answer: "10°C – 5%-kal növeli",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-21",
+        id: "question-651",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A repülőgép súlyának növekedésével …",
@@ -10084,11 +11956,14 @@ export const mainTestBank = [
         ],
         answer: "Vx és Vy is nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-22",
+        id: "question-652",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Az emelkedés során a legnagyobb emelkedés mértéke …",
@@ -10099,11 +11974,14 @@ export const mainTestBank = [
         ],
         answer: "A legnagyobb emelkedés mértékére a szél nincs hatással.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-23",
+        id: "question-653",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10116,11 +11994,14 @@ export const mainTestBank = [
         ],
         answer: "kb. 20%-kal – kb. 30%-kal",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-24",
+        id: "question-654",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10133,22 +12014,28 @@ export const mainTestBank = [
         ],
         answer: "Vy-nak-nak – Pr – Psz teljesítmény-feleslegnél",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-25",
+        id: "question-655",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "TODA – Clearway = …",
         options: ["ASDA", "LDA", "Stopway", "TORA"],
         answer: "TORA",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-26",
+        id: "question-656",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Melyik helyzetben nagyobb a szárny indukált ellenállása?",
@@ -10160,11 +12047,14 @@ export const mainTestBank = [
         ],
         answer: "Mellső súlyponthelyzet esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-27",
+        id: "question-657",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10177,11 +12067,14 @@ export const mainTestBank = [
         ],
         answer: "5%-kal nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-28",
+        id: "question-658",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A nekifutási úthossz alatt …",
@@ -10194,11 +12087,14 @@ export const mainTestBank = [
         answer:
           "a fékoldástól a repülőgép elemelkedéséig számított távolságot értjük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-29",
+        id: "question-659",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10211,11 +12107,14 @@ export const mainTestBank = [
         ],
         answer: "10%-nak – 20%-kal nő",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-30",
+        id: "question-660",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10228,11 +12127,14 @@ export const mainTestBank = [
         ],
         answer: "Vx sebességet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-31",
+        id: "question-661",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Ha Vgazd sebességet választjuk, akkor",
@@ -10244,11 +12146,14 @@ export const mainTestBank = [
         ],
         answer: "a minimális szükséges teljesítménnyel repülünk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-32",
+        id: "question-662",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10261,11 +12166,14 @@ export const mainTestBank = [
         ],
         answer: "Vy sebességet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-33",
+        id: "question-663",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Növekvő magassággal Vx …",
@@ -10277,11 +12185,14 @@ export const mainTestBank = [
         ],
         answer: "IAS és TAS szerint is nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-34",
+        id: "question-664",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10294,11 +12205,14 @@ export const mainTestBank = [
         ],
         answer: "kb. 20%-kal – kb. 25%-kal – kb. 25%-kal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-35",
+        id: "question-665",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10311,11 +12225,14 @@ export const mainTestBank = [
         ],
         answer: "Nagyobb súly és hátsó súlypont esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-36",
+        id: "question-666",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10323,11 +12240,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-37",
+        id: "question-667",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Melyik állítás hamis?",
@@ -10340,11 +12260,14 @@ export const mainTestBank = [
         answer:
           "A hatótávolságot a minimális teljesítmény esetén maximalizáljuk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-38",
+        id: "question-668",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Az üzemi súly …",
@@ -10356,11 +12279,14 @@ export const mainTestBank = [
         ],
         answer: "a száraz üzemi súly és az üzemanyagok súlyának összege.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-39",
+        id: "question-669",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A legtöbb levegőben tölthető idő és a hatótávolság …",
@@ -10372,11 +12298,14 @@ export const mainTestBank = [
         ],
         answer: "mellső és hátsó súlyponthelyzet esetén egyaránt csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-40",
+        id: "question-670",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10389,11 +12318,14 @@ export const mainTestBank = [
         ],
         answer: "kb. 460 feet/min.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-41",
+        id: "question-671",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10401,11 +12333,14 @@ export const mainTestBank = [
         options: ["Igen.", "Nem."],
         answer: "Nem.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-42",
+        id: "question-672",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Növekvő magassággal Vy …",
@@ -10417,11 +12352,14 @@ export const mainTestBank = [
         ],
         answer: "IAS szerint csökken és TAS szerint nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-43",
+        id: "question-673",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10434,22 +12372,28 @@ export const mainTestBank = [
         ],
         answer: "91,6 inch-re.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-44",
+        id: "question-674",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "TORA + Stopway = …",
         options: ["Clearway", "TODA", "LDA", "ASDA"],
         answer: "ASDA",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-45",
+        id: "question-675",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10462,11 +12406,14 @@ export const mainTestBank = [
         ],
         answer: "csökken – csökken – nem változik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-46",
+        id: "question-676",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10479,11 +12426,14 @@ export const mainTestBank = [
         ],
         answer: "kb. 30%-kal – 40%-kal – 25%-kal",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-47",
+        id: "question-677",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10496,11 +12446,14 @@ export const mainTestBank = [
         ],
         answer: "A száraz üzemi súly.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-48",
+        id: "question-678",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10508,11 +12461,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-49",
+        id: "question-679",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A rendelkezésre álló leszállási úthossz = …",
@@ -10524,11 +12480,14 @@ export const mainTestBank = [
         ],
         answer: "az LDA-val.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-50",
+        id: "question-680",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10536,11 +12495,14 @@ export const mainTestBank = [
         options: ["TORA szakaszán.", "LDA szakaszán.", "ASDA szakszán."],
         answer: "TORA szakaszán.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-51",
+        id: "question-681",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Az emelkedés során az emelkedés szöge …",
@@ -10552,11 +12514,14 @@ export const mainTestBank = [
         answer:
           "szembeszél esetén meredekebb lesz, hátszél esetén az emelkedés szöge csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-52",
+        id: "question-682",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Motorleállás esetén a földet érésig …",
@@ -10569,11 +12534,14 @@ export const mainTestBank = [
         answer:
           "Vopt sebességet választva tudjuk megtenni a legnagyobb föld feletti távolságot. Ekkor a siklószög a lehető legkisebb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-53",
+        id: "question-683",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A legtöbb levegőben tölthető idő …",
@@ -10584,11 +12552,14 @@ export const mainTestBank = [
         ],
         answer: "A legtöbb levegőben tölthető időre a szél nincs hatással.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-54",
+        id: "question-684",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10601,11 +12572,14 @@ export const mainTestBank = [
         ],
         answer: "csökken – nagyobb – csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-55",
+        id: "question-685",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10618,11 +12592,14 @@ export const mainTestBank = [
         ],
         answer: "50%-át – 150%-os",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-56",
+        id: "question-686",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10635,11 +12612,14 @@ export const mainTestBank = [
         ],
         answer: "1%-os – 5%-kal nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-57",
+        id: "question-687",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -10652,11 +12632,14 @@ export const mainTestBank = [
         answer:
           "Egy repülőgép üressúlya nem feltétlenül egyezik meg a gyártó által megadott üressúllyal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-58",
+        id: "question-688",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10669,11 +12652,14 @@ export const mainTestBank = [
         ],
         answer: "Igen. 90,2 inchre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-59",
+        id: "question-689",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "Hátszél esetén …",
@@ -10686,11 +12672,14 @@ export const mainTestBank = [
         answer:
           "a repülőgép föld feletti sebessége nagyobb, mint a levegőhöz viszonyított sebessége, ezért (a szélcsendhez képest) hosszabb nekifutás után emelkedik el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-60",
+        id: "question-690",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A száraz üzemi súly és a forgalmi teher összege …",
@@ -10702,11 +12691,14 @@ export const mainTestBank = [
         ],
         answer: "az üzemanyag nélküli súly.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-61",
+        id: "question-691",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10719,11 +12711,14 @@ export const mainTestBank = [
         ],
         answer: "50%-át – 150%-os",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-62",
+        id: "question-692",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A repülőgép üressúlya …",
@@ -10733,11 +12728,14 @@ export const mainTestBank = [
         ],
         answer: "tartalmazhat bizonyos mennyiségű üzemanyagot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-63",
+        id: "question-693",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question: "A súlypontszámítás során …",
@@ -10750,11 +12748,14 @@ export const mainTestBank = [
         answer:
           "pozitív nyomatéknak vesszük a viszonyítási sík mögött, és negatív nyomatéknak vesszük a viszonyítási sík előtt keletkező nyomatékokat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-64",
+        id: "question-694",
         subtopic: "REPÜLÉSTERVEZÉS",
         difficulty: "easy",
         question:
@@ -10767,7 +12768,10 @@ export const mainTestBank = [
         ],
         answer: "Stopway-nek nevezzük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
     ],
@@ -10776,7 +12780,7 @@ export const mainTestBank = [
     topic: "Emberi teljesítőképesség",
     questions: [
       {
-        id: "question-1",
+        id: "question-695",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question: "Egyszerű, rutinszerű tevékenységek végrehajtásánál …",
@@ -10788,11 +12792,14 @@ export const mainTestBank = [
         answer:
           "a teljesítmény színvonala a serkentettség szintjének növekedésével egyidejűleg nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-2",
+        id: "question-696",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -10800,11 +12807,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-3",
+        id: "question-697",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A kimerültség és az állandó koncentráció …",
@@ -10816,11 +12826,14 @@ export const mainTestBank = [
         ],
         answer: "csökkenti a hypoxiás tűrőképességet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-4",
+        id: "question-698",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "A testbe hatolt áram legsúlyosabb következménye …",
@@ -10831,11 +12844,14 @@ export const mainTestBank = [
         ],
         answer: "szívmegállás és légzésbénulás is lehet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-5",
+        id: "question-699",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Melyik állítás helyes?",
@@ -10847,11 +12863,14 @@ export const mainTestBank = [
         ],
         answer: "A szénmonoxid szagtalan és szaglással nem is észlelhető.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-6",
+        id: "question-700",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -10864,11 +12883,14 @@ export const mainTestBank = [
         ],
         answer: "IMC esetén teljesen alkalmatlanok a térbeli tájékozódásra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-7",
+        id: "question-701",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Az Eustach-kürt biztosítja a nyomás kiegyenlítődését …",
@@ -10880,11 +12902,14 @@ export const mainTestBank = [
         ],
         answer: "a középfül és a külvilág között.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-8",
+        id: "question-702",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Dohányzás esetén a repülőgép-vezetőnél …",
@@ -10897,11 +12922,14 @@ export const mainTestBank = [
         answer:
           "enyhe szénmonoxid mérgezés léphet fel, mely csökkenti a hypoxiás tűrőképességet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-9",
+        id: "question-703",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Gerincsérülés gyanúja esetén …",
@@ -10912,11 +12940,14 @@ export const mainTestBank = [
         ],
         answer: "a sérültet mozgatni tilos.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-10",
+        id: "question-704",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -10929,11 +12960,14 @@ export const mainTestBank = [
         ],
         answer: "nő – csökken",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-11",
+        id: "question-705",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -10945,11 +12979,14 @@ export const mainTestBank = [
         answer:
           "II. fokú égés esetén az égett testrész hűtését követően a sérülésre laza, száraz fedőkötést kell felhelyezni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-12",
+        id: "question-706",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A szöggyorsulást … érzékelik.",
@@ -10961,22 +12998,28 @@ export const mainTestBank = [
         ],
         answer: "a félkörös ívjáratok",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-13",
+        id: "question-707",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question: "A rövid távú memória megközelítőleg … elemet képes tárolni.",
         options: ["9 ± 2", "7 ± 2", "10 ± 2", "4 ± 2"],
         answer: "7 ± 2",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-14",
+        id: "question-708",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question:
@@ -10984,11 +13027,14 @@ export const mainTestBank = [
         options: ["Hajszáleres", "Artériás", "Vénás"],
         answer: "Artériás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-15",
+        id: "question-709",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A térbeli dezorientáció veszélye nő, ha …",
@@ -11001,11 +13047,14 @@ export const mainTestBank = [
         answer:
           "a műszerek és az egyensúlyszervtől érkező információk között ellentmondás van.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-16",
+        id: "question-710",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question:
@@ -11013,11 +13062,14 @@ export const mainTestBank = [
         options: ["IV. fokú", "II. fokú", "I. fokú", "III. fokú"],
         answer: "III. fokú",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-17",
+        id: "question-711",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -11025,11 +13077,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-18",
+        id: "question-712",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Egy felnőtt normális pulzusszáma …",
@@ -11041,11 +13096,14 @@ export const mainTestBank = [
         ],
         answer: "60-80 pulzálás/perc.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-19",
+        id: "question-713",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11053,11 +13111,14 @@ export const mainTestBank = [
         options: ["0-20000 ft.", "0-10000 ft.", "0-4000 ft.", "0-15000 ft."],
         answer: "0-10000 ft.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-20",
+        id: "question-714",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A légibetegség előfordulásának valószínűsége nagyobb, ha …",
@@ -11069,11 +13130,14 @@ export const mainTestBank = [
         ],
         answer: "az utas vagy a növendék fél a repüléstől.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-21",
+        id: "question-715",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Vénás vérzés esetén …",
@@ -11085,11 +13149,14 @@ export const mainTestBank = [
         ],
         answer: "nyomókötést kell alkalmazni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-22",
+        id: "question-716",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11102,11 +13169,14 @@ export const mainTestBank = [
         ],
         answer: "földközelben azt érzékelheti, hogy túl alacsonyan van.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-23",
+        id: "question-717",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -11114,22 +13184,28 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-24",
+        id: "question-718",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Egy felnőtt normális légzésszáma …",
         options: ["18-20/perc.", "22-24/perc.", "14-16/perc.", "10-12/perc."],
         answer: "14-16/perc.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-25",
+        id: "question-719",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Mi a pozitív gyorsulás fő hatása?",
@@ -11142,11 +13218,14 @@ export const mainTestBank = [
         answer:
           "A vér az alsó testfélbe torlódik, ezért kevesebb vér vesz részt a keringésben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-26",
+        id: "question-720",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "A szem és a szemhéj vágott sérülése esetén …",
@@ -11159,11 +13238,14 @@ export const mainTestBank = [
         answer:
           "A sérült szemet be kell fedni tiszta kötéssel, lazán rögzítve. A másik szemet le kell takarni, hogy a szemgolyók mozgását megelőzzük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-27",
+        id: "question-721",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question:
@@ -11171,11 +13253,14 @@ export const mainTestBank = [
         options: ["1:15", "1:30", "2:30", "2:15"],
         answer: "2:30",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-28",
+        id: "question-722",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Melyik állítás helyes?",
@@ -11187,11 +13272,14 @@ export const mainTestBank = [
         answer:
           "Csak akkor beszélhetünk kielégítő légzésről, ha a légzést látjuk és halljuk is egyszerre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-29",
+        id: "question-723",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question:
@@ -11199,11 +13287,14 @@ export const mainTestBank = [
         options: ["2-3 perc", "4 perc", "7 perc", "1 perc"],
         answer: "4 perc",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-30",
+        id: "question-724",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "A keringés vizsgálatakor …",
@@ -11214,11 +13305,14 @@ export const mainTestBank = [
         ],
         answer: "a nyaki ütőér megtapintásával történik a pulzus vizsgálata.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-31",
+        id: "question-725",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -11231,11 +13325,14 @@ export const mainTestBank = [
         ],
         answer: "Az érzékelési kontraszt",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-32",
+        id: "question-726",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11243,11 +13340,14 @@ export const mainTestBank = [
         options: ["1-2,5 +Gz", "2,5-4 +Gz", "4,5-5 +Gz", "4-4,5 +Gz"],
         answer: "1-2,5 +Gz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-33",
+        id: "question-727",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question: "Ha csak egyik szemünket használjuk a távolságérzékelésben …",
@@ -11259,11 +13359,14 @@ export const mainTestBank = [
         answer:
           "a monokuláris távolsági jelzőmozzanatok és a mozgásparallaxis van segítségünkre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-34",
+        id: "question-728",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11276,11 +13379,14 @@ export const mainTestBank = [
         ],
         answer: "Coriolis-illúzió.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-35",
+        id: "question-729",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A légzési folyamat a következő lépésekből áll:",
@@ -11293,11 +13399,14 @@ export const mainTestBank = [
         answer:
           "oxigéndiffúzió a vérbe a légzőhámon át; oxigén szállítása és diffúziója a sejtekbe; a széndioxid eltávolítása a szervezetből.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-36",
+        id: "question-730",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Hyperventiláció során a vér …",
@@ -11309,11 +13418,14 @@ export const mainTestBank = [
         ],
         answer: "széndioxid szintje csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-37",
+        id: "question-731",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Hogyan előzhető meg a középfül barotraumája?.",
@@ -11325,11 +13437,14 @@ export const mainTestBank = [
         ],
         answer: "Valsalva-manőverrel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-38",
+        id: "question-732",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Zúzódásról beszélünk, ha …",
@@ -11342,11 +13457,14 @@ export const mainTestBank = [
         answer:
           "a bőr folytonossága nem szakad meg, de a bőr alatt vérömleny jön létre",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-39",
+        id: "question-733",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A belsőfül melyik része felelős a zaj érzékeléséért?",
@@ -11358,11 +13476,14 @@ export const mainTestBank = [
         ],
         answer: "A csigaszerv.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-40",
+        id: "question-734",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Mikor kell számítani éberségi minimumra (álmossági csúcsr?",
@@ -11374,11 +13495,14 @@ export const mainTestBank = [
         ],
         answer: "Hajnali 3 és 5 óra, valamint délután 15 és 17 óra között.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-41",
+        id: "question-735",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question:
@@ -11386,11 +13510,14 @@ export const mainTestBank = [
         options: ["Rándulásra.", "Zúzódásra.", "Nyílt törésre.", "Ficamra."],
         answer: "Ficamra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-42",
+        id: "question-736",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11398,11 +13525,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-43",
+        id: "question-737",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11415,11 +13545,14 @@ export const mainTestBank = [
         ],
         answer: "15000-20000 ft",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-44",
+        id: "question-738",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "A befúvásos lélegeztetéshez a sérültet …",
@@ -11431,11 +13564,14 @@ export const mainTestBank = [
         ],
         answer: "hanyatt kell fektetni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-45",
+        id: "question-739",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question:
@@ -11443,11 +13579,14 @@ export const mainTestBank = [
         options: ["28-30-szor", "22-26-szor", "10-14-szer", "16-20-szor"],
         answer: "16-20-szor",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-46",
+        id: "question-740",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11460,11 +13599,14 @@ export const mainTestBank = [
         ],
         answer: "A dőlés illúziója.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-47",
+        id: "question-741",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11477,11 +13619,14 @@ export const mainTestBank = [
         ],
         answer: "szöggyorsulás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-48",
+        id: "question-742",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -11494,11 +13639,14 @@ export const mainTestBank = [
         ],
         answer: "kb. 15-30 mp-ig",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-49",
+        id: "question-743",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -11511,11 +13659,14 @@ export const mainTestBank = [
         ],
         answer: "központi döntési csatorna",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-50",
+        id: "question-744",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Az egyensúlyérzékelésért … felelősek, melyek … találhatók.",
@@ -11528,11 +13679,14 @@ export const mainTestBank = [
         answer:
           "a félkörös ívjáratok, a tömlőcskék és a zsákocskák – a belső fülben",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-51",
+        id: "question-745",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -11540,11 +13694,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-52",
+        id: "question-746",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Mi az önmentési idő?",
@@ -11557,11 +13714,14 @@ export const mainTestBank = [
         answer:
           "Az oxigénellátás megszűnésétől számított azon időtartam, ameddig az egyén hatékonyan és éberen képes cselekedni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-53",
+        id: "question-747",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Mi az első teendő, ha a sérült eszméletlen?",
@@ -11573,11 +13733,14 @@ export const mainTestBank = [
         ],
         answer: "Meg kell vizsgálni légzését és keringését.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-54",
+        id: "question-748",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Barotrauma … alakulhat ki.",
@@ -11590,11 +13753,14 @@ export const mainTestBank = [
         answer:
           "a középfüben, az orrmelléküregekben és a gyomor-bél rendszerben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-55",
+        id: "question-749",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11607,22 +13773,28 @@ export const mainTestBank = [
         ],
         answer: "a pálya távolibbnak tűnik a valóságosnál.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-56",
+        id: "question-750",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "… vérzés esetén lassan gyöngyözik a vér a sebből.",
         options: ["Artériás", "Vénás", "Hajszáleres"],
         answer: "Hajszáleres",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-57",
+        id: "question-751",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question: "Az összetett tevékenységek végrehajtásánál …",
@@ -11634,11 +13806,14 @@ export const mainTestBank = [
         answer:
           "a serkentettség fokozódása csak egy bizonyos pontig társul a teljesítmény növekedésével, ezen túl pedig hanyatlani kezd.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-58",
+        id: "question-752",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11651,11 +13826,14 @@ export const mainTestBank = [
         ],
         answer: "hisz a műszereknek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-59",
+        id: "question-753",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Az alkohol kis mennyiségben …",
@@ -11667,11 +13845,14 @@ export const mainTestBank = [
         ],
         answer: "is fokozhatja az agysejtek hypoxia iránti érzékenységét.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-60",
+        id: "question-754",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question:
@@ -11684,11 +13865,14 @@ export const mainTestBank = [
         ],
         answer: "Agyrázkódásra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-61",
+        id: "question-755",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A szövetek oxigénhiányos állapotát …",
@@ -11700,22 +13884,28 @@ export const mainTestBank = [
         ],
         answer: "hypoxiának nevezzük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-62",
+        id: "question-756",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Szürkefátyol már … kötötti gyorsulás esetén felléphet.",
         options: ["4,5-5 +Gz", "2,5-4 +Gz", "1-2,5 +Gz", "4-4,5 +Gz"],
         answer: "2,5-4 +Gz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-63",
+        id: "question-757",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A futópálya lejt a küszöbtől. A lehetséges veszély?",
@@ -11728,11 +13918,14 @@ export const mainTestBank = [
         answer:
           "A repülőgép-vezető a szokásosnál magasabbra helyezkedik, ezért a leszállási úthossz megnövekedhet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-64",
+        id: "question-758",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question:
@@ -11740,11 +13933,14 @@ export const mainTestBank = [
         options: ["Hajszáleres", "Vénás", "Artériás"],
         answer: "Vénás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-65",
+        id: "question-759",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11757,11 +13953,14 @@ export const mainTestBank = [
         ],
         answer: "a higiéniai zacskóból lélegezni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-66",
+        id: "question-760",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -11769,11 +13968,14 @@ export const mainTestBank = [
         options: ["rövidebb", "hosszabb"],
         answer: "hosszabb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-67",
+        id: "question-761",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -11781,11 +13983,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-68",
+        id: "question-762",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Bármely magasság túlélhető, ha biztosított …",
@@ -11797,11 +14002,14 @@ export const mainTestBank = [
         ],
         answer: "a megfelelő oxigén, nyomás és hőmérséklet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-69",
+        id: "question-763",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Mit értünk kinetózis alatt?",
@@ -11814,11 +14022,14 @@ export const mainTestBank = [
         answer:
           "Érzékelési zavar az egyensúlyszervben, amit hányinger, hányás és szorongás kísér.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-70",
+        id: "question-764",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "A sebből durva anyagot eltávolítani …",
@@ -11831,11 +14042,14 @@ export const mainTestBank = [
         answer:
           "csak akkor szabad, ha nem rögzült a sebbe, és eltávolítás közben nem kell belenyúlni a sebbe.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-71",
+        id: "question-765",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -11843,11 +14057,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-72",
+        id: "question-766",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan előzhető meg a sokkos állapot?",
@@ -11859,11 +14076,14 @@ export const mainTestBank = [
         answer:
           "A sérültet hanyatt kell fektetni, lábait megemelve. A vérzést csillapítani kell, a sérült végtagokat nyugalomba kell helyezni és rögzíteni kell. A sérültet vízzel vagy teával lassan itathatjuk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-73",
+        id: "question-767",
         subtopic: "PSZICHOLÓGIAI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -11875,22 +14095,28 @@ export const mainTestBank = [
         ],
         answer: "Közepes szintű izgalmi állapotban.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-74",
+        id: "question-768",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A … alvás a mélyebb alvásstádium.",
         options: ["REM", "a non-REM"],
         answer: "a non-REM",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-75",
+        id: "question-769",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A szem ideghártyáján … vesznek részt a fény érzékelésében.",
@@ -11902,11 +14128,14 @@ export const mainTestBank = [
         ],
         answer: "a csapok és a pálcikák",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-76",
+        id: "question-770",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Végtagtörés gyanúja esetén …",
@@ -11917,11 +14146,14 @@ export const mainTestBank = [
         ],
         answer: "a sérült végtagot a talált helyzetben rögzíteni kell.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-77",
+        id: "question-771",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11929,11 +14161,14 @@ export const mainTestBank = [
         options: ["15000 ft", "10000 ft", "30000 ft", "20000 ft"],
         answer: "20000 ft",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-78",
+        id: "question-772",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -11946,11 +14181,14 @@ export const mainTestBank = [
         ],
         answer: "Fejfájás, fokozódó hányinger, szédülés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-79",
+        id: "question-773",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question:
@@ -11958,11 +14196,14 @@ export const mainTestBank = [
         options: ["1 percig", "7 percig", "2-3 percig", "4 percig"],
         answer: "2-3 percig",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-80",
+        id: "question-774",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan látunk el zúzódást?",
@@ -11974,11 +14215,14 @@ export const mainTestBank = [
         answer:
           "Rugalmas pólyával kössük be a sérült területet, majd sűrűn váltott hideg vizes borogatást alkalmazzunk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-81",
+        id: "question-775",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Ütőeres vérzés esetén …",
@@ -11991,11 +14235,14 @@ export const mainTestBank = [
         answer:
           "választott helyeken ujjainkkal a vérző ütőeret leszorítva csillapítani kell a vérzést és nyomókötést kell felhelyezni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-82",
+        id: "question-776",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "Melyik állítás helyes?",
@@ -12008,11 +14255,14 @@ export const mainTestBank = [
         answer:
           "Ha a circadiam ritmus zavara nem áll fenn, akkor a legsúlyosabb alváshiányban szenvedő szervezet is képes regenerálódni két 9-10 órás teljes alvási periódus után.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-83",
+        id: "question-777",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -12025,11 +14275,14 @@ export const mainTestBank = [
         ],
         answer: "A radiális gyorsulás (+Gz).",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-84",
+        id: "question-778",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question:
@@ -12042,11 +14295,14 @@ export const mainTestBank = [
         ],
         answer: "Alacsonyabb magasságra kell süllyedni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-85",
+        id: "question-779",
         subtopic: "REPÜLÉSÉLETTAN",
         difficulty: "easy",
         question: "A dekompressziós betegséget …",
@@ -12057,11 +14313,14 @@ export const mainTestBank = [
         answer:
           "a hirtelen nyomáscsökkenés váltja ki, mely során a vérben nitrogén buborékok szabadulnak fel és nyomást gyakorolnak a környező szövetekre, valamint elzárják a véráram útját.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-86",
+        id: "question-780",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "A mellkaskompressziót … ütemben kell végezni.",
@@ -12073,11 +14332,14 @@ export const mainTestBank = [
         ],
         answer: "100-120 kompresszió/perc",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-87",
+        id: "question-781",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Steril fedőkötés felhelyezése előtt …",
@@ -12087,11 +14349,14 @@ export const mainTestBank = [
         ],
         answer: "tilos a sebbe bármilyen anyagot beleszórni, beleöntetni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-88",
+        id: "question-782",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Az elsõsegély célja.....",
@@ -12103,11 +14368,14 @@ export const mainTestBank = [
         answer:
           "az élet megmentése, megakadályozni a további egészségkárosodást, a tanácsadás, illetve elõsegíteni a gyógyulást.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-89",
+        id: "question-783",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Az elsõsegélynyújtó feladatai.........",
@@ -12119,11 +14387,14 @@ export const mainTestBank = [
         answer:
           "tájékozódás, a helyszín biztosítása, segítség kérése, illetve saját testi épségének megóvása.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-90",
+        id: "question-784",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan vizsgálja meg a beteget?",
@@ -12135,11 +14406,14 @@ export const mainTestBank = [
         answer:
           "Meg kell állapítani, hogy eszméleténél van-e, lélegzik-e, illetve van-e tapintható pulzusa.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-91",
+        id: "question-785",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Eszméletlenséget hogyan ismer fel?",
@@ -12151,11 +14425,14 @@ export const mainTestBank = [
         answer:
           "Alvó állapothoz hasonló, hang- és fájdalomingerre nem reagál a sérült, a légutak elzáródhatnak a garat izmainak reflexes mûködésének megszûnése miatt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-92",
+        id: "question-786",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan helyezi el a jól légzõ eszméletlen beteget?",
@@ -12166,11 +14443,14 @@ export const mainTestBank = [
         ],
         answer: "Stabil oldalfekvésben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-93",
+        id: "question-787",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Mi az akadálya a stabil oldalfekvõ helyzetbe hozásnak?",
@@ -12182,33 +14462,42 @@ export const mainTestBank = [
         answer:
           "Gerincsérülés, mellkas, medence sérülés, has tompasérülés, illetve végtag törések.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-94",
+        id: "question-788",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Egy felnõtt normális pulzusszáma:",
         options: ["60-80 / perc", "14-16 / perc", "80-90 / perc"],
         answer: "60-80 / perc",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-95",
+        id: "question-789",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Egy felnõtt normális légzésszáma:",
         options: ["14-16/perc", "60-80/perc", "80-90/perc"],
         answer: "14-16/perc",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-96",
+        id: "question-790",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Klinikai halál állapota a .....",
@@ -12219,11 +14508,14 @@ export const mainTestBank = [
         ],
         answer: "keringés és légzés leállása után 4 percig áll fenn.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-97",
+        id: "question-791",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "A biológiai halál állapota a ..........",
@@ -12234,11 +14526,14 @@ export const mainTestBank = [
         ],
         answer: "keringés és légzés leállása után 5 perctõl áll fenn.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-98",
+        id: "question-792",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Vérzéstípusok a következõk:",
@@ -12249,11 +14544,14 @@ export const mainTestBank = [
         ],
         answer: "Ütõeres, visszeres, illetve hajszáleres.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-99",
+        id: "question-793",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Artériás és vénás vérzés ellátása:",
@@ -12265,11 +14563,14 @@ export const mainTestBank = [
         answer:
           "Az artériás nyomáspont szorítása után nyomókötést kell alkalmazni, átvérzés esetén felülkötni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-100",
+        id: "question-794",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Lélegeztetéskor elõforduló hibák:",
@@ -12281,11 +14582,14 @@ export const mainTestBank = [
         answer:
           "Légúti akadály képzõdése, a gyomor felfújása, a tüdõ sérülése, illetve elégtelen oxigén ellátás lehetnek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-101",
+        id: "question-795",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Sokk okai lehetnek:",
@@ -12296,11 +14600,14 @@ export const mainTestBank = [
         ],
         answer: "Érpálya tágulása, vérvesztés, illetve folyadékvesztés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-102",
+        id: "question-796",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "A sokk tünetei:",
@@ -12311,11 +14618,14 @@ export const mainTestBank = [
         ],
         answer: "sápadt, verítékes bõr, szapora pulzusszám, ájulásérzés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-103",
+        id: "question-797",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Melyek a kipufogógáz-mérgezés tünetei, hogyan kell ellátni?",
@@ -12327,11 +14637,14 @@ export const mainTestBank = [
         answer:
           "A végtagok elgyengülnek, köhögési roham lép fel, menekülésre képtelen a beteg, piros a nyálkahártyája, és ugyanúgy kell ellátni, mint az eszméletlen sérültet, miután szabad levegõre vittük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-104",
+        id: "question-798",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan kell az áramütést szenvedett sérültet ellátni?",
@@ -12343,11 +14656,14 @@ export const mainTestBank = [
         answer:
           "Elõször meg kell szakítani az áramkört, majd kiszabadítani a sérültet, ezután a légzés, vagy keringésleállás után újraéleszteni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-105",
+        id: "question-799",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan kell a gerincsérültet ellátni?",
@@ -12359,11 +14675,14 @@ export const mainTestBank = [
         answer:
           "A sérültet mozgatni tilos, lehetõleg nem szabad magára hagyni, azonnali segítséget kell kérni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-106",
+        id: "question-800",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan látja el a szemsérült beteget?",
@@ -12374,11 +14693,14 @@ export const mainTestBank = [
         ],
         answer: "Steril fedõkötéssel, a sérült nem hagyható magára.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-107",
+        id: "question-801",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan látja el a nyílttörést szenvedett beteget?",
@@ -12390,11 +14712,14 @@ export const mainTestBank = [
         answer:
           "A sebkörnyék fertõtlenítése után steril kötést kell alkalmazni, majd a végtagot rögzíteni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-108",
+        id: "question-802",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan helyezi el a sápadt ájult beteget?",
@@ -12405,11 +14730,14 @@ export const mainTestBank = [
         ],
         answer: "Fektetve, a lábait magasba emelve.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-109",
+        id: "question-803",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan távolítja el a légúti idegentesteket?",
@@ -12421,11 +14749,14 @@ export const mainTestBank = [
         answer:
           "A szájüregbõl a látható idegentestet kivesszük, a szájüreget kitöröljük, illetve a Heimlich-féle mûfogást alkalmazzuk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-110",
+        id: "question-804",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Hogyan kell ellátni a vállficamot?",
@@ -12436,11 +14767,14 @@ export const mainTestBank = [
         ],
         answer: "Desault kötést kell alkalmazni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-111",
+        id: "question-805",
         subtopic: "ELSŐSEGÉLYNYÚJTÁS",
         difficulty: "easy",
         question: "Mi a teendõ gyógyszermérgezés esetén?",
@@ -12451,11 +14785,14 @@ export const mainTestBank = [
         ],
         answer: "Eszméleténél lévõ beteget langyos, sós vízzel hányatni kell.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-112",
+        id: "question-806",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12468,11 +14805,14 @@ export const mainTestBank = [
         ],
         answer: "A szénmonoxid szagtalan és szaglással nem is észlelhetõ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-113",
+        id: "question-807",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12485,11 +14825,14 @@ export const mainTestBank = [
         ],
         answer: "Nincs helyes válasz megadva.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-114",
+        id: "question-808",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12502,11 +14845,14 @@ export const mainTestBank = [
         ],
         answer: "A vörövérsejt hemoglobinja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-115",
+        id: "question-809",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12520,11 +14866,14 @@ export const mainTestBank = [
         answer:
           "Magas és alacsony vérnyomás valamint a rossz keringési állapot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-116",
+        id: "question-810",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12537,11 +14886,14 @@ export const mainTestBank = [
         ],
         answer: "Szédülés érzése",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-117",
+        id: "question-811",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12554,11 +14906,14 @@ export const mainTestBank = [
         ],
         answer: "mûanyag vagy papír zacskóba történõ légzés",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-118",
+        id: "question-812",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Jó módszer a hiperventiláció kezelésére:",
@@ -12571,11 +14926,14 @@ export const mainTestBank = [
         answer:
           "önmagunkkal hangosan átbeszélni a megfelelõ eljárást, hogy emócionálisan lehiggadjunk és egyidejûleg csökkenteni a légzésszámot",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-119",
+        id: "question-813",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12583,11 +14941,14 @@ export const mainTestBank = [
         options: ["38000 FT", "45000 FT", "60000 FT", "80000 FT"],
         answer: "38000 FT",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-120",
+        id: "question-814",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12600,11 +14961,14 @@ export const mainTestBank = [
         ],
         answer: "feszítõ érzés a hasban és bélgázosság",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-121",
+        id: "question-815",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Hogyan elõzhetõ meg a középfül barotraumája (aerotitis)?",
@@ -12617,11 +14981,14 @@ export const mainTestBank = [
         answer:
           "Zárt száj és befogott orr mellett növeljük a garat légnyomását. Egyidejûleg megkíséreljük a nyelést illetve leszorítjuk az állkapcsot (Valsalva-manõver)",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-122",
+        id: "question-816",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Melyek a stressz könnyen felismerhetõ tünetei?",
@@ -12633,11 +15000,14 @@ export const mainTestBank = [
         ],
         answer: "Verejtékezés, kipirult bõr, tág pupillák, szapora légzés",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-123",
+        id: "question-817",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "A hiperventiláció következménye",
@@ -12649,11 +15019,14 @@ export const mainTestBank = [
         ],
         answer: "csökken a vérben a szénmonoxid",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-124",
+        id: "question-818",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "A vörösvérsejtek fõ funkciója",
@@ -12665,11 +15038,14 @@ export const mainTestBank = [
         ],
         answer: "az oxigénszállítás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-125",
+        id: "question-819",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12682,22 +15058,28 @@ export const mainTestBank = [
         ],
         answer: "vörösvérsejtek",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-126",
+        id: "question-820",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "A szívizomzat ellátását biztosítja:",
         options: ["tüdõvénák", "kamrák", "pitvarok", "koszorú erek"],
         answer: "koszorú erek",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-127",
+        id: "question-821",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Hipoxia esetén a sejtekben:",
@@ -12709,11 +15091,14 @@ export const mainTestBank = [
         ],
         answer: "oxigénhiány van",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-128",
+        id: "question-822",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Jelölje meg a magassági meteorizmus okát!",
@@ -12724,22 +15109,28 @@ export const mainTestBank = [
         ],
         answer: "a gázok térfogatváltozása",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-129",
+        id: "question-823",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Az emberi testben hol nem alakulhat ki barotrauma?",
         options: ["orrmelléküregek", "gyomor- bélrendszer", "középfül"],
         answer: "gyomor- bélrendszer",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-130",
+        id: "question-824",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Melyik nem tünete a hypoxiának?",
@@ -12750,22 +15141,28 @@ export const mainTestBank = [
         ],
         answer: "hasi puffadás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-131",
+        id: "question-825",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Az alábbiak közül melyik csökkenti a hypoxia tûrést?",
         options: ["vérben oldott nitrogén", "dohányzás", "hyperventilláció"],
         answer: "dohányzás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-132",
+        id: "question-826",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Mi okozza a magassági meteorizmust?",
@@ -12776,11 +15173,14 @@ export const mainTestBank = [
         ],
         answer: "gázok kitágulása a gyomorban és a belekben",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-133",
+        id: "question-827",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Mi okozza a kéz és lábgörcsöket hyperventillációban?",
@@ -12791,11 +15191,14 @@ export const mainTestBank = [
         ],
         answer: "széndioxid vesztése",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-134",
+        id: "question-828",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12808,22 +15211,28 @@ export const mainTestBank = [
         answer:
           "a keletkezett szén monoxid hemoglobin nem vesz részt a légcserében",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-135",
+        id: "question-829",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Melyik gáz felelõs a keszonbetegség kialakulásáért?",
         options: ["oxigén", "széndioxid", "nitrogén"],
         answer: "nitrogén",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-136",
+        id: "question-830",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12835,11 +15244,14 @@ export const mainTestBank = [
         ],
         answer: "oxigén adása",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-137",
+        id: "question-831",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12847,11 +15259,14 @@ export const mainTestBank = [
         options: ["látószerv", "belsõfül ívjáratai", "középfül hallócsontjai"],
         answer: "belsõfül ívjáratai",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-138",
+        id: "question-832",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12859,11 +15274,14 @@ export const mainTestBank = [
         options: ["24 óra", "48 óra", "96 óra"],
         answer: "24 óra",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-139",
+        id: "question-833",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12871,11 +15289,14 @@ export const mainTestBank = [
         options: ["artériás", "vénás", "kapilláris"],
         answer: "artériás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-140",
+        id: "question-834",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Mi határozza meg az égési sérülés túlélési esélyét?",
@@ -12886,22 +15307,28 @@ export const mainTestBank = [
         ],
         answer: "életkor+égett testfelszín %-os aránya",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-141",
+        id: "question-835",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Egy felkar felszíni égése a testfelszín hány százaléka?",
         options: ["9%", "18%", "36%"],
         answer: "9%",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-142",
+        id: "question-836",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Miért kell szigorúan fektetni a gerincsérültet?",
@@ -12912,22 +15339,28 @@ export const mainTestBank = [
         ],
         answer: "idegsérülés megelõzésére",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-143",
+        id: "question-837",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Mi ellen véd a túlnyomásos kabin?",
         options: ["oxigén hiány", "légibetegség", "buborékbetegség"],
         answer: "oxigén hiány",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-144",
+        id: "question-838",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Mit tilos tenni napszúrás ellen?",
@@ -12938,11 +15371,14 @@ export const mainTestBank = [
         ],
         answer: "szeszesitalt adni a keringés serkentésére",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-145",
+        id: "question-839",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -12950,11 +15386,14 @@ export const mainTestBank = [
         options: ["1:4", "2:15", "2:8"],
         answer: "2:15",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-146",
+        id: "question-840",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Hol vizsgálják a pulzust a szívmûködés megítélésére?",
@@ -12965,11 +15404,14 @@ export const mainTestBank = [
         ],
         answer: "nyaki fõverõereken",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-147",
+        id: "question-841",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Melyik az újraélsztés helyes sorrendje?",
@@ -12980,11 +15422,14 @@ export const mainTestBank = [
         ],
         answer: "átjárható légutak, lélegeztetés, vérkeringés biztosítása",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-148",
+        id: "question-842",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Mi tilos agyrázkódás gyanúja esetén?",
@@ -12995,11 +15440,14 @@ export const mainTestBank = [
         ],
         answer: "nyugtató gyógyszert adni",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-149",
+        id: "question-843",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Mikor gondol szívinfarktus lehetõségére?",
@@ -13010,11 +15458,14 @@ export const mainTestBank = [
         ],
         answer: "10 percnél továbbtartó szorító mellkasi fájdalom",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-150",
+        id: "question-844",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -13022,11 +15473,14 @@ export const mainTestBank = [
         options: ["szívroham", "alkoholfüggõség", "epilepszia"],
         answer: "epilepszia",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-151",
+        id: "question-845",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Napégés milyen súlyosságú égési sérülést okozhat?",
@@ -13037,11 +15491,14 @@ export const mainTestBank = [
         ],
         answer: "bármelyik típusú",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-152",
+        id: "question-846",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Melyik szervrendszer a legérzékenyebb az oxigénhiányra?",
@@ -13052,11 +15509,14 @@ export const mainTestBank = [
         ],
         answer: "agy- és perifériás idegek",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-153",
+        id: "question-847",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Miért érzékeny az agy az oxigénhiányra?",
@@ -13067,11 +15527,14 @@ export const mainTestBank = [
         ],
         answer: "nem tud oxigént tartalékolni és nagy az oxigén igény",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-154",
+        id: "question-848",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -13084,11 +15547,14 @@ export const mainTestBank = [
         answer:
           "a túlzott alkoholfogyasztás kedvezõtlen hatása 48-72 óráig áll fenn",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-155",
+        id: "question-849",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Miért fontos a gyors, hatékony fájdalomcsillapítás?",
@@ -13099,11 +15565,14 @@ export const mainTestBank = [
         ],
         answer: "a fájdalom súlyosbítja a beteg állapotát, sokkot is kiválthat",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-156",
+        id: "question-850",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question:
@@ -13115,11 +15584,14 @@ export const mainTestBank = [
         ],
         answer: "agyvérzés, agyérelzáródás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-157",
+        id: "question-851",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Mit tilos tenni vállficam esetén?",
@@ -13130,22 +15602,28 @@ export const mainTestBank = [
         ],
         answer: "megkísérelni helyretenni",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-158",
+        id: "question-852",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Melyik érzékszerv a legérzékenyebb a hypoxiára?",
         options: ["szem", "hallószerv", "egyensúlyszerv"],
         answer: "szem",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-159",
+        id: "question-853",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Miért veszélyes a dohányzás repülés közben?",
@@ -13156,18 +15634,24 @@ export const mainTestBank = [
         ],
         answer: "a szénmonoxid miatt romlik a magasságtûrõképesség",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-160",
+        id: "question-854",
         subtopic: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
         difficulty: "easy",
         question: "Hogyan befolyásolja az éjszakai repülés a hypoxiatûrést?",
         options: ["fokozza", "csökkenti", "nem változik"],
         answer: "csökkenti",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
     ],
@@ -13176,7 +15660,7 @@ export const mainTestBank = [
     topic: "Meteorológia",
     questions: [
       {
-        id: "question-1",
+        id: "question-855",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "A Nap sugárzása …",
@@ -13189,11 +15673,14 @@ export const mainTestBank = [
         answer:
           "melegíti a Föld felszínét, amely azután melegíti a troposzférában a levegőt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-2",
+        id: "question-856",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13201,11 +15688,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-3",
+        id: "question-857",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13218,11 +15708,14 @@ export const mainTestBank = [
         ],
         answer: "Tropopauza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-4",
+        id: "question-858",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Mi a különbség a radiációs és az advektív köd között?",
@@ -13235,11 +15728,14 @@ export const mainTestBank = [
         answer:
           "A radiációs köd a talajfelszín lehűlése miatt keletkezik éjszaka gyenge szélben, vagy szélcsendben. Az advekciós köd akkor keletkezik, ha meleg nedves levegő áramlik hideg felszín fölé.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-5",
+        id: "question-859",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Hogyan mozognak a légtömegek egy hideg okklúziós frontban?",
@@ -13252,11 +15748,14 @@ export const mainTestBank = [
         answer:
           "A hidegfront hideg levegőéke a kevésbé hideg melegfronti hideg levegőék alá nyomul.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-6",
+        id: "question-860",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Milyen repülési feltételek jellemzik a Cirrus felhőket?",
@@ -13269,11 +15768,14 @@ export const mainTestBank = [
         answer:
           "Az átlagos vízszintes látás több mint 1000 m, és nincs jegesedés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-7",
+        id: "question-861",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13286,11 +15788,14 @@ export const mainTestBank = [
         ],
         answer: "Troposzféra",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-8",
+        id: "question-862",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Minden esetben képződik felhő, köd vagy harmat, ha …",
@@ -13302,11 +15807,14 @@ export const mainTestBank = [
         ],
         answer: "a vízgőz kicsapódik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-9",
+        id: "question-863",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Az északi félteke közepes szélességein a szél …",
@@ -13319,11 +15827,14 @@ export const mainTestBank = [
         answer:
           "az óramutató járásával ellentétesen fúj a ciklonokban és az óramutató járásával megegyezően az anticiklonokban.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-10",
+        id: "question-864",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13331,11 +15842,14 @@ export const mainTestBank = [
         options: ["nyereg", "gerinc", "ciklon", "anticiklon"],
         answer: "nyereg",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-11",
+        id: "question-865",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "A szelet előidézi …",
@@ -13347,11 +15861,14 @@ export const mainTestBank = [
         ],
         answer: "a vízszintesben jelentkező nyomáskülönbség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-12",
+        id: "question-866",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13364,11 +15881,14 @@ export const mainTestBank = [
         ],
         answer: "1-5 km – 1 km",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-13",
+        id: "question-867",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Az advekció …",
@@ -13379,11 +15899,14 @@ export const mainTestBank = [
         ],
         answer: "a levegő horizontális mozgása.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-14",
+        id: "question-868",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13391,11 +15914,14 @@ export const mainTestBank = [
         options: ["γn &lt; γ", "γn &gt; γ", "γn = γ"],
         answer: "γn &lt; γ",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-15",
+        id: "question-869",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13409,11 +15935,14 @@ export const mainTestBank = [
         answer:
           "Azokat a pontokat, amelyekben egy adott szintre vonatkozó légnyomás-értékek azonosak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-16",
+        id: "question-870",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Mi a magasszintű felhők legfőbb alkotórésze?",
@@ -13425,11 +15954,14 @@ export const mainTestBank = [
         ],
         answer: "Jégkristályok.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-17",
+        id: "question-871",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Dérszerű lerakódás keletkezik a repülőgépen, ha …",
@@ -13442,22 +15974,28 @@ export const mainTestBank = [
         answer:
           "a repülőgép 0 fok alatti felhőmentes levegőből melegebb, nedves levegőbe repül.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-18",
+        id: "question-872",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Az alább felsoroltak közül nem tekintjük alapgáznak …",
         options: ["a vízgőzt.", "a nitrogént.", "az oxigént."],
         answer: "a vízgőzt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-19",
+        id: "question-873",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Hogyan mozognak a légtömegek egy melegfrontban?",
@@ -13469,11 +16007,14 @@ export const mainTestBank = [
         ],
         answer: "A meleg légtömeg felsiklik a hideg légtömegre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-20",
+        id: "question-874",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13487,11 +16028,14 @@ export const mainTestBank = [
         answer:
           "Nagy sebességű levegő leáramlás, melynek a hőmérséklete alacsonyabb a környező levegőénél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-21",
+        id: "question-875",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -13503,11 +16047,14 @@ export const mainTestBank = [
         ],
         answer: "A QNH lehet egyenlő a QFE-vel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-22",
+        id: "question-876",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Mely erők tartanak egyensúlyt a geosztrofikus szélben?",
@@ -13519,11 +16066,14 @@ export const mainTestBank = [
         ],
         answer: "Nyomásgradiens erő, Coriolis erő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-23",
+        id: "question-877",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Az izotermia olyan légréteg, amelyben a hőmérséklet …",
@@ -13535,11 +16085,14 @@ export const mainTestBank = [
         ],
         answer: "állandó marad a magasság változásával.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-24",
+        id: "question-878",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13547,11 +16100,14 @@ export const mainTestBank = [
         options: ["Stratus.", "Cirrus.", "Altocumulus.", "Nimbostratus."],
         answer: "Nimbostratus.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-25",
+        id: "question-879",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Melyik állítás igaz a dérszerű lerakódásra?",
@@ -13564,11 +16120,14 @@ export const mainTestBank = [
         answer:
           "Keletkezéséhez felhőzet, illetve csapadék jelenléte nem szükséges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-26",
+        id: "question-880",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13581,11 +16140,14 @@ export const mainTestBank = [
         ],
         answer: "porszerű részecskék jelenléte következtében",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-27",
+        id: "question-881",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13597,22 +16159,28 @@ export const mainTestBank = [
         ],
         answer: "A zivatarcella előtt, a gust front közelében.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-28",
+        id: "question-882",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Az 500 hPa-s szint átlagosan melyik FL-nek felel meg?",
         options: ["FL180.", "FL050.", "FL100.", "FL240."],
         answer: "FL180.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-29",
+        id: "question-883",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Melyik állítás nem igaz a tiszta jegesedésre?",
@@ -13624,11 +16192,14 @@ export const mainTestBank = [
         ],
         answer: "A jégtelenítő berendezéssel könnyen leválasztható.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-30",
+        id: "question-884",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13640,11 +16211,14 @@ export const mainTestBank = [
         ],
         answer: "Szétáramlás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-31",
+        id: "question-885",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13652,11 +16226,14 @@ export const mainTestBank = [
         options: ["gerinc", "nyereg", "anticiklon", "ciklon"],
         answer: "ciklon",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-32",
+        id: "question-886",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13669,11 +16246,14 @@ export const mainTestBank = [
         ],
         answer: "7°C-kal kell csökkennie.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-33",
+        id: "question-887",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13681,11 +16261,14 @@ export const mainTestBank = [
         options: ["γsz &gt; γ", "γsz &lt; γ", "γsz = γ"],
         answer: "γsz &gt; γ",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-34",
+        id: "question-888",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Mit jelent a beágyazott zivatar kifejezés?",
@@ -13696,11 +16279,14 @@ export const mainTestBank = [
         ],
         answer: "Zivatar felhő más típusú felhőkkel együtt figyelhető meg.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-35",
+        id: "question-889",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Az inverzió olyan légréteg, amelyben a hőmérséklet …",
@@ -13712,11 +16298,14 @@ export const mainTestBank = [
         ],
         answer: "nő a magassággal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-36",
+        id: "question-890",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Az erősen fejlett Cumulus felhők jelzik …",
@@ -13728,11 +16317,14 @@ export const mainTestBank = [
         ],
         answer: "az atmoszféra instabilitását.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-37",
+        id: "question-891",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13740,22 +16332,28 @@ export const mainTestBank = [
         options: ["8 km.", "16 km.", "11 km.", "40 km."],
         answer: "16 km.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-38",
+        id: "question-892",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "A talajfelszín felmelegedése … következménye.",
         options: ["kondenzáció", "besugárzás", "advekció", "konvekció"],
         answer: "besugárzás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-39",
+        id: "question-893",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13768,11 +16366,14 @@ export const mainTestBank = [
         ],
         answer: "Cumulonimbus.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-40",
+        id: "question-894",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13780,11 +16381,14 @@ export const mainTestBank = [
         options: ["Cu állapot.", "Feloszlási szakasz.", "Kifejlett állapot."],
         answer: "Feloszlási szakasz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-41",
+        id: "question-895",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Melyek a zúzmarás jéglerakódás jellemzői?",
@@ -13795,11 +16399,14 @@ export const mainTestBank = [
         ],
         answer: "Kristályos szerkezetű, fehér színű.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-42",
+        id: "question-896",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "A … hőmérsékleti gradiens kb. 1°C/100 m.",
@@ -13811,11 +16418,14 @@ export const mainTestBank = [
         ],
         answer: "száraz adiabatikus",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-43",
+        id: "question-897",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13828,11 +16438,14 @@ export const mainTestBank = [
         ],
         answer: "Zivatarokat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-44",
+        id: "question-898",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Hogyan mozognak a légtömegek egy hidegfrontban?",
@@ -13844,11 +16457,14 @@ export const mainTestBank = [
         ],
         answer: "A hideg légtömeg a meleg légtömeg alá hatol.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-45",
+        id: "question-899",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13861,11 +16477,14 @@ export const mainTestBank = [
         ],
         answer: "A hőmérsékletnél alacsonyabb vagy vele egyenlő lehet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-46",
+        id: "question-900",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13878,11 +16497,14 @@ export const mainTestBank = [
         ],
         answer: "Konvekció.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-47",
+        id: "question-901",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "A konvekció során kialakuló turbulenciát …",
@@ -13894,11 +16516,14 @@ export const mainTestBank = [
         ],
         answer: "termikus turbulenciának nevezzük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-48",
+        id: "question-902",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question:
@@ -13906,11 +16531,14 @@ export const mainTestBank = [
         options: ["3°C/100m", "0,56°C/100m", "0,65°C/100m", "1°C/100m."],
         answer: "0,65°C/100m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-49",
+        id: "question-903",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "A NEL-re vonatkozóan melyik állítás igaz?",
@@ -13923,11 +16551,14 @@ export const mainTestBank = [
         answer:
           "A közepes tengerszinten 15°C a hőmérséklet és 1013,25 hPa a légnyomás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-50",
+        id: "question-904",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Milyen kiváltó okai vannak a zivatarok kialakulásának?",
@@ -13939,11 +16570,14 @@ export const mainTestBank = [
         ],
         answer: "Elegendő nedvességtartalom + feláramlás + labilitás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-51",
+        id: "question-905",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Mik a kisugárzási ködök keletkezési feltételei?",
@@ -13956,11 +16590,14 @@ export const mainTestBank = [
         answer:
           "Erős stabilitás, nagy relatív nedvesség, gyenge talajszél, felhőtlen ég.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-52",
+        id: "question-906",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "A zivatarok Cu állapotára melyik jelenség a jellemző?",
@@ -13972,11 +16609,14 @@ export const mainTestBank = [
         ],
         answer: "A felhőben csak feláramlás tapasztalható.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-53",
+        id: "question-907",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "A túlhűlt vízcsepp …",
@@ -13989,11 +16629,14 @@ export const mainTestBank = [
         answer:
           "fagypont alatti hőmérséklete ellenére folyékony halmazállapotú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-54",
+        id: "question-908",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Mi a szélnyírás kialakulásának feltétele a légkörben?",
@@ -14005,11 +16648,14 @@ export const mainTestBank = [
         answer:
           "Bárhol a légkörben kialakulhat, ha a szélvektor gradiense nagy.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-55",
+        id: "question-909",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Mikor indul meg a csapadékhullás a felhőkből?",
@@ -14022,11 +16668,14 @@ export const mainTestBank = [
         answer:
           "Ha a súlya elég nagy ahhoz, hogy a felhőt létrehozó felszálló légmozgást legyőzze.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-56",
+        id: "question-910",
         subtopic: "METEROLÓGIA",
         difficulty: "easy",
         question: "Minél nagyobb a nyomásgradiens …",
@@ -14039,11 +16688,14 @@ export const mainTestBank = [
         answer:
           "az izobárok annál közelebb vannak egymáshoz és annál erősebb a szél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-57",
+        id: "question-911",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -14054,11 +16706,14 @@ export const mainTestBank = [
         answer:
           "A légnyomás a levegő súlyából származik és a térben minden tetszőleges irányú felületre merőlegesen hat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-58",
+        id: "question-912",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question:
@@ -14066,11 +16721,14 @@ export const mainTestBank = [
         options: ["Oxigén.", "Argon.", "Neon.", "Nitrogén."],
         answer: "Neon.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-59",
+        id: "question-913",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "A homoszférában a levegő összetétele a következő: …",
@@ -14083,22 +16741,28 @@ export const mainTestBank = [
         answer:
           "nitrogén 78 térfogat %, oxigén 21 térfogat %, argon 0,9 térfogat %, egyéb gázok 0,1 térfogat%.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-60",
+        id: "question-914",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "A sűrűség egységnyi térfogatú közeg súlya.",
         options: ["Igaz.", "Hamis."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-61",
+        id: "question-915",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question:
@@ -14106,11 +16770,14 @@ export const mainTestBank = [
         options: ["Nitrogén.", "Szén-dioxid.", "Oxigén.", "Hélium."],
         answer: "Nitrogén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-62",
+        id: "question-916",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "Jó közelítéssel a sűrűség 1%-os változását …",
@@ -14122,11 +16789,14 @@ export const mainTestBank = [
         ],
         answer: "2°C hőmérséklet- vagy 10 hPa légnyomásváltozás okozza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-63",
+        id: "question-917",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "A vízgőz mennyisége a légkörben …",
@@ -14138,11 +16808,14 @@ export const mainTestBank = [
         ],
         answer: "0 és 4 térfogat % között változik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-64",
+        id: "question-918",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "A NEL szerint a sűrűség a magassággal …",
@@ -14154,11 +16827,14 @@ export const mainTestBank = [
         ],
         answer: "közel exponenciálisan csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-65",
+        id: "question-919",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question:
@@ -14166,22 +16842,28 @@ export const mainTestBank = [
         options: ["-43,5°C.", "-37°C.", "-11°C.", "-4,5°C."],
         answer: "-43,5°C.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-66",
+        id: "question-920",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "A troposzférában a hőmérsékleti gradiens …",
         options: ["6,5°C/100 m.", "6,5°C/1000 m.", "6,5°C/10 km."],
         answer: "6,5°C/1000 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-67",
+        id: "question-921",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "A NEL szerint a tengerszinten mért légnyomás …",
@@ -14193,11 +16875,14 @@ export const mainTestBank = [
         ],
         answer: "1013,25 hPa, azaz 29,92 Hginch.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-68",
+        id: "question-922",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "A sűrűség mértékegysége: … A fajsúly mértékegysége: …",
@@ -14209,11 +16894,14 @@ export const mainTestBank = [
         ],
         answer: "kg/m3 – N/m3",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-69",
+        id: "question-923",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "A szén-dioxid a légkörben átlagosan …",
@@ -14225,33 +16913,42 @@ export const mainTestBank = [
         ],
         answer: "0,03 térfogat %-ban jelen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-70",
+        id: "question-924",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "A NEL nem veszi figyelembe a levegő páratartalmát.",
         options: ["Hamis.", "Igaz."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-71",
+        id: "question-925",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "Melyik egyenlőség igaz?",
         options: ["ρ ∙ V = m", "ρ = G / V", "ρ = V / G", "V ∙ m = ρ"],
         answer: "ρ ∙ V = m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-72",
+        id: "question-926",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -14262,11 +16959,14 @@ export const mainTestBank = [
         ],
         answer: "A száraz levegő sűrűsége nagyobb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-73",
+        id: "question-927",
         subtopic: "LÉGKÖR",
         difficulty: "easy",
         question: "A NEL szerint mekkora a légnyomás 5500 m magasságban?",
@@ -14278,11 +16978,14 @@ export const mainTestBank = [
         ],
         answer: "kb. 500 hPa.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-74",
+        id: "question-928",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A légköri nyomás",
@@ -14295,11 +16998,14 @@ export const mainTestBank = [
         answer:
           "alacsonyabb magasságban meredekebben csökken egységnyi magasságváltozásra, mint nagy magasságban",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-75",
+        id: "question-929",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Bármely magasságon biztosított az életbenmaradás, ha",
@@ -14311,11 +17017,14 @@ export const mainTestBank = [
         ],
         answer: "elegendõ az oxigén,a nyomás és a hõmérséklet",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-76",
+        id: "question-930",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A kimerültség és az állandó koncentráció",
@@ -14327,11 +17036,14 @@ export const mainTestBank = [
         ],
         answer: "csökkenti a hipoxiás tûrõképességet",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-77",
+        id: "question-931",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az atmoszféra a következõ összetevõket tartalmazza",
@@ -14343,11 +17055,14 @@ export const mainTestBank = [
         ],
         answer: "78% nitrogén, 21% oxigén, &lt;0,03% szén-dioxid, egyéb gázok",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-78",
+        id: "question-932",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14360,11 +17075,14 @@ export const mainTestBank = [
         ],
         answer: "1D, 2C, 3A, 4B",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-79",
+        id: "question-933",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az oxigén térfogat-százaléka a légkörben 21%, mely:",
@@ -14377,11 +17095,14 @@ export const mainTestBank = [
         answer:
           "a hagyományos repülõgépek számára elérhetõ magasságban állandó",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-80",
+        id: "question-934",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14394,11 +17115,14 @@ export const mainTestBank = [
         ],
         answer: "Troposzféra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-81",
+        id: "question-935",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14411,11 +17135,14 @@ export const mainTestBank = [
         ],
         answer: "A repülõtér tengerszint feletti magasságát (elevation-jét).",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-82",
+        id: "question-936",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14428,11 +17155,14 @@ export const mainTestBank = [
         ],
         answer: "fél vagy annál kevesebb (3-4 okta).",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-83",
+        id: "question-937",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14445,11 +17175,14 @@ export const mainTestBank = [
         ],
         answer: "5000 m-ig méterben, felette km-ben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-84",
+        id: "question-938",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14457,11 +17190,14 @@ export const mainTestBank = [
         options: ["Tropopauza.", "Ionoszféra.", "Sztratopauza.", "Atmoszféra."],
         answer: "Tropopauza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-85",
+        id: "question-939",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Minden esetben képzõdik felhõ, köd vagy harmat, ha:",
@@ -14473,11 +17209,14 @@ export const mainTestBank = [
         ],
         answer: "a vízgõz kicsapódik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-86",
+        id: "question-940",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14490,11 +17229,14 @@ export const mainTestBank = [
         ],
         answer: "Konvekció.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-87",
+        id: "question-941",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14502,11 +17244,14 @@ export const mainTestBank = [
         options: ["CU, CB.", "ST, CS.", "SC, NS.", "CI, SC."],
         answer: "CU, CB.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-88",
+        id: "question-942",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14514,11 +17259,14 @@ export const mainTestBank = [
         options: ["CS, ST.", "CI, CC.", "SC, NS.", "AS, AC."],
         answer: "AS, AC.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-89",
+        id: "question-943",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Mi(k) a fõ alkotóeleme(i) a magasszintû felhõknek?",
@@ -14530,11 +17278,14 @@ export const mainTestBank = [
         ],
         answer: "Jégkristályok.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-90",
+        id: "question-944",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14542,11 +17293,14 @@ export const mainTestBank = [
         options: ["Stratus.", "Nimbostratus.", "Altocumulus.", "Cirrus."],
         answer: "Nimbostratus.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-91",
+        id: "question-945",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14554,11 +17308,14 @@ export const mainTestBank = [
         options: ["NS.", "CS.", "SC.", "ST."],
         answer: "NS.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-92",
+        id: "question-946",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14571,11 +17328,14 @@ export const mainTestBank = [
         ],
         answer: "Erõs lesz, és átfúj az izobárokon.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-93",
+        id: "question-947",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Mely erõk egyensúlya valósul meg a geosztrofikus szélben?",
@@ -14587,11 +17347,14 @@ export const mainTestBank = [
         ],
         answer: "Nyomásgradiens erõ, Coriolis erõ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-94",
+        id: "question-948",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14605,11 +17368,14 @@ export const mainTestBank = [
         answer:
           "közeledve a talajfelszínhez a szél balra fordul, és sebessége csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-95",
+        id: "question-949",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14622,11 +17388,14 @@ export const mainTestBank = [
         ],
         answer: "Röviddel napfelkelte után.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-96",
+        id: "question-950",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14639,11 +17408,14 @@ export const mainTestBank = [
         ],
         answer: "Szélcsend.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-97",
+        id: "question-951",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14656,11 +17428,14 @@ export const mainTestBank = [
         ],
         answer: "Gyenge szél, kevés felhõ, vagy felhõtlen ég, nedves levegõ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-98",
+        id: "question-952",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14673,11 +17448,14 @@ export const mainTestBank = [
         ],
         answer: "Alacsony felhõalap és rossz látás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-99",
+        id: "question-953",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14685,11 +17463,14 @@ export const mainTestBank = [
         options: ["Cumulus.", "Nimbostratus.", "Altostratus.", "Cumulonimbus."],
         answer: "Nimbostratus.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-100",
+        id: "question-954",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14702,11 +17483,14 @@ export const mainTestBank = [
         ],
         answer: "A front mögött.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-101",
+        id: "question-955",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Általában melyik front-típus mozgása a leggyorsabb?",
@@ -14718,11 +17502,14 @@ export const mainTestBank = [
         ],
         answer: "Hidegfront.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-102",
+        id: "question-956",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14735,11 +17522,14 @@ export const mainTestBank = [
         ],
         answer: "A délután középsõ idõszakában.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-103",
+        id: "question-957",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14752,22 +17542,28 @@ export const mainTestBank = [
         ],
         answer: "Magas léghõmérséklet, magas légnedvesség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-104",
+        id: "question-958",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Mi a jelentése a 'BKN' rövidítésnek?",
         options: ["5 - 7 okta.", "3 - 4 okta.", "6 - 8 okta.", "8 okta."],
         answer: "5 - 7 okta.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-105",
+        id: "question-959",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14775,11 +17571,14 @@ export const mainTestBank = [
         options: ["1", "2", "3", "4"],
         answer: "2",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-106",
+        id: "question-960",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14792,11 +17591,14 @@ export const mainTestBank = [
         ],
         answer: "Cumulonimbus.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-107",
+        id: "question-961",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az alábbiak közül melyik állítás igaz a tropopauzára?",
@@ -14808,11 +17610,14 @@ export const mainTestBank = [
         ],
         answer: "Elválasztja a troposzférát a sztratoszférától.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-108",
+        id: "question-962",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14826,11 +17631,14 @@ export const mainTestBank = [
         answer:
           "Azokat a pontokat, amelyekben egy adott szintre (a közepes tengerszintre) vonatkozó légnyomás-értékek azonosak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-109",
+        id: "question-963",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14843,11 +17651,14 @@ export const mainTestBank = [
         ],
         answer: "Kevesebb, mint 1000 ft.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-110",
+        id: "question-964",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14860,11 +17671,14 @@ export const mainTestBank = [
         ],
         answer: "A szélsebesség markáns növekedése a talajközelben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-111",
+        id: "question-965",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14877,11 +17691,14 @@ export const mainTestBank = [
         ],
         answer: "Nedves, meleg levegõ mozog hideg talajfelszín felett.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-112",
+        id: "question-966",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Hogyan alakul ki az ónosesõ?",
@@ -14894,22 +17711,28 @@ export const mainTestBank = [
         answer:
           "Esõ hullik át olyan talajmenti levegõrétegen, melyben a hõmérséklet 0°C alatt van.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-113",
+        id: "question-967",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Melyik felhõfajta produkál jégesõt?",
         options: ["CB", "NS", "CS", "AC"],
         answer: "CB",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-114",
+        id: "question-968",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14922,11 +17745,14 @@ export const mainTestBank = [
         ],
         answer: "Melegfront elõtt télen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-115",
+        id: "question-969",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Hogyan mozognak a légtömegek egy melegfrontban?",
@@ -14938,11 +17764,14 @@ export const mainTestBank = [
         ],
         answer: "A meleg légtömeg felsiklik a hideg légtömegre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-116",
+        id: "question-970",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -14955,11 +17784,14 @@ export const mainTestBank = [
         ],
         answer: "Záporokat, melyek zivatarokhoz kapcsolódnak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-117",
+        id: "question-971",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Hogyan mozognak a légtömegek egy hidegfrontban?",
@@ -14971,11 +17803,14 @@ export const mainTestBank = [
         ],
         answer: "A hideg légtömeg a meleg légtömeg alá hatol.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-118",
+        id: "question-972",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A polárfronti ciklon melyik fõ irányba mozog?",
@@ -14987,11 +17822,14 @@ export const mainTestBank = [
         ],
         answer: "A polárfront mentén kelet felé.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-119",
+        id: "question-973",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15004,22 +17842,28 @@ export const mainTestBank = [
         ],
         answer: "Zivatarokat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-120",
+        id: "question-974",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Mennyi közelítõleg egy microburst maximális átmérõje?",
         options: ["4 km", "400 m", "20 km", "50 km"],
         answer: "4 km",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-121",
+        id: "question-975",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Mi a trend forecast?",
@@ -15032,11 +17876,14 @@ export const mainTestBank = [
         answer:
           "Leszállási elõrejelzés, melyet a METAR illetve SPECI távirathoz csatolnak; érvényessége 2 óra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-122",
+        id: "question-976",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Mit jelent a 'broken (BKN)'' kifejezés?",
@@ -15048,11 +17895,14 @@ export const mainTestBank = [
         ],
         answer: "Az égnek 5-7 nyolcada felhõvel fedett.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-123",
+        id: "question-977",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Mi a microburst?",
@@ -15065,11 +17915,14 @@ export const mainTestBank = [
         answer:
           "Egy koncentrált nagy sebességû leáramlás, melyben a hõmérséklet alacsonyabb, mint a környezõ levegõben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-124",
+        id: "question-978",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A troposzféra vastagsága változik a",
@@ -15081,11 +17934,14 @@ export const mainTestBank = [
         ],
         answer: "földrajzi szélességgel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-125",
+        id: "question-979",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Mi a légtömegek elrendezõdése a hideg okklúziós frontban?",
@@ -15098,11 +17954,14 @@ export const mainTestBank = [
         answer:
           "A leghidegebb légtömeg a frontvonal mögött van, a kevésbé hideg elõtte. A meleg légtömeg a magasban van (nem érinti a talajt).",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-126",
+        id: "question-980",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15115,11 +17974,14 @@ export const mainTestBank = [
         ],
         answer: "a talajszél megerõsödése.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-127",
+        id: "question-981",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Mi a különbség a radiációs, és az advekciós köd között?",
@@ -15132,11 +17994,14 @@ export const mainTestBank = [
         answer:
           "A radiációs köd a talajfelszín lehûlése miatt keletkezik, éjszaka, gyenge szélben, vagy szélcsendben. Az advekciós köd akkor jön létre, ha meleg, nedves levegõ áramlik hideg felszín fölött.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-128",
+        id: "question-982",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Melyik nyomást deffiniáljuk QFE-ként?",
@@ -15149,11 +18014,14 @@ export const mainTestBank = [
         answer:
           "A repülõtér szintjén (a repülõtéri elevation- értéken) uralkodó légnyomást.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-129",
+        id: "question-983",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15166,11 +18034,14 @@ export const mainTestBank = [
         ],
         answer: "Csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-130",
+        id: "question-984",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15183,11 +18054,14 @@ export const mainTestBank = [
         ],
         answer: "6,5°C per 1000 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-131",
+        id: "question-985",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15200,11 +18074,14 @@ export const mainTestBank = [
         ],
         answer: "Instabil légállapot és magas nedvességtartalom.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-132",
+        id: "question-986",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15217,11 +18094,14 @@ export const mainTestBank = [
         ],
         answer: "Kisugárzási (radiációs).",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-133",
+        id: "question-987",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15234,11 +18114,14 @@ export const mainTestBank = [
         ],
         answer: "Ónos esõben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-134",
+        id: "question-988",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Kizárólag folyamatos feláramlás van a zivatarfelhõben",
@@ -15250,11 +18133,14 @@ export const mainTestBank = [
         ],
         answer: "a cumulus életszakaszban.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-135",
+        id: "question-989",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A zivatarok a legnagyobb intenzítást",
@@ -15266,11 +18152,14 @@ export const mainTestBank = [
         ],
         answer: "a kifejlett életszakaszban érik el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-136",
+        id: "question-990",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15278,11 +18167,14 @@ export const mainTestBank = [
         options: ["-2°C", "0°C", "+2°C", "+4°C"],
         answer: "+2°C",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-137",
+        id: "question-991",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15295,11 +18187,14 @@ export const mainTestBank = [
         ],
         answer: "Inverzió.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-138",
+        id: "question-992",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15307,11 +18202,14 @@ export const mainTestBank = [
         options: ["35 km/h", "45 km/h", "55 km/h", "60 km/h"],
         answer: "45 km/h",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-139",
+        id: "question-993",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15325,33 +18223,42 @@ export const mainTestBank = [
         answer:
           "Az vagy egyenlõ a légtömeg hõmérsékletével, vagy annál alacsonyabb érték.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-140",
+        id: "question-994",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az alábbi felhõfajták közül melyik a magasszintû?",
         options: ["SC", "CI", "AS", "CU"],
         answer: "CI",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-141",
+        id: "question-995",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az alábbi felhõfajták közül melyik a középmagas szintû?",
         options: ["AS", "CS", "ST", "SC"],
         answer: "AS",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-142",
+        id: "question-996",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15364,22 +18271,28 @@ export const mainTestBank = [
         ],
         answer: "Kevés a felhõ, vagy nincs.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-143",
+        id: "question-997",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Mi az 'SCT' rövidítés jelentése?",
         options: ["1 - 2 okta.", "3 - 4 okta.", "5 - 7 okta.", "1 - 4 okta."],
         answer: "3 - 4 okta.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-144",
+        id: "question-998",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A troposzféra",
@@ -15391,11 +18304,14 @@ export const mainTestBank = [
         ],
         answer: "az atmoszférának a tropopauza alatti része.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-145",
+        id: "question-999",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15403,11 +18319,14 @@ export const mainTestBank = [
         options: ["változó", "0,5°C", "0,65°C", "1°C"],
         answer: "0,65°C",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-146",
+        id: "question-1000",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az inverzió olyan légréteg, melyben a hõmérséklet",
@@ -15419,11 +18338,14 @@ export const mainTestBank = [
         ],
         answer: "nõ a magassággal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-147",
+        id: "question-1001",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az izotermia olyan légréteg, melyben a hõmérséklet",
@@ -15435,11 +18357,14 @@ export const mainTestBank = [
         ],
         answer: "állandó marad a magasság változásakor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-148",
+        id: "question-1002",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Egy légtömeget stabilnak neveznek, ha",
@@ -15452,11 +18377,14 @@ export const mainTestBank = [
         answer:
           "benne az emelkedõ levegõ függõleges mozgása egyre gyengül, és végül megszûnik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-149",
+        id: "question-1003",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15469,11 +18397,14 @@ export const mainTestBank = [
         ],
         answer: "0,65°C per 100m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-150",
+        id: "question-1004",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15487,11 +18418,14 @@ export const mainTestBank = [
         answer:
           "Az MSL-en (közepes tengerszinten) 15°C a hõmérséklet, és 1013,25 hPa a nyomás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-151",
+        id: "question-1005",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A légnyomásra vonatkozó alábbi állítások közül melyik igaz?",
@@ -15503,11 +18437,14 @@ export const mainTestBank = [
         ],
         answer: "A légnyomás csökken a magassággal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-152",
+        id: "question-1006",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az alábbiak közül melyik állítás igaz?",
@@ -15519,11 +18456,14 @@ export const mainTestBank = [
         ],
         answer: "A QNH lehet egyenlõ a QFE-vel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-153",
+        id: "question-1007",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -15536,11 +18476,14 @@ export const mainTestBank = [
         answer:
           "A QNH lehet alacsonyabb, és lehet magasabb érték is, mint 1013,25 hPa.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-154",
+        id: "question-1008",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15554,11 +18497,14 @@ export const mainTestBank = [
         answer:
           "a leszállás pillanatában a repülõtér közepes tengerszint feletti magasságát (elevation-jét) mutatja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-155",
+        id: "question-1009",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az advekció",
@@ -15570,11 +18516,14 @@ export const mainTestBank = [
         ],
         answer: "a levegõ horizontális mozgása.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-156",
+        id: "question-1010",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az emelkedõ levegõ hûl, mivel",
@@ -15586,11 +18535,14 @@ export const mainTestBank = [
         ],
         answer: "terjeszkedik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-157",
+        id: "question-1011",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A különbség a hõmérséklet és a harmatpont között nagyobb",
@@ -15602,11 +18554,14 @@ export const mainTestBank = [
         ],
         answer: "száraz levegõben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-158",
+        id: "question-1012",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A harmatpont",
@@ -15618,11 +18573,14 @@ export const mainTestBank = [
         ],
         answer: "megegyezhet a levegõ hõmérsékletével.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-159",
+        id: "question-1013",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A túlhûlt vízcsepp",
@@ -15635,11 +18593,14 @@ export const mainTestBank = [
         answer:
           "a fagypont alatti hõmérséklet ellenére folyékony halmazállapotú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-160",
+        id: "question-1014",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15652,11 +18613,14 @@ export const mainTestBank = [
         ],
         answer: "az összenyomódás (kompresszió) miatt melegszik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-161",
+        id: "question-1015",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az alábbiak közül mellyek középmagas szintû felhõ(k)?",
@@ -15668,11 +18632,14 @@ export const mainTestBank = [
         ],
         answer: "Altostratus és altocumulus.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-162",
+        id: "question-1016",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A Cumulus felhõk jelzik",
@@ -15684,11 +18651,14 @@ export const mainTestBank = [
         ],
         answer: "a fel- és leáramlásokat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-163",
+        id: "question-1017",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Minnél nagyobb a nyomásgradiens",
@@ -15701,11 +18671,14 @@ export const mainTestBank = [
         answer:
           "az izobárok annál közelebb vannak egymáshoz, és annál erõsebb a szél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-164",
+        id: "question-1018",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15718,11 +18691,14 @@ export const mainTestBank = [
         ],
         answer: "erõs.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-165",
+        id: "question-1019",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A szél az északi féltekén, a talajon,",
@@ -15735,11 +18711,14 @@ export const mainTestBank = [
         answer:
           "az alacsony nyomású területen, az óramutató járásával ellentétesen, és a középpont felé irányulóan fúj.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-166",
+        id: "question-1020",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A szelet elõidézi:",
@@ -15751,11 +18730,14 @@ export const mainTestBank = [
         ],
         answer: "a vízszintesben jelentkezõ nyomáskülönbség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-167",
+        id: "question-1021",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A fõn egy",
@@ -15767,11 +18749,14 @@ export const mainTestBank = [
         ],
         answer: "meleg, lefelé áramló szél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-168",
+        id: "question-1022",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15784,11 +18769,14 @@ export const mainTestBank = [
         ],
         answer: "78 % nitrogén, 21 % oxigén, 0,9 % argon, 0,03 % széndioxid",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-169",
+        id: "question-1023",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A légkör alapgázainak nevezzük azokat a gázokat, melyeknek",
@@ -15800,22 +18788,28 @@ export const mainTestBank = [
         answer:
           "egymáshoz viszonyított arányuk állandó a légkör alsó 100 km-es magasságában.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-170",
+        id: "question-1024",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az alább felsoroltak közül nem tekintjük alapgáznak",
         options: ["a vízgõzt.", "a Nitrogént.", "az Oxigént."],
         answer: "a vízgõzt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-171",
+        id: "question-1025",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A levegõben kb. mennyi Nitrogén található?",
@@ -15826,11 +18820,14 @@ export const mainTestBank = [
         ],
         answer: "78 térfogatszázalék.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-172",
+        id: "question-1026",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A levegõben kb. mennyi Oxigén található?",
@@ -15841,11 +18838,14 @@ export const mainTestBank = [
         ],
         answer: "21 térfogatszázalék.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-173",
+        id: "question-1027",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15853,11 +18853,14 @@ export const mainTestBank = [
         options: ["aeroszolnak", "homoszférának", "légkörnek", "Ózonnak"],
         answer: "aeroszolnak",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-174",
+        id: "question-1028",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15870,11 +18873,14 @@ export const mainTestBank = [
         ],
         answer: "homoszférának",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-175",
+        id: "question-1029",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15887,11 +18893,14 @@ export const mainTestBank = [
         ],
         answer: "tropopauzának",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-176",
+        id: "question-1030",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15899,11 +18908,14 @@ export const mainTestBank = [
         options: ["nem változik.", "csökken.", "növekszik."],
         answer: "nem változik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-177",
+        id: "question-1031",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15911,11 +18923,14 @@ export const mainTestBank = [
         options: ["növekszik.", "csökken.", "nem változik."],
         answer: "növekszik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-178",
+        id: "question-1032",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15923,11 +18938,14 @@ export const mainTestBank = [
         options: ["inverziónak.", "izotermának.", "hõmérsékleti gradiensnek."],
         answer: "izotermának.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-179",
+        id: "question-1033",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15935,11 +18953,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-180",
+        id: "question-1034",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15951,22 +18972,28 @@ export const mainTestBank = [
         ],
         answer: "a talaj jelentõs mértékben elnyeli.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-181",
+        id: "question-1035",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A földfelszín energiavisszaverõ képességét nevezzük",
         options: ["albedónak.", "gradiensnek.", "adiabatának.", "advekciónak."],
         answer: "albedónak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-182",
+        id: "question-1036",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -15974,33 +19001,42 @@ export const mainTestBank = [
         options: ["súlya", "vastagsága", "sûrûsége"],
         answer: "súlya",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-183",
+        id: "question-1037",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A légnyomás a légkörben felfelé haladva",
         options: ["nem változik.", "csökken.", "növekszik."],
         answer: "csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-184",
+        id: "question-1038",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A levegõ sûrûsége a légkörben felfelé haladva",
         options: ["csökken.", "nem változik.", "növekszik."],
         answer: "csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-185",
+        id: "question-1039",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16008,11 +19044,14 @@ export const mainTestBank = [
         options: ["Standard.", "QFE", "QNH"],
         answer: "QNH",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-186",
+        id: "question-1040",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16020,11 +19059,14 @@ export const mainTestBank = [
         options: ["izobároknak", "izotermáknak", "izochoroknak"],
         answer: "izobároknak",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-187",
+        id: "question-1041",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16032,11 +19074,14 @@ export const mainTestBank = [
         options: ["stabil.", "indifferens.", "instabil."],
         answer: "stabil.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-188",
+        id: "question-1042",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16044,11 +19089,14 @@ export const mainTestBank = [
         options: ["stabil.", "indifferens.", "instabil."],
         answer: "indifferens.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-189",
+        id: "question-1043",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16056,11 +19104,14 @@ export const mainTestBank = [
         options: ["instabil.", "stabil.", "indifferens."],
         answer: "instabil.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-190",
+        id: "question-1044",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16068,11 +19119,14 @@ export const mainTestBank = [
         options: ["0.6 C fok", "0.65 C fok", "1 C fok"],
         answer: "1 C fok",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-191",
+        id: "question-1045",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16080,11 +19134,14 @@ export const mainTestBank = [
         options: ["kisebb.", "egyenlõ.", "nagyobb."],
         answer: "kisebb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-192",
+        id: "question-1046",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16097,11 +19154,14 @@ export const mainTestBank = [
         ],
         answer: "A fajlagos nedvesség",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-193",
+        id: "question-1047",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16114,11 +19174,14 @@ export const mainTestBank = [
         ],
         answer: "Az abszolút nedvesség",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-194",
+        id: "question-1048",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16131,11 +19194,14 @@ export const mainTestBank = [
         ],
         answer: "a relatív nedvesség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-195",
+        id: "question-1049",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16148,11 +19214,14 @@ export const mainTestBank = [
         ],
         answer: "A harmatpont",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-196",
+        id: "question-1050",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16160,11 +19229,14 @@ export const mainTestBank = [
         options: ["csökken.", "nõ.", "nem változik."],
         answer: "csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-197",
+        id: "question-1051",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16177,11 +19249,14 @@ export const mainTestBank = [
         ],
         answer: "kondenzációnak",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-198",
+        id: "question-1052",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16189,11 +19264,14 @@ export const mainTestBank = [
         options: ["Hamis", "Igaz"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-199",
+        id: "question-1053",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16201,11 +19279,14 @@ export const mainTestBank = [
         options: ["Hamis", "Igaz"],
         answer: "Hamis",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-200",
+        id: "question-1054",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16213,11 +19294,14 @@ export const mainTestBank = [
         options: ["gátolják", "segítik", "nem befolyásolják"],
         answer: "segítik",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-201",
+        id: "question-1055",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A Cirrus, Cirrocumulus, Cirrostratus ..............",
@@ -16229,11 +19313,14 @@ export const mainTestBank = [
         ],
         answer: "magasszintû felhõk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-202",
+        id: "question-1056",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "Az Altocumulus és Altostratus ....................",
@@ -16245,11 +19332,14 @@ export const mainTestBank = [
         ],
         answer: "középmagasszintû felhõk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-203",
+        id: "question-1057",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question: "A Cumulus és a Cumulonimbus ..................",
@@ -16260,11 +19350,14 @@ export const mainTestBank = [
         ],
         answer: "függõleges kiterjedésû felhõk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-204",
+        id: "question-1058",
         subtopic: "REPÜLÉSMETEOROLÓGIA",
         difficulty: "easy",
         question:
@@ -16272,7 +19365,10 @@ export const mainTestBank = [
         options: ["1 km-5 km, 1km", "1 km- 10 km, 1 km", "500 m - 5km, 500 m"],
         answer: "1 km- 10 km, 1 km",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
     ],
@@ -16281,7 +19377,7 @@ export const mainTestBank = [
     topic: "Navigáciò",
     questions: [
       {
-        id: "question-1",
+        id: "question-1059",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16289,11 +19385,14 @@ export const mainTestBank = [
         options: ["a deviáció", "az inklináció", "a deklináció"],
         answer: "a deklináció",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-2",
+        id: "question-1060",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16301,11 +19400,14 @@ export const mainTestBank = [
         options: ["3290 láb", "3210 láb", "2790 láb", "3430 láb"],
         answer: "2790 láb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-3",
+        id: "question-1061",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16318,22 +19420,28 @@ export const mainTestBank = [
         ],
         answer: "Ha uticélját a mágneses iránytű segítségével éri el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-4",
+        id: "question-1062",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A gyakorlati navigáció szempontjából a Föld alakja …",
         options: ["gömb.", "forgási ellipszoid.", "geoid."],
         answer: "gömb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-5",
+        id: "question-1063",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16349,7 +19457,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-6",
+        id: "question-1064",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16357,11 +19465,14 @@ export const mainTestBank = [
         options: ["2°", "3°", "6°", "9°"],
         answer: "9°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-7",
+        id: "question-1065",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16374,22 +19485,28 @@ export const mainTestBank = [
         ],
         answer: "a mágneses útirányszög.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-8",
+        id: "question-1066",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A … rendszer működése a fáziskülönbség mérésén alapszik.",
         options: ["A VDF", "A DME", "Az NDB", "A VOR"],
         answer: "A VOR",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-9",
+        id: "question-1067",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16402,11 +19519,14 @@ export const mainTestBank = [
         ],
         answer: "szögtartó",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-10",
+        id: "question-1068",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "Hogyan jelölik az érvénytelenítő NOTAM-ot?",
@@ -16421,7 +19541,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-11",
+        id: "question-1069",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16434,11 +19554,14 @@ export const mainTestBank = [
         ],
         answer: "nagyköröknek",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-12",
+        id: "question-1070",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16451,11 +19574,14 @@ export const mainTestBank = [
         ],
         answer: "UTC + 2 – UTC + 1",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-13",
+        id: "question-1071",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16468,11 +19594,14 @@ export const mainTestBank = [
         ],
         answer: "Semmilyen körülmények között.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-14",
+        id: "question-1072",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16480,11 +19609,14 @@ export const mainTestBank = [
         options: ["162°", "176°", "178°", "180°"],
         answer: "178°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-15",
+        id: "question-1073",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16492,11 +19624,14 @@ export const mainTestBank = [
         options: ["305 °", "315°", "309°", "311°"],
         answer: "309°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-16",
+        id: "question-1074",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16504,11 +19639,14 @@ export const mainTestBank = [
         options: ["6", "4", "3", "7"],
         answer: "4",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-17",
+        id: "question-1075",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16522,22 +19660,28 @@ export const mainTestBank = [
         answer:
           "A TO/FROM zászló jelzése: TO, a pálcika két ponttal jobbra tér ki.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-18",
+        id: "question-1076",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A rádióállomáshoz vezető mágneses irányszög a …",
         options: ["QDM", "QDR", "QUJ", "QTE"],
         answer: "QDM",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-19",
+        id: "question-1077",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16545,11 +19689,14 @@ export const mainTestBank = [
         options: ["orthodromán", "loxodromán"],
         answer: "orthodromán",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-20",
+        id: "question-1078",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16557,11 +19704,14 @@ export const mainTestBank = [
         options: ["A DME", "A VOR", "Az NDB", "A VDF"],
         answer: "A VDF",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-21",
+        id: "question-1079",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16569,11 +19719,14 @@ export const mainTestBank = [
         options: ["8°", "4°", "2°", "6°"],
         answer: "8°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-22",
+        id: "question-1080",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A magyarországi VFR útvonalrepülésekhez … használjuk.",
@@ -16585,11 +19738,14 @@ export const mainTestBank = [
         ],
         answer: "az ICAO 1:500 000-es légiforgalmi térképet",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-23",
+        id: "question-1081",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16597,11 +19753,14 @@ export const mainTestBank = [
         options: ["VDF", "NDB", "VOR", "DME"],
         answer: "VOR",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-24",
+        id: "question-1082",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16614,11 +19773,14 @@ export const mainTestBank = [
         ],
         answer: "11 US gallon",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-25",
+        id: "question-1083",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16626,11 +19788,14 @@ export const mainTestBank = [
         options: ["Az NDB", "A VDF", "A VOR", "A DME"],
         answer: "Az NDB",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-26",
+        id: "question-1084",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16638,11 +19803,14 @@ export const mainTestBank = [
         options: ["290°", "220°", "040°", "010°"],
         answer: "010°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-27",
+        id: "question-1085",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16650,11 +19818,14 @@ export const mainTestBank = [
         options: ["110 kt", "105 kt", "115 kt", "102 kt"],
         answer: "110 kt",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-28",
+        id: "question-1086",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16667,11 +19838,14 @@ export const mainTestBank = [
         ],
         answer: "a deklináció",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-29",
+        id: "question-1087",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16684,11 +19858,14 @@ export const mainTestBank = [
         ],
         answer: "szélességi körök",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-30",
+        id: "question-1088",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16696,11 +19873,14 @@ export const mainTestBank = [
         options: ["orthodromán", "loxodromán"],
         answer: "orthodromán",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-31",
+        id: "question-1089",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16713,11 +19893,14 @@ export const mainTestBank = [
         ],
         answer: "a tényleges útirányszög.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-32",
+        id: "question-1090",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16725,11 +19908,14 @@ export const mainTestBank = [
         options: ["a deklináció", "a deviáció", "az inklináció"],
         answer: "a deviáció",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-33",
+        id: "question-1091",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "Az RMI …",
@@ -16741,22 +19927,28 @@ export const mainTestBank = [
         ],
         answer: "az NDB- és a VOR-rendszer közös kijelzője is lehet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-34",
+        id: "question-1092",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A rádióállomástól mért mágneses irányszög …",
         options: ["QDM", "QDR", "QUJ", "QTE"],
         answer: "QDR",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-35",
+        id: "question-1093",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16769,11 +19961,14 @@ export const mainTestBank = [
         ],
         answer: "Északi-sarknak",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-36",
+        id: "question-1094",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "ICAO kis méretarányú légiforgalmi navigációs térkép …",
@@ -16785,11 +19980,14 @@ export const mainTestBank = [
         ],
         answer: "nagytávolságú repülésekhez használatos.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-37",
+        id: "question-1095",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16797,11 +19995,14 @@ export const mainTestBank = [
         options: ["259°", "255°", "247°", "245°"],
         answer: "245°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-38",
+        id: "question-1096",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16809,11 +20010,14 @@ export const mainTestBank = [
         options: ["A VDF", "A DME", "Az NDB", "A VOR"],
         answer: "A DME",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-39",
+        id: "question-1097",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16821,11 +20025,14 @@ export const mainTestBank = [
         options: ["308°", "332°", "338°", "302°"],
         answer: "302°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-40",
+        id: "question-1098",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16838,11 +20045,14 @@ export const mainTestBank = [
         ],
         answer: "a mágneses géptengely-irányszög.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-41",
+        id: "question-1099",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "Egy korábbi NOTAM-ot módosító NOTAM jelölése …",
@@ -16857,7 +20067,7 @@ export const mainTestBank = [
         ],
       },
       {
-        id: "question-42",
+        id: "question-1100",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16870,11 +20080,14 @@ export const mainTestBank = [
         ],
         answer: "az oldaleltérés szögének 1/2-ét",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-43",
+        id: "question-1101",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16882,11 +20095,14 @@ export const mainTestBank = [
         options: ["14,8 NM", "22,6 NM", "40 NM", "74 NM"],
         answer: "22,6 NM",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-44",
+        id: "question-1102",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16894,11 +20110,14 @@ export const mainTestBank = [
         options: ["47°", "45 °", "55°", "53°"],
         answer: "53°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-45",
+        id: "question-1103",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A Merkátor vetület …",
@@ -16910,11 +20129,14 @@ export const mainTestBank = [
         ],
         answer: "szögtartó hengervetület.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-46",
+        id: "question-1104",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16927,11 +20149,14 @@ export const mainTestBank = [
         ],
         answer: "hosszúsági – 180°-ig",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-47",
+        id: "question-1105",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A Lambert-féle vetület …",
@@ -16943,11 +20168,14 @@ export const mainTestBank = [
         ],
         answer: "szögtartó kúpvetület.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-48",
+        id: "question-1106",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16955,11 +20183,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-49",
+        id: "question-1107",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16967,11 +20198,14 @@ export const mainTestBank = [
         options: ["290°", "230°", "110°", "050°"],
         answer: "290°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-50",
+        id: "question-1108",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16979,11 +20213,14 @@ export const mainTestBank = [
         options: ["104 kt", "138 kt", "98 kt", "116 kt"],
         answer: "104 kt",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-51",
+        id: "question-1109",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -16991,11 +20228,14 @@ export const mainTestBank = [
         options: ["2h 35min", "3h 00min", "2h 10min", "2h 32min"],
         answer: "2h 35min",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-52",
+        id: "question-1110",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -17003,11 +20243,14 @@ export const mainTestBank = [
         options: ["6000 ft.", "6300 ft.", "6600 ft.", "7800 ft."],
         answer: "6300 ft.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-53",
+        id: "question-1111",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -17015,11 +20258,14 @@ export const mainTestBank = [
         options: ["50 kt", "55 kt", "60 kt", "70 kt"],
         answer: "50 kt",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-54",
+        id: "question-1112",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -17027,11 +20273,14 @@ export const mainTestBank = [
         options: ["15 m/s", "20 m/s", "25 m/s", "30 m/s"],
         answer: "20 m/s",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-55",
+        id: "question-1113",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A Föld tengelye két pontban metszi a földgömb felületét.",
@@ -17042,11 +20291,14 @@ export const mainTestBank = [
         ],
         answer: "Ez a két pont a Föld Északi, illetve Déli sarka.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-56",
+        id: "question-1114",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "Az Északi-sark a Földnek azon pólusa,",
@@ -17058,11 +20310,14 @@ export const mainTestBank = [
         answer:
           "ahonnan nézve, a Föld forgása az óramutató járásával ellentétes irányú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-57",
+        id: "question-1115",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A Déli-sark a Földnek azon pólusa,",
@@ -17074,11 +20329,14 @@ export const mainTestBank = [
         answer:
           "ahonnan nézve a Föld forgása az óramutató járásával megegyezõ irányú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-58",
+        id: "question-1116",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -17086,11 +20344,14 @@ export const mainTestBank = [
         options: ["7.25 km", "34.5 km", "72.5 km", "725 km"],
         answer: "72.5 km",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-59",
+        id: "question-1117",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A loxodroma",
@@ -17103,11 +20364,14 @@ export const mainTestBank = [
         answer:
           "az a görbe vonal, amely a Föld felületén haladva a hosszúsági köröket állandó szög alatt metszi.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-60",
+        id: "question-1118",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "Az orthodroma",
@@ -17119,11 +20383,14 @@ export const mainTestBank = [
         ],
         answer: "a Föld felszínén két pontot összekötõ legrövidebb útvonal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-61",
+        id: "question-1119",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -17131,11 +20398,14 @@ export const mainTestBank = [
         options: ["650 m", "850 m", "1000 m", "1250 m"],
         answer: "650 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-62",
+        id: "question-1120",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -17143,11 +20413,14 @@ export const mainTestBank = [
         options: ["1750 m", "2000 m", "2250 m", "2750 m"],
         answer: "1750 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-63",
+        id: "question-1121",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A Heading (Gi):",
@@ -17159,11 +20432,14 @@ export const mainTestBank = [
         answer:
           "a repülõgép iránya, vagy géptengelyiránya (Gi), amely a repülõgép hossztengelyének valamely északi iránnyal bezárt szöge.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-64",
+        id: "question-1122",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -17171,11 +20447,14 @@ export const mainTestBank = [
         options: ["Ui&lt;Gi=Ti", "Ti&gt;Ui=Gi", "Ti=Ui=Gi", "Ui=Gi+(+-SZe)"],
         answer: "Ti=Ui=Gi",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-65",
+        id: "question-1123",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A kis mágnesvégû csavarok segítségével a mágneses iránytû",
@@ -17187,11 +20466,14 @@ export const mainTestBank = [
         ],
         answer: "deviáció miatti hibáját korrigálják.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-66",
+        id: "question-1124",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question:
@@ -17199,11 +20481,14 @@ export const mainTestBank = [
         options: ["6 km", "9 km", "12 km", "24 km"],
         answer: "12 km",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-67",
+        id: "question-1125",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A mágneses lehajlás (inklináció)",
@@ -17215,11 +20500,14 @@ export const mainTestBank = [
         answer:
           "a Föld mágneses erõvonalának iránya és a vízszintes által bezárt szög.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-68",
+        id: "question-1126",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A Föld mágneses pólusai",
@@ -17231,11 +20519,14 @@ export const mainTestBank = [
         answer:
           "nem esnek egybe a földrajzi pólusokkal, a mágneses pólusok a földrajzi pólusok körül vándorolnak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-69",
+        id: "question-1127",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A mágneses elhajlás (deklináció)",
@@ -17247,11 +20538,14 @@ export const mainTestBank = [
         answer:
           "a földrajzi és a mágneses észak iránya által bezárt szög, másnéven variáció (VAR).",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-70",
+        id: "question-1128",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A földrajzi szélesség",
@@ -17263,11 +20557,14 @@ export const mainTestBank = [
         answer:
           "az Egyenlítõ és az adott pont szélességi köre által bezárt körív, ívmértékben kifejezve.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-71",
+        id: "question-1129",
         subtopic: "NAVIGÁCIÓ",
         difficulty: "easy",
         question: "A földrajzi hosszúság",
@@ -17279,7 +20576,10 @@ export const mainTestBank = [
         answer:
           "az adott pont hosszúsági köre és a nulla hosszúsági kör által bezárt körív, ívmértékben kifejezve.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
     ],
@@ -17288,7 +20588,7 @@ export const mainTestBank = [
     topic: "Üzemeltetési eljárások",
     questions: [
       {
-        id: "question-1",
+        id: "question-1130",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17301,11 +20601,14 @@ export const mainTestBank = [
         ],
         answer: "Intenzív feláramlásba belerepülve",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-2",
+        id: "question-1131",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Ha a fékszárny asszimmetrikus helyzetben beragad, …",
@@ -17316,11 +20619,14 @@ export const mainTestBank = [
         answer:
           "nem szabad kilebegtetni a repülőgépet, nagyobb sebességgel kell földet érni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-3",
+        id: "question-1132",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17332,11 +20638,14 @@ export const mainTestBank = [
         ],
         answer: "Teljesen előre tolt helyzetben (kis szögre állítv.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-4",
+        id: "question-1133",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17350,11 +20659,14 @@ export const mainTestBank = [
         answer:
           "A lapátok beállítási szöge a sebesség növekedésével növekszik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-5",
+        id: "question-1134",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17366,11 +20678,14 @@ export const mainTestBank = [
         answer:
           "tilos a kabinból kitekintve vizuális referenciákat keresni a térbeli tájékozódáshoz, mert könnyen érzékcsalódás áldozata lehet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-6",
+        id: "question-1135",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Melyik állítás helyes?",
@@ -17383,11 +20698,14 @@ export const mainTestBank = [
         answer:
           "A dugóhúzó megszüntetésénél a csűrőket semleges helyzetben kell tartani.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-7",
+        id: "question-1136",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17401,11 +20719,14 @@ export const mainTestBank = [
         answer:
           "A szélkerékmódban forgó légcsavar esetén nagyobb ellenállás keletkezik, mint álló légcsavar esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-8",
+        id: "question-1137",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17418,11 +20739,14 @@ export const mainTestBank = [
         ],
         answer: "a fordulatszám és a kipufugógáz-hőmérséklet csökkenni fog.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-9",
+        id: "question-1138",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "A vitorlaállásba állított légcsavar esetén …",
@@ -17434,11 +20758,14 @@ export const mainTestBank = [
         ],
         answer: "a légcsavarlapátok légellenállása minimális lesz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-10",
+        id: "question-1139",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17451,11 +20778,14 @@ export const mainTestBank = [
         ],
         answer: "nagyobb – lassabban",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-11",
+        id: "question-1140",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17469,11 +20799,14 @@ export const mainTestBank = [
         answer:
           "Jobbra és balra forgó légcsavar esetén egyaránt számítanunk kell erre a nyomatékra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-12",
+        id: "question-1141",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17486,11 +20819,14 @@ export const mainTestBank = [
         ],
         answer: "A fordulósugár nagyobb lesz nagyobb sebességen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-13",
+        id: "question-1142",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17498,11 +20834,14 @@ export const mainTestBank = [
         options: ["19%-kal.", "32%-kal.", "51%-kal.", "41%-kal."],
         answer: "41%-kal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-14",
+        id: "question-1143",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17510,11 +20849,14 @@ export const mainTestBank = [
         options: ["bal – bal", "jobb – bal", "jobb – jobb", "bal – jobb"],
         answer: "bal – jobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-15",
+        id: "question-1144",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17528,11 +20870,14 @@ export const mainTestBank = [
         answer:
           "Természetes következménye a fordulatszámesés annak, ha a gyújtást csak az egyik gyújtáskör biztosítja, amennyiben a fordulatszámesés a gyártó által előírt mértéket nem haladja meg.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-16",
+        id: "question-1145",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17545,11 +20890,14 @@ export const mainTestBank = [
         ],
         answer: "a repülőgép elhagyása után kell felfújni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-17",
+        id: "question-1146",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17557,11 +20905,14 @@ export const mainTestBank = [
         options: ["bal – bal", "jobb – jobb", "bal – jobb", "jobb – bal"],
         answer: "jobb – jobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-18",
+        id: "question-1147",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17569,11 +20920,14 @@ export const mainTestBank = [
         options: ["8235,5 N", "7161,3 N", "10097,4 N", "14322,6 N"],
         answer: "10097,4 N",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-19",
+        id: "question-1148",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17585,11 +20939,14 @@ export const mainTestBank = [
         ],
         answer: "a hibátlan oldalon még működni fog a kormány.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-20",
+        id: "question-1149",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17603,11 +20960,14 @@ export const mainTestBank = [
         answer:
           "a motort tilos újraindítani, kényszerleszállást kell végrehajtani.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-21",
+        id: "question-1150",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Vízreszállás esetén mikor kell felvenni a mentőmellényeket?",
@@ -17618,11 +20978,14 @@ export const mainTestBank = [
         ],
         answer: "A kényszerhelyzet megállapításakor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-22",
+        id: "question-1151",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Mire vonatkozik a VLO sebesség?",
@@ -17634,11 +20997,14 @@ export const mainTestBank = [
         ],
         answer: "Maximális megengedett sebesség a futómű működtetésekor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-23",
+        id: "question-1152",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17646,11 +21012,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-24",
+        id: "question-1153",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17663,11 +21032,14 @@ export const mainTestBank = [
         ],
         answer: "kisebb – nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-25",
+        id: "question-1154",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17675,11 +21047,14 @@ export const mainTestBank = [
         options: ["Szt = 15°", "Szt = 64°", "Szt = 89°", "Szt = 138°"],
         answer: "Szt = 89°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-26",
+        id: "question-1155",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17692,11 +21067,14 @@ export const mainTestBank = [
         ],
         answer: "Fordulatszám- és motorteljesítmény-csökkenés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-27",
+        id: "question-1156",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17708,11 +21086,14 @@ export const mainTestBank = [
         answer:
           "az elemelkedést jóval a nagyobb repülőgép földet érési pontján túl tervezzük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-28",
+        id: "question-1157",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17720,11 +21101,14 @@ export const mainTestBank = [
         options: ["1.43", "6", "-1.95", "1.57"],
         answer: "1.57",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-29",
+        id: "question-1158",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17737,11 +21121,14 @@ export const mainTestBank = [
         ],
         answer: "QFE-t – visszaesik a külső légnyomás alá.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-30",
+        id: "question-1159",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17755,11 +21142,14 @@ export const mainTestBank = [
         answer:
           "a repülőgépet és a leföldelt töltőállomást össze kell földelni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-31",
+        id: "question-1160",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17772,11 +21162,14 @@ export const mainTestBank = [
         ],
         answer: "Szívótérnyomás-mérővel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-32",
+        id: "question-1161",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17790,11 +21183,14 @@ export const mainTestBank = [
         answer:
           "Csökkenti a lapátok beállítási szögét és megtartja a fordulatszámot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-33",
+        id: "question-1162",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Melyik állítás igaz?",
@@ -17807,11 +21203,14 @@ export const mainTestBank = [
         answer:
           "A légcsavarszárny profiljának beállítási szöge azonos állásszögével, ha az effektív emelkedési szöge nulla.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-34",
+        id: "question-1163",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "A viszkóz-aquaplanning …",
@@ -17823,11 +21222,14 @@ export const mainTestBank = [
         answer:
           "kialakulásához elég egy századmilliméter vastag vízréteg és egy finom felületű szilárd burkolatú pálya (például melyet a korábbi földet érések alkalmával letapadt gumiréteg tesz tükörsimává).",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-35",
+        id: "question-1164",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17835,11 +21237,14 @@ export const mainTestBank = [
         options: ["Vno", "Vne", "Vfe", "Va"],
         answer: "Vno",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-36",
+        id: "question-1165",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17852,11 +21257,14 @@ export const mainTestBank = [
         ],
         answer: "mindvégig",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-37",
+        id: "question-1166",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17869,11 +21277,14 @@ export const mainTestBank = [
         ],
         answer: "A pályára guruláskor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-38",
+        id: "question-1167",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Melyik állítás helyes?",
@@ -17885,11 +21296,14 @@ export const mainTestBank = [
         answer:
           "Vízszintes repülésben az állásszög kisebb, mint azonos sebességű fordulóban.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-39",
+        id: "question-1168",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Farokkerekes repülőgép esetében a farokfutó elemelésekor …",
@@ -17901,11 +21315,14 @@ export const mainTestBank = [
         ],
         answer: "mind a három légcsavar keltette nyomaték egy irányba hat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-40",
+        id: "question-1169",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17918,11 +21335,14 @@ export const mainTestBank = [
         ],
         answer: "csökkenni – kisebb – n&lt;1",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-41",
+        id: "question-1170",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17936,11 +21356,14 @@ export const mainTestBank = [
         answer:
           "Ez a gyújtógyertya enyhe szennyeződése miatt is előfordulhat, melyet rövid ideig magas fordulatszámon történő motorjáratással esetleg meg lehet szűntetni. Ilyenkor a légiüzemeltetési utasítás és a repülőgép üzembentartójának rendelkezése szerint kell eljárni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-42",
+        id: "question-1171",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17953,11 +21376,14 @@ export const mainTestBank = [
         ],
         answer: "nagyobb – nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-43",
+        id: "question-1172",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17970,11 +21396,14 @@ export const mainTestBank = [
         ],
         answer: "A fordulatszám növelése után növeljük a szívótérnyomás kart.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-44",
+        id: "question-1173",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17982,11 +21411,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-45",
+        id: "question-1174",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -17999,11 +21431,14 @@ export const mainTestBank = [
         ],
         answer: "nagyobb – nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-46",
+        id: "question-1175",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Mi az első teendő, ha repülés közben motortűz alakulna ki?",
@@ -18016,11 +21451,14 @@ export const mainTestBank = [
         answer:
           "Azt az eljárást kell követni, amit a gyártó által kiadott légiüzemeltetési utasítás előír.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-47",
+        id: "question-1176",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18033,11 +21471,14 @@ export const mainTestBank = [
         ],
         answer: "folytatni kell a megkezdett kényszerleszállást.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-48",
+        id: "question-1177",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18050,11 +21491,14 @@ export const mainTestBank = [
         ],
         answer: "Csak az állásszög.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-49",
+        id: "question-1178",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18068,11 +21512,14 @@ export const mainTestBank = [
         answer:
           "A főkapcsolót, a kabinfűtést és a típustól függően az elektromos berendezések kapcsolóit kell lekapcsolni, mindezt olyan módon és sorrendben, ahogy azt a gyártó által kiadott légiüzemeltetési utasítás előírja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-50",
+        id: "question-1179",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18085,11 +21532,14 @@ export const mainTestBank = [
         ],
         answer: "balra kell lépni a pedált.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-51",
+        id: "question-1180",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18103,11 +21553,14 @@ export const mainTestBank = [
         answer:
           "a repülőgép orrát a forduló ellen akarja fordítani. Részben ez magyarázza az oldalkormány kitérítésének szükségét.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-52",
+        id: "question-1181",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18121,11 +21574,14 @@ export const mainTestBank = [
         answer:
           "biztosítsuk a repülőgép legjobb siklásához tartozó sebességet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-53",
+        id: "question-1182",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18138,11 +21594,14 @@ export const mainTestBank = [
         ],
         answer: "a Vne sebességet nem léphetjük át.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-54",
+        id: "question-1183",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18155,11 +21614,14 @@ export const mainTestBank = [
         ],
         answer: "kisebb – nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-55",
+        id: "question-1184",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18173,11 +21635,14 @@ export const mainTestBank = [
         answer:
           "A repülőgép hirtelen megül, és ezt követően jobban fog emelkedni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-56",
+        id: "question-1185",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18191,22 +21656,28 @@ export const mainTestBank = [
         answer:
           "A felszállás teljes folyamatára kritikus hatással van a jegesedés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-57",
+        id: "question-1186",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Adott fordulósugár esetén … sebességhez … bedöntés tartozik",
         options: ["nagyobb – kisebb", "nagyobb – nagyobb"],
         answer: "nagyobb – nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-58",
+        id: "question-1187",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18214,11 +21685,14 @@ export const mainTestBank = [
         options: ["nagyobb.", "kisebb.", "nem változik."],
         answer: "nem változik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-59",
+        id: "question-1188",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18226,11 +21700,14 @@ export const mainTestBank = [
         options: ["szegényebb.", "dúsabb."],
         answer: "dúsabb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-60",
+        id: "question-1189",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18243,11 +21720,14 @@ export const mainTestBank = [
         ],
         answer: "mindig 1-nél nagyobb – nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-61",
+        id: "question-1190",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18261,11 +21741,14 @@ export const mainTestBank = [
         answer:
           "Azt az eljárást követjük, amit a gyártó által kiadott légiüzemeltetési utasítás előír.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-62",
+        id: "question-1191",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18278,11 +21761,14 @@ export const mainTestBank = [
         ],
         answer: "Az orrfutó elemelésekor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-63",
+        id: "question-1192",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18294,11 +21780,14 @@ export const mainTestBank = [
         answer:
           "a földet érési pontot lehetőleg jóval a nagyobb repülőgép elemelkedési pontja elé tervezzük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-64",
+        id: "question-1193",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "A dinamikus aquaplanning …",
@@ -18310,11 +21799,14 @@ export const mainTestBank = [
         answer:
           "viszonylag nagy gurulósebességnél alakul ki olyan módon, hogy a sebesség növekedésével a feltorlódott víz nyomása eléri a repülőgép súlyát, amikor is a gumik felúsznak a vízfelületre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-65",
+        id: "question-1194",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18327,11 +21819,14 @@ export const mainTestBank = [
         ],
         answer: "70,5 kt",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-66",
+        id: "question-1195",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18344,11 +21839,14 @@ export const mainTestBank = [
         ],
         answer: "kisebb állásszögön és kisebb teljesítménybeállítással repül.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-67",
+        id: "question-1196",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18356,11 +21854,14 @@ export const mainTestBank = [
         options: ["kiengedett", "behúzott"],
         answer: "behúzott",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-68",
+        id: "question-1197",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18374,11 +21875,14 @@ export const mainTestBank = [
         answer:
           "Először kikapcsoljuk a porlasztófűtést, ráadjuk az utazóteljesítményt, majd beállítjuk az utazó-horizonthelyzetet a magassági kormánnyal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-69",
+        id: "question-1198",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18386,11 +21890,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-70",
+        id: "question-1199",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18403,11 +21910,14 @@ export const mainTestBank = [
         ],
         answer: "n=2",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-71",
+        id: "question-1200",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18418,11 +21928,14 @@ export const mainTestBank = [
         ],
         answer: "A szárny belépőélének lejegesedésekor.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-72",
+        id: "question-1201",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18435,11 +21948,14 @@ export const mainTestBank = [
         ],
         answer: "Mezőgazdaságilag művelt alacsony növényzetű terület.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-73",
+        id: "question-1202",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18452,11 +21968,14 @@ export const mainTestBank = [
         ],
         answer: "csökkenni – kisebb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-74",
+        id: "question-1203",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18469,11 +21988,14 @@ export const mainTestBank = [
         ],
         answer: "Megművelt mezőgazdasági terület alacsony növényzettel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-75",
+        id: "question-1204",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18486,11 +22008,14 @@ export const mainTestBank = [
         ],
         answer: "Porlasztótűz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-76",
+        id: "question-1205",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "A helyes keverékarány beállításában … van segítségünkre.",
@@ -18502,11 +22027,14 @@ export const mainTestBank = [
         ],
         answer: "a kipufogógáz-hőmérő",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-77",
+        id: "question-1206",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18514,11 +22042,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-78",
+        id: "question-1207",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18532,11 +22063,14 @@ export const mainTestBank = [
         answer:
           "Először gázadással beállítjuk az emelkedőteljesítményt, majd a magassági kormány húzásával beállítjuk az emelkedő-horizonthelyzetet, illetve sebességet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-79",
+        id: "question-1208",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18550,11 +22084,14 @@ export const mainTestBank = [
         answer:
           "Növeli a lapátok beállítási szögét és megtartja a fordulatszámot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-80",
+        id: "question-1209",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18567,11 +22104,14 @@ export const mainTestBank = [
         ],
         answer: "növeljük – húzni",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-81",
+        id: "question-1210",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18584,11 +22124,14 @@ export const mainTestBank = [
         ],
         answer: "A sebességtől.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-82",
+        id: "question-1211",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18602,11 +22145,14 @@ export const mainTestBank = [
         answer:
           "A repülőgép hirtelen emelkedésbe kezd, és ezt követően siklóteljesítménye romlik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-83",
+        id: "question-1212",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18619,11 +22165,14 @@ export const mainTestBank = [
         ],
         answer: "A légcsavarszabályzó karral.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-84",
+        id: "question-1213",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Mire vonatkozik a Vle sebesség?",
@@ -18635,22 +22184,28 @@ export const mainTestBank = [
         ],
         answer: "Maximális megengedett sebesség kibocsátott futóművel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-85",
+        id: "question-1214",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "A besiklás során a szembeszél a pályahajlási szöget …",
         options: ["nem befolyásolja.", "növeli.", "csökkenti."],
         answer: "növeli.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-86",
+        id: "question-1215",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Normál felszállási eljárást tekintve",
@@ -18661,11 +22216,14 @@ export const mainTestBank = [
         answer:
           "a nekifutás mind az orrkerekes, mind a farokkerekes repülőgép esetében először három, majd két ponton történik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-87",
+        id: "question-1216",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "A gőz-aquaplanning …",
@@ -18677,11 +22235,14 @@ export const mainTestBank = [
         answer:
           "blokkolással járó fékezéskor jön létre, és kialakulhat vékony vízrétegen is, amikor a súrlódás következtében a víz jelenléte ellenére is elegendő hő keletkezik ahhoz, hogy a gumi futófelülete felforrósodjon és nyúlóssá váljon.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-88",
+        id: "question-1217",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18694,11 +22255,14 @@ export const mainTestBank = [
         ],
         answer: "növelni kell vagy a magassági kormányból kell kiengedni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-89",
+        id: "question-1218",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18706,11 +22270,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-90",
+        id: "question-1219",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18718,11 +22285,14 @@ export const mainTestBank = [
         options: ["csökken.", "nő.", "nem változik."],
         answer: "nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-91",
+        id: "question-1220",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18735,11 +22305,14 @@ export const mainTestBank = [
         ],
         answer: "növekedni – nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-92",
+        id: "question-1221",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18752,11 +22325,14 @@ export const mainTestBank = [
         ],
         answer: "növekedni – nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-93",
+        id: "question-1222",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18769,11 +22345,14 @@ export const mainTestBank = [
         ],
         answer: "A 27-est.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-94",
+        id: "question-1223",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18781,11 +22360,14 @@ export const mainTestBank = [
         options: ["-1.38", "0.38", "0.62", "-1.62"],
         answer: "0.62",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-95",
+        id: "question-1224",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Milyen oltóberendezést használunk kabintűz oltására?",
@@ -18797,11 +22379,14 @@ export const mainTestBank = [
         ],
         answer: "Halonnal oltót.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-96",
+        id: "question-1225",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18814,11 +22399,14 @@ export const mainTestBank = [
         ],
         answer: "A tűzcsap legyen elzárva.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-97",
+        id: "question-1226",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Mikor érvényesül a párnahatás?",
@@ -18831,11 +22419,14 @@ export const mainTestBank = [
         answer:
           "Amíg a repülőgép föld feletti magassága nem nagyobb fesztávolságának kb. felénél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-98",
+        id: "question-1227",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18843,11 +22434,14 @@ export const mainTestBank = [
         options: ["szegényítünk – eldúsulhat.", "dúsítunk – túlszegényedhet."],
         answer: "dúsítunk – túlszegényedhet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-99",
+        id: "question-1228",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Motorleállás esetén, …",
@@ -18860,11 +22454,14 @@ export const mainTestBank = [
         answer:
           "a motort megpróbálhatjuk újraindítani. Ha beindul, meg kell próbálni elővigyázatosságból kitérő repülőtérre leszállni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-100",
+        id: "question-1229",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18877,11 +22474,14 @@ export const mainTestBank = [
         ],
         answer: "Ez esetben a motor meghibásodására következtethetünk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-101",
+        id: "question-1230",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18889,11 +22489,14 @@ export const mainTestBank = [
         options: ["befelé", "kifelé"],
         answer: "kifelé",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-102",
+        id: "question-1231",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Normál leszállási eljárást tekintve",
@@ -18904,11 +22507,14 @@ export const mainTestBank = [
         answer:
           "a talajfogás az orrkerekes repülőgép esetében két ponton történik, a farokkerekes repülőgéppel viszont három ponton kell földet érni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-103",
+        id: "question-1232",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18921,11 +22527,14 @@ export const mainTestBank = [
         ],
         answer: "nagyobb – nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-104",
+        id: "question-1233",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18938,11 +22547,14 @@ export const mainTestBank = [
         ],
         answer: "a fordulatszámot a légcsavarszabályzó karral állítjuk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-105",
+        id: "question-1234",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18955,22 +22567,28 @@ export const mainTestBank = [
         ],
         answer: "Minden esetben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-106",
+        id: "question-1235",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "A fékszárny kiengedésével a süllyedés szöge …",
         options: ["csökken.", "nem változik.", "nő."],
         answer: "nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-107",
+        id: "question-1236",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -18983,11 +22601,14 @@ export const mainTestBank = [
         ],
         answer: "növelni – húzásával",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-108",
+        id: "question-1237",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19000,22 +22621,28 @@ export const mainTestBank = [
         ],
         answer: "Ez normál üzemi érték.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-109",
+        id: "question-1238",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Adott sebesség esetén … bedöntéshez … fordulósugár tartozik",
         options: ["nagyobb – nagyobb", "nagyobb – kisebb"],
         answer: "nagyobb – kisebb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-110",
+        id: "question-1239",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Amikor emelkedőüzemből utazóüzemre váltunk …",
@@ -19027,11 +22654,14 @@ export const mainTestBank = [
         answer:
           "először a magassági kormány nyomásával vízszintes repülésbe visszük a repülőgépet, majd visszaszabályozunk utazóteljesítményre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-111",
+        id: "question-1240",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19045,22 +22675,28 @@ export const mainTestBank = [
         answer:
           "Minél nagyobb süllyedési szöget válasszunk és a földet érést távolabb tervezzük a nagyobb repülőgép földet érési pontjától.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-112",
+        id: "question-1241",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Adott bedöntés esetén … sebességhez … fordulósugár tartozik",
         options: ["nagyobb – nagyobb", "nagyobb – kisebb"],
         answer: "nagyobb – nagyobb",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-113",
+        id: "question-1242",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Tiszta oldalszélről beszélünk, ha …",
@@ -19072,11 +22708,14 @@ export const mainTestBank = [
         ],
         answer: "a széltámadási szög 90°.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-114",
+        id: "question-1243",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19089,11 +22728,14 @@ export const mainTestBank = [
         ],
         answer: "Az állásszög, a terhelési többes és az átesési sebesség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-115",
+        id: "question-1244",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19106,11 +22748,14 @@ export const mainTestBank = [
         ],
         answer: "maximális megengedett felszállósúlyára adja meg.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-116",
+        id: "question-1245",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19123,11 +22768,14 @@ export const mainTestBank = [
         ],
         answer: "emelkedni kezd.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-117",
+        id: "question-1246",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19135,11 +22783,14 @@ export const mainTestBank = [
         options: ["széllel szemben", "barázda mentén"],
         answer: "barázda mentén",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-118",
+        id: "question-1247",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19152,11 +22803,14 @@ export const mainTestBank = [
         ],
         answer: "csökkenteni – nyomásával",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-119",
+        id: "question-1248",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19170,11 +22824,14 @@ export const mainTestBank = [
         answer:
           "hatására a repülőgép leadja az orrát. Részben ez magyarázza a magassági kormány használatának szükségét a fordulóban.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-120",
+        id: "question-1249",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19187,11 +22844,14 @@ export const mainTestBank = [
         ],
         answer: "a fordulatszám és a kipufugógáz-hőmérséklet növekedni fog.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-121",
+        id: "question-1250",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19204,11 +22864,14 @@ export const mainTestBank = [
         ],
         answer: "Intenzív szembeszélben és nagy fékszárny esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-122",
+        id: "question-1251",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19221,11 +22884,14 @@ export const mainTestBank = [
         ],
         answer: "jobbra kell csűrni és a magassági kormányt nyomni kell",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-123",
+        id: "question-1252",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19233,11 +22899,14 @@ export const mainTestBank = [
         options: ["Hamis.", "Igaz."],
         answer: "Igaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-124",
+        id: "question-1253",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Az átesési sebesség nő …",
@@ -19249,11 +22918,14 @@ export const mainTestBank = [
         ],
         answer: "a forduló során.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-125",
+        id: "question-1254",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19265,11 +22937,14 @@ export const mainTestBank = [
         ],
         answer: "A viszkóz-aquaplaning.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-126",
+        id: "question-1255",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Orrkerekes repülőgép esetében az orrfutó elemelésekor …",
@@ -19282,11 +22957,14 @@ export const mainTestBank = [
         answer:
           "a reakció-, a ferde megfúvás okozta nyomaték és a p-faktor egy irányba, míg a precesszió ezekhez képest ellentétesen hat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-127",
+        id: "question-1256",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19300,11 +22978,14 @@ export const mainTestBank = [
         answer:
           "Ez a nyomaték gázadáskor érezhető a legjobban, de mindvégig kifejti a hatását, míg a motor jár.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-128",
+        id: "question-1257",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19312,11 +22993,14 @@ export const mainTestBank = [
         options: ["csökken.", "nő.", "nem változik."],
         answer: "nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-129",
+        id: "question-1258",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19324,11 +23008,14 @@ export const mainTestBank = [
         options: ["nő.", "csökken.", "nem változik."],
         answer: "nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-130",
+        id: "question-1259",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19336,11 +23023,14 @@ export const mainTestBank = [
         options: ["19%-kal.", "51%-kal.", "32%-kal.", "41%-kal."],
         answer: "19%-kal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-131",
+        id: "question-1260",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19354,11 +23044,14 @@ export const mainTestBank = [
         answer:
           "A fordulatszám csökkentése előtt szabályozzuk vissza a szívótérnyomás kart.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-132",
+        id: "question-1261",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19366,11 +23059,14 @@ export const mainTestBank = [
         options: ["nem változik.", "nő.", "csökken."],
         answer: "nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-133",
+        id: "question-1262",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19383,11 +23079,14 @@ export const mainTestBank = [
         ],
         answer: "széles sebességtartományban üzemel hatékonyan.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-134",
+        id: "question-1263",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19400,11 +23099,14 @@ export const mainTestBank = [
         answer:
           "a pályának a hibátlan futómű felé eső oldalára elvégezni a kényszerleszállást.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-135",
+        id: "question-1264",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19418,11 +23120,14 @@ export const mainTestBank = [
         answer:
           "Kis sebességen és nagy fordulatszámon érvényesül jobban, ahogy a repülőgép sebességet gyűjt, hatása csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-136",
+        id: "question-1265",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19430,11 +23135,14 @@ export const mainTestBank = [
         options: ["Igaz.", "Hamis."],
         answer: "Hamis.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-137",
+        id: "question-1266",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19442,11 +23150,14 @@ export const mainTestBank = [
         options: ["n = 1,24", "n = 0,8", "n = 0,9", "n = 1,12"],
         answer: "n = 1,24",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-138",
+        id: "question-1267",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19460,11 +23171,14 @@ export const mainTestBank = [
         answer:
           "minél kisebb sugarú köríven történik a mozgás és minél nagyobb sebességen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-139",
+        id: "question-1268",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19477,11 +23191,14 @@ export const mainTestBank = [
         ],
         answer: "nőni – orrkönnyű",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-140",
+        id: "question-1269",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "A teljesítménykeverék …",
@@ -19492,11 +23209,14 @@ export const mainTestBank = [
         ],
         answer: "a csúcsra szegényített keveréknél dúsabb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-141",
+        id: "question-1270",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19509,11 +23229,14 @@ export const mainTestBank = [
         ],
         answer: "növelni kell a jobbra csűrést.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-142",
+        id: "question-1271",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19521,11 +23244,14 @@ export const mainTestBank = [
         options: ["a farokkerekes.", "az orrkerekes."],
         answer: "a farokkerekes.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-143",
+        id: "question-1272",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "A magasság növekedésével a tüzelőanyag-levegő keverék …",
@@ -19537,11 +23263,14 @@ export const mainTestBank = [
         ],
         answer: "a csökkenő sűrűség miatt eldúsúl.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-144",
+        id: "question-1273",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19555,11 +23284,14 @@ export const mainTestBank = [
         answer:
           "A gyújtáskapcsoló lekapcsolásával vagy a keverék teljes elszegényítésével, ha a porlasztó felépítéséből ez utóbbira van lehetőség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-145",
+        id: "question-1274",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Mikor kell felkapcsolni a villogót?",
@@ -19571,11 +23303,14 @@ export const mainTestBank = [
         ],
         answer: "Motorindítás előtt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-146",
+        id: "question-1275",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "Ha a felszállás közben a motor leáll, akkor …",
@@ -19586,11 +23321,14 @@ export const mainTestBank = [
         answer:
           "ha van elegendő magasság, akkor 180°-os forduló után vissza kell szállni a pályára.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-147",
+        id: "question-1276",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19604,11 +23342,14 @@ export const mainTestBank = [
         answer:
           "Először porlasztófűtést kapcsolunk, majd visszaszabályzunk süllyedőteljesítményre. A sebesség elkoptatása után a magassági kormány nyomásával beállítjuk a süllyedő-horizonthelyzetet, illetve sebességet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-148",
+        id: "question-1277",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19622,11 +23363,14 @@ export const mainTestBank = [
         answer:
           "Természetes következménye a fordulatszámesés annak, ha a porlasztófűtést bekapcsoljuk, amennyiben a fordulatszámesés a gyártó által előírt mértéket nem haladja meg.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-149",
+        id: "question-1278",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question: "A repülőgép melyik emelkedősebessége magasabb?",
@@ -19636,11 +23380,14 @@ export const mainTestBank = [
         ],
         answer: "A legnagyobb függőleges emelkedéshez tartozó sebesség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-150",
+        id: "question-1279",
         subtopic: "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19653,11 +23400,14 @@ export const mainTestBank = [
         ],
         answer: "Fordulatszámmérővel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-151",
+        id: "question-1280",
         subtopic: "LÉGIÜZEMELTETÉS",
         difficulty: "easy",
         question:
@@ -19670,11 +23420,14 @@ export const mainTestBank = [
         ],
         answer: "alacsonyabb lesz a hengerfej hõmérséklete.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-152",
+        id: "question-1281",
         subtopic: "LÉGIÜZEMELTETÉS",
         difficulty: "easy",
         question:
@@ -19687,11 +23440,14 @@ export const mainTestBank = [
         ],
         answer: "magas nyomású, hideg és száraz levegõ",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-153",
+        id: "question-1282",
         subtopic: "LÉGIÜZEMELTETÉS",
         difficulty: "easy",
         question:
@@ -19704,11 +23460,14 @@ export const mainTestBank = [
         ],
         answer: "A helyes keverék arány beállításában segíti a pilótát.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-154",
+        id: "question-1283",
         subtopic: "LÉGIÜZEMELTETÉS",
         difficulty: "easy",
         question:
@@ -19721,11 +23480,14 @@ export const mainTestBank = [
         ],
         answer: "a szívótér nyomás csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-155",
+        id: "question-1284",
         subtopic: "LÉGIÜZEMELTETÉS",
         difficulty: "easy",
         question:
@@ -19738,11 +23500,14 @@ export const mainTestBank = [
         ],
         answer: "Nõni fog.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-156",
+        id: "question-1285",
         subtopic: "LÉGIÜZEMELTETÉS",
         difficulty: "easy",
         question:
@@ -19755,11 +23520,14 @@ export const mainTestBank = [
         ],
         answer: "alacsony sebességek és nagy teljesítmény beállítás esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-157",
+        id: "question-1286",
         subtopic: "LÉGIÜZEMELTETÉS",
         difficulty: "easy",
         question: "Aszimmetrikus terhelés (p-factor) lép fel ...",
@@ -19771,11 +23539,14 @@ export const mainTestBank = [
         ],
         answer: "a légcsavaron, ha a repülõgépnek nagy az állásszöge.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-158",
+        id: "question-1287",
         subtopic: "LÉGIÜZEMELTETÉS",
         difficulty: "easy",
         question:
@@ -19788,11 +23559,14 @@ export const mainTestBank = [
         ],
         answer: "A szívótérnyomás növelése elõtt megnöveljük a fordulatszámot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-159",
+        id: "question-1288",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19800,11 +23574,14 @@ export const mainTestBank = [
         options: ["CZ.", "CTR.", "CTZ.", "CTA."],
         answer: "CTR.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-160",
+        id: "question-1289",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question: "Mit jelent az 'AFIS' rövidítés?",
@@ -19817,11 +23594,14 @@ export const mainTestBank = [
         answer:
           "Aerodrome flight information service./Repülõtéri repülés információs szolgálat",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-161",
+        id: "question-1290",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question: "Mit jelent az 'FIR' rövidítés?",
@@ -19833,22 +23613,28 @@ export const mainTestBank = [
         ],
         answer: "Flight information region.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-162",
+        id: "question-1291",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question: "Milyen rövidítést használnak az egyesített világidõre?",
         options: ["COUT.", "GMT.", "CUT.", "UTC."],
         answer: "UTC.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-163",
+        id: "question-1292",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19856,11 +23642,14 @@ export const mainTestBank = [
         options: ["QFE", "QNH", "QDM", "QBI"],
         answer: "QFE",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-164",
+        id: "question-1293",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19868,11 +23657,14 @@ export const mainTestBank = [
         options: ["QNH", "QFE", "QFF", "QNJ"],
         answer: "QNH",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-165",
+        id: "question-1294",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question: "Idõ adat továbbításánál melyik rendszert használjuk?",
@@ -19884,11 +23676,14 @@ export const mainTestBank = [
         ],
         answer: "UTC",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-166",
+        id: "question-1295",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19901,11 +23696,14 @@ export const mainTestBank = [
         ],
         answer: "'A' mód 7600-as kód",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-167",
+        id: "question-1296",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19918,11 +23716,14 @@ export const mainTestBank = [
         ],
         answer: "Repüléstájékoztató szolgálat és Riasztó szolgálat",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-168",
+        id: "question-1297",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19936,11 +23737,14 @@ export const mainTestBank = [
         answer:
           "Az irányítói körzet a földfelszín feletti meghatározott határtól felfelé terjedõ ellenõrzött légtér.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-169",
+        id: "question-1298",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question: "Riasztó szolgálatot a következõ egység lát el:",
@@ -19952,11 +23756,14 @@ export const mainTestBank = [
         ],
         answer: "Az ebben az idõpontban a légijármûért felelõs ATS egység",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-170",
+        id: "question-1299",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19969,11 +23776,14 @@ export const mainTestBank = [
         ],
         answer: "Bizonytalanság állapota, riasztás állapota, veszély állapota.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-171",
+        id: "question-1300",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19981,11 +23791,14 @@ export const mainTestBank = [
         options: ["2000.", "7500.", "7600.", "7700."],
         answer: "7600.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-172",
+        id: "question-1301",
         subtopic: "REPÜLÉSI ELJÁRÁSOK",
         difficulty: "easy",
         question:
@@ -19993,11 +23806,14 @@ export const mainTestBank = [
         options: ["7000.", "7500.", "7600.", "7700."],
         answer: "7500.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-173",
+        id: "question-1302",
         subtopic: "ÜZEMELTETÉSI ISMERETEK",
         difficulty: "easy",
         question: "A dugattyús motorok esetén a keverék arány ...",
@@ -20009,11 +23825,14 @@ export const mainTestBank = [
         ],
         answer: "a hengerbe belépõ tüzelõanyag és levegõ tömege közötti arány.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-174",
+        id: "question-1303",
         subtopic: "ÜZEMELTETÉSI ISMERETEK",
         difficulty: "easy",
         question: "A korszerû porlasztókban a keverék arány változtatása a ...",
@@ -20025,11 +23844,14 @@ export const mainTestBank = [
         ],
         answer: "tüzelõanyag áram beállításával érhetõ el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-175",
+        id: "question-1304",
         subtopic: "ÜZEMELTETÉSI ISMERETEK",
         difficulty: "easy",
         question:
@@ -20043,11 +23865,14 @@ export const mainTestBank = [
         answer:
           "csökken a tüzelõanyag áram annak érdekében, hogy kompenzáljuk a levegõ sûrûség csökkenését.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-176",
+        id: "question-1305",
         subtopic: "ÜZEMELTETÉSI ISMERETEK",
         difficulty: "easy",
         question: "Amikor a porlasztót melegítjük, akkor ...",
@@ -20059,11 +23884,14 @@ export const mainTestBank = [
         ],
         answer: "a keverék gazdagabbá válik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-177",
+        id: "question-1306",
         subtopic: "ÜZEMELTETÉSI ISMERETEK",
         difficulty: "easy",
         question:
@@ -20076,11 +23904,14 @@ export const mainTestBank = [
         ],
         answer: "az égõtérbe bejutó tüzelõanyag mennyisége csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-178",
+        id: "question-1307",
         subtopic: "ÜZEMELTETÉSI ISMERETEK",
         difficulty: "easy",
         question:
@@ -20093,11 +23924,14 @@ export const mainTestBank = [
         ],
         answer: "fordulatszám kijelzõvel",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-179",
+        id: "question-1308",
         subtopic: "ÜZEMELTETÉSI ISMERETEK",
         difficulty: "easy",
         question:
@@ -20110,11 +23944,14 @@ export const mainTestBank = [
         ],
         answer: "A légcsavar toll állásszöge relatívan nagy.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-180",
+        id: "question-1309",
         subtopic: "ÜZEMELTETÉSI ISMERETEK",
         difficulty: "easy",
         question:
@@ -20128,11 +23965,14 @@ export const mainTestBank = [
         answer:
           "a centrifugális erõ hatására a legkisebb beállítási szöghelyzetbe mozdulnak el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-181",
+        id: "question-1310",
         subtopic: "ÜZEMELTETÉSI ISMERETEK",
         difficulty: "easy",
         question:
@@ -20145,7 +23985,10 @@ export const mainTestBank = [
         ],
         answer: "(1)kicsi (2) elülsõ",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
     ],
@@ -20154,7 +23997,7 @@ export const mainTestBank = [
     topic: "Repüléselmélet",
     questions: [
       {
-        id: "question-1",
+        id: "question-1311",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question: "Melyik esetben a legmagasabb a repülõgép átesési sebessége?",
@@ -20166,11 +24009,14 @@ export const mainTestBank = [
         ],
         answer: "Nagy tömeg , mellsõ súlyponthelyzet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-2",
+        id: "question-1312",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20183,11 +24029,14 @@ export const mainTestBank = [
         ],
         answer: "Hatótávolságcsökkenés",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-3",
+        id: "question-1313",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20200,11 +24049,14 @@ export const mainTestBank = [
         ],
         answer: "Az emelkedési idõ nem változik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-4",
+        id: "question-1314",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20217,11 +24069,14 @@ export const mainTestBank = [
         ],
         answer: "Mindkettõ növekszik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-5",
+        id: "question-1315",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20234,11 +24089,14 @@ export const mainTestBank = [
         ],
         answer: "a magassággal emelkedik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-6",
+        id: "question-1316",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20251,11 +24109,14 @@ export const mainTestBank = [
         ],
         answer: "hossztengely",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-7",
+        id: "question-1317",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20269,11 +24130,14 @@ export const mainTestBank = [
         answer:
           "A levegõhöz viszonyított valós sebesség (TAS) a nagyobb magasságon nagyobb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-8",
+        id: "question-1318",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20286,11 +24150,14 @@ export const mainTestBank = [
         ],
         answer: "hirtelen süllyedni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-9",
+        id: "question-1319",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20303,11 +24170,14 @@ export const mainTestBank = [
         ],
         answer: "emelkedni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-10",
+        id: "question-1320",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20320,11 +24190,14 @@ export const mainTestBank = [
         ],
         answer: "Fp + G sin GAMMA = X",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-11",
+        id: "question-1321",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20337,11 +24210,14 @@ export const mainTestBank = [
         ],
         answer: "A szélnek nincs rá hatása.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-12",
+        id: "question-1322",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20354,11 +24230,14 @@ export const mainTestBank = [
         ],
         answer: "Enyhén csökken a repülõgép sbességének növekedésével.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-13",
+        id: "question-1323",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20371,11 +24250,14 @@ export const mainTestBank = [
         ],
         answer: "A tömeg növekedésével növekszik ez a sebesség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-14",
+        id: "question-1324",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question: "A nem gyorsuló emelkedés közben :",
@@ -20388,11 +24270,14 @@ export const mainTestBank = [
         answer:
           "A tolóerõ/vonóerõ megegyezik az ellenállás + az összsúly repülési pálya irányában lefelé mutató komponensével.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-15",
+        id: "question-1325",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question: "Magasabb külsõ hõmérséklet esetén",
@@ -20404,11 +24289,14 @@ export const mainTestBank = [
         ],
         answer: "az emelkedési szög és az emelkedés mértéke csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-16",
+        id: "question-1326",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question: "Az állandó szembeszél",
@@ -20420,11 +24308,14 @@ export const mainTestBank = [
         ],
         answer: "növeli a süllyedési pálya szögét.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-17",
+        id: "question-1327",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question: "Egy állandó szembeszél komponens:",
@@ -20436,11 +24327,14 @@ export const mainTestBank = [
         ],
         answer: "Az emelkedés során növeli a repülési pálya szögét.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-18",
+        id: "question-1328",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20454,11 +24348,14 @@ export const mainTestBank = [
         answer:
           "rendkívül stabil és nagy magassági kormánykitérítés szükséges vezetéséhez.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-19",
+        id: "question-1329",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20471,11 +24368,14 @@ export const mainTestBank = [
         ],
         answer: "Az átesési sebesség magasabb lesz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-20",
+        id: "question-1330",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20489,11 +24389,14 @@ export const mainTestBank = [
         answer:
           "növekszik a leszállási távolság és javul az átstartolási emelkedési képesség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-21",
+        id: "question-1331",
         subtopic: "REPÜLÉS ELMÉLET",
         difficulty: "easy",
         question:
@@ -20507,7 +24410,10 @@ export const mainTestBank = [
         answer:
           "csökken a leszállási távolság és romlik az átstartolási emelkedési képesség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
     ],
@@ -20516,7 +24422,7 @@ export const mainTestBank = [
     topic: "Kommunikáció",
     questions: [
       {
-        id: "question-1",
+        id: "question-1332",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Budapest FIR-ben ellenőrzött légtérben …",
@@ -20529,11 +24435,14 @@ export const mainTestBank = [
         answer:
           "elsősorban angol nyelven kell rádiókapcsolatot tartani, de a magyar nyelv használata megengedett.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-2",
+        id: "question-1333",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "A földi és légi rádióállomások közti rádióforgalmazás …",
@@ -20545,11 +24454,14 @@ export const mainTestBank = [
         ],
         answer: "kétoldalú rendszerben, szimplex üzemben működik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-3",
+        id: "question-1334",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Hogyan adjuk le a 5608 számot?",
@@ -20560,11 +24472,14 @@ export const mainTestBank = [
         ],
         answer: "ÖTEZER-HATSZÁZNYOLC.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-4",
+        id: "question-1335",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20572,11 +24487,14 @@ export const mainTestBank = [
         options: ["HJ.", "HN.", "HX.", "HS."],
         answer: "HJ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-5",
+        id: "question-1336",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20589,11 +24507,14 @@ export const mainTestBank = [
         ],
         answer: "Ha az irányító jelzi, hogy a radarazonosítás megtörtént.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-6",
+        id: "question-1337",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20601,11 +24522,14 @@ export const mainTestBank = [
         options: ["AFIS.", "ATIS.", "AFTN.", "AFIL."],
         answer: "ATIS.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-7",
+        id: "question-1338",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Hogyan adjuk le a 4702 számot?",
@@ -20616,11 +24540,14 @@ export const mainTestBank = [
         ],
         answer: "NÉGYESEZER-HETESSZÁZKETTŐ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-8",
+        id: "question-1339",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20633,11 +24560,14 @@ export const mainTestBank = [
         ],
         answer: "tilos lefolytatni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-9",
+        id: "question-1340",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20651,11 +24581,14 @@ export const mainTestBank = [
         answer:
           "A repülőgép-vezető hagyja el a CTR-t a TWR által adott útvonalengedély szerint.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-10",
+        id: "question-1341",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20668,11 +24601,14 @@ export const mainTestBank = [
         ],
         answer: "Ha a vezetőállomás már rövidítette a hívójelet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-11",
+        id: "question-1342",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Az alábbiak közül mit nem kell visszaismételni?",
@@ -20684,11 +24620,14 @@ export const mainTestBank = [
         ],
         answer: "A szélsebességet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-12",
+        id: "question-1343",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20700,11 +24639,14 @@ export const mainTestBank = [
         ],
         answer: "csak a vezetőállomás engedélyével lehetséges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-13",
+        id: "question-1344",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20717,11 +24659,14 @@ export const mainTestBank = [
         ],
         answer: "Az adás érthető.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-14",
+        id: "question-1345",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Mit jelent a SQUAWK IDENT kifejezés?",
@@ -20734,11 +24679,14 @@ export const mainTestBank = [
         answer:
           "A repülőgép-vezető nyomja meg az azonosító gombot a transzponderen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-15",
+        id: "question-1346",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20752,11 +24700,14 @@ export const mainTestBank = [
         answer:
           "sürgősségi közleményt kell leadni a PAN PAN kifejezés háromszori ismétlésével kezdve, és a transzpondert nem kell átállítani, mert a sürgősségi helyzetnek nincs védett kódja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-16",
+        id: "question-1347",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20770,11 +24721,14 @@ export const mainTestBank = [
         answer:
           "A repülőgép-vezető közeledjen az engedély szerint, és ha nem kapott leszállási engedélyt, a kijelölt várakozási légtérben várakozzon 5 percet és hajtsa végre a leszállást a használatos futópályára. Eközben figyelje az esetleges földi fény-jeleket.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-17",
+        id: "question-1348",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Hogyan kell rövidítetni a HA-TUO hívójelet?",
@@ -20786,11 +24740,14 @@ export const mainTestBank = [
         ],
         answer: "HOTEL-UNIFORM-OSCAR",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-18",
+        id: "question-1349",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question:
@@ -20798,11 +24755,14 @@ export const mainTestBank = [
         options: ["BREAK BREAK.", "PAN PAN.", "MAYDAY."],
         answer: "MAYDAY.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-19",
+        id: "question-1350",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Helyes beszédtechnikát alkalmazva …",
@@ -20814,11 +24774,14 @@ export const mainTestBank = [
         answer:
           "beszédünk hangerejét tartsuk állandó szinten, üteme egyenletes legyen, és legyen jól tagolt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-20",
+        id: "question-1351",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Hogyan kell betűzni a HA-EJF lajstromjelet?",
@@ -20830,11 +24793,14 @@ export const mainTestBank = [
         ],
         answer: "HOTEL-ALPHA-ECHO-JULIETT-FOXTROT.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-21",
+        id: "question-1352",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Mik a nemzetközi kényszerhelyzeti frekvenciák?",
@@ -20846,11 +24812,14 @@ export const mainTestBank = [
         ],
         answer: "121,5 MHz és 243 MHz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-22",
+        id: "question-1353",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Mit jelez a BREAK BREAK kifejezés?",
@@ -20863,11 +24832,14 @@ export const mainTestBank = [
         answer:
           "Két különböző állomás számára küldött üzenet közötti gyors elkülönítést.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-23",
+        id: "question-1354",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Mi az első teendő, ha megszakad a rádiókapcsolat?",
@@ -20880,11 +24852,14 @@ export const mainTestBank = [
         answer:
           "Ellenőrizni kell a rádiót és meggyőződni arról, hogy valóban meghibásodott-e.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-24",
+        id: "question-1355",
         subtopic: "RÁDIÓKOMMUNIKÁCIÓ",
         difficulty: "easy",
         question: "Hogyan kell végrehajtani a vak adást?",
@@ -20896,11 +24871,14 @@ export const mainTestBank = [
         ],
         answer: "A VAK ADÁS kifejezés használatával kétszer egymás után.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-25",
+        id: "question-1356",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question: "A nap, mint idõ",
@@ -20911,11 +24889,14 @@ export const mainTestBank = [
         ],
         answer: "a Föld tengely körüli forgása.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-26",
+        id: "question-1357",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question: "Mit jelent a 'vak adás' fogalma?",
@@ -20928,11 +24909,14 @@ export const mainTestBank = [
         answer:
           "Egy állomástól egy másikhoz küldött adás, ahol kétoldalú összeköttetés nem létesül, de feltételezhetõ, hogy a hívott állomás veszi az adást.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-27",
+        id: "question-1358",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question: "Mi a HB-JYC korrekt betûzése rádióközleményben?",
@@ -20944,11 +24928,14 @@ export const mainTestBank = [
         ],
         answer: "Hotel Bravo Juliett Yankee Charlie",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-28",
+        id: "question-1359",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question: "Mikor használhatja a repülõgép saját rövidített hívójelét?",
@@ -20960,11 +24947,14 @@ export const mainTestBank = [
         ],
         answer: "Ha a földi állomás már használta a rövidített hívojelet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-29",
+        id: "question-1360",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question: "Mit jelent a 3-as az érthetõségi skálán?",
@@ -20976,11 +24966,14 @@ export const mainTestBank = [
         ],
         answer: "Nehezen érthetõ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-30",
+        id: "question-1361",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question:
@@ -20994,11 +24987,14 @@ export const mainTestBank = [
         answer:
           "Használatos pálya, magasságmérõ-beállítás, SSR (transzponder) kód, magassággal, sebességgel, iránnyal kapcsolatos utasítások.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-31",
+        id: "question-1362",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question: "Hogyan kell a vak adást végrehajtani?",
@@ -21010,11 +25006,14 @@ export const mainTestBank = [
         ],
         answer: "Kétszer a kijelölt frekvencián.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-32",
+        id: "question-1363",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question:
@@ -21027,11 +25026,14 @@ export const mainTestBank = [
         ],
         answer: "118.000 - 136.975 MHZ",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-33",
+        id: "question-1364",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question:
@@ -21045,11 +25047,14 @@ export const mainTestBank = [
         answer:
           "Légijármû azonosító jele, helyzete, idõpont, repülés szint vagy tengerszínt feletti magasság, a következõ jelentõpont és a fölé érkezés számított idõpontja, az azt követõ jelentõpont.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-34",
+        id: "question-1365",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question:
@@ -21063,11 +25068,14 @@ export const mainTestBank = [
         answer:
           "Nagy rádióforgalom esetén , két különbözõ repülõgép számára küldott üzenet közötti elkülönítést.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-35",
+        id: "question-1366",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question: "Az üzenetem még hatásosabb és érthetõbb lesz, ha:",
@@ -21079,11 +25087,14 @@ export const mainTestBank = [
         ],
         answer: "A beszéd hangerejét egy állandó értéken tartom.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-36",
+        id: "question-1367",
         subtopic: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
         difficulty: "easy",
         question: "Mit értünk jó mikrofontechnikán?",
@@ -21096,7 +25107,10 @@ export const mainTestBank = [
         answer:
           "Normál beszédhangot használjon, beszéljen tisztán és tagoltan.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
     ],
@@ -21105,7 +25119,7 @@ export const mainTestBank = [
     topic: "Vitorla Specifikus kérdések",
     questions: [
       {
-        id: "question-1",
+        id: "question-1368",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az anyag halmazállapotát meghatározza",
@@ -21117,11 +25131,14 @@ export const mainTestBank = [
         ],
         answer: " az anyag molekulái közötti kapcsolat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-2",
+        id: "question-1369",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A sűrűség",
@@ -21133,11 +25150,14 @@ export const mainTestBank = [
         ],
         answer: " az egységnyi térfogatba foglalt anyag tömege (kg/m3).",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-3",
+        id: "question-1370",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A statikus nyomásból származó erő",
@@ -21149,11 +25169,14 @@ export const mainTestBank = [
         ],
         answer: " a felület síkjára mindig merőleges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-4",
+        id: "question-1371",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21161,11 +25184,14 @@ export const mainTestBank = [
         options: [" Newton. ", " Bernoulli.", " Archimedes. ", " Faraday."],
         answer: " Bernoulli.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-5",
+        id: "question-1372",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21178,11 +25204,14 @@ export const mainTestBank = [
         ],
         answer: " Négyszeresére nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-6",
+        id: "question-1373",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21195,11 +25224,14 @@ export const mainTestBank = [
         ],
         answer: " akkor a statikus nyomás ott lecsökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-7",
+        id: "question-1374",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21212,11 +25244,14 @@ export const mainTestBank = [
         ],
         answer: " az áramlás sebessége a kétszeresére nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-8",
+        id: "question-1375",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21229,11 +25264,14 @@ export const mainTestBank = [
         ],
         answer: " áramcső keresztmetszete a felére csökkent.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-9",
+        id: "question-1376",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21246,11 +25284,14 @@ export const mainTestBank = [
         ],
         answer: " nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-10",
+        id: "question-1377",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21263,11 +25304,14 @@ export const mainTestBank = [
         ],
         answer: " A torlónyomás négyszeres lesz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-11",
+        id: "question-1378",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Bernoulli törvénye szerint",
@@ -21280,11 +25324,14 @@ export const mainTestBank = [
         answer:
           " a torló-, és statikus nyomás összege az áramlás bármely keresztmetszetében állandó.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-12",
+        id: "question-1379",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Lamináris áramlásban az áramló részecskék",
@@ -21296,11 +25343,14 @@ export const mainTestBank = [
         ],
         answer: " mozgása az áramvonallal egybeesik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-13",
+        id: "question-1380",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21313,11 +25363,14 @@ export const mainTestBank = [
         ],
         answer: " Igen, ha a sűrűség nő, az ellenállás is nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-14",
+        id: "question-1381",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21330,11 +25383,14 @@ export const mainTestBank = [
         ],
         answer: " az alaki ellenállás nem változik",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-15",
+        id: "question-1382",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A test ellenállása az áramlás",
@@ -21346,11 +25402,14 @@ export const mainTestBank = [
         ],
         answer: " sebességének négyzetével arányosan változik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-16",
+        id: "question-1383",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Határréteg ",
@@ -21363,11 +25422,14 @@ export const mainTestBank = [
         answer:
           " az a viszonylag vékony réteg, amelyben a levegőrészecskék sebességét a belső súrlódási erők befolyásolják.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-17",
+        id: "question-1384",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21380,11 +25442,14 @@ export const mainTestBank = [
         ],
         answer: " előre vándorol.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-18",
+        id: "question-1385",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A felhajtóerő mindig",
@@ -21396,11 +25461,14 @@ export const mainTestBank = [
         ],
         answer: " merőleges az áramlás irányára.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-19",
+        id: "question-1386",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21413,11 +25481,14 @@ export const mainTestBank = [
         ],
         answer: " 196 N",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-20",
+        id: "question-1387",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A légellenállás mindig",
@@ -21429,11 +25500,14 @@ export const mainTestBank = [
         ],
         answer: " párhuzamos az áramlás irányával.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-21",
+        id: "question-1388",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21446,11 +25520,14 @@ export const mainTestBank = [
         ],
         answer: " 15-szöröse.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-22",
+        id: "question-1389",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21463,11 +25540,14 @@ export const mainTestBank = [
         ],
         answer: " A felhajtóerő és az ellenállás egymásra merőleges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-23",
+        id: "question-1390",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21475,11 +25555,14 @@ export const mainTestBank = [
         options: [" 162 km/h", " 144 km/h", " 72 km/h", " 300 km/h"],
         answer: " 144 km/h",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-24",
+        id: "question-1391",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A kritikus állásszög átlépésekor a repülőgép",
@@ -21491,11 +25574,14 @@ export const mainTestBank = [
         ],
         answer: " mindig átesik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-25",
+        id: "question-1392",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az állásszög",
@@ -21507,11 +25593,14 @@ export const mainTestBank = [
         ],
         answer: " az áramlás iránya és a szárnyprofil húrja közötti szög.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-26",
+        id: "question-1393",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21524,11 +25613,14 @@ export const mainTestBank = [
         ],
         answer: " a szárny átlépte a kritikus állásszöget.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-27",
+        id: "question-1394",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21541,11 +25633,14 @@ export const mainTestBank = [
         ],
         answer: " Igen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-28",
+        id: "question-1395",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21559,11 +25654,14 @@ export const mainTestBank = [
         answer:
           " a görbéhez húzott vízszintes érintővel a görbe legfelső pontján.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-29",
+        id: "question-1396",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A siklószám növekedésével",
@@ -21575,11 +25673,14 @@ export const mainTestBank = [
         ],
         answer: " a siklószög csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-30",
+        id: "question-1397",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21593,11 +25694,14 @@ export const mainTestBank = [
         answer:
           " az origóból a görbéhez húzott érintő és a Cy tengely által bezárt szög leolvasásával.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-31",
+        id: "question-1398",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21611,11 +25715,14 @@ export const mainTestBank = [
         answer:
           " a görbéhez a Cy tengellyel párhuzamosan húzott érintő és a Cx tengely metszéspontja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-32",
+        id: "question-1399",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21623,11 +25730,14 @@ export const mainTestBank = [
         options: [" 0,2", " 20", " 15,75", " 14,25"],
         answer: " 20",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-33",
+        id: "question-1400",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az indukált ellenállás",
@@ -21639,11 +25749,14 @@ export const mainTestBank = [
         ],
         answer: " annál nagyobb, minél lassabban repül a repülőgép.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-34",
+        id: "question-1401",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A geometriai elcsavarás",
@@ -21655,11 +25768,14 @@ export const mainTestBank = [
         ],
         answer: " célja, hogy az indukált ellenállás csökkenjen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-35",
+        id: "question-1402",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az aerodinamikai elcsavarás",
@@ -21671,11 +25787,14 @@ export const mainTestBank = [
         ],
         answer: " következtében a szárnyvég később esik át, mint a szárnytő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-36",
+        id: "question-1403",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21688,11 +25807,14 @@ export const mainTestBank = [
         ],
         answer: " tökéletesen kilebegtetett leszállás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-37",
+        id: "question-1404",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Adott húrhossz mellett az indukált ellenállás",
@@ -21704,11 +25826,14 @@ export const mainTestBank = [
         ],
         answer: " kisebb, ha a fesztáv nagyobb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-38",
+        id: "question-1405",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21716,11 +25841,14 @@ export const mainTestBank = [
         options: [" 18", " 15", " 16", " 17"],
         answer: " 15",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-39",
+        id: "question-1406",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21728,11 +25856,14 @@ export const mainTestBank = [
         options: [" 17", " 16", " 15", " 18"],
         answer: " 17",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-40",
+        id: "question-1407",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "(5/2001) Vitorlázórepülő szakszolgálati engedéllyel",
@@ -21745,11 +25876,14 @@ export const mainTestBank = [
         answer:
           " személyszállítás végezhető nem kereskedelmi céllal 18. életév betöltése után.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-41",
+        id: "question-1408",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21763,11 +25897,14 @@ export const mainTestBank = [
         answer:
           " az elmúlt 90 napban legalább 3 felszállást teljesített az adott típuson.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-42",
+        id: "question-1409",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21781,11 +25918,14 @@ export const mainTestBank = [
         answer:
           " 20 óra repülési idő, 6 önálló vontatás az elmúlt 24 hónapban.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-43",
+        id: "question-1410",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21799,11 +25939,14 @@ export const mainTestBank = [
         answer:
           " Igen, az 5 órás feladat kivételével, amely meghatározott feltételek megléte esetén elhagyható.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-44",
+        id: "question-1411",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21817,11 +25960,14 @@ export const mainTestBank = [
         answer:
           " Kiképző szervnél gyakorlatba hozó és minősítő ellenőrző repülést kell végrehajtani.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-45",
+        id: "question-1412",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21835,11 +25981,14 @@ export const mainTestBank = [
         answer:
           " Csak egyedül repülheti be a gépet, mert az adott típusú géppel nem teljesítette a személyszállításhoz szükséges minimumot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-46",
+        id: "question-1413",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21852,11 +26001,14 @@ export const mainTestBank = [
         ],
         answer: " Oktató, berepülő, műrepülő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-47",
+        id: "question-1414",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21869,11 +26021,14 @@ export const mainTestBank = [
         ],
         answer: " Ha a kihagyás 50 repült óráig 1 hónapnál nem több.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-48",
+        id: "question-1415",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21887,11 +26042,14 @@ export const mainTestBank = [
         answer:
           " Ha a kihagyás 50-200 repült óra között 3 hónapnál nem több, 200-600 repült óra között 6 hónapnál nem több.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-49",
+        id: "question-1416",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21905,11 +26063,14 @@ export const mainTestBank = [
         answer:
           " 21. életév, középfokú iskolai végzettség, 2 éves szakszolgálati engedély, 250 óra repült idő vitorlázógépen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-50",
+        id: "question-1417",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -21923,11 +26084,14 @@ export const mainTestBank = [
         answer:
           " 250-600 repült óráig max. 6 hónap 600 repült óra fölött max 12 hónap.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-51",
+        id: "question-1418",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Iskola-gyakorló gépek fő jellemzői:",
@@ -21940,11 +26104,14 @@ export const mainTestBank = [
         answer:
           " kétkormányos kivitelben készülnek, feladatuk a kezdő növendékek képzése, jó repülőtulajdonság, rendkívül sok és nagy erőhatásokkal szembeni ellenállóképesség.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-52",
+        id: "question-1419",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Vitorlázó repülőgépekre jellemző adatok: fesztáv",
@@ -21956,11 +26123,14 @@ export const mainTestBank = [
         ],
         answer: " a két szárnyvég egymástól való távolsága méterben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-53",
+        id: "question-1420",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "ldalviszony és karcsúság",
@@ -21972,11 +26142,14 @@ export const mainTestBank = [
         ],
         answer: " a fesztáv négyzetének és a szárny felületének hányadosa.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-54",
+        id: "question-1421",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Felületi terhelés:",
@@ -21989,11 +26162,14 @@ export const mainTestBank = [
         answer:
           " a repülőgép repülési súlyának és szárny felületének a hányadosa.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-55",
+        id: "question-1422",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A felületi terhelés",
@@ -22005,11 +26181,14 @@ export const mainTestBank = [
         ],
         answer: " a gép repülési súlyának és a szárnyfelületnek a hányadosa.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-56",
+        id: "question-1423",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mi a VA?",
@@ -22022,11 +26201,14 @@ export const mainTestBank = [
         answer:
           " Az a maximális sebesség, amelynél durva kormánymozdulatokkal sem léphető át a maximális terhelési többes.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-57",
+        id: "question-1424",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22034,11 +26216,14 @@ export const mainTestBank = [
         options: [" 1,96", " 1,4", " 0,51", " Nem számítható."],
         answer: " 1,96",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-58",
+        id: "question-1425",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22052,11 +26237,14 @@ export const mainTestBank = [
         answer:
           " Kis sebességek esetén a szárnyról periodikusan leváló örvények farokfelületre ható gerjesztő hatása.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-59",
+        id: "question-1426",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A flatter",
@@ -22068,11 +26256,14 @@ export const mainTestBank = [
         ],
         answer: " a maximális sebesség felett jelentkezhet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-60",
+        id: "question-1427",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Milyen sebességnél keletkezhet flatter?",
@@ -22084,11 +26275,14 @@ export const mainTestBank = [
         ],
         answer: " A maximális megengedett sebesség felett legalább 20%-al.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-61",
+        id: "question-1428",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A terhelési többszörös",
@@ -22101,11 +26295,14 @@ export const mainTestBank = [
         answer:
           " a szárnyon keletkező felhajtóerő és a repülőgép súlyának a hányadosa.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-62",
+        id: "question-1429",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22113,11 +26310,14 @@ export const mainTestBank = [
         options: [" 0.05", " 19.62", " 0.5", " 2.0"],
         answer: " 2.0",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-63",
+        id: "question-1430",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22125,11 +26325,14 @@ export const mainTestBank = [
         options: [" 10", " 0.1", " nem meghatározható.", " 1.76"],
         answer: " 10",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-64",
+        id: "question-1431",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22143,11 +26346,14 @@ export const mainTestBank = [
         answer:
           " Biztonsági tényező = törő terhelési többes/ terhelési többes.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-65",
+        id: "question-1432",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22155,11 +26361,14 @@ export const mainTestBank = [
         options: [" 1.80", " 0.55", " 12.60", " 3.60"],
         answer: " 1.80",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-66",
+        id: "question-1433",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A törő terhelési többes",
@@ -22172,11 +26381,14 @@ export const mainTestBank = [
         answer:
           " a megengedett terhelési többes és a biztonsági tényező szorzata.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-67",
+        id: "question-1434",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A szárnyon a következő igénybevételek keletkeznek :",
@@ -22188,11 +26400,14 @@ export const mainTestBank = [
         ],
         answer: " nyírás, hajlítás, csavarás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-68",
+        id: "question-1435",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22205,11 +26420,14 @@ export const mainTestBank = [
         ],
         answer: " 147.15 N/m2",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-69",
+        id: "question-1436",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22222,11 +26440,14 @@ export const mainTestBank = [
         ],
         answer: " 13.08 m2.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-70",
+        id: "question-1437",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22239,11 +26460,14 @@ export const mainTestBank = [
         ],
         answer: " a szárnytőben okozza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-71",
+        id: "question-1438",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22256,11 +26480,14 @@ export const mainTestBank = [
         ],
         answer: " a torziós orrborítás veszi fel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-72",
+        id: "question-1439",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22273,11 +26500,14 @@ export const mainTestBank = [
         ],
         answer: " A szárnyat előre csavaró nyomaték.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-73",
+        id: "question-1440",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22290,11 +26520,14 @@ export const mainTestBank = [
         ],
         answer: " Amelyikben a két 100 kg-os pilóta ül.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-74",
+        id: "question-1441",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A differenciál csűrő feladata",
@@ -22306,11 +26539,14 @@ export const mainTestBank = [
         ],
         answer: " az ellentétes fordulónyomaték csökkentése.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-75",
+        id: "question-1442",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Nagy sebességnél mi okozza a csűrőhatásosság csökkenését?",
@@ -22323,11 +26559,14 @@ export const mainTestBank = [
         answer:
           " A csűrőlap lefelé való kitérítése következtében a szárny előre csavarodik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-76",
+        id: "question-1443",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22340,11 +26579,14 @@ export const mainTestBank = [
         ],
         answer: " lefelé a csűrőlap kevésbé tér ki mint felfelé.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-77",
+        id: "question-1444",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22358,11 +26600,14 @@ export const mainTestBank = [
         answer:
           " közvetlenül nem állítható, helyzete a botkormány helyzetétől függ.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-78",
+        id: "question-1445",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A Fowler-lap kibocsájtása",
@@ -22374,11 +26619,14 @@ export const mainTestBank = [
         ],
         answer: " növeli a szárny felületét és íveltségét.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-79",
+        id: "question-1446",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az ívelőlap leszálló helyzetében ",
@@ -22390,11 +26638,14 @@ export const mainTestBank = [
         ],
         answer: " nagyobb cymax érhető el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-80",
+        id: "question-1447",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az ívelőlap lefelé való kitérítésével a repülőgép",
@@ -22406,11 +26657,14 @@ export const mainTestBank = [
         ],
         answer: " kisebb sebességet tud elérni, és a kritikus állásszög megnő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-81",
+        id: "question-1448",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az ívelőlap leszálló fokozatba való állításával ",
@@ -22422,11 +26676,14 @@ export const mainTestBank = [
         ],
         answer: " megnő a szárny íveltsége.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-82",
+        id: "question-1449",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22439,11 +26696,14 @@ export const mainTestBank = [
         ],
         answer: " felfelé tér ki.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-83",
+        id: "question-1450",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A repülőgép fejre trimmelésekor a trimlap",
@@ -22455,11 +26715,14 @@ export const mainTestBank = [
         ],
         answer: " felfelé mozdul el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-84",
+        id: "question-1451",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A vitorlázórepülőgép repülést ellenőrző műszerei :",
@@ -22471,11 +26734,14 @@ export const mainTestBank = [
         ],
         answer: " sebességmérő, variométer, magasságmérő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-85",
+        id: "question-1452",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mely műszerek használják fel a Pitot-cső statikus jelét? ",
@@ -22487,11 +26753,14 @@ export const mainTestBank = [
         ],
         answer: " Sebességmérő, variométer, magasságmérő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-86",
+        id: "question-1453",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mely műszerek használják fel a torlónyomást? ",
@@ -22503,11 +26772,14 @@ export const mainTestBank = [
         ],
         answer: " Sebességmérő, totálenergia variométer",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-87",
+        id: "question-1454",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22520,11 +26792,14 @@ export const mainTestBank = [
         ],
         answer: " helyesen mutat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-88",
+        id: "question-1455",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22537,11 +26812,14 @@ export const mainTestBank = [
         ],
         answer: " a repülőtéri légnyomás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-89",
+        id: "question-1456",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mihez képest mutatja a magasságmérő a repülési magasságot? ",
@@ -22554,11 +26832,14 @@ export const mainTestBank = [
         answer:
           " A nyomásablakban beállított nyomásnak megfelelő szinthez képest.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-90",
+        id: "question-1457",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A Pitot-cső áramlás irányába eső nyílásában",
@@ -22570,11 +26851,14 @@ export const mainTestBank = [
         ],
         answer: " a levegő össznyomása érzékelhető.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-91",
+        id: "question-1458",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A Pitot-cső áramlásra merőleges furatában",
@@ -22586,11 +26870,14 @@ export const mainTestBank = [
         ],
         answer: " a statikus nyomás érzékelhető.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-92",
+        id: "question-1459",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22603,11 +26890,14 @@ export const mainTestBank = [
         ],
         answer: " növekszik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-93",
+        id: "question-1460",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Csúsztatás közben a sebességmérő",
@@ -22619,11 +26909,14 @@ export const mainTestBank = [
         ],
         answer: " kevesebbet mutat a ténylegesnél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-94",
+        id: "question-1461",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22636,11 +26929,14 @@ export const mainTestBank = [
         ],
         answer: " Tengerszinten: 100 km/h 2000 m-en: 111,8 km/h",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-95",
+        id: "question-1462",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A Pitot-cső a következő nyomásokat érzékeli közvetlenül:",
@@ -22652,11 +26948,14 @@ export const mainTestBank = [
         ],
         answer: " össznyomás, statikus nyomás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-96",
+        id: "question-1463",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22670,11 +26969,14 @@ export const mainTestBank = [
         answer:
           " A hagyományos variométer emelkedést mutat, az összenergia variométer nem.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-97",
+        id: "question-1464",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A hőpalack rendeltetése a variométer rendszerében:",
@@ -22687,11 +26989,14 @@ export const mainTestBank = [
         answer:
           " megnövelni a műszerház belső térfogatát és ezzel kis méréshatárú, finom érzékelésű variométert biztosítani.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-98",
+        id: "question-1465",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A totálenergia variométer",
@@ -22704,11 +27009,14 @@ export const mainTestBank = [
         answer:
           " kiküszöböli a magassági kormány kitéréséből adódó hibás variométer jelzéseket.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-99",
+        id: "question-1466",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22721,11 +27029,14 @@ export const mainTestBank = [
         ],
         answer: " a Pitot-cső statikus rendszere eltömődött.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-100",
+        id: "question-1467",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22738,11 +27049,14 @@ export const mainTestBank = [
         ],
         answer: " hibátlanul működik tovább.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-101",
+        id: "question-1468",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22755,11 +27069,14 @@ export const mainTestBank = [
         ],
         answer: " Sebességmérő, totál energia variométer.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-102",
+        id: "question-1469",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22772,11 +27089,14 @@ export const mainTestBank = [
         ],
         answer: " A szelence kilyukadt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-103",
+        id: "question-1470",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22789,11 +27109,14 @@ export const mainTestBank = [
         ],
         answer: " A Pitot-cső össznyomás érzékelője eldugult.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-104",
+        id: "question-1471",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22807,11 +27130,14 @@ export const mainTestBank = [
         answer:
           " A kabin repülési magasságát, ami többé-kevésbé megegyezik a repülőgép repülési magasságával.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-105",
+        id: "question-1472",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A mágneses iránytű deklinációjának oka az, hogy",
@@ -22823,11 +27149,14 @@ export const mainTestBank = [
         ],
         answer: " a földrajzi és mágneses észak nem esik egybe.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-106",
+        id: "question-1473",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22840,11 +27169,14 @@ export const mainTestBank = [
         ],
         answer: " Nagy bedöntésű fordulóban.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-107",
+        id: "question-1474",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22857,11 +27189,14 @@ export const mainTestBank = [
         ],
         answer: " Eltér északias irányba.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-108",
+        id: "question-1475",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22874,11 +27209,14 @@ export const mainTestBank = [
         ],
         answer: " A műszer áramforrását fordított polaritással kötötték be.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-109",
+        id: "question-1476",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22892,11 +27230,14 @@ export const mainTestBank = [
         answer:
           " A műszer jó, mivel a gép függőleges tengely körüli forgását méri, és ez ebben a helyzetben 0.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-110",
+        id: "question-1477",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22910,11 +27251,14 @@ export const mainTestBank = [
         answer:
           " Ez természetes, mert a repülőgép függőleges tengelye körüli elfordulás értékével arányosan tér ki.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-111",
+        id: "question-1478",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az elfordulásmérő kitérése mivel arányos?",
@@ -22926,11 +27270,14 @@ export const mainTestBank = [
         ],
         answer: " A repülőgép függőleges tengelye körüli szögsebességével.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-112",
+        id: "question-1479",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A hosszdőlés mérő által mutatott érték mikor elfogadható?",
@@ -22942,11 +27289,14 @@ export const mainTestBank = [
         ],
         answer: " Csak vízszintes repülés közben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-113",
+        id: "question-1480",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22960,11 +27310,14 @@ export const mainTestBank = [
         answer:
           " A repülőgép hossztengelyének a vízszintes síkkal bezárt szögével.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-114",
+        id: "question-1481",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Ha a csűrőkormányt elengedjük, ",
@@ -22977,11 +27330,14 @@ export const mainTestBank = [
         answer:
           " a repülőgép bizonyos bedöntési határok között vezethető az oldalkormánnyal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-115",
+        id: "question-1482",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -22994,11 +27350,14 @@ export const mainTestBank = [
         ],
         answer: " A trimmkar előrenyomásával a repülőgép gyorsul.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-116",
+        id: "question-1483",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Ha az oldalkormány beszorul repülés közben, akkor",
@@ -23010,11 +27369,14 @@ export const mainTestBank = [
         ],
         answer: " a gép bizonyos korlátokkal vezethető a csűrő kormánnyal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-117",
+        id: "question-1484",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23027,11 +27389,14 @@ export const mainTestBank = [
         ],
         answer: " egyenlő 1-el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-118",
+        id: "question-1485",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az optimális sebesség az a sebesség, ahol",
@@ -23043,11 +27408,14 @@ export const mainTestBank = [
         ],
         answer: " a gép siklószáma a legnagyobb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-119",
+        id: "question-1486",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A gazdaságos sebesség az a sebesség, ahol",
@@ -23059,11 +27427,14 @@ export const mainTestBank = [
         ],
         answer: " a gép merülési sebessége a legkisebb.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-120",
+        id: "question-1487",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mi az optimális és gazdaságos sebesség közötti összefüggés?",
@@ -23075,11 +27446,14 @@ export const mainTestBank = [
         ],
         answer: " optimális sebesség &gt; gazdaságos sebesség",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-121",
+        id: "question-1488",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23092,11 +27466,14 @@ export const mainTestBank = [
         ],
         answer: " Optimális sebességgel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-122",
+        id: "question-1489",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23109,11 +27486,14 @@ export const mainTestBank = [
         ],
         answer: " Gazdaságos sebességgel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-123",
+        id: "question-1490",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23126,11 +27506,14 @@ export const mainTestBank = [
         ],
         answer: " 5 m/s hátszél, siklószám = 17.5",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-124",
+        id: "question-1491",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23144,11 +27527,14 @@ export const mainTestBank = [
         answer:
           " a görbékhez húzott vízszintes érintő és a függőleges tengely metszéspontja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-125",
+        id: "question-1492",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23162,11 +27548,14 @@ export const mainTestBank = [
         answer:
           " igen, mert a polárgörbét két különböző sebességű helyen metszheti el a siklószöget reprezentáló egyenes.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-126",
+        id: "question-1493",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23179,11 +27568,14 @@ export const mainTestBank = [
         ],
         answer: " gazdaságos sebességgel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-127",
+        id: "question-1494",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Ha a repülőgépbe vízballasztot teszünk, akkor",
@@ -23196,11 +27588,14 @@ export const mainTestBank = [
         answer:
           " a legjobb siklószámhoz tartozó sebesség megnő, de a siklószám változatlan marad.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-128",
+        id: "question-1495",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Egyenes siklás sebességingadozásait leghatékonyabban a",
@@ -23213,11 +27608,14 @@ export const mainTestBank = [
         answer:
           " horizont állandó helyzetben való tartásával küszöbölhetjük ki.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-129",
+        id: "question-1496",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "4 km-es látásban kezdő növendéket oktat. Mire számíthat? ",
@@ -23230,11 +27628,14 @@ export const mainTestBank = [
         answer:
           " A sebesség és iránytartás romlik, mivel nincs horizont látás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-130",
+        id: "question-1497",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23247,11 +27648,14 @@ export const mainTestBank = [
         ],
         answer: " ha gyorsítani akar, a trimmkart hátra kell húzni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-131",
+        id: "question-1498",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mi követi legjobban a repülőgép sebesség változását ?",
@@ -23263,11 +27667,14 @@ export const mainTestBank = [
         ],
         answer: " A repülőgép hangja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-132",
+        id: "question-1499",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23280,11 +27687,14 @@ export const mainTestBank = [
         ],
         answer: " A látótávolság függvényében a lehető legtávolabbi helyen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-133",
+        id: "question-1500",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23297,11 +27707,14 @@ export const mainTestBank = [
         ],
         answer: " A siklás sebessége nőni kezd.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-134",
+        id: "question-1501",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23315,11 +27728,14 @@ export const mainTestBank = [
         answer:
           " - a növendék a sebességmérő alapján próbál sebességet tartani.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-135",
+        id: "question-1502",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23333,11 +27749,14 @@ export const mainTestBank = [
         answer:
           " igen, mert a horizonthelyzet mindig jellemző az aktuális sebességre.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-136",
+        id: "question-1503",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az oldalkormány használatának a szabálya.",
@@ -23350,11 +27769,14 @@ export const mainTestBank = [
         answer:
           " Normál körülmények között minden csűrőkitéréshez oldalkormányt kell használni, hogy megszüntessük az ellentétes forduló nyomatékot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-137",
+        id: "question-1504",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23368,11 +27790,14 @@ export const mainTestBank = [
         answer:
           " Az oldalkormány teljes belépése az egyik irányba, és iránytartás a szükséges csűréssel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-138",
+        id: "question-1505",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A repülőgép átesése mikor következik be biztosan?",
@@ -23384,11 +27809,14 @@ export const mainTestBank = [
         ],
         answer: " Ha átlépjük a kritikus állásszöget.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-139",
+        id: "question-1506",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23402,11 +27830,14 @@ export const mainTestBank = [
         answer:
           " Félbeszakítja a fordulót és más feladatokat végrehajtatva a növendékkel leszáll, mert a növendék nem tud az eredeti feladatra koncentrálni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-140",
+        id: "question-1507",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A dugóhúzó veszélyessége abban rejlik, hogy",
@@ -23419,11 +27850,14 @@ export const mainTestBank = [
         answer:
           " mindaddig fennmarad, amíg a létrehozó okokat nem szüntetjük meg.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-141",
+        id: "question-1508",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Dugóhúzóban a gép",
@@ -23435,11 +27869,14 @@ export const mainTestBank = [
         ],
         answer: " a függőleges és a hossztengelye körül forog.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-142",
+        id: "question-1509",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A repülőgép súlyponthelyzetének túlzott hátra tolódása ",
@@ -23452,11 +27889,14 @@ export const mainTestBank = [
         answer:
           " instabillá teszi a gépet, hajlamossá teszi dugóhúzóra, és nehezíti az abból való kivételt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-143",
+        id: "question-1510",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23470,11 +27910,14 @@ export const mainTestBank = [
         answer:
           " A zuhanásból való felvételt az utazó horizont helyzetig kéri és megvárja amíg lelassul a gép ebben a helyzetben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-144",
+        id: "question-1511",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23482,11 +27925,14 @@ export const mainTestBank = [
         options: [" 30°", " 60°", " 45°", " 90°"],
         answer: " 60°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-145",
+        id: "question-1512",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23499,11 +27945,14 @@ export const mainTestBank = [
         ],
         answer: " Cymax ford. &lt; Cymax vízsz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-146",
+        id: "question-1513",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23516,11 +27965,14 @@ export const mainTestBank = [
         ],
         answer: " A repülőgép merülési sebessége növekedni fog.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-147",
+        id: "question-1514",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23528,11 +27980,14 @@ export const mainTestBank = [
         options: [" 210 m", " 183 m", " 159 m", " 366 m"],
         answer: " 159 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-148",
+        id: "question-1515",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23545,11 +28000,14 @@ export const mainTestBank = [
         ],
         answer: " 90 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-149",
+        id: "question-1516",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23563,11 +28021,14 @@ export const mainTestBank = [
         answer:
           " A bedöntéstől függő, az egyenes repülés minimális sebességénél nagyobb sebességnél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-150",
+        id: "question-1517",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23581,11 +28042,14 @@ export const mainTestBank = [
         answer:
           " pedál használata nélkül finoman csűr valamelyik irányba, és felhívja a figyelmet a repülőgép orrának elmozdulási irányára.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-151",
+        id: "question-1518",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23598,11 +28062,14 @@ export const mainTestBank = [
         ],
         answer: " Balra lépve, jobbra csűrve vagy mindkettő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-152",
+        id: "question-1519",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23615,11 +28082,14 @@ export const mainTestBank = [
         ],
         answer: " Balra lépéssel, jobbra csűréssel, vagy mindkettővel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-153",
+        id: "question-1520",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Forduló közben a gép kifelé csúszik. Mi az oka?",
@@ -23631,11 +28101,14 @@ export const mainTestBank = [
         ],
         answer: " Túlzott oldalkormány használat vagy nem elégséges bedöntés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-154",
+        id: "question-1521",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23648,11 +28121,14 @@ export const mainTestBank = [
         ],
         answer: " A magassági kormány meghúzásával.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-155",
+        id: "question-1522",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A kormány szerepcsere már jól érzékelhető ",
@@ -23664,11 +28140,14 @@ export const mainTestBank = [
         ],
         answer: "  60°-os bedöntésnél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-156",
+        id: "question-1523",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23682,11 +28161,14 @@ export const mainTestBank = [
         answer:
           " Mindig a repülőtér munkaterületén belül biztonságosan leszállni és megállni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-157",
+        id: "question-1524",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23700,11 +28182,14 @@ export const mainTestBank = [
         answer:
           " Ok: a magassági kormány átesése. Megszüntetés: a magassági kormány előre engedése.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-158",
+        id: "question-1525",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Csörlés közben mekkora az átesési sebesség?",
@@ -23716,11 +28201,14 @@ export const mainTestBank = [
         ],
         answer: " Nagyobb mint szabad repülésben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-159",
+        id: "question-1526",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23734,11 +28222,14 @@ export const mainTestBank = [
         answer:
           " Mert a szélsebesség alapbetően befolyásolhatja kötélszakadás esetén az adott magasságon a döntést arról, hogy egyenes irányba szállunk le, vagy visszafordulunk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-160",
+        id: "question-1527",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23752,11 +28243,14 @@ export const mainTestBank = [
         answer:
           " Megfelelő mértékben a szélirányba kell fordulni, majd tartani a vízszintes szárnyat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-161",
+        id: "question-1528",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23769,11 +28263,14 @@ export const mainTestBank = [
         ],
         answer: " Balra belépett oldalkormány, jobbra kitérített csűrő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-162",
+        id: "question-1529",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23786,11 +28283,14 @@ export const mainTestBank = [
         ],
         answer: " 1 m/s merülés",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-163",
+        id: "question-1530",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23798,11 +28298,14 @@ export const mainTestBank = [
         options: [" □ 30", " □ 20", " □ 25", " □ 35"],
         answer: " □ 20",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-164",
+        id: "question-1531",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23816,11 +28319,14 @@ export const mainTestBank = [
         answer:
           " Szabályos kormánymozdulatokkal elhajlást hajt végre a szél irányába, majd vízszintes szárnnyal repülve ellenőrzi, hogy jól választotta-e meg a rátartás szögét.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-165",
+        id: "question-1532",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23834,11 +28340,14 @@ export const mainTestBank = [
         answer:
           " Elsődleges szempont, hogy a repülőtér munkaterületén belül lehetőleg széllel szemben biztonságosan földet érjen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-166",
+        id: "question-1533",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Oldalszeles leszállásnál hány módszert alkalmazhat?",
@@ -23850,11 +28359,14 @@ export const mainTestBank = [
         ],
         answer: " Szélrátartás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-167",
+        id: "question-1534",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23868,11 +28380,14 @@ export const mainTestBank = [
         answer:
           " Felhívja a növendék figyelmét, hogy a botot 'hason' tartva szabályosan guruljon a géppel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-168",
+        id: "question-1535",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Vontatás közben hogyan változik a kormányok érzékenysége ?",
@@ -23884,11 +28399,14 @@ export const mainTestBank = [
         ],
         answer: " Az oldalkormányé csökken a magassági és csűrő kormányé nő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-169",
+        id: "question-1536",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23902,11 +28420,14 @@ export const mainTestBank = [
         answer:
           " Valamelyik holtponton oldalkormánnyal megfogni a lengést, majd vízszintes szárnnyal visszatérni a vontatógép mögé.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-170",
+        id: "question-1537",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23919,11 +28440,14 @@ export const mainTestBank = [
         ],
         answer: " Azon a helyen, ahol a motoros gép belépett a fordulóba.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-171",
+        id: "question-1538",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23936,11 +28460,14 @@ export const mainTestBank = [
         ],
         answer: " A termik sebességeloszlása és a gép forduló polárisa.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-172",
+        id: "question-1539",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Hogyan vontatja be a csörlőaggregátort a hangárba?",
@@ -23953,11 +28480,14 @@ export const mainTestBank = [
         answer:
           " A csörlőaggregátort tilos járó motorú vontatóval a hangárba húzni, ezért a hangárba be kell tolni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-173",
+        id: "question-1540",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Milyen szabályok vonatkoznak a hangárban való dohányzásra?",
@@ -23970,11 +28500,14 @@ export const mainTestBank = [
         answer:
           " A hangárban és annak meghatározott körzetében tilos dohányozni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-174",
+        id: "question-1541",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -23988,11 +28521,14 @@ export const mainTestBank = [
         answer:
           " Belső víztelenítés után a réstakarókat el kell távolítani, hogy a kellő szellőzés a szárítást segítse.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-175",
+        id: "question-1542",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24006,11 +28542,14 @@ export const mainTestBank = [
         answer:
           " A vizsgálatot nem szakítja félbe, mert a géphez visszatérve esetleg kimaradnak átvizsgálási lépések, ami komolyan veszélyezteti a repülésbiztonságot.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-176",
+        id: "question-1543",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24023,11 +28562,14 @@ export const mainTestBank = [
         ],
         answer: " Jobb szárnyvéget.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-177",
+        id: "question-1544",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24041,11 +28583,14 @@ export const mainTestBank = [
         answer:
           " Oldalszélbe fordítva, a szélfelőli szárnyvég leterhelve a földön.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-178",
+        id: "question-1545",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Gépkihúzás közben mit kell tenni a botkormánnyal?",
@@ -24058,11 +28603,14 @@ export const mainTestBank = [
         answer:
           " Valamely véghelyzetben rögzíteni, hogy a kihúzás közbeni rázkódás ne károsítsa a vezérsíkot és a magassági kormány mozgatását.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-179",
+        id: "question-1546",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24076,11 +28624,14 @@ export const mainTestBank = [
         answer:
           " Azonnal hátszélbe fordítani, hogy a szél ne csapkodhassa a kormányfelületeket.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-180",
+        id: "question-1547",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24094,11 +28645,14 @@ export const mainTestBank = [
         answer:
           " Mindenképpen megkeresi a légiüzemeltetési utasítást, mert azonos típusú repülőgépek között is vannak különbségek, amelyet a légi üzemeltetési utasítás tartalmaz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-181",
+        id: "question-1548",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24111,11 +28665,14 @@ export const mainTestBank = [
         ],
         answer: " A légialkalmassági bizonyítványban.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-182",
+        id: "question-1549",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24128,11 +28685,14 @@ export const mainTestBank = [
         ],
         answer: " A repülőgép könyvben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-183",
+        id: "question-1550",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Melyik okmányba igazolja le a gép átvételét?",
@@ -24144,11 +28704,14 @@ export const mainTestBank = [
         ],
         answer: " A gépnaplóban.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-184",
+        id: "question-1551",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24162,11 +28725,14 @@ export const mainTestBank = [
         answer:
           " A gépnaplóban és ha komolyabb javításra volt szükség akkor a repülőgép könyvben is.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-185",
+        id: "question-1552",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Szélességi köröknek nevezzük :",
@@ -24179,11 +28745,14 @@ export const mainTestBank = [
         answer:
           " az Egyenlítővel párhuzamos metsző síkok és a Föld metszésvonalait.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-186",
+        id: "question-1553",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Hosszúsági köröknek nevezzük :",
@@ -24196,11 +28765,14 @@ export const mainTestBank = [
         answer:
           " a Föld tengelyét tartalmazó metsző síkok és a Föld metszésvonalait.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-187",
+        id: "question-1554",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Repülő navigációban a helymeghatározáshoz",
@@ -24213,11 +28785,14 @@ export const mainTestBank = [
         answer:
           " először a földrajzi szélességet, majd a hosszúságot adjuk meg.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-188",
+        id: "question-1555",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24230,22 +28805,28 @@ export const mainTestBank = [
         ],
         answer: " □ 47°26,30'N 019°14,45'E",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-189",
+        id: "question-1556",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Hány fokot fordul el óránként a föld?",
         options: [" 36°", " 24°", " 15°", " 3,6°"],
         answer: " 15°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-190",
+        id: "question-1557",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az orthodrom",
@@ -24257,11 +28838,14 @@ export const mainTestBank = [
         ],
         answer: " a föld felszínén két pontot összekötő legrövidebb útvonal.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-191",
+        id: "question-1558",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A loxodrom",
@@ -24274,11 +28858,14 @@ export const mainTestBank = [
         answer:
           " az a görbe vonal, amely a föld felületén haladva a hosszúsági köröket állandó szög alatt metszi.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-192",
+        id: "question-1559",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24291,11 +28878,14 @@ export const mainTestBank = [
         ],
         answer: " Loxodrom.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-193",
+        id: "question-1560",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mi a deklináció (mágneses elhajlás) oka ?",
@@ -24307,11 +28897,14 @@ export const mainTestBank = [
         ],
         answer: " A földrajzi és mágneses sarkok nem esnek egybe.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-194",
+        id: "question-1561",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mi a deviáció oka?",
@@ -24323,11 +28916,14 @@ export const mainTestBank = [
         ],
         answer: " A repülőgépen levő mágnesezhető anyagok.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-195",
+        id: "question-1562",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24335,11 +28931,14 @@ export const mainTestBank = [
         options: [" 34.5 km", " 7.25 km", " 725 km", " 72.5 km"],
         answer: " 72.5 km",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-196",
+        id: "question-1563",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24347,11 +28946,14 @@ export const mainTestBank = [
         options: [" 17.2 mm", " 17.2 cm", " 4.3 cm", " 4.3 mm"],
         answer: " 17.2 cm",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-197",
+        id: "question-1564",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24364,11 +28966,14 @@ export const mainTestBank = [
         ],
         answer: " 1:250.000-en.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-198",
+        id: "question-1565",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24381,11 +28986,14 @@ export const mainTestBank = [
         ],
         answer: " 1:500.000",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-199",
+        id: "question-1566",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Milyen fajta térképen metszik egymást a szintvonalak?",
@@ -24397,11 +29005,14 @@ export const mainTestBank = [
         ],
         answer: " Egyiken sem.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-200",
+        id: "question-1567",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24409,11 +29020,14 @@ export const mainTestBank = [
         options: [" 60°", " 64°", " 66°", " 70°"],
         answer: " 66°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-201",
+        id: "question-1568",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24421,11 +29035,14 @@ export const mainTestBank = [
         options: [" 255°", " 251°", " 249°", " 245°"],
         answer: " 249°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-202",
+        id: "question-1569",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24438,11 +29055,14 @@ export const mainTestBank = [
         ],
         answer: " 62.35 km/h",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-203",
+        id: "question-1570",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24450,11 +29070,14 @@ export const mainTestBank = [
         options: [" 210°", " 180°", " 150°", " kevés az adat, nem számítható."],
         answer: " 150°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-204",
+        id: "question-1571",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24467,11 +29090,14 @@ export const mainTestBank = [
         ],
         answer: " 4 m/s.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-205",
+        id: "question-1572",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24479,11 +29105,14 @@ export const mainTestBank = [
         options: [" 3°", " 1°", " 2°", " 1/30°"],
         answer: " 2°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-206",
+        id: "question-1573",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24496,11 +29125,14 @@ export const mainTestBank = [
         ],
         answer: " Pontosan 10 km/h hátszél van.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-207",
+        id: "question-1574",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24508,11 +29140,14 @@ export const mainTestBank = [
         options: [" 1000 m", " 1250 m", " 850 m", " 650 m"],
         answer: " 650 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-208",
+        id: "question-1575",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24520,11 +29155,14 @@ export const mainTestBank = [
         options: [" 2750 m", " 1750 m", " 2000 m", " 2250 m"],
         answer: " 1750 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-209",
+        id: "question-1576",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24537,11 +29175,14 @@ export const mainTestBank = [
         ],
         answer: " 200 m-t mutat.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-210",
+        id: "question-1577",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24549,11 +29190,14 @@ export const mainTestBank = [
         options: [" 700 m.", " 500 m.", " 300 m.", " 200 m."],
         answer: " 500 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-211",
+        id: "question-1578",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24561,11 +29205,14 @@ export const mainTestBank = [
         options: [" 1500 m.", " 1200 m.", " 1300 m.", " 1000 m."],
         answer: " 1000 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-212",
+        id: "question-1579",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24573,11 +29220,14 @@ export const mainTestBank = [
         options: [" 150 m", " 800 m", " 300 m", " kevés az adat."],
         answer: " 150 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-213",
+        id: "question-1580",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Leszállás után mutathat-e a magasságmérő negatív értéket? ",
@@ -24590,11 +29240,14 @@ export const mainTestBank = [
         answer:
           " igen, ha a leszálló reptérnél magasabb helyről indult helyi QFE beállítással.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-214",
+        id: "question-1581",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24607,11 +29260,14 @@ export const mainTestBank = [
         ],
         answer: " 10 m/s-os szembeszél komponens van.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-215",
+        id: "question-1582",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24624,22 +29280,28 @@ export const mainTestBank = [
         ],
         answer: " az összes beeső sugárzás 20%-a visszaverődik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-216",
+        id: "question-1583",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Normál légkörben a hőmérséklet a magassággal",
         options: [" csökken.", " növekszik.", " nem változik.", " ingadozik."],
         answer: " csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-217",
+        id: "question-1584",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Izotermiáról akkor beszélünk, ha",
@@ -24651,11 +29313,14 @@ export const mainTestBank = [
         ],
         answer: " a légkör hőmérséklete a magassággal nem változik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-218",
+        id: "question-1585",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24668,11 +29333,14 @@ export const mainTestBank = [
         ],
         answer: " □ 0,91 °C/100 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-219",
+        id: "question-1586",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Inverzióról akkor beszélünk, ha a hőmérséklet a",
@@ -24685,11 +29353,14 @@ export const mainTestBank = [
         answer:
           " magassággal növekszik, amit az állapotgörbén jobbra dőlő szakasz jelez.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-220",
+        id: "question-1587",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A starthelyen 18°C a hőmérséklet a csörlés tetején 23°C.",
@@ -24701,11 +29372,14 @@ export const mainTestBank = [
         ],
         answer: " Inverzió van a repülőtér felett.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-221",
+        id: "question-1588",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24713,11 +29387,14 @@ export const mainTestBank = [
         options: [" 30°C.", " 10°C.", " 26.5°C.", " 13.5°C."],
         answer: " 10°C.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-222",
+        id: "question-1589",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A légkörben az egyensúlyi helyzet labilis, ha a ",
@@ -24729,11 +29406,14 @@ export const mainTestBank = [
         ],
         answer: " lokális gradiens nagyobb az adiabatikus gradiensnél.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-223",
+        id: "question-1590",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24746,11 +29426,14 @@ export const mainTestBank = [
         ],
         answer: " Lesznek feláramlások, mert a levegő rétegződése instabil.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-224",
+        id: "question-1591",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24764,11 +29447,14 @@ export const mainTestBank = [
         answer:
           " A felszálló légtömeg emelkedés közben tágul a környező levegő nyomáscsökkenése miatt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-225",
+        id: "question-1592",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mi az oka a száraz termikes időnek?",
@@ -24780,11 +29466,14 @@ export const mainTestBank = [
         ],
         answer: " A konvekciós szint alacsonyabb mint a kondenzációs szint.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-226",
+        id: "question-1593",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -24797,11 +29486,14 @@ export const mainTestBank = [
         ],
         answer: " A nedves adiabatikus gradiens kisebb mint a száraz.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-227",
+        id: "question-1594",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A buboréktermik áramlási viszonyaira mi a jellemző?",
@@ -24814,11 +29506,14 @@ export const mainTestBank = [
         answer:
           " A magban a feláramlási sebesség kb. kétszer akkora, mint a buborék emelkedési sebessége.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-228",
+        id: "question-1595",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A harmatpont",
@@ -24830,11 +29525,14 @@ export const mainTestBank = [
         ],
         answer: " az a hőmérséklet, amelyen a levegő telítetté válik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-229",
+        id: "question-1596",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mi a kapcsolat a kondenzációs és konvekciós szint között?",
@@ -24847,11 +29545,14 @@ export const mainTestBank = [
         answer:
           " A kondenzációs szint lehet a konvekciós szint alatt és felett is.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-230",
+        id: "question-1597",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Kondenzióhoz a következőkre van szükség:",
@@ -24863,11 +29564,14 @@ export const mainTestBank = [
         ],
         answer: " telítettség és kondenzációs magvak.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-231",
+        id: "question-1598",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Kisugárzási köd akkor keletkezik, ha",
@@ -24880,11 +29584,14 @@ export const mainTestBank = [
         answer:
           " a talajközeli levegő hőmérséklete a kisugárzás következtében a harmatpont alá csökken.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-232",
+        id: "question-1599",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mikor beszélünk ködről?",
@@ -24896,11 +29603,14 @@ export const mainTestBank = [
         ],
         answer: " Ha földközelben nedvesség csapódik ki a légkörből.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-233",
+        id: "question-1600",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mikor keletkezik advekciós köd?",
@@ -24913,33 +29623,42 @@ export const mainTestBank = [
         answer:
           " Ha a hideg, erősen kihűlt talajra vagy a talaj közeli hideg légpárnára páradús meleg levegő áramlik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-234",
+        id: "question-1601",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Középszintő felhők a következők :",
         options: [" Sc, St, Ns", " Ci, Cc, Cs", " As, Ac", " Cb"],
         answer: " As, Ac",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-235",
+        id: "question-1602",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A magasszintű felhők a következők :",
         options: [" Sc, St, Ns,", " As, Ac", " Ci, Cc, Cs", " Cb"],
         answer: " Ci, Cc, Cs",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-236",
+        id: "question-1603",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az alacsony szintű felhők a következők:",
@@ -24951,11 +29670,14 @@ export const mainTestBank = [
         ],
         answer: " Sc, St, Ns",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-237",
+        id: "question-1604",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Melyik állítás igaz a repülőgép jegesedésével kapcsolatban?",
@@ -24967,11 +29689,14 @@ export const mainTestBank = [
         ],
         answer: " Jegesedés csak Cb-ben következhet be.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-238",
+        id: "question-1605",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Ciklonnak nevezzük azt a bárikus rendszert,",
@@ -24984,11 +29709,14 @@ export const mainTestBank = [
         answer:
           " amelynek izobárjai zártak és a légnyomás a rendszer középpontja felé csökken. A ciklon az északi féltekén az óramutató járásával ellentétesen forog.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-239",
+        id: "question-1606",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Anticiklonnak nevezzük azt a bárikus rendszert amely,",
@@ -25001,11 +29729,14 @@ export const mainTestBank = [
         answer:
           " izobárjai zártak és a légnyomás a rendszer középpontja felé növekszik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-240",
+        id: "question-1607",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A normál légkör főbb adatai a következők :",
@@ -25018,11 +29749,14 @@ export const mainTestBank = [
         answer:
           " Hőmérséklet tengerszinten 15°C, tengerszinti nyomás 1013.25 mb, lokális hőmérsékleti gradiens 0.65°C/100m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-241",
+        id: "question-1608",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25036,11 +29770,14 @@ export const mainTestBank = [
         answer:
           " A szélsebesség általában a magassággal nő és iránya jobbra fordul.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-242",
+        id: "question-1609",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25053,11 +29790,14 @@ export const mainTestBank = [
         ],
         answer: " Cu, Cu cong, Cb, Ns, Ac, As",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-243",
+        id: "question-1610",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25070,11 +29810,14 @@ export const mainTestBank = [
         ],
         answer: " Ci, Cs, Ac, As, Ns",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-244",
+        id: "question-1611",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25087,11 +29830,14 @@ export const mainTestBank = [
         ],
         answer: " a hidegfront gyorsabban mozog mint a meleg, így eléri azt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-245",
+        id: "question-1612",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Minimális merülési sebesség :",
@@ -25103,11 +29849,14 @@ export const mainTestBank = [
         ],
         answer: " Is 28 B2  0.68 m/s Góbé     0.95 m/s",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-246",
+        id: "question-1613",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Terhelés többes 2 személlyel :",
@@ -25119,11 +29868,14 @@ export const mainTestBank = [
         ],
         answer: " Is 28 B2 +5.3 -2.65 Góbé    +3.6 -2.50",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-247",
+        id: "question-1614",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Maximális megengedett sebesség nyugodt időben :",
@@ -25136,11 +29888,14 @@ export const mainTestBank = [
         answer:
           " Is 28 B2 230 km/h Góbé    165 km/h vagy 190 km/h variánstól függő.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-248",
+        id: "question-1615",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Maximális megengedett sebesség lökéses időben:",
@@ -25152,11 +29907,14 @@ export const mainTestBank = [
         ],
         answer: " Is 28 B2  165 km/h  Góbé  140 km/h.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-249",
+        id: "question-1616",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Felrántási sebesség :",
@@ -25169,11 +29927,14 @@ export const mainTestBank = [
         answer:
           " Is 28 B2 165 km/h Góbé    140 km/h vagy 147 km/h variánstól függő",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-250",
+        id: "question-1617",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Maximális súlypontcsörlési sebesség :",
@@ -25185,11 +29946,14 @@ export const mainTestBank = [
         ],
         answer: " Is 28 B2  125 km/h Góbé       95 km/h",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-251",
+        id: "question-1618",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Maximális vontatási sebesség :",
@@ -25201,11 +29965,14 @@ export const mainTestBank = [
         ],
         answer: " Is 28 B2  140 km/h Góbé     130 km/h",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-252",
+        id: "question-1619",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Maximális siklószám és optimális sebesség 2 személlyel :",
@@ -25217,11 +29984,14 @@ export const mainTestBank = [
         ],
         answer: " Is 28 B2  34 / 100 km/h  Góbé  23.7/81 km/h",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-253",
+        id: "question-1620",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25234,11 +30004,14 @@ export const mainTestBank = [
         ],
         answer: " Is 28 B2 70 kg  Góbé 70 kg",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-254",
+        id: "question-1621",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25251,11 +30024,14 @@ export const mainTestBank = [
         ],
         answer: " növendéknek minősül.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-255",
+        id: "question-1622",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25268,11 +30044,14 @@ export const mainTestBank = [
         ],
         answer: " túllépni szigorúan tilos.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-256",
+        id: "question-1623",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "(IV/10) Az iskolakör 4. fordulójának minimális magassága",
@@ -25284,11 +30063,14 @@ export const mainTestBank = [
         ],
         answer: " 50 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-257",
+        id: "question-1624",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25296,11 +30078,14 @@ export const mainTestBank = [
         options: [" 40°", " 30°", " 20°", " 45°"],
         answer: " 30°",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-258",
+        id: "question-1625",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25308,11 +30093,14 @@ export const mainTestBank = [
         options: [" 20 m.", " 5 m.", " 15 m.", " 10 m."],
         answer: " 15 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-259",
+        id: "question-1626",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Bármely átképzési feladatnál a napi felszállásszám: ",
@@ -25324,11 +30112,14 @@ export const mainTestBank = [
         ],
         answer: " Az oktató határozza meg a növendék képességei alapján.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-260",
+        id: "question-1627",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Csörlőindítású felszálláshoz az időjárási minimum :",
@@ -25340,11 +30131,14 @@ export const mainTestBank = [
         ],
         answer: " 400 m felhőalap 3 km látás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-261",
+        id: "question-1628",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Az ejtőernyő viselése kötelező minden ",
@@ -25356,11 +30150,14 @@ export const mainTestBank = [
         ],
         answer: " 400 m feletti feladatnál.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-262",
+        id: "question-1629",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A vontatásos kiképzőrepülés időjárási minimumai ? ",
@@ -25372,11 +30169,14 @@ export const mainTestBank = [
         ],
         answer: " 5 km látás 500 m felhőalap",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-263",
+        id: "question-1630",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25389,11 +30189,14 @@ export const mainTestBank = [
         ],
         answer: " legalább 16 éves.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-264",
+        id: "question-1631",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25406,11 +30209,14 @@ export const mainTestBank = [
         ],
         answer: " A szakmai vezető vagy az általa megbízott személy.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-265",
+        id: "question-1632",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25423,11 +30229,14 @@ export const mainTestBank = [
         ],
         answer: " Az ellenőrző repülés nem érvényes a következő napon.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-266",
+        id: "question-1633",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25441,11 +30250,14 @@ export const mainTestBank = [
         answer:
           " a szakmai vezető megítélése alapján ellenőrző repülésre utasíthatók.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-267",
+        id: "question-1634",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "(V/31) Vontató üzemű kiképzés időjárás minimumai :",
@@ -25457,11 +30269,14 @@ export const mainTestBank = [
         ],
         answer: " 5 km látás, 500 m felhőalap.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-268",
+        id: "question-1635",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "(V/34) Elméleti típusvizsga végrehajtásának módja:",
@@ -25473,11 +30288,14 @@ export const mainTestBank = [
         ],
         answer: " Bizottság előtt. (elnök + 1 fő műszaki) ",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-269",
+        id: "question-1636",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25490,11 +30308,14 @@ export const mainTestBank = [
         ],
         answer: " A repülőüzem vezetője dönti el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-270",
+        id: "question-1637",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25507,11 +30328,14 @@ export const mainTestBank = [
         ],
         answer: " LÜI által jóváhagyott vizsgabizottsági tag.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-271",
+        id: "question-1638",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25524,11 +30348,14 @@ export const mainTestBank = [
         ],
         answer: " A dugóhúzó ellenőrző érvényes a későbbiekben is.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-272",
+        id: "question-1639",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25541,11 +30368,14 @@ export const mainTestBank = [
         ],
         answer: " A növendéket nem kell előzetes felkészítésben részesíteni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-273",
+        id: "question-1640",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25558,11 +30388,14 @@ export const mainTestBank = [
         ],
         answer: " Az indító oktató.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-274",
+        id: "question-1641",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25575,22 +30408,28 @@ export const mainTestBank = [
         ],
         answer: " Piros rakéta kilövésével.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-275",
+        id: "question-1642",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Kötélszakadási gyakorlat zászlójele ?",
         options: [" 4 kör", " 2 kör", " 3 kör", " 1 kör"],
         answer: " 1 kör",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-276",
+        id: "question-1643",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A levegőben egy gép a 4. fordulót hajtja végre.",
@@ -25602,11 +30441,14 @@ export const mainTestBank = [
         ],
         answer: " Az indító nem adhat jelet a csőrlés megkezdésére.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-277",
+        id: "question-1644",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25620,11 +30462,14 @@ export const mainTestBank = [
         answer:
           " Igen, ha a repülőüzem vezetője engedélyezi a repülés biztonságát figyelembe véve.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-278",
+        id: "question-1645",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25637,11 +30482,14 @@ export const mainTestBank = [
         ],
         answer: " Zöld rakétát lő ki.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-279",
+        id: "question-1646",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25654,11 +30502,14 @@ export const mainTestBank = [
         ],
         answer: " Fej feletti lengetés.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-280",
+        id: "question-1647",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25671,11 +30522,14 @@ export const mainTestBank = [
         ],
         answer: " Beszüntetni a csörlést a zivatar elvonulásáig.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-281",
+        id: "question-1648",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25688,11 +30542,14 @@ export const mainTestBank = [
         ],
         answer: " A hosszúfalon a 3. forduló helyéig 150 m magasságig.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-282",
+        id: "question-1649",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25706,11 +30563,14 @@ export const mainTestBank = [
         answer:
           " Az oktató olyanképpen, hogy a növendék számára a repülés eredményes legyen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-283",
+        id: "question-1650",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25723,11 +30583,14 @@ export const mainTestBank = [
         ],
         answer: " A növendék haza vontatható.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-284",
+        id: "question-1651",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25740,11 +30603,14 @@ export const mainTestBank = [
         ],
         answer: " A növendék nem vontatható haza.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-285",
+        id: "question-1652",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25757,11 +30623,14 @@ export const mainTestBank = [
         ],
         answer: " Jobb lépcsőbe.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-286",
+        id: "question-1653",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25774,11 +30643,14 @@ export const mainTestBank = [
         ],
         answer: " Jobbra kifordulni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-287",
+        id: "question-1654",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25786,11 +30658,14 @@ export const mainTestBank = [
         options: [" 40 - 50 m.", " 40 - 100 m.", " 50 - 100 m.", " max. 60 m."],
         answer: " 50 - 100 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-288",
+        id: "question-1655",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25804,11 +30679,14 @@ export const mainTestBank = [
         answer:
           " első és hátsó műszerfala el van látva folyadékos iránytűvel, elfordulásjelzővel és hosszdőlés mérővel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-289",
+        id: "question-1656",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Műszerrepülést oktatni csak olyan géppel szabad, amely",
@@ -25820,11 +30698,14 @@ export const mainTestBank = [
         ],
         answer: " az előírt műszerekkel fel van szerelve.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-290",
+        id: "question-1657",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25837,11 +30718,14 @@ export const mainTestBank = [
         ],
         answer: " nincs repülési parancs a fedélzeten.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-291",
+        id: "question-1658",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25854,11 +30738,14 @@ export const mainTestBank = [
         ],
         answer: " Gépnapló és alkalmassági bizonyítvány.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-292",
+        id: "question-1659",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "(X/17) 4000 méter feletti repüléshez",
@@ -25870,11 +30757,14 @@ export const mainTestBank = [
         ],
         answer: " érvényes magassági repülőorvosi alkalmasság szükséges.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-293",
+        id: "question-1660",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25887,11 +30777,14 @@ export const mainTestBank = [
         ],
         answer: " bármely 32 siklószám alatti gyakorló vitorlázórepülőgéppel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-294",
+        id: "question-1661",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Forduló közben az előzés szabálya :",
@@ -25903,11 +30796,14 @@ export const mainTestBank = [
         ],
         answer: " csak külső körön lehet előzni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-295",
+        id: "question-1662",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -25920,11 +30816,14 @@ export const mainTestBank = [
         ],
         answer: " A jobbról érkezőnek.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-296",
+        id: "question-1663",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A felhőt",
@@ -25936,11 +30835,14 @@ export const mainTestBank = [
         ],
         answer: " tilos dugóhúzóval elhagyni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-297",
+        id: "question-1664",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "(XI/2) Szembetalálkozás esetén a kitérés szabálya.",
@@ -25952,11 +30854,14 @@ export const mainTestBank = [
         ],
         answer: " Mindkét gép jobbra tér ki.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-298",
+        id: "question-1665",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "(XI/5) Iskolakörön az előzésre mely szabály igaz? ",
@@ -25968,11 +30873,14 @@ export const mainTestBank = [
         ],
         answer: " Azonos típusú gépek egymást nem előzhetik.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-299",
+        id: "question-1666",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "(XI/11) Ha ugyanabban a termikben több gép emelkedik, akkor",
@@ -25984,11 +30892,14 @@ export const mainTestBank = [
         ],
         answer: " felhőalapon várakozni tilos.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-300",
+        id: "question-1667",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26001,11 +30912,14 @@ export const mainTestBank = [
         ],
         answer: " felhőalapon várakozni tilos.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-301",
+        id: "question-1668",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "(XI/22) A hangárhoz való leszállásra mi igaz?",
@@ -26018,11 +30932,14 @@ export const mainTestBank = [
         answer:
           " A hangárhoz való leszállásra a repülőüzem vezető adhat engedélyt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-302",
+        id: "question-1669",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "(XI/21) Mely növendékek indíthatók légtér repülésre?",
@@ -26035,11 +30952,14 @@ export const mainTestBank = [
         answer:
           " Akik a közlekedési szabályokból eredményes vizsgát tettek és az eredményt a tervezési füzetbe rögzítették.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-303",
+        id: "question-1670",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26052,11 +30972,14 @@ export const mainTestBank = [
         ],
         answer: " Csak az iskolakör külső oldala irányában lehet előzni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-304",
+        id: "question-1671",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26069,11 +30992,14 @@ export const mainTestBank = [
         ],
         answer: " 50 m.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-305",
+        id: "question-1672",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26086,11 +31012,14 @@ export const mainTestBank = [
         ],
         answer: " A gyorsabban emelkedő gép pilótája.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-306",
+        id: "question-1673",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26098,11 +31027,14 @@ export const mainTestBank = [
         options: [" 5500 m", " 2500 m", " 7500 m", " 10200 m"],
         answer: " 5500 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-307",
+        id: "question-1674",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Miért veszélyes az orrgarat nyálkahártyájának gyulladása?",
@@ -26115,11 +31047,14 @@ export const mainTestBank = [
         answer:
           " Mert az arcüreget és az orrgaratot összekötő járatok elzáródnak és nem lehetséges a nyomáskiegyenlítődés süllyedés és emelkedés közben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-308",
+        id: "question-1675",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26132,11 +31067,14 @@ export const mainTestBank = [
         ],
         answer: " Süllyedés közben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-309",
+        id: "question-1676",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Hogyan növelhető az oxigénhiánnyal szembeni ellenállás?",
@@ -26149,11 +31087,14 @@ export const mainTestBank = [
         answer:
           " Szénhidrátok és megfelelő vitaminok fogyasztásával, testedzéssel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-310",
+        id: "question-1677",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mi okozza a hypoxiát?",
@@ -26165,11 +31106,14 @@ export const mainTestBank = [
         ],
         answer: " A belélegzett levegőben nem elegendő az oxigén mennyisége.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-311",
+        id: "question-1678",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mik a hypoxia tünetei?",
@@ -26182,22 +31126,28 @@ export const mainTestBank = [
         answer:
           " Légzés elmélyülés, gyorsuló szívverés, hőségérzet, látótér elsötétülés, rosszullét.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-312",
+        id: "question-1679",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Milyen magasságon vezethet ájuláshoz és halálhoz a hypoxia?",
         options: [" 7000 m", " 6000 m", " 5000 m", " 4000 m"],
         answer: " 7000 m",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-313",
+        id: "question-1680",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26210,11 +31160,14 @@ export const mainTestBank = [
         ],
         answer: " Fej-láb irányú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-314",
+        id: "question-1681",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mikor jelentkezhet a szürke-fátyol jelenség? ",
@@ -26226,11 +31179,14 @@ export const mainTestBank = [
         ],
         answer: " Pozitív terhelés esetén.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-315",
+        id: "question-1682",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26243,11 +31199,14 @@ export const mainTestBank = [
         ],
         answer: " Láb-fej irányú.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-316",
+        id: "question-1683",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26260,11 +31219,14 @@ export const mainTestBank = [
         ],
         answer: " Mindig az épen maradt végtagon kell kezdeni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-317",
+        id: "question-1684",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26277,11 +31239,14 @@ export const mainTestBank = [
         ],
         answer: " A sérült légutainak szabaddátétele és szabadon tartása.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-318",
+        id: "question-1685",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A verőeres vérzés ismérve?",
@@ -26293,11 +31258,14 @@ export const mainTestBank = [
         ],
         answer: " Élénkpiros, fecskendező bőséges vér.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-319",
+        id: "question-1686",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Nyílt törés ellátásánál az első teendő:",
@@ -26309,11 +31277,14 @@ export const mainTestBank = [
         ],
         answer: " A törés rögzítése.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-320",
+        id: "question-1687",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A sín hossza törés ellátásánál:",
@@ -26325,11 +31296,14 @@ export const mainTestBank = [
         ],
         answer: " A törött csont alatti és feletti ízületeket is túlérje.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-321",
+        id: "question-1688",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Több ember szenvedett balesetet. Kit lát el először?",
@@ -26341,11 +31315,14 @@ export const mainTestBank = [
         ],
         answer: " Az artériás vérzésben szenvedőt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-322",
+        id: "question-1689",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26353,11 +31330,14 @@ export const mainTestBank = [
         options: [" 16-20", " 10-15", " 25-30", " 30-35"],
         answer: " 10-15",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-323",
+        id: "question-1690",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26371,11 +31351,14 @@ export const mainTestBank = [
         answer:
           " Így a fej hátrahajlik, a nyak megfeszül és ez meggátolja a nyelv hátracsúszását.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-324",
+        id: "question-1691",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26383,11 +31366,14 @@ export const mainTestBank = [
         options: [" 40-50", " 30-40", " 60-70", " 80-90"],
         answer: " 60-70",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-325",
+        id: "question-1692",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mikor beszélünk fedett sérülésről? ",
@@ -26399,11 +31385,14 @@ export const mainTestBank = [
         ],
         answer: " Ha a bőr sértetlen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-326",
+        id: "question-1693",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Enyhe agyrázkódás tünetei:",
@@ -26416,11 +31405,14 @@ export const mainTestBank = [
         answer:
           " néhány másodperces eszméletvesztés a sérült a környezetét nem ismeri fel a sérült nem mozog a sérült esetleg hány",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-327",
+        id: "question-1694",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Agyrázkódást szenvedett sérült ellátása",
@@ -26433,11 +31425,14 @@ export const mainTestBank = [
         answer:
           " félig ülő helyzetbe fektetni, hidegvizes vagy jeges borogatás a fejre lehető leggyorsabb kórházba szállítás",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-328",
+        id: "question-1695",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Kivérzett beteg elhelyezése?",
@@ -26450,11 +31445,14 @@ export const mainTestBank = [
         answer:
           " A fejet mélyebben helyezzük el mint a törzset, lábakat megemeljük 45°-os szögben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-329",
+        id: "question-1696",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Külső zúzódás miatt létrejött duzzanat kezelése? ",
@@ -26466,11 +31464,14 @@ export const mainTestBank = [
         ],
         answer: " Hidegvizes borogatás.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-330",
+        id: "question-1697",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Belső zúzódást szenvedett hasi sérült ellátása? ",
@@ -26483,11 +31484,14 @@ export const mainTestBank = [
         answer:
           " Vízszintes helyzetbe fektetni és eltiltani a mozgástó, evéstől, ivástól.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-331",
+        id: "question-1698",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A hajszáleres vérzés ismérvei:",
@@ -26499,11 +31503,14 @@ export const mainTestBank = [
         ],
         answer: " vörös, szivárgó jellegű, csekély mennyiségű ",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-332",
+        id: "question-1699",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A visszeres vérzés ismérve:",
@@ -26515,11 +31522,14 @@ export const mainTestBank = [
         ],
         answer: " sötétvörös, patakszerűen folyó vér, mennyisége változó",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-333",
+        id: "question-1700",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A seb fertőtlenítéséhez",
@@ -26531,11 +31541,14 @@ export const mainTestBank = [
         ],
         answer: " a seb környékét kezeljük le a fertőtlenítő anyaggal",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-334",
+        id: "question-1701",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Visszeres vérzés ellátásához",
@@ -26547,11 +31560,14 @@ export const mainTestBank = [
         ],
         answer: " nyomókötést alkalmazunk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-335",
+        id: "question-1702",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A verőeres vérzés csillapításának első lépcsője:",
@@ -26563,11 +31579,14 @@ export const mainTestBank = [
         ],
         answer: " mindig érleszorítást alkalmazunk.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-336",
+        id: "question-1703",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A szorítókötés használatának szabálya?",
@@ -26579,11 +31598,14 @@ export const mainTestBank = [
         ],
         answer: " A kötést időnként néhány másodpercre fel kell engedni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-337",
+        id: "question-1704",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Ha idegentest van a sebben",
@@ -26596,11 +31618,14 @@ export const mainTestBank = [
         answer:
           " akkor a sérülést úgy pólyázzuk és rögzítjük, hogy az idegentest ne mozdulhasson el.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-338",
+        id: "question-1705",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Fedett törés:",
@@ -26613,11 +31638,14 @@ export const mainTestBank = [
         answer:
           " Csontok folytonosságának megszakadása, ahol a környező izmok és a bőr ép marad.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-339",
+        id: "question-1706",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Teendők ficam esetén:",
@@ -26629,11 +31657,14 @@ export const mainTestBank = [
         ],
         answer: " A talált helyzetben rögzíteni a sérült testrészt.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-340",
+        id: "question-1707",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Teendők napszúrás esetén:",
@@ -26646,11 +31677,14 @@ export const mainTestBank = [
         answer:
           " Árnyékos helyre visszük a beteget, fejét magasra polcoljuk, homlokára hidegvizes borogatást teszünk és hideg italokat itatunk vele.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-341",
+        id: "question-1708",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A hőguta létrejöhet:",
@@ -26662,11 +31696,14 @@ export const mainTestBank = [
         ],
         answer: " fülledt, párás időben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-342",
+        id: "question-1709",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "I. fokú égés esetén mi a teendő? ",
@@ -26678,11 +31715,14 @@ export const mainTestBank = [
         ],
         answer: " Folyó hideg víz alá tesszük a sérült felületet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-343",
+        id: "question-1710",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26695,11 +31735,14 @@ export const mainTestBank = [
         ],
         answer: " Igen a 133.3 MHz-en a Kelet Tájékoztató meghívásával.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-344",
+        id: "question-1711",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26712,11 +31755,14 @@ export const mainTestBank = [
         ],
         answer: " Igen, a 125.50 MHz frekvencián a Nyugat Tájékoztatóval.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-345",
+        id: "question-1712",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26729,11 +31775,14 @@ export const mainTestBank = [
         ],
         answer: " Ilyen frekvencia nincs kijelölve Magyarországon.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-346",
+        id: "question-1713",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26747,11 +31796,14 @@ export const mainTestBank = [
         answer:
           " A nem érthető kifejezést lebetűzi a nemzetközi betűző ABC használatával.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-347",
+        id: "question-1714",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "A számadatokban lévő tizedes pontot hogyan adja le rádión?",
@@ -26763,11 +31815,14 @@ export const mainTestBank = [
         ],
         answer: " Az egész rész leadása után használja az 'egész' kifejezést.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-348",
+        id: "question-1715",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26781,11 +31836,14 @@ export const mainTestBank = [
         answer:
           " Időpont megadásakor ebben az esetben csak a perceket kell megadni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-349",
+        id: "question-1716",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26799,11 +31857,14 @@ export const mainTestBank = [
         answer:
           " Az órákat és a perceket is, mert csak a percek leadása félreértéshez vezethet.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-350",
+        id: "question-1717",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26816,11 +31877,14 @@ export const mainTestBank = [
         ],
         answer: " Nem, vagy közleményemet helytelenül értelmezi.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-351",
+        id: "question-1718",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26833,11 +31897,14 @@ export const mainTestBank = [
         ],
         answer: " Más forgalommal vagyok elfoglalva, maradjon vételen.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-352",
+        id: "question-1719",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26850,11 +31917,14 @@ export const mainTestBank = [
         ],
         answer: " Közleményének egy része számomra fontos adat, közölje újra.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-353",
+        id: "question-1720",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26868,11 +31938,14 @@ export const mainTestBank = [
         answer:
           " Lajstrom, vagy egyéb megkülönböztetés szerint képzett azonosító jel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-354",
+        id: "question-1721",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26885,11 +31958,14 @@ export const mainTestBank = [
         ],
         answer: " Nem ragadt-e be rádióberendezésének adógombja.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-355",
+        id: "question-1722",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26903,11 +31979,14 @@ export const mainTestBank = [
         answer:
           " Ha nem tudja megszüntetni a hibát, akkor a rádiót kikapcsolja, mert a beragadt adógomb akadályozza a többi gép rádiólevelezését.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-356",
+        id: "question-1723",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mielőtt adást kezdeményez a rádión mit kell leellenőriznie?",
@@ -26920,11 +31999,14 @@ export const mainTestBank = [
         answer:
           " A megfelelő frekvencia legyen beállítva, hogy ne zavarja mások rádiólevelezését.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-357",
+        id: "question-1724",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26938,11 +32020,14 @@ export const mainTestBank = [
         answer:
           " Nem, mert a felesleges beszéd foglalja a frekvenciát, és mások nem tudnak kommunikálni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-358",
+        id: "question-1725",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mekkora legyen a rádióadás sebessége?",
@@ -26954,22 +32039,28 @@ export const mainTestBank = [
         ],
         answer: " Kb. 100 szó/perc, egyenletes ütemben.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-359",
+        id: "question-1726",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mi a nemzetközi vészfrekvencia?",
         options: [" 125.5 MHz", " 133.0 Mhz", " 129.7 MHz", " 121.5 MHz"],
         answer: " 121.5 MHz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-360",
+        id: "question-1727",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -26983,11 +32074,14 @@ export const mainTestBank = [
         answer:
           " A 121.5 MHz nemzetközi vészfrekvencián, mert ezt a frekvenciát kötelezően figyelik a szolgálatok és az átrepülő forgalmi gépek is, így biztos, hogy kapcsolatot tud létesíteni valakivel.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-361",
+        id: "question-1728",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -27000,22 +32094,28 @@ export const mainTestBank = [
         ],
         answer: " MAYDAY, MAYDAY, MAYDAY",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-362",
+        id: "question-1729",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mekkora sebességel terjednek a rádióhullámok?",
         options: [" 300,000 km/sec", " 330 m/sec", " 2500 km/h", " 330 km/sec"],
         answer: " 300,000 km/sec",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-363",
+        id: "question-1730",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -27029,22 +32129,28 @@ export const mainTestBank = [
         answer:
           " Az optikai rálátás körzetében terjednek és a légköri zavaroktól mentes, jó minőségű összekötetést lehet létesíteni velük.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-364",
+        id: "question-1731",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Melyik frekvencia sávban történik a rádiólevelezés?",
         options: [" VHF", " UHF", " HF", " MF"],
         answer: " VHF",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-365",
+        id: "question-1732",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -27057,11 +32163,14 @@ export const mainTestBank = [
         ],
         answer: " 118.0-137.0 MHz",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-366",
+        id: "question-1733",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -27069,11 +32178,14 @@ export const mainTestBank = [
         options: [" Áramforrás.", " Mikrofon.", " Hangszóró.", " Antenna."],
         answer: " Antenna.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-367",
+        id: "question-1734",
         subtopic: "EXCEL",
         difficulty: "easy",
         question: "Mire szolgál a zajzár (squelch) kapcsoló?",
@@ -27086,11 +32198,14 @@ export const mainTestBank = [
         answer:
           " Kikapcsolja az automatikus zajzár funkciót és a berendezés gyenge adást is tud venni.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
       {
-        id: "question-368",
+        id: "question-1735",
         subtopic: "EXCEL",
         difficulty: "easy",
         question:
@@ -27103,7 +32218,10 @@ export const mainTestBank = [
         ],
         answer: " Nem.",
         explanation: [
-          { type: "text", content: "Nincs magyarázat ehhez a kérdéshez." },
+          {
+            type: "text",
+            content: "Nincs magyarázat ehhez a kérdéshez.",
+          },
         ],
       },
     ],

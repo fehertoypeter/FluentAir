@@ -1,15 +1,50 @@
 import React from "react";
 import { Icons } from "../../../assets/icons/icons";
+import CustomExamCard from "../CustomExamCards";
 import "./practiceDashboard.css";
 
 const PracticeDashboard = ({
-  setPracticeDashboard,
-  setPrivateNoteDashboard,
-  setPublicCommentDashboard,
-  setPrivateCollectionDashboard,
+  navigateTo, // Új prop a navigációhoz
   userNotesBank,
   userPrivateCollectionsBank,
+  startTestWithQuestions,
 }) => {
+  const customExams = [
+    {
+      id: 1,
+      title: "Repülési teljesítmény és tervezés",
+      description: "",
+      questionIds: ["question-masiktopic"],
+      config: {
+        answerRevealMode: "after_test",
+        timeLimit: 38,
+        timerMode: true,
+      },
+    },
+    {
+      id: 2,
+      title: "Kommunikáció",
+      description: "",
+      questionIds: ["question-alap", "question-masodik"],
+      config: {
+        answerRevealMode: "after_test",
+        timeLimit: 30,
+        timerMode: true,
+      },
+    },
+    {
+      id: 3, // Javítottam az id-t (2-ről 3-ra, mert egyedinek kell lennie)
+      title: "Emberi teljesítőképesség",
+      description: "",
+      questionIds: ["question-alap", "question-masodik"],
+      config: {
+        answerRevealMode: "after_test",
+        timeLimit: 30,
+        timerMode: true,
+      },
+    },
+  ];
+
   return (
     <div className="practice-dashboard-container">
       <div className="left">
@@ -23,7 +58,7 @@ const PracticeDashboard = ({
               <div className="apps-grid">
                 <div
                   className="app-icon-container"
-                  onClick={() => setPracticeDashboard(false)}
+                  onClick={() => navigateTo("exam-configuration")}
                 >
                   <div className="app-icon">
                     <Icons.CiPlay1 />
@@ -32,10 +67,7 @@ const PracticeDashboard = ({
                 </div>
                 <div
                   className="app-icon-container"
-                  onClick={() => {
-                    setPracticeDashboard(false);
-                    setPrivateNoteDashboard(true);
-                  }}
+                  onClick={() => navigateTo("notes")}
                 >
                   <span className="circle-number-icon">
                     {Object.entries(userNotesBank).length}
@@ -47,10 +79,7 @@ const PracticeDashboard = ({
                 </div>
                 <div
                   className="app-icon-container"
-                  onClick={() => {
-                    setPracticeDashboard(false);
-                    setPublicCommentDashboard(true);
-                  }}
+                  onClick={() => navigateTo("comments")}
                 >
                   <div className="app-icon">
                     <Icons.CiChat1 />
@@ -59,10 +88,7 @@ const PracticeDashboard = ({
                 </div>
                 <div
                   className="app-icon-container"
-                  onClick={() => {
-                    setPracticeDashboard(false);
-                    setPrivateCollectionDashboard(true);
-                  }}
+                  onClick={() => navigateTo("collections")}
                 >
                   <span className="circle-number-icon">
                     {userPrivateCollectionsBank.length}
@@ -85,7 +111,21 @@ const PracticeDashboard = ({
         </div>
       </div>
       <div className="right">
-        <div className="trial-card"></div>
+        <div className="trial-card">
+          <div className="trial-card-header">
+            <h2>Explore Exams</h2>
+            <p onClick={() => navigateTo("exams")}>View all</p>
+          </div>
+          <div className="exam-card-holder">
+            {customExams.map((exam) => (
+              <CustomExamCard
+                key={exam.id}
+                exam={exam}
+                startTestWithQuestions={startTestWithQuestions}
+              />
+            ))}
+          </div>
+        </div>
         <div className="trial-card"></div>
       </div>
     </div>

@@ -1,12 +1,10 @@
 import { useState, useCallback, useEffect } from "react";
-//import { mainTestBank } from "../mainTestBank"; // Importáljuk az adatokat
 import { mainTestBank } from "../../../data/hajduflyTestbank.js";
-import { userQuestionData } from "../../../data/userLocalDatabase.js"; // Importáljuk a userQuestionData-t
+import { userQuestionData } from "../../../data/userLocalDatabase.js";
 
 const defaultConfig = {
   questionCount: 50,
   difficultyLevels: ["easy", "medium", "hard"],
-  //  topics: ["Mathematics"],
   topics: ["Légi Jog"],
   timerMode: true,
   timeLimit: 10,
@@ -27,21 +25,45 @@ const useQuizConfig = () => {
   const [isAllDifficultiesSelected, setIsAllDifficultiesSelected] =
     useState(false);
   const [filteredQuestionCount, setFilteredQuestionCount] = useState(0);
+  const [forcedQuestionIds, setForcedQuestionIds] = useState([]); // <-- Ez az egyetlen változó módosítás
 
-  // Lokális adatok betöltése
   useEffect(() => {
     const loadLocalData = () => {
       const { wrongAnswers, seenQuestions } = userQuestionData;
       setUserWrongAnswers(wrongAnswers || []);
       setUserSeenQuestions(seenQuestions || []);
-      console.log("User wrong answers:", wrongAnswers); // Ellenőrzés céljából kiírjuk a konzolra
-      console.log("User seen questions:", seenQuestions); // Ellenőrzés céljából kiírjuk a konzolra
+      console.log("User wrong answers:", wrongAnswers);
+      console.log("User seen questions:", seenQuestions);
     };
-
     loadLocalData();
-  }, []); // Ez a useEffect csak egyszer fut le, amikor a komponens mountolódik
+  }, []);
 
   const filterQuestions = useCallback(() => {
+    // Ha van forcedQuestionIds, csak azokat a kérdéseket töltjük be
+    if (forcedQuestionIds.length > 0) {
+      const foundQuestions = [];
+
+      for (const topicData of mainTestBank) {
+        for (const question of topicData.questions) {
+          if (forcedQuestionIds.includes(question.id)) {
+            foundQuestions.push(question);
+            if (foundQuestions.length === forcedQuestionIds.length) break;
+          }
+        }
+        if (foundQuestions.length === forcedQuestionIds.length) break;
+      }
+
+      const finalQuestions = quizConfig.questionRandomOrder
+        ? [...foundQuestions].sort(() => Math.random() - 0.5)
+        : foundQuestions;
+
+      setCurrentQuestions(finalQuestions);
+      setSelectedQuestionCount(finalQuestions.length);
+      setFilteredQuestionCount(finalQuestions.length);
+      return;
+    }
+
+    // Normál szűrési logika
     let filteredQuestions = [];
     mainTestBank.forEach((topicData) => {
       if (quizConfig.topics.includes(topicData.topic)) {
@@ -57,7 +79,6 @@ const useQuizConfig = () => {
       }
     });
 
-    // További szűrések (hibás válaszok, látott kérdések, stb.)
     if (quizConfig.questionAnsweredWrong) {
       filteredQuestions = filteredQuestions.filter((question) =>
         userWrongAnswers.includes(question.id)
@@ -74,10 +95,10 @@ const useQuizConfig = () => {
       filteredQuestions = filteredQuestions.sort(() => Math.random() - 0.5);
     }
 
-    setFilteredQuestionCount(filteredQuestions.length); // Frissítsd a szűrt kérdések számát
+    setFilteredQuestionCount(filteredQuestions.length);
     filteredQuestions = filteredQuestions.slice(0, quizConfig.questionCount);
     setCurrentQuestions(filteredQuestions);
-    setSelectedQuestionCount(filteredQuestions.length); // Frissítjük a kérdések számát
+    setSelectedQuestionCount(filteredQuestions.length);
   }, [
     quizConfig.difficultyLevels,
     quizConfig.questionCount,
@@ -88,25 +109,19 @@ const useQuizConfig = () => {
     userWrongAnswers,
     userSeenQuestions,
     selectedSubtopic,
+    forcedQuestionIds, // <-- Frissítve
   ]);
 
   useEffect(() => {
     filterQuestions();
   }, [quizConfig, selectedSubtopic, filterQuestions]);
 
-  useEffect(() => {
-    filterQuestions(); // Mindig frissítjük a kérdések listáját, ha a konfiguráció vagy a subtopic változik
-  }, [quizConfig, selectedSubtopic, filterQuestions]);
-
-  useEffect(() => {
-    filterQuestions();
-  }, [quizConfig, filterQuestions]);
-
   const restoreFilters = () => {
     setQuizConfig(defaultConfig);
+    setForcedQuestionIds([]); // <-- Frissítve
   };
+
   useEffect(() => {
-    // Ha minden difficulty level kiválasztva van, az "All" gomb aktívvá válik
     if (
       quizConfig.difficultyLevels.includes("easy") &&
       quizConfig.difficultyLevels.includes("medium") &&
@@ -117,6 +132,52 @@ const useQuizConfig = () => {
       setIsAllDifficultiesSelected(false);
     }
   }, [quizConfig.difficultyLevels]);
+
+  // Ez az egyetlen új függvény, ami felváltja a setQuestionById-t
+  const setQuestionsById = useCallback(
+    (questionIds, customConfig = {}) => {
+      const ids = Array.isArray(questionIds) ? questionIds : [questionIds];
+      setForcedQuestionIds(ids);
+
+      setQuizConfig((prev) => ({
+        ...defaultConfig,
+        questionCount: ids.length,
+        answerRevealMode: customConfig.answerRevealMode || "after_test",
+        timeLimit:
+          customConfig.timeLimit !== undefined ? customConfig.timeLimit : 10,
+        timerMode:
+          customConfig.timerMode !== undefined ? customConfig.timerMode : true,
+        questionRandomOrder: prev.questionRandomOrder, // Megtartjuk a jelenlegi random order beállítást
+        ...customConfig,
+      }));
+
+      // Azonnali szűrés a frissített beállításokkal
+      const foundQuestions = [];
+      for (const topicData of mainTestBank) {
+        for (const question of topicData.questions) {
+          if (ids.includes(question.id)) {
+            foundQuestions.push(question);
+            if (foundQuestions.length === ids.length) break;
+          }
+        }
+        if (foundQuestions.length === ids.length) break;
+      }
+
+      const finalQuestions = quizConfig.questionRandomOrder
+        ? [...foundQuestions].sort(() => Math.random() - 0.5)
+        : foundQuestions;
+
+      setCurrentQuestions(finalQuestions);
+      setSelectedQuestionCount(finalQuestions.length);
+      setFilteredQuestionCount(finalQuestions.length);
+    },
+    [quizConfig.questionRandomOrder]
+  );
+
+  // ----------------------------
+  // INNENTŐL AZ ÖSSZES TÖBBI FUNKCIÓ MARAD VÁLTOZATLAN!
+  // ----------------------------
+
   const handleAnswerRevealModeChange = (newMode) => {
     setQuizConfig((prevConfig) => ({
       ...prevConfig,
@@ -144,7 +205,8 @@ const useQuizConfig = () => {
       ...prevConfig,
       topics: [selectedTopic],
     }));
-    filterQuestions(); // Frissítjük a kérdések listáját a subject változásakor
+    setForcedQuestionIds([]); // <-- Frissítve
+    filterQuestions();
   };
 
   const toggleSeenStatus = () => {
@@ -170,43 +232,41 @@ const useQuizConfig = () => {
 
   const toggleDifficulty = (difficulty) => {
     if (isAllDifficultiesSelected) {
-      // Ha az "All" gomb aktív, csak a kiválasztott difficulty level maradjon kiválasztva
       setQuizConfig((prevConfig) => ({
         ...prevConfig,
-        difficultyLevels: [difficulty], // Csak a kiválasztott difficulty level marad
+        difficultyLevels: [difficulty],
       }));
-      setIsAllDifficultiesSelected(false); // Az "All" gomb inaktívvá válik
+      setIsAllDifficultiesSelected(false);
     } else {
-      // Ha az "All" gomb inaktív, normálisan működik a difficulty level váltás
       setQuizConfig((prevConfig) => {
         let updatedLevels = prevConfig.difficultyLevels.includes(difficulty)
           ? prevConfig.difficultyLevels.filter((level) => level !== difficulty)
           : [...prevConfig.difficultyLevels, difficulty];
 
         if (updatedLevels.length === 0) {
-          updatedLevels = ["easy"]; // Alapértelmezett érték, ha nincs kiválasztva semmi
+          updatedLevels = ["easy"];
         }
 
         return { ...prevConfig, difficultyLevels: updatedLevels };
       });
     }
   };
+
   const toggleAllDifficulties = () => {
     if (isAllDifficultiesSelected) {
-      // Ha az "All" gomb aktív, visszaállítjuk az alapértelmezett értékeket
       setQuizConfig((prevConfig) => ({
         ...prevConfig,
-        difficultyLevels: ["easy"], // Vagy bármilyen alapértelmezett érték
+        difficultyLevels: ["easy"],
       }));
     } else {
-      // Ha az "All" gomb inaktív, minden difficulty levelt bekapcsolunk
       setQuizConfig((prevConfig) => ({
         ...prevConfig,
         difficultyLevels: ["easy", "medium", "hard"],
       }));
     }
-    setIsAllDifficultiesSelected((prev) => !prev); // Átváltjuk az "All" opció állapotát
+    setIsAllDifficultiesSelected((prev) => !prev);
   };
+
   const handleQuestionLimitChange = (event) => {
     const limit = parseInt(event.target.value, 10);
     setQuizConfig((prevConfig) => ({
@@ -282,6 +342,8 @@ const useQuizConfig = () => {
     setSelectedSubtopic,
     isAllDifficultiesSelected,
     filteredQuestionCount,
+    setQuestionsById, // <-- Ez váltja fel a setQuestionById-t
+    forcedQuestionIds, // <-- Új exportált érték
   };
 };
 

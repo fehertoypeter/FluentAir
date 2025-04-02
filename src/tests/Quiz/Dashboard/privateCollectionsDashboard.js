@@ -19,6 +19,7 @@ const PrivateCollectionsDashboard = ({
   userNotesBank,
   questionComments,
   setQuestionComments,
+  navigateTo,
 }) => {
   const [isCollectionCardsVisible, setCollectionCardsVisible] = useState(false);
   const [isPrivateCollections, setPrivateCollections] = useState(true);
@@ -29,8 +30,7 @@ const PrivateCollectionsDashboard = ({
         <Icons.HiMiniArrowLongLeft
           className="back-to-quiz-dashboard-button circlehover"
           onClick={() => {
-            setPracticeDashboard(true);
-            setPrivateCollectionDashboard(false);
+            navigateTo("practice");
             setCollectionCardsVisible(false);
           }}
         />

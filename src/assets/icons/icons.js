@@ -70,6 +70,7 @@ import { CiCircleQuestion } from "react-icons/ci";
 import { CiBoxList } from "react-icons/ci";
 import { FaRegCircle } from "react-icons/fa6";
 import { TbCircleLetterI } from "react-icons/tb";
+import { FiBook, FiList, FiClock, FiPlay, FiX } from "react-icons/fi";
 
 export const Icons = {
   TbCircleLetterI,
@@ -149,4 +150,9 @@ export const Icons = {
   HiDotsVertical,
   FaArrowRightLong,
   BsDot,
+  FiBook,
+  FiList,
+  FiClock,
+  FiPlay,
+  FiX,
 };
